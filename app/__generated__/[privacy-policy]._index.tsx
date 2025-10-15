@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2025-10-12T07:50:36.438Z";
+      export const lastPublished = "2025-10-15T07:18:39.676Z";
 
       export const siteName = "Mocolamma";
 
@@ -250,14 +250,14 @@ className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 className={`w-box c5qs43r ckkp5ls cd7qpso cv5n7tx cq2ae4j`}>
 <NavigationMenuLink>
 <Link_1
-href={"/"}
+href={"https://apps.apple.com/us/app/mocolamma/id6753896649"}
 target={"_blank"}
-data-umami-event={"mac-app-store"}
+data-umami-event={"app-store"}
 data-umami-event-region={"us"}
 className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
-{"from Mac App Store"}
+{"from App Store"}
 </Text>
 <Paragraph
 className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
@@ -279,23 +279,6 @@ className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 <Paragraph
 className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
 {"Download the app for free"}
-</Paragraph>
-</Link_1>
-</NavigationMenuLink>
-<NavigationMenuLink>
-<Link_1
-href={"/"}
-target={"_blank"}
-data-umami-event={"ios-app-store"}
-data-umami-event-region={"us"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
-<Text
-className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
-{"from App Store"}
-</Text>
-<Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
-{"Purchase mobile app"}
 </Paragraph>
 </Link_1>
 </NavigationMenuLink>
@@ -489,14 +472,14 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4
 </NavigationMenuLink>
 <NavigationMenuLink>
 <Link_1
-href={"/"}
+href={"https://apps.apple.com/us/app/mocolamma/id6753896649"}
 target={"_blank"}
-data-umami-event={"mac-app-store"}
+data-umami-event={"app-store"}
 data-umami-event-region={"us"}
 className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
-{"Download from Mac App Store"}
+{"Download from App Store"}
 </Text>
 <Paragraph
 className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
@@ -518,23 +501,6 @@ className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 <Paragraph
 className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
 {"Download the app for free"}
-</Paragraph>
-</Link_1>
-</NavigationMenuLink>
-<NavigationMenuLink>
-<Link_1
-href={"/"}
-target={"_blank"}
-data-umami-event={"ios-app-store"}
-data-umami-event-region={"us"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
-<Text
-className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
-{"from App Store"}
-</Text>
-<Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
-{"Purchase mobile app"}
 </Paragraph>
 </Link_1>
 </NavigationMenuLink>
@@ -622,7 +588,7 @@ className={`w-element c1a2244i c1eswi8f`}>
 </p>
 <MarkdownEmbed
 code={"## Information Collected by the Website\nThis website uses \"Umami\" as access analysis tools. The traffic data collected by these tools is anonymous and does not identify individuals.\n\n### Umami\nUmami does not use cookies to collect traffic data. If you wish to opt-out of traffic data collection, please see [**this documentation**](https://umami.is/docs/exclude-my-own-visits).\\\nFor Umami's terms, please see [**this page**](https://umami.is/privacy).\n\n## Information Collected by the App\nMocolamma does not collect or transmit any user information.\\\nUsage data and crash reports may be shared if a user has \"**Share with app developers**\" turned on in the \"Analytics & Improvements\" section of System Settings' \"Privacy & Security\" settings, but the app itself has no feature to collect and transmit information whatsoever. Users concerned about privacy can use it with peace of mind.\n\n### Information Retrieved by Mocolamma\nMocolamma retrieves certain information to function correctly. The following information is retrieved:\n\n- Ollama information on the localhost and on the specified host\n  - Using the Ollama API, the following information is retrieved:\n    - Ollama version\n    - Number and names of models running on the Ollama server\n    - Model information available on the Ollama server\n- Detailed model information from the Ollama website\n  - To retrieve this data, the Ollama server should be connected to the internet.\n- Local network permission status of the device\n  - Check whether the necessary permissions are granted for the app to communicate with the Ollama server within the local network.\n- System information and app version information\n  - Used to automatically detect the feedback template language and pre-fill necessary information when the \"Send Feedback\" button is clicked within the app. The following information is retrieved for this feature:\n    - App language (Japanese or other)\n    - OS information (e.g., `macOS`)\n    - System version information (e.g., `Version 26.0.1 (Build 25A362)`)\n    - App version information (e.g., `Version 1.0.0 (Build 2350)`)\n\nThe model name you enter to add a model to the Ollama server, and the model name used to view model details from the Ollama website, may be sent to the Ollama website. This is a standard feature of the Ollama API, and this app does not send any other information externally.\n\nFor information on how this data is handled on the Ollama website, please refer to Ollama's [**Privacy Information**](https://github.com/ollama/ollama/blob/main/docs/faq.md#does-ollama-send-my-prompts-and-responses-back-to-ollamacom)."}
-className={`w-markdown-embed c1jwyh4u c1411o3y c1igc709 c1y2x13x c1n8816a c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1m4wc7d csbw7ja cwnj7qc clqnjme c1etwcna cbnpkwc czamide c1k0m0bu c16dg7p2 c1vyosmc c1wbup66 cpqebfv c1kjcvme c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+className={`w-markdown-embed c1jwyh4u c1411o3y c1igc709 c1y2x13x c1n8816a c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1m4wc7d csbw7ja ci7c9m9 cq6rd9c cwnj7qc clqnjme c1etwcna cbnpkwc czamide c1k0m0bu c16dg7p2 c1vyosmc c1wbup66 cpqebfv c1kjcvme c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 </div>
 </div>
@@ -637,7 +603,7 @@ className={`w-element cjt11so c1u6urjk cn1s8se ckkp5ls cq2ae4j cv5n7tx cd7qpso c
 <div
 className={`w-element ckkp5ls c1dquu02 cr5s4bi cv5n7tx cd7qpso ctrrskr`}>
 <HtmlEmbed
-code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://blog.taikun.blog/wp-content/uploads/2025/10/ed98fa383503481976288d62072491a8.webp\"\n  />\n  <img\n    src=\"https://blog.taikun.blog/wp-content/uploads/2025/10/7e180407d50d6661beeeab4e2d9c5e51.webp\"\n    alt=\"Mocolamma Icon\"\n    height=\"72\"\n    width=\"72\"\n  />\n</picture>\n"}
+code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"72\"\n    width=\"72\"\n  />\n</picture>\n"}
 className={`w-html-embed crk50b8 cs4mbc4 ck7dmhh cy3s0dj`} />
 <div
 className={`w-element c1yr0oul cr5s4bi`}>
@@ -696,7 +662,7 @@ data-umami-event-region={"us"}
 data-umami-event={"mac-app-store"}
 target={"_blank"}
 aria-label={"Download on the Mac App Store button"}
-href={"/"}
+href={"https://apps.apple.com/us/app/mocolamma/id6753896649"}
 className={`w-element ck0qs61`}>
 <Image
 src={"/assets/Mac-App-Store-DL-Badge-us_aWW4IwxcY-CFVpZijqK6_.webp"}
@@ -736,11 +702,11 @@ data-umami-event-region={"us"}
 data-umami-event={"ios-app-store"}
 target={"_blank"}
 aria-label={"Download on the App Store button"}
-href={"/"}
+href={"https://apps.apple.com/us/app/mocolamma/id6753896649"}
 className={`w-element ck0qs61`}>
 <Image
-src={"/assets/App-Store-DL-Badge-us_g5Ao0bEI0WYJFQzMdLi4A.webp"}
-width={476}
+src={"/assets/App-Store-DL-Badge-us_Bq-LFxfS98Q3mm-NEBHmb.webp"}
+width={480}
 height={160}
 alt={"Download on the App Store"}
 loading={"eager"}
@@ -754,7 +720,7 @@ className={`w-image c1j4919n c1sq2oqr cjt11so`} />
 <div
 className={`w-element c13nk3y6 c17c8i9t czyf6ca c12qprsv c110q0hy c1olcu3a`}>
 <Image
-src={"/assets/Introduction-HP_Mmzcmz-BQnBpk1q-a5EXi.webp"}
+src={"https://github.com/taikun114/Mocolamma/blob/main/docs/images/Introduction-HP.webp?raw=true"}
 width={1920}
 height={1080}
 alt={""}

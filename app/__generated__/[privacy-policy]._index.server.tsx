@@ -24,7 +24,7 @@ export const getResources = (_props: { system: System }) => {
     title: "Privacy Policy - Mocolamma",
     description: "How Mocolamma handles personal information in its apps",
     excludePageFromSearch: false,
-    language: "",
+    language: "en-us",
     socialImageAssetName: "Mocolamma_Social_oh83-PlGz8aYSFINTZCUz.webp",
     socialImageUrl: undefined,
     status: undefined,

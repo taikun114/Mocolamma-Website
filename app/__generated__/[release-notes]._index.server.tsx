@@ -24,7 +24,7 @@ export const getResources = (_props: { system: System }) => {
     title: "Release Notes - Mocolamma",
     description: "Update history and changelog for Mocolamma",
     excludePageFromSearch: false,
-    language: "",
+    language: "en-us",
     socialImageAssetName: "Mocolamma_Social_oh83-PlGz8aYSFINTZCUz.webp",
     socialImageUrl: undefined,
     status: undefined,

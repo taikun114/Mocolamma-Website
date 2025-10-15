@@ -24,7 +24,7 @@ export const getResources = (_props: { system: System }) => {
     title: "Support and Feedback - Mocolamma",
     description: "How to report bugs you find, how to send feedback such as idea sharing and messages to a developer, etc.",
     excludePageFromSearch: false,
-    language: "",
+    language: "en-us",
     socialImageAssetName: "Mocolamma_Social_oh83-PlGz8aYSFINTZCUz.webp",
     socialImageUrl: undefined,
     status: undefined,

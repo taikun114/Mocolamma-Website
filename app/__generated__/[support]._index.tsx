@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2025-10-12T07:50:36.438Z";
+      export const lastPublished = "2025-10-15T07:18:39.676Z";
 
       export const siteName = "Mocolamma";
 
@@ -250,14 +250,14 @@ className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 className={`w-box c5qs43r ckkp5ls cd7qpso cv5n7tx cq2ae4j`}>
 <NavigationMenuLink>
 <Link_1
-href={"/"}
+href={"https://apps.apple.com/us/app/mocolamma/id6753896649"}
 target={"_blank"}
-data-umami-event={"mac-app-store"}
+data-umami-event={"app-store"}
 data-umami-event-region={"us"}
 className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
-{"from Mac App Store"}
+{"from App Store"}
 </Text>
 <Paragraph
 className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
@@ -279,23 +279,6 @@ className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 <Paragraph
 className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
 {"Download the app for free"}
-</Paragraph>
-</Link_1>
-</NavigationMenuLink>
-<NavigationMenuLink>
-<Link_1
-href={"/"}
-target={"_blank"}
-data-umami-event={"ios-app-store"}
-data-umami-event-region={"us"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
-<Text
-className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
-{"from App Store"}
-</Text>
-<Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
-{"Purchase mobile app"}
 </Paragraph>
 </Link_1>
 </NavigationMenuLink>
@@ -489,14 +472,14 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4
 </NavigationMenuLink>
 <NavigationMenuLink>
 <Link_1
-href={"/"}
+href={"https://apps.apple.com/us/app/mocolamma/id6753896649"}
 target={"_blank"}
-data-umami-event={"mac-app-store"}
+data-umami-event={"app-store"}
 data-umami-event-region={"us"}
 className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
-{"Download from Mac App Store"}
+{"Download from App Store"}
 </Text>
 <Paragraph
 className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
@@ -518,23 +501,6 @@ className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 <Paragraph
 className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
 {"Download the app for free"}
-</Paragraph>
-</Link_1>
-</NavigationMenuLink>
-<NavigationMenuLink>
-<Link_1
-href={"/"}
-target={"_blank"}
-data-umami-event={"ios-app-store"}
-data-umami-event-region={"us"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
-<Text
-className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
-{"from App Store"}
-</Text>
-<Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
-{"Purchase mobile app"}
 </Paragraph>
 </Link_1>
 </NavigationMenuLink>
@@ -618,11 +584,11 @@ className={`w-element c11wsiwx c1su7aph`}>
 </h1>
 <p
 className={`w-element c1a2244i c1eswi8f`}>
-{"Last Update: October 10, 2025"}
+{"Last Update: October 14, 2025"}
 </p>
 <HtmlEmbed
-code={"<h2>If you find a bug</h2>\n<p>Mocolamma is an app developed using generative AI. Although extensive testing was performed during development, bugs may remain, or some functions may not work properly.</p>\n<p>If you find bugs or operational issues, please check the already opened <a href=\"https://github.com/taikun114/Mocolamma/issues\" target=\"_blank\" data-umami-event=\"gh-issue\" data-umami-event-region=\"us\"><b>Issues</b></a> (known bugs or issues) and look for the same problems already reported by others. If you can't find the same issue, please open a new Issue to report the problem.<br>\nTo make bug tracking easier, please open one Issue per issue if you want to report multiple issues. In other words, if you want to report two bugs, you need to open two Issues.</p>\n\n<h2>Feedback</h2>\n<p>If you want to submit bug reports, idea sharing, or messages to the developer (me) as someone without a GitHub account, please click <a href=\"mailto:contact.taikun@gmail.com?subject=Mocolamma%20Feedback%3A%20&amp;body=Please%20describe%20the%20feedback%20in%20detail%3A%0D%0A%0D%0ASystem%20Information%3A%0D%0A%0D%0A-%20System%0D%0APlease%20enter%20the%20model%20of%20your%20Mac%20%2F%20iPhone%20%2F%20iPad%20%2F%20Apple%20Vision%20Pro.%0D%0A%0D%0A-%20OS%20Version%0D%0AIf%20you%20are%20experiencing%20problems%2C%20please%20enter%20the%20version%20of%20macOS%20%2F%20iOS%20%2F%20iPadOS%20%2F%20visionOS%20on%20which%20Mocolamma%20is%20running.%0D%0A%0D%0A-%20App%20Version%0D%0AIf%20you%20are%20experiencing%20problems%2C%20please%20enter%20the%20version%20of%20the%20app.%0D%0A%0D%0A\" data-umami-event=\"feedback-mail\" data-umami-event-region=\"us\"><b>this link</b></a> or send an email through the \"Send Feedback\" button on the about screen (accessed from \"About Mocolamma\" on macOS, or from the information button in the settings tab on iOS / iPadOS / visionOS) (please note that I may not be able to reply to all messages).<br>\nOpening the email sending screen from the in-app button will pre-fill necessary information such as system information (model ID, CPU architecture type, OS version information) and app version information, so I recommend sending from there.</p>\n\n<h2>Community</h2>\n<p>A <a href=\"https://github.com/taikun114/Mocolamma/discussions\" target=\"_blank\" data-umami-event=\"gh-discussion\" data-umami-event-region=\"us\"><b>Discussion page</b></a> is available where you can share new features you'd like added to the app, ask questions about potential issues, or exchange opinions with others.<br>\nPlease make good use of it as a place for information exchange. I often look at it too, so messages to the developer are welcome!</p>"}
-className={`w-html-embed c1jwyh4u c1411o3y c1igc709 c1y2x13x c1n8816a c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1m4wc7d csbw7ja cwnj7qc clqnjme c1etwcna cbnpkwc czamide c1k0m0bu c16dg7p2 c1vyosmc c1wbup66 cpqebfv c1kjcvme c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+code={"<h2>If you find a bug</h2>\n<p>Mocolamma is an app developed using generative AI. Although extensive testing was performed during development, bugs may remain, or some functions may not work properly.</p>\n<p>If you find bugs or operational issues, please check the already opened <a href=\"https://github.com/taikun114/Mocolamma/issues\" target=\"_blank\" data-umami-event=\"gh-issue\" data-umami-event-region=\"us\"><b>Issues</b></a> (known bugs or issues) and look for the same problems already reported by others. If you can't find the same issue, please open a new Issue to report the problem.<br>\nTo make bug tracking easier, please open one Issue per issue if you want to report multiple issues. In other words, if you want to report two bugs, you need to open two Issues.</p>\n\n<h2>Feedback</h2>\n<p>If you want to submit bug reports, idea sharing, or messages to the developer (me) as someone without a GitHub account, please click <a href=\"mailto:contact.taikun@gmail.com?subject=Mocolamma%20Feedback%3A%20&amp;body=Please%20describe%20the%20feedback%20in%20detail%3A%0D%0A%0D%0ASystem%20Information%3A%0D%0A%0D%0A-%20System%0D%0APlease%20enter%20the%20model%20of%20your%20Mac%20%2F%20iPhone%20%2F%20iPad%20%2F%20Apple%20Vision%20Pro.%0D%0A%0D%0A-%20OS%20Version%0D%0AIf%20you%20are%20experiencing%20problems%2C%20please%20enter%20the%20version%20of%20macOS%20%2F%20iOS%20%2F%20iPadOS%20%2F%20visionOS%20on%20which%20Mocolamma%20is%20running.%0D%0A%0D%0A-%20App%20Version%0D%0AIf%20you%20are%20experiencing%20problems%2C%20please%20enter%20the%20version%20of%20the%20app.%0D%0A%0D%0A\" data-umami-event=\"feedback-mail\" data-umami-event-region=\"us\"><b>this link</b></a> or use the in-app submission feature introduced below to send me an email (please note that I may not be able to reply to every message).<br>\nI recommend sending feedback from the in-app button, as this will open the email composition screen with a pre-filled template including system information (such as device type and OS version) and the app version.\n</p>\n\n<h3>How to Send Feedback from the App</h3>\n<p>To send feedback from the app, you first need to open the About screen for the app.</p>\n<img alt=\"How to open the About screen for the app\" src=\"https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Feedback-1.webp?raw=true\">\n<p>To open the About screen: on all versions of macOS and iPadOS 26.0 or later, click \"About Mocolamma\" in the menu bar. On iOS / iPadOS / visionOS, tap the Information button in the top right corner of the Settings tab.</p>\n<img alt=\"Send Feedback button\" src=\"https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Feedback-2.webp?raw=true\">\n<p>Once the About screen is open, tap the \"Send Feedback\" button in the \"Support and Feedback\" section. This will open the email composition screen with a pre-filled template. Please enter the necessary information and send the email.</p>\n\n<h2>Community</h2>\n<p>A <a href=\"https://github.com/taikun114/Mocolamma/discussions\" target=\"_blank\" data-umami-event=\"gh-discussion\" data-umami-event-region=\"us\"><b>Discussion page</b></a> is available where you can share new features you'd like added to the app, ask questions about potential issues, or exchange opinions with others.<br>\nPlease make good use of it as a place for information exchange. I often look at it too, so messages to the developer are welcome!</p>"}
+className={`w-html-embed c1jwyh4u c1411o3y c1igc709 c1y2x13x c1n8816a c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1m4wc7d csbw7ja ci7c9m9 cq6rd9c cwnj7qc clqnjme c1etwcna cbnpkwc czamide c1k0m0bu c16dg7p2 c1vyosmc c1wbup66 cpqebfv c1kjcvme c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </HtmlEmbed>
 </div>
 </div>
@@ -637,7 +603,7 @@ className={`w-element cjt11so c1u6urjk cn1s8se ckkp5ls cq2ae4j cv5n7tx cd7qpso c
 <div
 className={`w-element ckkp5ls c1dquu02 cr5s4bi cv5n7tx cd7qpso ctrrskr`}>
 <HtmlEmbed
-code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://blog.taikun.blog/wp-content/uploads/2025/10/ed98fa383503481976288d62072491a8.webp\"\n  />\n  <img\n    src=\"https://blog.taikun.blog/wp-content/uploads/2025/10/7e180407d50d6661beeeab4e2d9c5e51.webp\"\n    alt=\"Mocolamma Icon\"\n    height=\"72\"\n    width=\"72\"\n  />\n</picture>\n"}
+code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"72\"\n    width=\"72\"\n  />\n</picture>\n"}
 className={`w-html-embed crk50b8 cs4mbc4 ck7dmhh cy3s0dj`} />
 <div
 className={`w-element c1yr0oul cr5s4bi`}>
@@ -696,7 +662,7 @@ data-umami-event-region={"us"}
 data-umami-event={"mac-app-store"}
 target={"_blank"}
 aria-label={"Download on the Mac App Store button"}
-href={"/"}
+href={"https://apps.apple.com/us/app/mocolamma/id6753896649"}
 className={`w-element ck0qs61`}>
 <Image
 src={"/assets/Mac-App-Store-DL-Badge-us_aWW4IwxcY-CFVpZijqK6_.webp"}
@@ -736,11 +702,11 @@ data-umami-event-region={"us"}
 data-umami-event={"ios-app-store"}
 target={"_blank"}
 aria-label={"Download on the App Store button"}
-href={"/"}
+href={"https://apps.apple.com/us/app/mocolamma/id6753896649"}
 className={`w-element ck0qs61`}>
 <Image
-src={"/assets/App-Store-DL-Badge-us_g5Ao0bEI0WYJFQzMdLi4A.webp"}
-width={476}
+src={"/assets/App-Store-DL-Badge-us_Bq-LFxfS98Q3mm-NEBHmb.webp"}
+width={480}
 height={160}
 alt={"Download on the App Store"}
 loading={"eager"}
@@ -754,7 +720,7 @@ className={`w-image c1j4919n c1sq2oqr cjt11so`} />
 <div
 className={`w-element c13nk3y6 c17c8i9t czyf6ca c12qprsv c110q0hy c1olcu3a`}>
 <Image
-src={"/assets/Introduction-HP_Mmzcmz-BQnBpk1q-a5EXi.webp"}
+src={"https://github.com/taikun114/Mocolamma/blob/main/docs/images/Introduction-HP.webp?raw=true"}
 width={1920}
 height={1080}
 alt={""}

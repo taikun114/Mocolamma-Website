@@ -24,7 +24,7 @@ export const getResources = (_props: { system: System }) => {
     title: "Page Not Found - Mocolamma",
     description: "Sorry, the information you were looking for could not be found. Please make sure you are accessing the correct page.",
     excludePageFromSearch: true,
-    language: undefined,
+    language: "en-us",
     socialImageAssetName: "Mocolamma_Social_oh83-PlGz8aYSFINTZCUz.webp",
     socialImageUrl: undefined,
     status: 404,

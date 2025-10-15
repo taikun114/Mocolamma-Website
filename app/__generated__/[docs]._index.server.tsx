@@ -24,7 +24,7 @@ export const getResources = (_props: { system: System }) => {
     title: "Documents - Mocolamma",
     description: "Welcome to the Mocolamma Documents!\nThis page provides information about Mocolamma, from how to use it to detailed settings.",
     excludePageFromSearch: false,
-    language: "",
+    language: "en-us",
     socialImageAssetName: "Mocolamma_Social_oh83-PlGz8aYSFINTZCUz.webp",
     socialImageUrl: undefined,
     status: undefined,
