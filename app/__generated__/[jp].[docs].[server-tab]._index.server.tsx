@@ -25,7 +25,7 @@ export const getResources = (_props: { system: System }) => {
     description: "MocolammaにOllamaサーバーを追加したり、選択されているサーバーを切り替えたり、サーバーの詳細情報を確認したりする方法をご紹介します。",
     excludePageFromSearch: false,
     language: "ja-jp",
-    socialImageAssetName: "Mocolamma_Social-ja_BDzoRB7Y2w-Sbv89h-mCw.webp",
+    socialImageAssetName: "Mocolamma_Social-ja_BkB_2QEqAgmUES7k42Gt7.webp",
     socialImageUrl: undefined,
     status: undefined,
     redirect: undefined,

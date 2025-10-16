@@ -77,12 +77,12 @@
     display: block;
     height: auto
   }
-  div.w-html-embed {
+  div.w-markdown-embed {
     display: contents;
     white-space: normal;
     white-space-collapse: collapse
   }
-  div.w-markdown-embed {
+  div.w-html-embed {
     display: contents;
     white-space: normal;
     white-space-collapse: collapse
@@ -313,14 +313,11 @@
   .crk50b8 {
     display: block
   }
-  .cs4mbc4 {
-    width: 72px
+  .cakywc7 {
+    width: 64px
   }
-  .ck7dmhh {
-    height: 72px
-  }
-  .cy3s0dj {
-    margin: -4px
+  .c1gz6jks {
+    height: 64px
   }
   .chp2y4p {
     font-size: 28px
@@ -408,12 +405,6 @@
   }
   .c1o0p65i:hover {
     background-color: light-dark(#ffffff, #111111)
-  }
-  .cakywc7 {
-    width: 64px
-  }
-  .c1gz6jks {
-    height: 64px
   }
   .c19a84b6 {
     border-top-left-radius: 16px

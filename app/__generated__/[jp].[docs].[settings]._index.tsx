@@ -11,14 +11,14 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2025-10-15T07:18:39.676Z";
+      export const lastPublished = "2025-10-16T08:58:13.982Z";
 
       export const siteName = "Mocolamma";
 
       export const breakpoints = [{"id":"Nr5VaLoI8PXeozyOBhddI"},{"id":"q2_D0PRyg_Y559h1SO8Un","maxWidth":991},{"id":"qqfLvB64QR6AqlhzbJLnj","maxWidth":767},{"id":"RIM5D42dASjBT3eDlN2hj","maxWidth":479}];
 
       export const favIconAsset: string | undefined =
-        "favicon_W4UjxjFV03hb0zE7FrAxI.png";
+        "favicon__3sUvP8Dn_n4uHorlwhyg.png";
 
       // Font assets on current page (can be preloaded)
       export const pageFontAssets: string[] =
@@ -44,10 +44,10 @@ className={`w-element ckkp5ls c1dquu02 c1xduqzz c1hfgpcq ctn4k21`}>
 <div
 className={`w-element ch9z7zy c9uad48 ckkp5ls cygwog6 cr5s4bi`}>
 <Image
-src={"/assets/Mocolamma_Logo_bEJN6f21UujLG-LZKW8AC.webp"}
+src={"/assets/Mocolamma_Logo_1Hud1LO-7f_-fiBpR59VO.webp"}
 width={256}
 height={256}
-alt={""}
+alt={"ロゴ"}
 loading={"eager"}
 fetchPriority={"high"}
 className={`w-image ch9z7zy cxw7e3h`} />
@@ -601,8 +601,8 @@ className={`w-element cjt11so c1u6urjk cn1s8se ckkp5ls cq2ae4j cv5n7tx cd7qpso c
 <div
 className={`w-element ckkp5ls c1dquu02 cr5s4bi cv5n7tx cd7qpso ctrrskr`}>
 <HtmlEmbed
-code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"72\"\n    width=\"72\"\n  />\n</picture>\n"}
-className={`w-html-embed crk50b8 cs4mbc4 ck7dmhh cy3s0dj`} />
+code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"}
+className={`w-html-embed crk50b8 cakywc7 c1gz6jks`} />
 <div
 className={`w-element c1yr0oul cr5s4bi`}>
 <h1
@@ -719,6 +719,9 @@ className={`w-image c1j4919n c1sq2oqr cjt11so`} />
 className={`w-element c13nk3y6 c17c8i9t czyf6ca c12qprsv c110q0hy c1olcu3a`}>
 <Image
 src={"https://github.com/taikun114/Mocolamma/blob/main/docs/images/Introduction-HP-ja.webp?raw=true"}
+width={1920}
+height={1080}
+alt={"紹介"}
 loading={"lazy"}
 className={`w-image cjzh884 c13nk3y6 cvi5vpg c1pfu9tq c1lnxmt1 c17zp3zn c1kw6xnm c1kpn0ia cshz4st c1oipl0w c31n9es c1olcu3a c1ueliq1`} />
 </div>

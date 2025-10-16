@@ -25,7 +25,7 @@ export const getResources = (_props: { system: System }) => {
     description: "Here are the settings for Mocolamma.",
     excludePageFromSearch: false,
     language: "en-us",
-    socialImageAssetName: undefined,
+    socialImageAssetName: "Mocolamma_Social_k4PJT2CUac45I3tPGa4rC.webp",
     socialImageUrl: undefined,
     status: undefined,
     redirect: "",

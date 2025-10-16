@@ -25,7 +25,7 @@ export const getResources = (_props: { system: System }) => {
     description: "Ollama Manager App for macOS, iOS, iPadOS, and visionOS, featuring server management, model management, and simple chat feature",
     excludePageFromSearch: false,
     language: "en-us",
-    socialImageAssetName: "Mocolamma_Social_oh83-PlGz8aYSFINTZCUz.webp",
+    socialImageAssetName: "Mocolamma_Social_k4PJT2CUac45I3tPGa4rC.webp",
     socialImageUrl: undefined,
     status: undefined,
     redirect: undefined,

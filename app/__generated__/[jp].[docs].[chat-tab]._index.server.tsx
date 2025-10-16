@@ -25,7 +25,7 @@ export const getResources = (_props: { system: System }) => {
     description: "MocolammaでOllamaサーバー上にあるモデルを使って簡易的なチャットを行う方法をご紹介します。",
     excludePageFromSearch: false,
     language: "ja-jp",
-    socialImageAssetName: "Mocolamma_Social-ja_BDzoRB7Y2w-Sbv89h-mCw.webp",
+    socialImageAssetName: "Mocolamma_Social-ja_BkB_2QEqAgmUES7k42Gt7.webp",
     socialImageUrl: undefined,
     status: undefined,
     redirect: undefined,

@@ -25,7 +25,7 @@ export const getResources = (_props: { system: System }) => {
     description: "Here's how to use a model on an Ollama server to perform simple chat using Mocolamma.",
     excludePageFromSearch: false,
     language: "en-us",
-    socialImageAssetName: "Mocolamma_Social_oh83-PlGz8aYSFINTZCUz.webp",
+    socialImageAssetName: "Mocolamma_Social_k4PJT2CUac45I3tPGa4rC.webp",
     socialImageUrl: undefined,
     status: undefined,
     redirect: "",

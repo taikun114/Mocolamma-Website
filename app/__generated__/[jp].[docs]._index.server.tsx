@@ -25,7 +25,7 @@ export const getResources = (_props: { system: System }) => {
     description: "Mocolammaのドキュメントへようこそ！\nMocolammaの使い方から細かい設定まで、Mocolammaに関する情報がまとめられています。",
     excludePageFromSearch: false,
     language: "ja-jp",
-    socialImageAssetName: "Mocolamma_Social-ja_BDzoRB7Y2w-Sbv89h-mCw.webp",
+    socialImageAssetName: "Mocolamma_Social-ja_BkB_2QEqAgmUES7k42Gt7.webp",
     socialImageUrl: undefined,
     status: undefined,
     redirect: undefined,

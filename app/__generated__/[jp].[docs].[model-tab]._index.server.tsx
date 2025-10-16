@@ -25,7 +25,7 @@ export const getResources = (_props: { system: System }) => {
     description: "Mocolammaを使ってOllamaサーバーにモデルを追加したり、モデルを削除したり、モデルの詳細情報を確認したりする方法をご紹介します。",
     excludePageFromSearch: false,
     language: "ja-jp",
-    socialImageAssetName: "Mocolamma_Social-ja_BDzoRB7Y2w-Sbv89h-mCw.webp",
+    socialImageAssetName: "Mocolamma_Social-ja_BkB_2QEqAgmUES7k42Gt7.webp",
     socialImageUrl: undefined,
     status: undefined,
     redirect: undefined,

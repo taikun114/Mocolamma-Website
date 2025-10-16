@@ -25,7 +25,7 @@ export const getResources = (_props: { system: System }) => {
     description: "見つけたバグの報告方法や、アイデア共有や開発者へのメッセージ等のフィードバックの送信方法等について",
     excludePageFromSearch: false,
     language: "ja-jp",
-    socialImageAssetName: "Mocolamma_Social-ja_BDzoRB7Y2w-Sbv89h-mCw.webp",
+    socialImageAssetName: "Mocolamma_Social-ja_BkB_2QEqAgmUES7k42Gt7.webp",
     socialImageUrl: undefined,
     status: undefined,
     redirect: undefined,

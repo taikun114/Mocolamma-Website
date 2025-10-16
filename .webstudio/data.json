@@ -1,15 +1,15 @@
 {
   "build": {
-    "id": "b411eee8-a71a-41ad-af93-2df3a3476b53",
+    "id": "c59b5b4c-bf6a-4e3e-82ec-1d1b7196652b",
     "projectId": "d3340149-462c-49a8-8b6a-95401a1f067e",
-    "version": 2906,
-    "createdAt": "2025-10-15T07:18:39.676+00:00",
-    "updatedAt": "2025-10-15T07:18:39.676+00:00",
+    "version": 3000,
+    "createdAt": "2025-10-16T08:58:13.982+00:00",
+    "updatedAt": "2025-10-16T08:58:13.982+00:00",
     "pages": {
       "meta": {
         "siteName": "Mocolamma",
         "contactEmail": "contact.taikun@gmail.com",
-        "faviconAssetId": "14e8115329cc374ab9c5c41c859b515f937c46f259a2cd26c57e2270152fe6ef",
+        "faviconAssetId": "6878a1fc87a1b33f7d8dfaeb522c14d9026fc134116c01599e80638060a652bc",
         "code": "<!-- Style Settings -->\n<style>\n  html {\n    scroll-padding-top: 6rem;\n    scroll-behavior: smooth;\n  }\n</style>\n\n<!-- Web Fonts -->\n<style>\n@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');\n</style>\n\n<!-- Umami -->\n<script defer src=\"https://umami.taikun.blog/script.js\" data-website-id=\"e071652d-3ebb-4b63-82bc-3ceaeb8cf0bf\"></script>"
       },
       "homePage": {
@@ -24,7 +24,7 @@
           "description": "\"Ollama Manager App for macOS, iOS, iPadOS, and visionOS, featuring server management, model management, and simple chat feature\"",
           "excludePageFromSearch": "false",
           "language": "\"en-us\"",
-          "socialImageAssetId": "74f7c9a44563c4e8607636d25d618a089e83f198771cd6181845e3f765700f8c"
+          "socialImageAssetId": "70c8dd13f17790c6afdb5ed01fdb7f73dc666f637ab9880d42ee496d0e467e44"
         },
         "path": ""
       },
@@ -38,7 +38,7 @@
             "description": "\"Sorry, the information you were looking for could not be found. Please make sure you are accessing the correct page.\"",
             "excludePageFromSearch": "true",
             "language": "\"en-us\"",
-            "socialImageAssetId": "74f7c9a44563c4e8607636d25d618a089e83f198771cd6181845e3f765700f8c",
+            "socialImageAssetId": "70c8dd13f17790c6afdb5ed01fdb7f73dc666f637ab9880d42ee496d0e467e44",
             "status": "404"
           },
           "path": "/*"
@@ -52,7 +52,7 @@
             "description": "\"Update history and changelog for Mocolamma\"",
             "excludePageFromSearch": "false",
             "language": "\"en-us\"",
-            "socialImageAssetId": "74f7c9a44563c4e8607636d25d618a089e83f198771cd6181845e3f765700f8c",
+            "socialImageAssetId": "70c8dd13f17790c6afdb5ed01fdb7f73dc666f637ab9880d42ee496d0e467e44",
             "redirect": "\"\"",
             "documentType": "html",
             "custom": [
@@ -76,7 +76,7 @@
             "description": "\"How to report bugs you find, how to send feedback such as idea sharing and messages to a developer, etc.\"",
             "excludePageFromSearch": "false",
             "language": "\"en-us\"",
-            "socialImageAssetId": "74f7c9a44563c4e8607636d25d618a089e83f198771cd6181845e3f765700f8c",
+            "socialImageAssetId": "70c8dd13f17790c6afdb5ed01fdb7f73dc666f637ab9880d42ee496d0e467e44",
             "redirect": "\"\"",
             "documentType": "html",
             "custom": [
@@ -100,7 +100,7 @@
             "description": "\"How Mocolamma handles personal information in its apps\"",
             "excludePageFromSearch": "false",
             "language": "\"en-us\"",
-            "socialImageAssetId": "74f7c9a44563c4e8607636d25d618a089e83f198771cd6181845e3f765700f8c",
+            "socialImageAssetId": "70c8dd13f17790c6afdb5ed01fdb7f73dc666f637ab9880d42ee496d0e467e44",
             "redirect": "\"\"",
             "documentType": "html",
             "custom": [
@@ -124,7 +124,7 @@
             "description": "\"Welcome to the Mocolamma Documents!\\nThis page provides information about Mocolamma, from how to use it to detailed settings.\"",
             "excludePageFromSearch": "false",
             "language": "\"en-us\"",
-            "socialImageAssetId": "74f7c9a44563c4e8607636d25d618a089e83f198771cd6181845e3f765700f8c",
+            "socialImageAssetId": "70c8dd13f17790c6afdb5ed01fdb7f73dc666f637ab9880d42ee496d0e467e44",
             "redirect": "\"\"",
             "documentType": "html",
             "custom": [
@@ -151,7 +151,7 @@
             "description": "\"サーバー管理、モデル管理、簡易チャット機能を備えた、macOS、iOS、iPadOS、visionOSで使えるOllamaマネージャーアプリ\"",
             "excludePageFromSearch": "false",
             "language": "\"ja-jp\"",
-            "socialImageAssetId": "6118b7d5ecab303562a04c468b842255ba441e35a915abc6d08d1646346bf800"
+            "socialImageAssetId": "b54dc8b54b9d6c76762bdb4bf25014b66c3132496d1e4702dce25ae89f460071"
           },
           "path": "/jp"
         },
@@ -164,7 +164,7 @@
             "description": "\"お探しの情報は見つかりませんでした。正しいページにアクセスしていることをご確認ください。\"",
             "excludePageFromSearch": "true",
             "language": "\"ja-jp\"",
-            "socialImageAssetId": "6118b7d5ecab303562a04c468b842255ba441e35a915abc6d08d1646346bf800",
+            "socialImageAssetId": "b54dc8b54b9d6c76762bdb4bf25014b66c3132496d1e4702dce25ae89f460071",
             "status": "404"
           },
           "path": "/*"
@@ -178,7 +178,7 @@
             "description": "\"Mocolammaのアップデート履歴と変更ログ\"",
             "excludePageFromSearch": "false",
             "language": "\"ja-jp\"",
-            "socialImageAssetId": "6118b7d5ecab303562a04c468b842255ba441e35a915abc6d08d1646346bf800"
+            "socialImageAssetId": "b54dc8b54b9d6c76762bdb4bf25014b66c3132496d1e4702dce25ae89f460071"
           },
           "path": "/release-notes"
         },
@@ -191,7 +191,7 @@
             "description": "\"見つけたバグの報告方法や、アイデア共有や開発者へのメッセージ等のフィードバックの送信方法等について\"",
             "excludePageFromSearch": "false",
             "language": "\"ja-jp\"",
-            "socialImageAssetId": "6118b7d5ecab303562a04c468b842255ba441e35a915abc6d08d1646346bf800"
+            "socialImageAssetId": "b54dc8b54b9d6c76762bdb4bf25014b66c3132496d1e4702dce25ae89f460071"
           },
           "path": "/support"
         },
@@ -204,7 +204,7 @@
             "description": "\"Mocolammaのアプリ内での個人情報取り扱いについて\"",
             "excludePageFromSearch": "false",
             "language": "\"ja-jp\"",
-            "socialImageAssetId": "6118b7d5ecab303562a04c468b842255ba441e35a915abc6d08d1646346bf800"
+            "socialImageAssetId": "b54dc8b54b9d6c76762bdb4bf25014b66c3132496d1e4702dce25ae89f460071"
           },
           "path": "/privacy-policy"
         },
@@ -217,7 +217,7 @@
             "description": "\"Mocolammaのドキュメントへようこそ！\\nMocolammaの使い方から細かい設定まで、Mocolammaに関する情報がまとめられています。\"",
             "excludePageFromSearch": "false",
             "language": "\"ja-jp\"",
-            "socialImageAssetId": "6118b7d5ecab303562a04c468b842255ba441e35a915abc6d08d1646346bf800"
+            "socialImageAssetId": "b54dc8b54b9d6c76762bdb4bf25014b66c3132496d1e4702dce25ae89f460071"
           },
           "path": "/docs"
         },
@@ -230,7 +230,7 @@
             "description": "\"MocolammaにOllamaサーバーを追加したり、選択されているサーバーを切り替えたり、サーバーの詳細情報を確認したりする方法をご紹介します。\"",
             "excludePageFromSearch": "false",
             "language": "\"ja-jp\"",
-            "socialImageAssetId": "6118b7d5ecab303562a04c468b842255ba441e35a915abc6d08d1646346bf800"
+            "socialImageAssetId": "b54dc8b54b9d6c76762bdb4bf25014b66c3132496d1e4702dce25ae89f460071"
           },
           "path": "/server-tab"
         },
@@ -243,7 +243,7 @@
             "description": "\"Mocolammaを使ってOllamaサーバーにモデルを追加したり、モデルを削除したり、モデルの詳細情報を確認したりする方法をご紹介します。\"",
             "excludePageFromSearch": "false",
             "language": "\"ja-jp\"",
-            "socialImageAssetId": "6118b7d5ecab303562a04c468b842255ba441e35a915abc6d08d1646346bf800"
+            "socialImageAssetId": "b54dc8b54b9d6c76762bdb4bf25014b66c3132496d1e4702dce25ae89f460071"
           },
           "path": "/model-tab"
         },
@@ -256,7 +256,7 @@
             "description": "\"MocolammaでOllamaサーバー上にあるモデルを使って簡易的なチャットを行う方法をご紹介します。\"",
             "excludePageFromSearch": "false",
             "language": "\"ja-jp\"",
-            "socialImageAssetId": "6118b7d5ecab303562a04c468b842255ba441e35a915abc6d08d1646346bf800"
+            "socialImageAssetId": "b54dc8b54b9d6c76762bdb4bf25014b66c3132496d1e4702dce25ae89f460071"
           },
           "path": "/chat-tab"
         },
@@ -269,7 +269,7 @@
             "description": "\"Mocolammaの設定項目をご紹介します。\"",
             "excludePageFromSearch": "false",
             "language": "\"ja-jp\"",
-            "socialImageAssetId": "6118b7d5ecab303562a04c468b842255ba441e35a915abc6d08d1646346bf800"
+            "socialImageAssetId": "b54dc8b54b9d6c76762bdb4bf25014b66c3132496d1e4702dce25ae89f460071"
           },
           "path": "/settings"
         },
@@ -282,7 +282,7 @@
             "description": "\"Here's how to add an Ollama server to Mocolamma, switch between selected servers, and view detailed server information.\"",
             "excludePageFromSearch": "false",
             "language": "\"en-us\"",
-            "socialImageAssetId": "74f7c9a44563c4e8607636d25d618a089e83f198771cd6181845e3f765700f8c",
+            "socialImageAssetId": "70c8dd13f17790c6afdb5ed01fdb7f73dc666f637ab9880d42ee496d0e467e44",
             "redirect": "\"\"",
             "documentType": "html",
             "custom": [
@@ -306,7 +306,7 @@
             "description": "\"Here's how to use Mocolamma to add models to the Ollama server, remove models, and view model details.\"",
             "excludePageFromSearch": "false",
             "language": "\"en-us\"",
-            "socialImageAssetId": "74f7c9a44563c4e8607636d25d618a089e83f198771cd6181845e3f765700f8c",
+            "socialImageAssetId": "70c8dd13f17790c6afdb5ed01fdb7f73dc666f637ab9880d42ee496d0e467e44",
             "redirect": "\"\"",
             "documentType": "html",
             "custom": [
@@ -330,7 +330,7 @@
             "description": "\"Here's how to use a model on an Ollama server to perform simple chat using Mocolamma.\"",
             "excludePageFromSearch": "false",
             "language": "\"en-us\"",
-            "socialImageAssetId": "74f7c9a44563c4e8607636d25d618a089e83f198771cd6181845e3f765700f8c",
+            "socialImageAssetId": "70c8dd13f17790c6afdb5ed01fdb7f73dc666f637ab9880d42ee496d0e467e44",
             "redirect": "\"\"",
             "documentType": "html",
             "custom": [
@@ -354,6 +354,7 @@
             "description": "\"Here are the settings for Mocolamma.\"",
             "excludePageFromSearch": "false",
             "language": "\"en-us\"",
+            "socialImageAssetId": "70c8dd13f17790c6afdb5ed01fdb7f73dc666f637ab9880d42ee496d0e467e44",
             "redirect": "\"\"",
             "documentType": "html",
             "custom": [
@@ -1804,7 +1805,7 @@
           "value": {
             "type": "unit",
             "unit": "px",
-            "value": 72
+            "value": 64
           }
         }
       ],
@@ -1817,7 +1818,7 @@
           "value": {
             "type": "unit",
             "unit": "px",
-            "value": 72
+            "value": 64
           }
         }
       ],
@@ -2430,58 +2431,6 @@
           "value": {
             "type": "keyword",
             "value": "start"
-          }
-        }
-      ],
-      [
-        "Cb-L06PxR4pwSkuexdbgI:Nr5VaLoI8PXeozyOBhddI:marginLeft:",
-        {
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "styleSourceId": "Cb-L06PxR4pwSkuexdbgI",
-          "property": "marginLeft",
-          "value": {
-            "type": "unit",
-            "unit": "px",
-            "value": -4
-          }
-        }
-      ],
-      [
-        "Cb-L06PxR4pwSkuexdbgI:Nr5VaLoI8PXeozyOBhddI:marginRight:",
-        {
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "styleSourceId": "Cb-L06PxR4pwSkuexdbgI",
-          "property": "marginRight",
-          "value": {
-            "type": "unit",
-            "unit": "px",
-            "value": -4
-          }
-        }
-      ],
-      [
-        "Cb-L06PxR4pwSkuexdbgI:Nr5VaLoI8PXeozyOBhddI:marginTop:",
-        {
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "styleSourceId": "Cb-L06PxR4pwSkuexdbgI",
-          "property": "marginTop",
-          "value": {
-            "type": "unit",
-            "unit": "px",
-            "value": -4
-          }
-        }
-      ],
-      [
-        "Cb-L06PxR4pwSkuexdbgI:Nr5VaLoI8PXeozyOBhddI:marginBottom:",
-        {
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "styleSourceId": "Cb-L06PxR4pwSkuexdbgI",
-          "property": "marginBottom",
-          "value": {
-            "type": "unit",
-            "unit": "px",
-            "value": -4
           }
         }
       ],
@@ -6667,18 +6616,6 @@
         }
       ],
       [
-        "1QgOFx-U9ymy8F0i9cleh:Nr5VaLoI8PXeozyOBhddI:display:",
-        {
-          "styleSourceId": "1QgOFx-U9ymy8F0i9cleh",
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "property": "display",
-          "value": {
-            "type": "keyword",
-            "value": "block"
-          }
-        }
-      ],
-      [
         "nMe4z9X6XLd77CcXSecje:Nr5VaLoI8PXeozyOBhddI:alignItems:",
         {
           "styleSourceId": "nMe4z9X6XLd77CcXSecje",
@@ -6843,32 +6780,6 @@
         }
       ],
       [
-        "1QgOFx-U9ymy8F0i9cleh:Nr5VaLoI8PXeozyOBhddI:width:",
-        {
-          "styleSourceId": "1QgOFx-U9ymy8F0i9cleh",
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "property": "width",
-          "value": {
-            "type": "unit",
-            "unit": "px",
-            "value": 72
-          }
-        }
-      ],
-      [
-        "1QgOFx-U9ymy8F0i9cleh:Nr5VaLoI8PXeozyOBhddI:height:",
-        {
-          "styleSourceId": "1QgOFx-U9ymy8F0i9cleh",
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "property": "height",
-          "value": {
-            "type": "unit",
-            "unit": "px",
-            "value": 72
-          }
-        }
-      ],
-      [
         "iNaLWJI4uYyXwhg1vPbn9:Nr5VaLoI8PXeozyOBhddI:fontSize:",
         {
           "styleSourceId": "iNaLWJI4uYyXwhg1vPbn9",
@@ -6878,58 +6789,6 @@
             "type": "unit",
             "unit": "px",
             "value": 28
-          }
-        }
-      ],
-      [
-        "1QgOFx-U9ymy8F0i9cleh:Nr5VaLoI8PXeozyOBhddI:marginLeft:",
-        {
-          "styleSourceId": "1QgOFx-U9ymy8F0i9cleh",
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "property": "marginLeft",
-          "value": {
-            "type": "unit",
-            "unit": "px",
-            "value": -4
-          }
-        }
-      ],
-      [
-        "1QgOFx-U9ymy8F0i9cleh:Nr5VaLoI8PXeozyOBhddI:marginRight:",
-        {
-          "styleSourceId": "1QgOFx-U9ymy8F0i9cleh",
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "property": "marginRight",
-          "value": {
-            "type": "unit",
-            "unit": "px",
-            "value": -4
-          }
-        }
-      ],
-      [
-        "1QgOFx-U9ymy8F0i9cleh:Nr5VaLoI8PXeozyOBhddI:marginTop:",
-        {
-          "styleSourceId": "1QgOFx-U9ymy8F0i9cleh",
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "property": "marginTop",
-          "value": {
-            "type": "unit",
-            "unit": "px",
-            "value": -4
-          }
-        }
-      ],
-      [
-        "1QgOFx-U9ymy8F0i9cleh:Nr5VaLoI8PXeozyOBhddI:marginBottom:",
-        {
-          "styleSourceId": "1QgOFx-U9ymy8F0i9cleh",
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "property": "marginBottom",
-          "value": {
-            "type": "unit",
-            "unit": "px",
-            "value": -4
           }
         }
       ],
@@ -14129,7 +13988,7 @@
           "value": {
             "type": "unit",
             "unit": "px",
-            "value": 72
+            "value": 64
           }
         }
       ],
@@ -14142,7 +14001,7 @@
           "value": {
             "type": "unit",
             "unit": "px",
-            "value": 72
+            "value": 64
           }
         }
       ],
@@ -14680,58 +14539,6 @@
             "type": "unit",
             "unit": "px",
             "value": 28
-          }
-        }
-      ],
-      [
-        "XjmFodFF93UxnRViGfTu4:Nr5VaLoI8PXeozyOBhddI:marginLeft:",
-        {
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "styleSourceId": "XjmFodFF93UxnRViGfTu4",
-          "property": "marginLeft",
-          "value": {
-            "type": "unit",
-            "unit": "px",
-            "value": -4
-          }
-        }
-      ],
-      [
-        "XjmFodFF93UxnRViGfTu4:Nr5VaLoI8PXeozyOBhddI:marginRight:",
-        {
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "styleSourceId": "XjmFodFF93UxnRViGfTu4",
-          "property": "marginRight",
-          "value": {
-            "type": "unit",
-            "unit": "px",
-            "value": -4
-          }
-        }
-      ],
-      [
-        "XjmFodFF93UxnRViGfTu4:Nr5VaLoI8PXeozyOBhddI:marginTop:",
-        {
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "styleSourceId": "XjmFodFF93UxnRViGfTu4",
-          "property": "marginTop",
-          "value": {
-            "type": "unit",
-            "unit": "px",
-            "value": -4
-          }
-        }
-      ],
-      [
-        "XjmFodFF93UxnRViGfTu4:Nr5VaLoI8PXeozyOBhddI:marginBottom:",
-        {
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "styleSourceId": "XjmFodFF93UxnRViGfTu4",
-          "property": "marginBottom",
-          "value": {
-            "type": "unit",
-            "unit": "px",
-            "value": -4
           }
         }
       ],
@@ -57667,26 +57474,26 @@
       [
         "v7ygNXtqDUj356HTlG2mi:Nr5VaLoI8PXeozyOBhddI:width:",
         {
-          "styleSourceId": "v7ygNXtqDUj356HTlG2mi",
           "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
+          "styleSourceId": "v7ygNXtqDUj356HTlG2mi",
           "property": "width",
           "value": {
             "type": "unit",
             "unit": "px",
-            "value": 72
+            "value": 64
           }
         }
       ],
       [
         "v7ygNXtqDUj356HTlG2mi:Nr5VaLoI8PXeozyOBhddI:height:",
         {
-          "styleSourceId": "v7ygNXtqDUj356HTlG2mi",
           "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
+          "styleSourceId": "v7ygNXtqDUj356HTlG2mi",
           "property": "height",
           "value": {
             "type": "unit",
             "unit": "px",
-            "value": 72
+            "value": 64
           }
         }
       ],
@@ -57700,58 +57507,6 @@
             "type": "unit",
             "unit": "px",
             "value": 28
-          }
-        }
-      ],
-      [
-        "v7ygNXtqDUj356HTlG2mi:Nr5VaLoI8PXeozyOBhddI:marginLeft:",
-        {
-          "styleSourceId": "v7ygNXtqDUj356HTlG2mi",
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "property": "marginLeft",
-          "value": {
-            "type": "unit",
-            "unit": "px",
-            "value": -4
-          }
-        }
-      ],
-      [
-        "v7ygNXtqDUj356HTlG2mi:Nr5VaLoI8PXeozyOBhddI:marginRight:",
-        {
-          "styleSourceId": "v7ygNXtqDUj356HTlG2mi",
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "property": "marginRight",
-          "value": {
-            "type": "unit",
-            "unit": "px",
-            "value": -4
-          }
-        }
-      ],
-      [
-        "v7ygNXtqDUj356HTlG2mi:Nr5VaLoI8PXeozyOBhddI:marginTop:",
-        {
-          "styleSourceId": "v7ygNXtqDUj356HTlG2mi",
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "property": "marginTop",
-          "value": {
-            "type": "unit",
-            "unit": "px",
-            "value": -4
-          }
-        }
-      ],
-      [
-        "v7ygNXtqDUj356HTlG2mi:Nr5VaLoI8PXeozyOBhddI:marginBottom:",
-        {
-          "styleSourceId": "v7ygNXtqDUj356HTlG2mi",
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "property": "marginBottom",
-          "value": {
-            "type": "unit",
-            "unit": "px",
-            "value": -4
           }
         }
       ],
@@ -67391,6 +67146,44 @@
             "value": 0.5
           }
         }
+      ],
+      [
+        "tQzpISuBDddcgT5R3wW3V:Nr5VaLoI8PXeozyOBhddI:display:",
+        {
+          "styleSourceId": "tQzpISuBDddcgT5R3wW3V",
+          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
+          "property": "display",
+          "value": {
+            "type": "keyword",
+            "value": "block"
+          }
+        }
+      ],
+      [
+        "tQzpISuBDddcgT5R3wW3V:Nr5VaLoI8PXeozyOBhddI:width:",
+        {
+          "styleSourceId": "tQzpISuBDddcgT5R3wW3V",
+          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
+          "property": "width",
+          "value": {
+            "type": "unit",
+            "unit": "px",
+            "value": 64
+          }
+        }
+      ],
+      [
+        "tQzpISuBDddcgT5R3wW3V:Nr5VaLoI8PXeozyOBhddI:height:",
+        {
+          "styleSourceId": "tQzpISuBDddcgT5R3wW3V",
+          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
+          "property": "height",
+          "value": {
+            "type": "unit",
+            "unit": "px",
+            "value": 64
+          }
+        }
       ]
     ],
     "styleSources": [
@@ -68038,13 +67831,6 @@
         {
           "type": "local",
           "id": "nMe4z9X6XLd77CcXSecje"
-        }
-      ],
-      [
-        "1QgOFx-U9ymy8F0i9cleh",
-        {
-          "type": "local",
-          "id": "1QgOFx-U9ymy8F0i9cleh"
         }
       ],
       [
@@ -71714,6 +71500,13 @@
           "type": "local",
           "id": "oXkSxvwOlQf4pUmAMpKhg"
         }
+      ],
+      [
+        "tQzpISuBDddcgT5R3wW3V",
+        {
+          "type": "local",
+          "id": "tQzpISuBDddcgT5R3wW3V"
+        }
       ]
     ],
     "styleSourceSelections": [
@@ -72562,15 +72355,6 @@
           "instanceId": "_v0it4T2Bv_JRWZ7xJvqM",
           "values": [
             "nMe4z9X6XLd77CcXSecje"
-          ]
-        }
-      ],
-      [
-        "5k8qtKKv_itSu6FN0yBKs",
-        {
-          "instanceId": "5k8qtKKv_itSu6FN0yBKs",
-          "values": [
-            "1QgOFx-U9ymy8F0i9cleh"
           ]
         }
       ],
@@ -81547,6 +81331,15 @@
             "Yd7wa8BRMmg5FJBi2wQ31"
           ]
         }
+      ],
+      [
+        "I90e4B1FnHg4eMN-kWz1P",
+        {
+          "instanceId": "I90e4B1FnHg4eMN-kWz1P",
+          "values": [
+            "tQzpISuBDddcgT5R3wW3V"
+          ]
+        }
       ]
     ],
     "props": [
@@ -81557,7 +81350,7 @@
           "instanceId": "FtjdwP594Ey_OKtryb7jd",
           "name": "src",
           "type": "asset",
-          "value": "88b7736bf2b0ec87eb28fe0c8d16db7b66e7ae6f5da6fc8c64ee7ce945331797"
+          "value": "0b56f079dd45b3ce47af61afe11548d8fb88093282d3ef3adbdd3fe2beccdb4f"
         }
       ],
       [
@@ -81566,8 +81359,8 @@
           "id": "vc79-fUjVRSwbLynK7zQX",
           "instanceId": "FtjdwP594Ey_OKtryb7jd",
           "name": "width",
-          "type": "number",
-          "value": 256
+          "type": "asset",
+          "value": "0b56f079dd45b3ce47af61afe11548d8fb88093282d3ef3adbdd3fe2beccdb4f"
         }
       ],
       [
@@ -81577,7 +81370,7 @@
           "instanceId": "FtjdwP594Ey_OKtryb7jd",
           "name": "height",
           "type": "asset",
-          "value": "88b7736bf2b0ec87eb28fe0c8d16db7b66e7ae6f5da6fc8c64ee7ce945331797"
+          "value": "0b56f079dd45b3ce47af61afe11548d8fb88093282d3ef3adbdd3fe2beccdb4f"
         }
       ],
       [
@@ -81586,8 +81379,8 @@
           "id": "Goo-rsQtSf0rJbGAuH6T4",
           "instanceId": "FtjdwP594Ey_OKtryb7jd",
           "name": "alt",
-          "type": "asset",
-          "value": "88b7736bf2b0ec87eb28fe0c8d16db7b66e7ae6f5da6fc8c64ee7ce945331797"
+          "type": "string",
+          "value": "Logo"
         }
       ],
       [
@@ -81627,7 +81420,7 @@
           "instanceId": "Ru1aKaCcChbJIU26xkgjc",
           "name": "code",
           "type": "string",
-          "value": "<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"72\"\n    width=\"72\"\n  />\n</picture>\n"
+          "value": "<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"
         }
       ],
       [
@@ -81656,8 +81449,8 @@
           "id": "QVsQ150JJyHHWehtbpQND",
           "instanceId": "PihY81lCSgMKv7pvdLFr3",
           "name": "width",
-          "type": "asset",
-          "value": "7476484112048f20dd3c3891f72f6dd372abdddca0236df3bd18c53ff8796561"
+          "type": "number",
+          "value": 1920
         }
       ],
       [
@@ -81666,8 +81459,8 @@
           "id": "Gk_J-X2ZoqitJ3y8BEWNL",
           "instanceId": "PihY81lCSgMKv7pvdLFr3",
           "name": "height",
-          "type": "asset",
-          "value": "7476484112048f20dd3c3891f72f6dd372abdddca0236df3bd18c53ff8796561"
+          "type": "number",
+          "value": 1080
         }
       ],
       [
@@ -81676,8 +81469,8 @@
           "id": "3z-ezysl-nlFBGlZjriEf",
           "instanceId": "PihY81lCSgMKv7pvdLFr3",
           "name": "alt",
-          "type": "asset",
-          "value": "7476484112048f20dd3c3891f72f6dd372abdddca0236df3bd18c53ff8796561"
+          "type": "string",
+          "value": "サーバータブ"
         }
       ],
       [
@@ -81706,8 +81499,8 @@
           "id": "2t2yrSd3i2bxTHYJQgez4",
           "instanceId": "3jphkodWZLOibNVyjTNDt",
           "name": "width",
-          "type": "asset",
-          "value": "5f94e7453c98d379f9096ff035db82af63b78d26b7647985684b575be6dbe546"
+          "type": "number",
+          "value": 1920
         }
       ],
       [
@@ -81716,8 +81509,8 @@
           "id": "89v9NQWSmWl0WH8_f2FlA",
           "instanceId": "3jphkodWZLOibNVyjTNDt",
           "name": "height",
-          "type": "asset",
-          "value": "5f94e7453c98d379f9096ff035db82af63b78d26b7647985684b575be6dbe546"
+          "type": "number",
+          "value": 1080
         }
       ],
       [
@@ -81726,8 +81519,8 @@
           "id": "tChpMJqIxMow-VV5TNgsQ",
           "instanceId": "3jphkodWZLOibNVyjTNDt",
           "name": "alt",
-          "type": "asset",
-          "value": "5f94e7453c98d379f9096ff035db82af63b78d26b7647985684b575be6dbe546"
+          "type": "string",
+          "value": "チャットタブ"
         }
       ],
       [
@@ -81756,8 +81549,8 @@
           "id": "aZtRIX4l3m7Xkg9a-Ro_Q",
           "instanceId": "jkYYWCBK9CNBvJyxTCOD-",
           "name": "width",
-          "type": "asset",
-          "value": "e2a554ee2c877c5aec9dd5760b5304ae86708c15443f850c5759faac82048a7e"
+          "type": "number",
+          "value": 1920
         }
       ],
       [
@@ -81766,8 +81559,8 @@
           "id": "HBWVzlTEK0ywt3KzzLIQh",
           "instanceId": "jkYYWCBK9CNBvJyxTCOD-",
           "name": "height",
-          "type": "asset",
-          "value": "e2a554ee2c877c5aec9dd5760b5304ae86708c15443f850c5759faac82048a7e"
+          "type": "number",
+          "value": 1080
         }
       ],
       [
@@ -81776,8 +81569,8 @@
           "id": "lfeZ672akxrNNNR9bQVGl",
           "instanceId": "jkYYWCBK9CNBvJyxTCOD-",
           "name": "alt",
-          "type": "asset",
-          "value": "e2a554ee2c877c5aec9dd5760b5304ae86708c15443f850c5759faac82048a7e"
+          "type": "string",
+          "value": "モデルタブ"
         }
       ],
       [
@@ -82478,16 +82271,6 @@
           "name": "data-umami-event-region",
           "type": "string",
           "value": "jp"
-        }
-      ],
-      [
-        "lNvGG39ZE11pR_rNhTPVo",
-        {
-          "id": "lNvGG39ZE11pR_rNhTPVo",
-          "instanceId": "5k8qtKKv_itSu6FN0yBKs",
-          "name": "code",
-          "type": "string",
-          "value": "<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"72\"\n    width=\"72\"\n  />\n</picture>\n"
         }
       ],
       [
@@ -83566,8 +83349,8 @@
           "id": "lyJw5bfC3fqUcMQqH9X9G",
           "instanceId": "cDO576GqbcZIpe2I_ZcWe",
           "name": "width",
-          "type": "asset",
-          "value": "62d5f096730c90a68de77aef44d0b43f1a69ef71fdabb3e5a767d5cb6f724727"
+          "type": "number",
+          "value": 1920
         }
       ],
       [
@@ -83576,8 +83359,8 @@
           "id": "EiGInsPT-ZDX7bGkxZpkt",
           "instanceId": "cDO576GqbcZIpe2I_ZcWe",
           "name": "height",
-          "type": "asset",
-          "value": "62d5f096730c90a68de77aef44d0b43f1a69ef71fdabb3e5a767d5cb6f724727"
+          "type": "number",
+          "value": 1080
         }
       ],
       [
@@ -83586,8 +83369,8 @@
           "id": "lMa7pR5qzjnuAG-PHY1jk",
           "instanceId": "cDO576GqbcZIpe2I_ZcWe",
           "name": "alt",
-          "type": "asset",
-          "value": "62d5f096730c90a68de77aef44d0b43f1a69ef71fdabb3e5a767d5cb6f724727"
+          "type": "string",
+          "value": "紹介"
         }
       ],
       [
@@ -83846,8 +83629,8 @@
           "id": "_7rDCHJeL1YwjMG_XMZsz",
           "instanceId": "NxBlFMnhWzap3iqdznRs8",
           "name": "alt",
-          "type": "asset",
-          "value": "1f2e8364c406359f3a37693af1d0ff9a442e422b78cf1986d54992744f9d0f9a"
+          "type": "string",
+          "value": "Introduction"
         }
       ],
       [
@@ -84747,7 +84530,7 @@
           "instanceId": "Ysj7KaDJKFT1PZ28SXW1w",
           "name": "code",
           "type": "string",
-          "value": "<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"72\"\n    width=\"72\"\n  />\n</picture>\n"
+          "value": "<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"
         }
       ],
       [
@@ -84776,8 +84559,8 @@
           "id": "zikk_VLwfC9j6JrW1bAol",
           "instanceId": "qzD3Wwp4c1Vbd7iVUPsec",
           "name": "width",
-          "type": "asset",
-          "value": "b6759e90fb6c611570997b746212dab8a0e11696158ee6cd82e87f82bdd7f640"
+          "type": "number",
+          "value": 1920
         }
       ],
       [
@@ -84786,8 +84569,8 @@
           "id": "VOn8RPRT5U8umQxfiYNAe",
           "instanceId": "qzD3Wwp4c1Vbd7iVUPsec",
           "name": "height",
-          "type": "asset",
-          "value": "b6759e90fb6c611570997b746212dab8a0e11696158ee6cd82e87f82bdd7f640"
+          "type": "number",
+          "value": 1080
         }
       ],
       [
@@ -84796,8 +84579,8 @@
           "id": "hBy97fBCiSh1BB1JPpMbf",
           "instanceId": "qzD3Wwp4c1Vbd7iVUPsec",
           "name": "alt",
-          "type": "asset",
-          "value": "b6759e90fb6c611570997b746212dab8a0e11696158ee6cd82e87f82bdd7f640"
+          "type": "string",
+          "value": "Server Tab"
         }
       ],
       [
@@ -84826,8 +84609,8 @@
           "id": "WufqyBX02vcR1zSjg5Li7",
           "instanceId": "SoTSEtZVSpiN1tV52bh5b",
           "name": "width",
-          "type": "asset",
-          "value": "c958dfd93992605273b5ec9c783b257f7c6511b438061bcbd10af2e064144115"
+          "type": "number",
+          "value": 1920
         }
       ],
       [
@@ -84836,8 +84619,8 @@
           "id": "wyffhE5QmgYHhrceQYnqq",
           "instanceId": "SoTSEtZVSpiN1tV52bh5b",
           "name": "height",
-          "type": "asset",
-          "value": "c958dfd93992605273b5ec9c783b257f7c6511b438061bcbd10af2e064144115"
+          "type": "number",
+          "value": 1080
         }
       ],
       [
@@ -84846,8 +84629,8 @@
           "id": "ZjKvmzPgK0PT9Dr-waMJ5",
           "instanceId": "SoTSEtZVSpiN1tV52bh5b",
           "name": "alt",
-          "type": "asset",
-          "value": "c958dfd93992605273b5ec9c783b257f7c6511b438061bcbd10af2e064144115"
+          "type": "string",
+          "value": "Chat Tab"
         }
       ],
       [
@@ -84876,8 +84659,8 @@
           "id": "LDTXjJZX9eNnVnAUxaqOs",
           "instanceId": "oTK46qLMk-f-dfvwWtrtj",
           "name": "width",
-          "type": "asset",
-          "value": "47d377e3472b7a154f4f657fb396b9fa8b8daef413fbb5e59b04639d8e0689d8"
+          "type": "number",
+          "value": 1920
         }
       ],
       [
@@ -84886,8 +84669,8 @@
           "id": "QAcTB_e4YTLwZA2FNHmiz",
           "instanceId": "oTK46qLMk-f-dfvwWtrtj",
           "name": "height",
-          "type": "asset",
-          "value": "47d377e3472b7a154f4f657fb396b9fa8b8daef413fbb5e59b04639d8e0689d8"
+          "type": "number",
+          "value": 1080
         }
       ],
       [
@@ -84896,8 +84679,8 @@
           "id": "jA17qSik-80hYneRfNJLU",
           "instanceId": "oTK46qLMk-f-dfvwWtrtj",
           "name": "alt",
-          "type": "asset",
-          "value": "47d377e3472b7a154f4f657fb396b9fa8b8daef413fbb5e59b04639d8e0689d8"
+          "type": "string",
+          "value": "Model Tab"
         }
       ],
       [
@@ -85666,8 +85449,8 @@
           "id": "XAz2CVwgNVjaCraQCia7l",
           "instanceId": "4Q-I12i9fleXhDDN73pUR",
           "name": "alt",
-          "type": "asset",
-          "value": "1f2e8364c406359f3a37693af1d0ff9a442e422b78cf1986d54992744f9d0f9a"
+          "type": "string",
+          "value": "Introduction"
         }
       ],
       [
@@ -86337,7 +86120,7 @@
           "instanceId": "uIq72k6lC3YIH9JyGjKJc",
           "name": "src",
           "type": "asset",
-          "value": "88b7736bf2b0ec87eb28fe0c8d16db7b66e7ae6f5da6fc8c64ee7ce945331797"
+          "value": "0b56f079dd45b3ce47af61afe11548d8fb88093282d3ef3adbdd3fe2beccdb4f"
         }
       ],
       [
@@ -86346,8 +86129,8 @@
           "id": "aq4OYhoymb_dtlm5u5Oso",
           "instanceId": "uIq72k6lC3YIH9JyGjKJc",
           "name": "width",
-          "type": "number",
-          "value": 256
+          "type": "asset",
+          "value": "0b56f079dd45b3ce47af61afe11548d8fb88093282d3ef3adbdd3fe2beccdb4f"
         }
       ],
       [
@@ -86357,7 +86140,7 @@
           "instanceId": "uIq72k6lC3YIH9JyGjKJc",
           "name": "height",
           "type": "asset",
-          "value": "88b7736bf2b0ec87eb28fe0c8d16db7b66e7ae6f5da6fc8c64ee7ce945331797"
+          "value": "0b56f079dd45b3ce47af61afe11548d8fb88093282d3ef3adbdd3fe2beccdb4f"
         }
       ],
       [
@@ -86366,8 +86149,8 @@
           "id": "40XNgf1cO6iF_6eazEhgZ",
           "instanceId": "uIq72k6lC3YIH9JyGjKJc",
           "name": "alt",
-          "type": "asset",
-          "value": "88b7736bf2b0ec87eb28fe0c8d16db7b66e7ae6f5da6fc8c64ee7ce945331797"
+          "type": "string",
+          "value": "ロゴ"
         }
       ],
       [
@@ -87057,7 +86840,7 @@
           "instanceId": "1zOCkXRHyyVi-g3KJSs-A",
           "name": "code",
           "type": "string",
-          "value": "<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"72\"\n    width=\"72\"\n  />\n</picture>\n"
+          "value": "<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"
         }
       ],
       [
@@ -87836,8 +87619,8 @@
           "id": "wSnxSiejU5NsFZodKLImS",
           "instanceId": "VPQUNtWLgEdmqhAF36xZx",
           "name": "width",
-          "type": "asset",
-          "value": "62d5f096730c90a68de77aef44d0b43f1a69ef71fdabb3e5a767d5cb6f724727"
+          "type": "number",
+          "value": 1920
         }
       ],
       [
@@ -87846,8 +87629,8 @@
           "id": "_cVNxvN797Ls8fyeqe3eu",
           "instanceId": "VPQUNtWLgEdmqhAF36xZx",
           "name": "height",
-          "type": "asset",
-          "value": "62d5f096730c90a68de77aef44d0b43f1a69ef71fdabb3e5a767d5cb6f724727"
+          "type": "number",
+          "value": 1080
         }
       ],
       [
@@ -87856,8 +87639,8 @@
           "id": "zDMZVjr9Qs0huj6eRwJZU",
           "instanceId": "VPQUNtWLgEdmqhAF36xZx",
           "name": "alt",
-          "type": "asset",
-          "value": "62d5f096730c90a68de77aef44d0b43f1a69ef71fdabb3e5a767d5cb6f724727"
+          "type": "string",
+          "value": "紹介"
         }
       ],
       [
@@ -92769,6 +92552,16 @@
           "type": "string",
           "value": " td"
         }
+      ],
+      [
+        "vZ5GuG5Pun9jCbqrp-yZC",
+        {
+          "id": "vZ5GuG5Pun9jCbqrp-yZC",
+          "instanceId": "I90e4B1FnHg4eMN-kWz1P",
+          "name": "code",
+          "type": "string",
+          "value": "<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"
+        }
       ]
     ],
     "dataSources": [],
@@ -94915,23 +94708,13 @@
           "children": [
             {
               "type": "id",
-              "value": "5k8qtKKv_itSu6FN0yBKs"
+              "value": "I90e4B1FnHg4eMN-kWz1P"
             },
             {
               "type": "id",
               "value": "IOKbTxtyaK94EUlx0YPrq"
             }
           ]
-        }
-      ],
-      [
-        "5k8qtKKv_itSu6FN0yBKs",
-        {
-          "type": "instance",
-          "id": "5k8qtKKv_itSu6FN0yBKs",
-          "component": "HtmlEmbed",
-          "label": "HTML Embed",
-          "children": []
         }
       ],
       [
@@ -114150,6 +113933,16 @@
             }
           ]
         }
+      ],
+      [
+        "I90e4B1FnHg4eMN-kWz1P",
+        {
+          "type": "instance",
+          "id": "I90e4B1FnHg4eMN-kWz1P",
+          "component": "HtmlEmbed",
+          "label": "HTML Embed",
+          "children": []
+        }
       ]
     ],
     "deployment": {
@@ -114173,7 +113966,7 @@
       "description": "\"Ollama Manager App for macOS, iOS, iPadOS, and visionOS, featuring server management, model management, and simple chat feature\"",
       "excludePageFromSearch": "false",
       "language": "\"en-us\"",
-      "socialImageAssetId": "74f7c9a44563c4e8607636d25d618a089e83f198771cd6181845e3f765700f8c"
+      "socialImageAssetId": "70c8dd13f17790c6afdb5ed01fdb7f73dc666f637ab9880d42ee496d0e467e44"
     },
     "path": ""
   },
@@ -114190,7 +113983,7 @@
         "description": "\"Ollama Manager App for macOS, iOS, iPadOS, and visionOS, featuring server management, model management, and simple chat feature\"",
         "excludePageFromSearch": "false",
         "language": "\"en-us\"",
-        "socialImageAssetId": "74f7c9a44563c4e8607636d25d618a089e83f198771cd6181845e3f765700f8c"
+        "socialImageAssetId": "70c8dd13f17790c6afdb5ed01fdb7f73dc666f637ab9880d42ee496d0e467e44"
       },
       "path": ""
     },
@@ -114203,7 +113996,7 @@
         "description": "\"Sorry, the information you were looking for could not be found. Please make sure you are accessing the correct page.\"",
         "excludePageFromSearch": "true",
         "language": "\"en-us\"",
-        "socialImageAssetId": "74f7c9a44563c4e8607636d25d618a089e83f198771cd6181845e3f765700f8c",
+        "socialImageAssetId": "70c8dd13f17790c6afdb5ed01fdb7f73dc666f637ab9880d42ee496d0e467e44",
         "status": "404"
       },
       "path": "/*"
@@ -114217,7 +114010,7 @@
         "description": "\"Update history and changelog for Mocolamma\"",
         "excludePageFromSearch": "false",
         "language": "\"en-us\"",
-        "socialImageAssetId": "74f7c9a44563c4e8607636d25d618a089e83f198771cd6181845e3f765700f8c",
+        "socialImageAssetId": "70c8dd13f17790c6afdb5ed01fdb7f73dc666f637ab9880d42ee496d0e467e44",
         "redirect": "\"\"",
         "documentType": "html",
         "custom": [
@@ -114241,7 +114034,7 @@
         "description": "\"How to report bugs you find, how to send feedback such as idea sharing and messages to a developer, etc.\"",
         "excludePageFromSearch": "false",
         "language": "\"en-us\"",
-        "socialImageAssetId": "74f7c9a44563c4e8607636d25d618a089e83f198771cd6181845e3f765700f8c",
+        "socialImageAssetId": "70c8dd13f17790c6afdb5ed01fdb7f73dc666f637ab9880d42ee496d0e467e44",
         "redirect": "\"\"",
         "documentType": "html",
         "custom": [
@@ -114265,7 +114058,7 @@
         "description": "\"How Mocolamma handles personal information in its apps\"",
         "excludePageFromSearch": "false",
         "language": "\"en-us\"",
-        "socialImageAssetId": "74f7c9a44563c4e8607636d25d618a089e83f198771cd6181845e3f765700f8c",
+        "socialImageAssetId": "70c8dd13f17790c6afdb5ed01fdb7f73dc666f637ab9880d42ee496d0e467e44",
         "redirect": "\"\"",
         "documentType": "html",
         "custom": [
@@ -114289,7 +114082,7 @@
         "description": "\"Welcome to the Mocolamma Documents!\\nThis page provides information about Mocolamma, from how to use it to detailed settings.\"",
         "excludePageFromSearch": "false",
         "language": "\"en-us\"",
-        "socialImageAssetId": "74f7c9a44563c4e8607636d25d618a089e83f198771cd6181845e3f765700f8c",
+        "socialImageAssetId": "70c8dd13f17790c6afdb5ed01fdb7f73dc666f637ab9880d42ee496d0e467e44",
         "redirect": "\"\"",
         "documentType": "html",
         "custom": [
@@ -114316,7 +114109,7 @@
         "description": "\"サーバー管理、モデル管理、簡易チャット機能を備えた、macOS、iOS、iPadOS、visionOSで使えるOllamaマネージャーアプリ\"",
         "excludePageFromSearch": "false",
         "language": "\"ja-jp\"",
-        "socialImageAssetId": "6118b7d5ecab303562a04c468b842255ba441e35a915abc6d08d1646346bf800"
+        "socialImageAssetId": "b54dc8b54b9d6c76762bdb4bf25014b66c3132496d1e4702dce25ae89f460071"
       },
       "path": "/jp"
     },
@@ -114329,7 +114122,7 @@
         "description": "\"お探しの情報は見つかりませんでした。正しいページにアクセスしていることをご確認ください。\"",
         "excludePageFromSearch": "true",
         "language": "\"ja-jp\"",
-        "socialImageAssetId": "6118b7d5ecab303562a04c468b842255ba441e35a915abc6d08d1646346bf800",
+        "socialImageAssetId": "b54dc8b54b9d6c76762bdb4bf25014b66c3132496d1e4702dce25ae89f460071",
         "status": "404"
       },
       "path": "/*"
@@ -114343,7 +114136,7 @@
         "description": "\"Mocolammaのアップデート履歴と変更ログ\"",
         "excludePageFromSearch": "false",
         "language": "\"ja-jp\"",
-        "socialImageAssetId": "6118b7d5ecab303562a04c468b842255ba441e35a915abc6d08d1646346bf800"
+        "socialImageAssetId": "b54dc8b54b9d6c76762bdb4bf25014b66c3132496d1e4702dce25ae89f460071"
       },
       "path": "/release-notes"
     },
@@ -114356,7 +114149,7 @@
         "description": "\"見つけたバグの報告方法や、アイデア共有や開発者へのメッセージ等のフィードバックの送信方法等について\"",
         "excludePageFromSearch": "false",
         "language": "\"ja-jp\"",
-        "socialImageAssetId": "6118b7d5ecab303562a04c468b842255ba441e35a915abc6d08d1646346bf800"
+        "socialImageAssetId": "b54dc8b54b9d6c76762bdb4bf25014b66c3132496d1e4702dce25ae89f460071"
       },
       "path": "/support"
     },
@@ -114369,7 +114162,7 @@
         "description": "\"Mocolammaのアプリ内での個人情報取り扱いについて\"",
         "excludePageFromSearch": "false",
         "language": "\"ja-jp\"",
-        "socialImageAssetId": "6118b7d5ecab303562a04c468b842255ba441e35a915abc6d08d1646346bf800"
+        "socialImageAssetId": "b54dc8b54b9d6c76762bdb4bf25014b66c3132496d1e4702dce25ae89f460071"
       },
       "path": "/privacy-policy"
     },
@@ -114382,7 +114175,7 @@
         "description": "\"Mocolammaのドキュメントへようこそ！\\nMocolammaの使い方から細かい設定まで、Mocolammaに関する情報がまとめられています。\"",
         "excludePageFromSearch": "false",
         "language": "\"ja-jp\"",
-        "socialImageAssetId": "6118b7d5ecab303562a04c468b842255ba441e35a915abc6d08d1646346bf800"
+        "socialImageAssetId": "b54dc8b54b9d6c76762bdb4bf25014b66c3132496d1e4702dce25ae89f460071"
       },
       "path": "/docs"
     },
@@ -114395,7 +114188,7 @@
         "description": "\"MocolammaにOllamaサーバーを追加したり、選択されているサーバーを切り替えたり、サーバーの詳細情報を確認したりする方法をご紹介します。\"",
         "excludePageFromSearch": "false",
         "language": "\"ja-jp\"",
-        "socialImageAssetId": "6118b7d5ecab303562a04c468b842255ba441e35a915abc6d08d1646346bf800"
+        "socialImageAssetId": "b54dc8b54b9d6c76762bdb4bf25014b66c3132496d1e4702dce25ae89f460071"
       },
       "path": "/server-tab"
     },
@@ -114408,7 +114201,7 @@
         "description": "\"Mocolammaを使ってOllamaサーバーにモデルを追加したり、モデルを削除したり、モデルの詳細情報を確認したりする方法をご紹介します。\"",
         "excludePageFromSearch": "false",
         "language": "\"ja-jp\"",
-        "socialImageAssetId": "6118b7d5ecab303562a04c468b842255ba441e35a915abc6d08d1646346bf800"
+        "socialImageAssetId": "b54dc8b54b9d6c76762bdb4bf25014b66c3132496d1e4702dce25ae89f460071"
       },
       "path": "/model-tab"
     },
@@ -114421,7 +114214,7 @@
         "description": "\"MocolammaでOllamaサーバー上にあるモデルを使って簡易的なチャットを行う方法をご紹介します。\"",
         "excludePageFromSearch": "false",
         "language": "\"ja-jp\"",
-        "socialImageAssetId": "6118b7d5ecab303562a04c468b842255ba441e35a915abc6d08d1646346bf800"
+        "socialImageAssetId": "b54dc8b54b9d6c76762bdb4bf25014b66c3132496d1e4702dce25ae89f460071"
       },
       "path": "/chat-tab"
     },
@@ -114434,7 +114227,7 @@
         "description": "\"Mocolammaの設定項目をご紹介します。\"",
         "excludePageFromSearch": "false",
         "language": "\"ja-jp\"",
-        "socialImageAssetId": "6118b7d5ecab303562a04c468b842255ba441e35a915abc6d08d1646346bf800"
+        "socialImageAssetId": "b54dc8b54b9d6c76762bdb4bf25014b66c3132496d1e4702dce25ae89f460071"
       },
       "path": "/settings"
     },
@@ -114447,7 +114240,7 @@
         "description": "\"Here's how to add an Ollama server to Mocolamma, switch between selected servers, and view detailed server information.\"",
         "excludePageFromSearch": "false",
         "language": "\"en-us\"",
-        "socialImageAssetId": "74f7c9a44563c4e8607636d25d618a089e83f198771cd6181845e3f765700f8c",
+        "socialImageAssetId": "70c8dd13f17790c6afdb5ed01fdb7f73dc666f637ab9880d42ee496d0e467e44",
         "redirect": "\"\"",
         "documentType": "html",
         "custom": [
@@ -114471,7 +114264,7 @@
         "description": "\"Here's how to use Mocolamma to add models to the Ollama server, remove models, and view model details.\"",
         "excludePageFromSearch": "false",
         "language": "\"en-us\"",
-        "socialImageAssetId": "74f7c9a44563c4e8607636d25d618a089e83f198771cd6181845e3f765700f8c",
+        "socialImageAssetId": "70c8dd13f17790c6afdb5ed01fdb7f73dc666f637ab9880d42ee496d0e467e44",
         "redirect": "\"\"",
         "documentType": "html",
         "custom": [
@@ -114495,7 +114288,7 @@
         "description": "\"Here's how to use a model on an Ollama server to perform simple chat using Mocolamma.\"",
         "excludePageFromSearch": "false",
         "language": "\"en-us\"",
-        "socialImageAssetId": "74f7c9a44563c4e8607636d25d618a089e83f198771cd6181845e3f765700f8c",
+        "socialImageAssetId": "70c8dd13f17790c6afdb5ed01fdb7f73dc666f637ab9880d42ee496d0e467e44",
         "redirect": "\"\"",
         "documentType": "html",
         "custom": [
@@ -114519,6 +114312,7 @@
         "description": "\"Here are the settings for Mocolamma.\"",
         "excludePageFromSearch": "false",
         "language": "\"en-us\"",
+        "socialImageAssetId": "70c8dd13f17790c6afdb5ed01fdb7f73dc666f637ab9880d42ee496d0e467e44",
         "redirect": "\"\"",
         "documentType": "html",
         "custom": [
@@ -114536,16 +114330,16 @@
   ],
   "assets": [
     {
-      "id": "14e8115329cc374ab9c5c41c859b515f937c46f259a2cd26c57e2270152fe6ef",
-      "name": "favicon_W4UjxjFV03hb0zE7FrAxI.png",
+      "id": "0b56f079dd45b3ce47af61afe11548d8fb88093282d3ef3adbdd3fe2beccdb4f",
+      "name": "Mocolamma_Logo_1Hud1LO-7f_-fiBpR59VO.webp",
       "projectId": "d3340149-462c-49a8-8b6a-95401a1f067e",
-      "size": 16702,
+      "size": 6000,
       "type": "image",
-      "format": "png",
-      "createdAt": "2025-10-10T13:51:21.746+00:00",
+      "format": "webp",
+      "createdAt": "2025-10-16T08:50:14.739+00:00",
       "meta": {
-        "width": 192,
-        "height": 192
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -114632,42 +114426,29 @@
       }
     },
     {
-      "id": "6118b7d5ecab303562a04c468b842255ba441e35a915abc6d08d1646346bf800",
-      "name": "Mocolamma_Social-ja_BDzoRB7Y2w-Sbv89h-mCw.webp",
+      "id": "6878a1fc87a1b33f7d8dfaeb522c14d9026fc134116c01599e80638060a652bc",
+      "name": "favicon__3sUvP8Dn_n4uHorlwhyg.png",
       "projectId": "d3340149-462c-49a8-8b6a-95401a1f067e",
-      "size": 23592,
+      "size": 22169,
       "type": "image",
-      "format": "webp",
-      "createdAt": "2025-10-10T11:53:22.833+00:00",
+      "format": "png",
+      "createdAt": "2025-10-16T08:55:08.266+00:00",
       "meta": {
-        "width": 1280,
-        "height": 640
+        "width": 192,
+        "height": 192
       }
     },
     {
-      "id": "74f7c9a44563c4e8607636d25d618a089e83f198771cd6181845e3f765700f8c",
-      "name": "Mocolamma_Social_oh83-PlGz8aYSFINTZCUz.webp",
+      "id": "70c8dd13f17790c6afdb5ed01fdb7f73dc666f637ab9880d42ee496d0e467e44",
+      "name": "Mocolamma_Social_k4PJT2CUac45I3tPGa4rC.webp",
       "projectId": "d3340149-462c-49a8-8b6a-95401a1f067e",
-      "size": 24062,
+      "size": 24092,
       "type": "image",
       "format": "webp",
-      "createdAt": "2025-10-09T13:17:12.152+00:00",
+      "createdAt": "2025-10-16T08:55:41.748+00:00",
       "meta": {
         "width": 1280,
         "height": 640
-      }
-    },
-    {
-      "id": "88b7736bf2b0ec87eb28fe0c8d16db7b66e7ae6f5da6fc8c64ee7ce945331797",
-      "name": "Mocolamma_Logo_bEJN6f21UujLG-LZKW8AC.webp",
-      "projectId": "d3340149-462c-49a8-8b6a-95401a1f067e",
-      "size": 5828,
-      "type": "image",
-      "format": "webp",
-      "createdAt": "2025-10-08T12:46:29.597+00:00",
-      "meta": {
-        "width": 256,
-        "height": 256
       }
     },
     {
@@ -114682,6 +114463,19 @@
       "meta": {
         "width": 480,
         "height": 160
+      }
+    },
+    {
+      "id": "b54dc8b54b9d6c76762bdb4bf25014b66c3132496d1e4702dce25ae89f460071",
+      "name": "Mocolamma_Social-ja_BkB_2QEqAgmUES7k42Gt7.webp",
+      "projectId": "d3340149-462c-49a8-8b6a-95401a1f067e",
+      "size": 23658,
+      "type": "image",
+      "format": "webp",
+      "createdAt": "2025-10-16T08:56:59.813+00:00",
+      "meta": {
+        "width": 1280,
+        "height": 640
       }
     }
   ],
