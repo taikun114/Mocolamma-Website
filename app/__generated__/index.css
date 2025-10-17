@@ -16,6 +16,14 @@
     border-left-width: 1px;
     outline-width: 1px
   }
+  b.w-element {
+    font-weight: 700;
+    box-sizing: border-box;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px
+  }
   body.w-element {
     box-sizing: border-box;
     border-top-width: 1px;
@@ -337,9 +345,6 @@
   .c1mmg8q2 {
     color: light-dark(#ffffff, #eeeeee)
   }
-  .c8nyjqk {
-    background-color: light-dark(#882667, #3c0e2c)
-  }
   .c1yn9fna {
     padding: 2rem
   }
@@ -354,12 +359,6 @@
   }
   .c10ieuse {
     color: light-dark(#ffffff,#eeeeee)
-  }
-  .c8skd2d {
-    background-color: light-dark(#2963a1, #132a43)
-  }
-  .cw3a50e {
-    background-color: light-dark(#3a7c4a, #0e2f16)
   }
   .ck0qs61 {
     display: inline-block
@@ -645,6 +644,15 @@
   }
   .c1eswi8f {
     margin-bottom: 1rem
+  }
+  .c8nyjqk {
+    background-color: light-dark(#882667, #3c0e2c)
+  }
+  .cw3a50e {
+    background-color: light-dark(#3a7c4a, #0e2f16)
+  }
+  .c8skd2d {
+    background-color: light-dark(#2963a1, #132a43)
   }
   .c2khdnq {
     max-width: max-content
@@ -949,6 +957,9 @@
   }
   .cyu9atc p {
     margin-bottom: 0.5rem
+  }
+  .c1941udn {
+    color: rgba(88, 135, 255, 1)
   }
 }
 @media all and (max-width: 991px) {

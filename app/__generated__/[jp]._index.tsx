@@ -5,13 +5,13 @@
       import { Fragment, useState } from "react";
       import { useResource, useVariableState } from "@webstudio-is/react-sdk/runtime";
       import { Body as Body, Link as Link, Link as Link_1 } from "@webstudio-is/sdk-components-react-router";
-import { HtmlEmbed as HtmlEmbed, Image as Image, MarkdownEmbed as MarkdownEmbed, Button as Button, Text as Text, Box as Box, Paragraph as Paragraph, Fragment as Fragment_1, Slot as Slot } from "@webstudio-is/sdk-components-react";
+import { HtmlEmbed as HtmlEmbed, MarkdownEmbed as MarkdownEmbed, Image as Image, Button as Button, Text as Text, Box as Box, Paragraph as Paragraph, Fragment as Fragment_1, Slot as Slot } from "@webstudio-is/sdk-components-react";
 import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuList, NavigationMenuItem as NavigationMenuItem, NavigationMenuTrigger as NavigationMenuTrigger, NavigationMenuContent as NavigationMenuContent, NavigationMenuLink as NavigationMenuLink, NavigationMenuViewport as NavigationMenuViewport } from "@webstudio-is/sdk-components-react-radix";
 
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2025-10-16T08:58:13.982Z";
+      export const lastPublished = "2025-10-17T11:28:41.917Z";
 
       export const siteName = "Mocolamma";
 
@@ -810,6 +810,51 @@ className={`w-element c11wsiwx c1su7aph`}>
 </p>
 </div>
 </Link>
+</div>
+</div>
+</div>
+<div
+className={`w-element c13rvnfs ckkp5ls cq2ae4j c1dquu02 cr5s4bi`}>
+<div
+className={`w-element c13rvnfs ckkp5ls c1dquu02 cr5s4bi cq2ae4j c881vmo c1yn9fna c38gmmd ci58aga`}>
+<h2
+className={`w-element co6eidb c11wsiwx c1su7aph c1mmg8q2 c13rvnfs cdhbme8 clrwo5d cd6ip1x`}>
+{"Mocolammaとは？"}
+</h2>
+</div>
+<div
+className={`w-element c13rvnfs ckkp5ls cq2ae4j c1dquu02 cr5s4bi c1bwd5u3 c1yn9fna c38gmmd ci58aga`}>
+<div
+className={`w-element c13rvnfs ckkp5ls cq2ae4j cdhbme8 clrwo5d cd6ip1x`}>
+<h3
+className={`w-element c1f9sbsw c11wsiwx c1su7aph c1mmg8q2`}>
+{"非公式のOllama管理ツール"}
+</h3>
+<Image
+loading={"lazy"}
+src={"https://github.com/taikun114/Mocolamma/blob/main/docs/images/Introduction-HP-ja.webp?raw=true"}
+width={1920}
+height={1080}
+alt={"紹介"}
+className={`w-image c13rvnfs`} />
+<p
+className={`w-element c11wsiwx c1su7aph c1y9f2xs c10ieuse`}>
+{"Mocolammaは、macOSおよびiOS / iPadOS用の非公式"}
+<Link
+href={"https://ollama.com/"}
+target={"_blank"}
+className={`w-element c1941udn c1xduqzz`}>
+<b
+className={`w-element`}>
+{"Ollama"}
+</b>
+</Link>
+{"管理アプリケーションで、Ollamaサーバーに接続してモデルを管理したり、Ollamaサーバーに保存されているモデルを使ってチャットのテストを行ったりすることができます。"}
+{""}
+<br />
+{""}
+{"Mocolammaを使えば難しいコマンドを使わなくても、複数のOllamaサーバーを切り替えてモデルを追加したり削除したりすることができます。"}
+</p>
 </div>
 </div>
 </div>

@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2025-10-16T08:58:13.982Z";
+      export const lastPublished = "2025-10-17T11:28:41.917Z";
 
       export const siteName = "Mocolamma";
 
@@ -834,6 +834,51 @@ className={`w-element c11wsiwx c1su7aph`}>
 </p>
 </div>
 </Link>
+</div>
+</div>
+</div>
+<div
+className={`w-element c13rvnfs ckkp5ls cq2ae4j c1dquu02 cr5s4bi`}>
+<div
+className={`w-element c13rvnfs ckkp5ls c1dquu02 cr5s4bi cq2ae4j c881vmo c1yn9fna c38gmmd ci58aga`}>
+<h2
+className={`w-element co6eidb c11wsiwx c1su7aph c1mmg8q2 c13rvnfs cdhbme8 clrwo5d cd6ip1x`}>
+{"What is Mocolamma?"}
+</h2>
+</div>
+<div
+className={`w-element c13rvnfs ckkp5ls cq2ae4j c1dquu02 cr5s4bi c1bwd5u3 c1yn9fna c38gmmd ci58aga`}>
+<div
+className={`w-element c13rvnfs ckkp5ls cq2ae4j cdhbme8 clrwo5d cd6ip1x`}>
+<h3
+className={`w-element c1f9sbsw c11wsiwx c1su7aph c1mmg8q2`}>
+{"Unofficial Ollama Management Tool"}
+</h3>
+<Image
+loading={"lazy"}
+src={"https://github.com/taikun114/Mocolamma/blob/main/docs/images/Introduction-HP.webp?raw=true"}
+width={1920}
+height={1080}
+alt={"Introduction"}
+className={`w-image c13rvnfs`} />
+<p
+className={`w-element c11wsiwx c1su7aph c1y9f2xs c10ieuse`}>
+{"Mocolamma is an "}
+<Link
+href={"https://ollama.com/"}
+target={"_blank"}
+className={`w-element c1941udn c1xduqzz`}>
+<b
+className={`w-element`}>
+{"Ollama"}
+</b>
+</Link>
+{" management application for macOS and iOS / iPadOS that connects to Ollama servers to manage models and perform chat tests using models stored on the Ollama server."}
+{""}
+<br />
+{""}
+{"With Mocolamma, you can switch between multiple Ollama servers to add or remove models without needing to use complex commands."}
+</p>
 </div>
 </div>
 </div>
