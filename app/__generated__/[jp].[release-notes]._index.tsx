@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2025-10-17T11:28:41.917Z";
+      export const lastPublished = "2025-10-28T06:52:40.291Z";
 
       export const siteName = "Mocolamma";
 
@@ -581,7 +581,7 @@ className={`w-element c11wsiwx c1su7aph`}>
 {"Mocolamma リリースノート"}
 </h1>
 <MarkdownEmbed
-code={"## バージョン 1.0.0\nリリース: 2025年10月12日\n\n### アップデート内容\n- 初期リリース"}
+code={"## バージョン 1.0.1\nリリース: 2025年10月28日\n\nこのバージョンはApp Storeでリリースされた最初のバージョンです。\n\n### アップデート内容\n#### バグ修正と改善\n- **小さいウィンドウサイズでインスペクタを開くとレイアウトが崩れたりクラッシュしたりしてしまう問題を修正**\n- **チャット画面のメッセージ入力欄でテキスト変換が必要な言語で入力中、テキストの変換が確定できない問題を修正**\n- **チャット画面のモデルピッカーで、サーバーを切り替えた後に最後に選択されていたモデルが見つからなかった場合にピッカーが空になってしまうことがあった問題を修正**\n- **アプリ起動時にネットワークチェックを行うように改善**\n  - アプリを初めて開いたときに、自動的にローカルネットワーク許可のメッセージが表示されるようになりました。\n\n\n## バージョン 1.0.0\nリリース: 2025年10月12日\n\n### アップデート内容\n- 初期リリース"}
 className={`w-markdown-embed c1jwyh4u c1411o3y c1igc709 c1y2x13x c1n8816a c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1m4wc7d csbw7ja ci7c9m9 cq6rd9c cwnj7qc clqnjme c1etwcna cbnpkwc czamide c1k0m0bu c16dg7p2 c1vyosmc c1wbup66 cpqebfv c1kjcvme c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 </div>

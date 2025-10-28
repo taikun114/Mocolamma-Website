@@ -1,10 +1,10 @@
 {
   "build": {
-    "id": "723858f1-ae83-4396-bbb8-b8fcb7e01e8e",
+    "id": "7e49ef32-4fb2-4e4c-b13b-2d01855db8d7",
     "projectId": "d3340149-462c-49a8-8b6a-95401a1f067e",
-    "version": 3042,
-    "createdAt": "2025-10-17T11:28:41.917+00:00",
-    "updatedAt": "2025-10-17T11:28:41.917+00:00",
+    "version": 3075,
+    "createdAt": "2025-10-28T06:52:40.291+00:00",
+    "updatedAt": "2025-10-28T06:52:40.291+00:00",
     "pages": {
       "meta": {
         "siteName": "Mocolamma",
@@ -2974,7 +2974,7 @@
           "property": "color",
           "value": {
             "type": "unparsed",
-            "value": "light-dark(#ffffff,#eeeeee)"
+            "value": "light-dark(#000000,#eeeeee)"
           },
           "listed": true
         }
@@ -61133,82 +61133,6 @@
         }
       ],
       [
-        "xIRrGmS2umdhnYc-KANiJ:Nr5VaLoI8PXeozyOBhddI:marginTop:",
-        {
-          "styleSourceId": "xIRrGmS2umdhnYc-KANiJ",
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "property": "marginTop",
-          "value": {
-            "type": "unit",
-            "unit": "number",
-            "value": 0
-          }
-        }
-      ],
-      [
-        "xIRrGmS2umdhnYc-KANiJ:Nr5VaLoI8PXeozyOBhddI:marginBottom:",
-        {
-          "styleSourceId": "xIRrGmS2umdhnYc-KANiJ",
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "property": "marginBottom",
-          "value": {
-            "type": "unit",
-            "unit": "number",
-            "value": 0
-          }
-        }
-      ],
-      [
-        "xIRrGmS2umdhnYc-KANiJ:Nr5VaLoI8PXeozyOBhddI:fontWeight:",
-        {
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "styleSourceId": "xIRrGmS2umdhnYc-KANiJ",
-          "property": "fontWeight",
-          "value": {
-            "type": "keyword",
-            "value": "700"
-          }
-        }
-      ],
-      [
-        "hj57C10-6oMiOeCA_T9gp:Nr5VaLoI8PXeozyOBhddI:marginTop:",
-        {
-          "styleSourceId": "hj57C10-6oMiOeCA_T9gp",
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "property": "marginTop",
-          "value": {
-            "type": "unit",
-            "unit": "number",
-            "value": 0
-          }
-        }
-      ],
-      [
-        "hj57C10-6oMiOeCA_T9gp:Nr5VaLoI8PXeozyOBhddI:marginBottom:",
-        {
-          "styleSourceId": "hj57C10-6oMiOeCA_T9gp",
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "property": "marginBottom",
-          "value": {
-            "type": "unit",
-            "unit": "number",
-            "value": 0
-          }
-        }
-      ],
-      [
-        "hj57C10-6oMiOeCA_T9gp:Nr5VaLoI8PXeozyOBhddI:fontWeight:",
-        {
-          "styleSourceId": "hj57C10-6oMiOeCA_T9gp",
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "property": "fontWeight",
-          "value": {
-            "type": "keyword",
-            "value": "700"
-          }
-        }
-      ],
-      [
         "9MQqqlo6HPsdrl25Ntyih:Nr5VaLoI8PXeozyOBhddI:marginTop:",
         {
           "styleSourceId": "9MQqqlo6HPsdrl25Ntyih",
@@ -68378,12 +68302,12 @@
       [
         "39grvRwZXa6ukcB-vXqYJ:Nr5VaLoI8PXeozyOBhddI:color:",
         {
-          "styleSourceId": "39grvRwZXa6ukcB-vXqYJ",
           "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
+          "styleSourceId": "39grvRwZXa6ukcB-vXqYJ",
           "property": "color",
           "value": {
             "type": "unparsed",
-            "value": "light-dark(#ffffff,#eeeeee)"
+            "value": "light-dark(#000000,#eeeeee)"
           },
           "listed": true
         }
@@ -72304,20 +72228,6 @@
         {
           "type": "local",
           "id": "qOBP5w15PGLSHZDFQhbBu"
-        }
-      ],
-      [
-        "xIRrGmS2umdhnYc-KANiJ",
-        {
-          "type": "local",
-          "id": "xIRrGmS2umdhnYc-KANiJ"
-        }
-      ],
-      [
-        "hj57C10-6oMiOeCA_T9gp",
-        {
-          "type": "local",
-          "id": "hj57C10-6oMiOeCA_T9gp"
         }
       ],
       [
@@ -79288,24 +79198,6 @@
         }
       ],
       [
-        "52_NwVuUP2dbyU_COjE12",
-        {
-          "instanceId": "52_NwVuUP2dbyU_COjE12",
-          "values": [
-            "xIRrGmS2umdhnYc-KANiJ"
-          ]
-        }
-      ],
-      [
-        "h-O_HLQcUf47pNOqs2m6M",
-        {
-          "instanceId": "h-O_HLQcUf47pNOqs2m6M",
-          "values": [
-            "hj57C10-6oMiOeCA_T9gp"
-          ]
-        }
-      ],
-      [
         "MlmAXUXNm63J2OByBYmxn",
         {
           "instanceId": "MlmAXUXNm63J2OByBYmxn",
@@ -84809,7 +84701,7 @@
           "instanceId": "Hk2xKBIm90GI0cuWjJ9UU",
           "name": "code",
           "type": "string",
-          "value": "## Version 1.0.0 \nRelease: October 12, 2025\n\n### Update Details\n- Initial release"
+          "value": "## Version 1.0.1\nRelease: October 28, 2025\n\nThis version is the first version released on the App Store.\n\n### Update Details\n#### Bug Fixes and Improvements\n- **Fix issue where opening the inspector at small window sizes caused layout issues or crashes**\n- **Fix issue that text conversion couldn't be confirmed while typing in languages requiring it within the chat screen's message input field**\n- **Fix issue that picker could become empty in the chat screen's model picker when the last selected model couldn't be found after switching servers**\n- **Improve to perform a network check when launching the app**\n  - When you open the app for the first time, a message requesting local network permission will now show automatically.\n\n\n## Version 1.0.0\nRelease: October 12, 2025\n\n### Update Details\n- Initial release"
         }
       ],
       [
@@ -89579,7 +89471,7 @@
           "instanceId": "tTPZahl--y2c66yBVq47I",
           "name": "code",
           "type": "string",
-          "value": "## バージョン 1.0.0\nリリース: 2025年10月12日\n\n### アップデート内容\n- 初期リリース"
+          "value": "## バージョン 1.0.1\nリリース: 2025年10月28日\n\nこのバージョンはApp Storeでリリースされた最初のバージョンです。\n\n### アップデート内容\n#### バグ修正と改善\n- **小さいウィンドウサイズでインスペクタを開くとレイアウトが崩れたりクラッシュしたりしてしまう問題を修正**\n- **チャット画面のメッセージ入力欄でテキスト変換が必要な言語で入力中、テキストの変換が確定できない問題を修正**\n- **チャット画面のモデルピッカーで、サーバーを切り替えた後に最後に選択されていたモデルが見つからなかった場合にピッカーが空になってしまうことがあった問題を修正**\n- **アプリ起動時にネットワークチェックを行うように改善**\n  - アプリを初めて開いたときに、自動的にローカルネットワーク許可のメッセージが表示されるようになりました。\n\n\n## バージョン 1.0.0\nリリース: 2025年10月12日\n\n### アップデート内容\n- 初期リリース"
         }
       ],
       [
@@ -94659,10 +94551,6 @@
           "tag": "div",
           "label": "ダウンロードボタンコンテナ",
           "children": [
-            {
-              "type": "id",
-              "value": "h-O_HLQcUf47pNOqs2m6M"
-            },
             {
               "type": "id",
               "value": "dQ05i82ror-YVCak3rHaW"
@@ -99867,10 +99755,6 @@
           "tag": "div",
           "label": "ダウンロードボタンコンテナ",
           "children": [
-            {
-              "type": "id",
-              "value": "52_NwVuUP2dbyU_COjE12"
-            },
             {
               "type": "id",
               "value": "JudeGAHqe_PFgBoscL6cs"
@@ -109792,37 +109676,6 @@
           "id": "5esMgSDOXb4X8g_B5L28b",
           "component": "Image",
           "children": []
-        }
-      ],
-      [
-        "52_NwVuUP2dbyU_COjE12",
-        {
-          "type": "instance",
-          "id": "52_NwVuUP2dbyU_COjE12",
-          "component": "ws:element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "App Store link coming soon."
-            }
-          ]
-        }
-      ],
-      [
-        "h-O_HLQcUf47pNOqs2m6M",
-        {
-          "type": "instance",
-          "id": "h-O_HLQcUf47pNOqs2m6M",
-          "component": "ws:element",
-          "tag": "p",
-          "label": "準備中テキスト",
-          "children": [
-            {
-              "type": "text",
-              "value": "App Storeのリンクは準備中です。"
-            }
-          ]
         }
       ],
       [
