@@ -1,10 +1,10 @@
 {
   "build": {
-    "id": "7e49ef32-4fb2-4e4c-b13b-2d01855db8d7",
+    "id": "ea6bc046-4554-41b8-a7e8-29682f22f0fe",
     "projectId": "d3340149-462c-49a8-8b6a-95401a1f067e",
-    "version": 3075,
-    "createdAt": "2025-10-28T06:52:40.291+00:00",
-    "updatedAt": "2025-10-28T06:52:40.291+00:00",
+    "version": 3120,
+    "createdAt": "2025-11-04T08:01:17.436+00:00",
+    "updatedAt": "2025-11-04T08:01:17.436+00:00",
     "pages": {
       "meta": {
         "siteName": "Mocolamma",
@@ -768,7 +768,8 @@
             "type": "fontFamily",
             "value": [
               "Public Sans",
-              "Noto Sans JP"
+              "Noto Sans JP",
+              "sans-serif"
             ]
           }
         }
@@ -68424,6 +68425,104 @@
             "value": 100
           }
         }
+      ],
+      [
+        "MypLJ3PHmX5my8Idsvyi0:Nr5VaLoI8PXeozyOBhddI:display:",
+        {
+          "styleSourceId": "MypLJ3PHmX5my8Idsvyi0",
+          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
+          "property": "display",
+          "value": {
+            "type": "keyword",
+            "value": "inline-block"
+          }
+        }
+      ],
+      [
+        "LTfTjrsGuOS5m8ZOatBoi:Nr5VaLoI8PXeozyOBhddI:objectFit:",
+        {
+          "styleSourceId": "LTfTjrsGuOS5m8ZOatBoi",
+          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
+          "property": "objectFit",
+          "value": {
+            "type": "keyword",
+            "value": "contain"
+          }
+        }
+      ],
+      [
+        "LTfTjrsGuOS5m8ZOatBoi:Nr5VaLoI8PXeozyOBhddI:height:",
+        {
+          "styleSourceId": "LTfTjrsGuOS5m8ZOatBoi",
+          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
+          "property": "height",
+          "value": {
+            "type": "unit",
+            "unit": "px",
+            "value": 48
+          }
+        }
+      ],
+      [
+        "LTfTjrsGuOS5m8ZOatBoi:Nr5VaLoI8PXeozyOBhddI:width:",
+        {
+          "styleSourceId": "LTfTjrsGuOS5m8ZOatBoi",
+          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
+          "property": "width",
+          "value": {
+            "type": "keyword",
+            "value": "max-content"
+          }
+        }
+      ],
+      [
+        "6rF_L840VCBN_18X-aE4-:Nr5VaLoI8PXeozyOBhddI:display:",
+        {
+          "styleSourceId": "6rF_L840VCBN_18X-aE4-",
+          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
+          "property": "display",
+          "value": {
+            "type": "keyword",
+            "value": "inline-block"
+          }
+        }
+      ],
+      [
+        "k02hZL8fY5vx3igymn80S:Nr5VaLoI8PXeozyOBhddI:objectFit:",
+        {
+          "styleSourceId": "k02hZL8fY5vx3igymn80S",
+          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
+          "property": "objectFit",
+          "value": {
+            "type": "keyword",
+            "value": "contain"
+          }
+        }
+      ],
+      [
+        "k02hZL8fY5vx3igymn80S:Nr5VaLoI8PXeozyOBhddI:height:",
+        {
+          "styleSourceId": "k02hZL8fY5vx3igymn80S",
+          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
+          "property": "height",
+          "value": {
+            "type": "unit",
+            "unit": "px",
+            "value": 48
+          }
+        }
+      ],
+      [
+        "k02hZL8fY5vx3igymn80S:Nr5VaLoI8PXeozyOBhddI:width:",
+        {
+          "styleSourceId": "k02hZL8fY5vx3igymn80S",
+          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
+          "property": "width",
+          "value": {
+            "type": "keyword",
+            "value": "max-content"
+          }
+        }
       ]
     ],
     "styleSources": [
@@ -72844,6 +72943,34 @@
         {
           "type": "local",
           "id": "39grvRwZXa6ukcB-vXqYJ"
+        }
+      ],
+      [
+        "MypLJ3PHmX5my8Idsvyi0",
+        {
+          "type": "local",
+          "id": "MypLJ3PHmX5my8Idsvyi0"
+        }
+      ],
+      [
+        "LTfTjrsGuOS5m8ZOatBoi",
+        {
+          "type": "local",
+          "id": "LTfTjrsGuOS5m8ZOatBoi"
+        }
+      ],
+      [
+        "6rF_L840VCBN_18X-aE4-",
+        {
+          "type": "local",
+          "id": "6rF_L840VCBN_18X-aE4-"
+        }
+      ],
+      [
+        "k02hZL8fY5vx3igymn80S",
+        {
+          "type": "local",
+          "id": "k02hZL8fY5vx3igymn80S"
         }
       ]
     ],
@@ -82831,6 +82958,42 @@
             "pKOtRm1l4CKBvwnSjWJCd"
           ]
         }
+      ],
+      [
+        "rxNNQ1Mzqn8atXNp06-Mv",
+        {
+          "instanceId": "rxNNQ1Mzqn8atXNp06-Mv",
+          "values": [
+            "MypLJ3PHmX5my8Idsvyi0"
+          ]
+        }
+      ],
+      [
+        "Ev5Xm35GVXLrejCmX3DmV",
+        {
+          "instanceId": "Ev5Xm35GVXLrejCmX3DmV",
+          "values": [
+            "LTfTjrsGuOS5m8ZOatBoi"
+          ]
+        }
+      ],
+      [
+        "VGSNSgtCnd2NQMA_2g7kd",
+        {
+          "instanceId": "VGSNSgtCnd2NQMA_2g7kd",
+          "values": [
+            "6rF_L840VCBN_18X-aE4-"
+          ]
+        }
+      ],
+      [
+        "aQ1KI6MFA_LwkKnW9hW8a",
+        {
+          "instanceId": "aQ1KI6MFA_LwkKnW9hW8a",
+          "values": [
+            "k02hZL8fY5vx3igymn80S"
+          ]
+        }
       ]
     ],
     "props": [
@@ -84701,7 +84864,7 @@
           "instanceId": "Hk2xKBIm90GI0cuWjJ9UU",
           "name": "code",
           "type": "string",
-          "value": "## Version 1.0.1\nRelease: October 28, 2025\n\nThis version is the first version released on the App Store.\n\n### Update Details\n#### Bug Fixes and Improvements\n- **Fix issue where opening the inspector at small window sizes caused layout issues or crashes**\n- **Fix issue that text conversion couldn't be confirmed while typing in languages requiring it within the chat screen's message input field**\n- **Fix issue that picker could become empty in the chat screen's model picker when the last selected model couldn't be found after switching servers**\n- **Improve to perform a network check when launching the app**\n  - When you open the app for the first time, a message requesting local network permission will now show automatically.\n\n\n## Version 1.0.0\nRelease: October 12, 2025\n\n### Update Details\n- Initial release"
+          "value": "## Version 1.0.2\nRelease: November 4, 2025\n\n### Update Details\n#### Bug Fixes and Improvements\n- **Fix issue where the icon size for the about this app screen was incorrect on macOS Sequoia or earlier**\n- **Fix issue where the model list did not display correctly when models with the same digest as the `latest` tag existed simultaneously**\n- **Fix issue that text conversion couldn't be confirmed while typing in languages requiring text conversion within the message edit field on the chat screen**\n- **Improve chat screen to automatically scroll after sending a message**\n- **Improve the size of the chat send button on iOS / iPadOS versions**\n\n\n## Version 1.0.1\nRelease: October 28, 2025\n\nThis version is the first version released on the App Store.\n\n### Update Details\n#### Bug Fixes and Improvements\n- **Fix issue where opening the inspector at small window sizes caused layout issues or crashes**\n- **Fix issue that text conversion couldn't be confirmed while typing in languages requiring it within the chat screen's message input field**\n- **Fix issue that picker could become empty in the chat screen's model picker when the last selected model couldn't be found after switching servers**\n- **Improve to perform a network check when launching the app**\n  - When you open the app for the first time, a message requesting local network permission will now show automatically.\n\n\n## Version 1.0.0\nRelease: October 12, 2025\n\n### Update Details\n- Initial release"
         }
       ],
       [
@@ -89471,7 +89634,7 @@
           "instanceId": "tTPZahl--y2c66yBVq47I",
           "name": "code",
           "type": "string",
-          "value": "## バージョン 1.0.1\nリリース: 2025年10月28日\n\nこのバージョンはApp Storeでリリースされた最初のバージョンです。\n\n### アップデート内容\n#### バグ修正と改善\n- **小さいウィンドウサイズでインスペクタを開くとレイアウトが崩れたりクラッシュしたりしてしまう問題を修正**\n- **チャット画面のメッセージ入力欄でテキスト変換が必要な言語で入力中、テキストの変換が確定できない問題を修正**\n- **チャット画面のモデルピッカーで、サーバーを切り替えた後に最後に選択されていたモデルが見つからなかった場合にピッカーが空になってしまうことがあった問題を修正**\n- **アプリ起動時にネットワークチェックを行うように改善**\n  - アプリを初めて開いたときに、自動的にローカルネットワーク許可のメッセージが表示されるようになりました。\n\n\n## バージョン 1.0.0\nリリース: 2025年10月12日\n\n### アップデート内容\n- 初期リリース"
+          "value": "## バージョン 1.0.2\nリリース: 2025年11月4日\n\n### アップデート内容\n#### バグ修正と改善\n- **macOS Sequoiaまたはそれ以前で、このアプリについて画面のアイコンサイズが正しくなかった問題を修正**\n- **`latest`タグと同じダイジェストのモデルが同時に存在した場合にモデルリストが正しく表示されない問題を修正**\n- **チャット画面のメッセージ編集欄でテキスト変換が必要な言語で入力中、テキストの変換が確定できない問題を修正**\n- **チャット画面でメッセージを送信したときに自動でスクロールするように改善**\n- **iOS / iPadOS版のチャット送信ボタンの大きさを改善**\n\n\n## バージョン 1.0.1\nリリース: 2025年10月28日\n\nこのバージョンはApp Storeでリリースされた最初のバージョンです。\n\n### アップデート内容\n#### バグ修正と改善\n- **小さいウィンドウサイズでインスペクタを開くとレイアウトが崩れたりクラッシュしたりしてしまう問題を修正**\n- **チャット画面のメッセージ入力欄でテキスト変換が必要な言語で入力中、テキストの変換が確定できない問題を修正**\n- **チャット画面のモデルピッカーで、サーバーを切り替えた後に最後に選択されていたモデルが見つからなかった場合にピッカーが空になってしまうことがあった問題を修正**\n- **アプリ起動時にネットワークチェックを行うように改善**\n  - アプリを初めて開いたときに、自動的にローカルネットワーク許可のメッセージが表示されるようになりました。\n\n\n## バージョン 1.0.0\nリリース: 2025年10月12日\n\n### アップデート内容\n- 初期リリース"
         }
       ],
       [
@@ -94213,6 +94376,236 @@
           "type": "string",
           "value": "_blank"
         }
+      ],
+      [
+        "WGBAMZ8C2MTY4OwvSGzkS",
+        {
+          "id": "WGBAMZ8C2MTY4OwvSGzkS",
+          "instanceId": "Ev5Xm35GVXLrejCmX3DmV",
+          "name": "src",
+          "type": "asset",
+          "value": "a99cdc98334e3d21caa7276d622ea486d19abfde50ea54c984a16b7de4908ec8"
+        }
+      ],
+      [
+        "wunOka6ylQ9lpKjL-qxIm",
+        {
+          "id": "wunOka6ylQ9lpKjL-qxIm",
+          "instanceId": "Ev5Xm35GVXLrejCmX3DmV",
+          "name": "width",
+          "type": "asset",
+          "value": "a99cdc98334e3d21caa7276d622ea486d19abfde50ea54c984a16b7de4908ec8"
+        }
+      ],
+      [
+        "sPR1usbK1O8aFMac4WPrP",
+        {
+          "id": "sPR1usbK1O8aFMac4WPrP",
+          "instanceId": "Ev5Xm35GVXLrejCmX3DmV",
+          "name": "height",
+          "type": "asset",
+          "value": "a99cdc98334e3d21caa7276d622ea486d19abfde50ea54c984a16b7de4908ec8"
+        }
+      ],
+      [
+        "kliF3imNpPd9q8QfpiAiO",
+        {
+          "id": "kliF3imNpPd9q8QfpiAiO",
+          "instanceId": "Ev5Xm35GVXLrejCmX3DmV",
+          "name": "alt",
+          "type": "asset",
+          "value": "a99cdc98334e3d21caa7276d622ea486d19abfde50ea54c984a16b7de4908ec8"
+        }
+      ],
+      [
+        "fVuW272f6XYIuswXOEUHv",
+        {
+          "id": "fVuW272f6XYIuswXOEUHv",
+          "instanceId": "Ev5Xm35GVXLrejCmX3DmV",
+          "name": "loading",
+          "type": "string",
+          "value": "eager"
+        }
+      ],
+      [
+        "Ok0hJPIOLut1jv1ARmu85",
+        {
+          "id": "Ok0hJPIOLut1jv1ARmu85",
+          "instanceId": "rxNNQ1Mzqn8atXNp06-Mv",
+          "name": "data-umami-event-region",
+          "type": "string",
+          "value": "us"
+        }
+      ],
+      [
+        "iHj-6mpatG37ZInrYZRsL",
+        {
+          "id": "iHj-6mpatG37ZInrYZRsL",
+          "instanceId": "rxNNQ1Mzqn8atXNp06-Mv",
+          "name": "data-umami-event",
+          "type": "string",
+          "value": "app-store"
+        }
+      ],
+      [
+        "hiByd6GYeEeMCEvlqHOJ-",
+        {
+          "id": "hiByd6GYeEeMCEvlqHOJ-",
+          "instanceId": "rxNNQ1Mzqn8atXNp06-Mv",
+          "name": "target",
+          "type": "string",
+          "value": "_blank"
+        }
+      ],
+      [
+        "gwKlak0O3sJeJSBJJaQqr",
+        {
+          "id": "gwKlak0O3sJeJSBJJaQqr",
+          "instanceId": "rxNNQ1Mzqn8atXNp06-Mv",
+          "name": "aria-label",
+          "type": "string",
+          "value": "Download on the App Store button"
+        }
+      ],
+      [
+        "PoI7UWEMXDO3GmIPrhnqg",
+        {
+          "id": "PoI7UWEMXDO3GmIPrhnqg",
+          "instanceId": "Ev5Xm35GVXLrejCmX3DmV",
+          "name": "fetchpriority",
+          "type": "string",
+          "value": "high"
+        }
+      ],
+      [
+        "PG82G3X6yOh87CkT1tV2K",
+        {
+          "id": "PG82G3X6yOh87CkT1tV2K",
+          "instanceId": "Ev5Xm35GVXLrejCmX3DmV",
+          "name": "data-ws-show",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      [
+        "UhwM-x2tF1Hd1GQRPzqxH",
+        {
+          "id": "UhwM-x2tF1Hd1GQRPzqxH",
+          "instanceId": "rxNNQ1Mzqn8atXNp06-Mv",
+          "name": "href",
+          "type": "string",
+          "value": "https://apps.apple.com/us/app/mocolamma/id6753896649"
+        }
+      ],
+      [
+        "Zv6sGybLm0hZzzram7DnR",
+        {
+          "id": "Zv6sGybLm0hZzzram7DnR",
+          "instanceId": "aQ1KI6MFA_LwkKnW9hW8a",
+          "name": "src",
+          "type": "asset",
+          "value": "309faf2a76b36e55e71eae2213dfbe362f22e903c58b6066e71ac0cb588a0d40"
+        }
+      ],
+      [
+        "udmtIT0Xh_gps14rkKBcu",
+        {
+          "id": "udmtIT0Xh_gps14rkKBcu",
+          "instanceId": "aQ1KI6MFA_LwkKnW9hW8a",
+          "name": "width",
+          "type": "asset",
+          "value": "309faf2a76b36e55e71eae2213dfbe362f22e903c58b6066e71ac0cb588a0d40"
+        }
+      ],
+      [
+        "uKY_T-W0kmKMgJpQneGfP",
+        {
+          "id": "uKY_T-W0kmKMgJpQneGfP",
+          "instanceId": "aQ1KI6MFA_LwkKnW9hW8a",
+          "name": "height",
+          "type": "asset",
+          "value": "309faf2a76b36e55e71eae2213dfbe362f22e903c58b6066e71ac0cb588a0d40"
+        }
+      ],
+      [
+        "eKogoF-af8JfgMchpG-oI",
+        {
+          "id": "eKogoF-af8JfgMchpG-oI",
+          "instanceId": "aQ1KI6MFA_LwkKnW9hW8a",
+          "name": "alt",
+          "type": "asset",
+          "value": "309faf2a76b36e55e71eae2213dfbe362f22e903c58b6066e71ac0cb588a0d40"
+        }
+      ],
+      [
+        "GQiH3EPs9fcEm0eml3-oX",
+        {
+          "id": "GQiH3EPs9fcEm0eml3-oX",
+          "instanceId": "aQ1KI6MFA_LwkKnW9hW8a",
+          "name": "loading",
+          "type": "string",
+          "value": "eager"
+        }
+      ],
+      [
+        "oPLmi5e23K0ojx7Rbw1ls",
+        {
+          "id": "oPLmi5e23K0ojx7Rbw1ls",
+          "instanceId": "VGSNSgtCnd2NQMA_2g7kd",
+          "name": "data-umami-event-region",
+          "type": "string",
+          "value": "jp"
+        }
+      ],
+      [
+        "nx-TlWqXLutBo-WM3FW3p",
+        {
+          "id": "nx-TlWqXLutBo-WM3FW3p",
+          "instanceId": "VGSNSgtCnd2NQMA_2g7kd",
+          "name": "data-umami-event",
+          "type": "string",
+          "value": "app-store"
+        }
+      ],
+      [
+        "hsZOmfHyee1lDr-IwkDWN",
+        {
+          "id": "hsZOmfHyee1lDr-IwkDWN",
+          "instanceId": "VGSNSgtCnd2NQMA_2g7kd",
+          "name": "target",
+          "type": "string",
+          "value": "_blank"
+        }
+      ],
+      [
+        "6BxET278iP7ctCeCLPaNG",
+        {
+          "id": "6BxET278iP7ctCeCLPaNG",
+          "instanceId": "VGSNSgtCnd2NQMA_2g7kd",
+          "name": "aria-label",
+          "type": "string",
+          "value": "App Storeからダウンロードボタン"
+        }
+      ],
+      [
+        "1tPwuAx64Rd3tFCgHtc7K",
+        {
+          "id": "1tPwuAx64Rd3tFCgHtc7K",
+          "instanceId": "aQ1KI6MFA_LwkKnW9hW8a",
+          "name": "fetchpriority",
+          "type": "string",
+          "value": "high"
+        }
+      ],
+      [
+        "kS2xTf8AvzvpCAfknuGns",
+        {
+          "id": "kS2xTf8AvzvpCAfknuGns",
+          "instanceId": "VGSNSgtCnd2NQMA_2g7kd",
+          "name": "href",
+          "type": "string",
+          "value": "https://apps.apple.com/jp/app/mocolamma/id6753896649"
+        }
       ]
     ],
     "dataSources": [],
@@ -97209,15 +97602,11 @@
           "children": [
             {
               "type": "id",
-              "value": "zKvw4zDxF2-D6iRw6HAyi"
+              "value": "rxNNQ1Mzqn8atXNp06-Mv"
             },
             {
               "type": "id",
               "value": "A0fRdSml1r9f309mxxs8e"
-            },
-            {
-              "type": "id",
-              "value": "E-CVOBJXw-01_kJUmoxHb"
             }
           ]
         }
@@ -97337,21 +97726,6 @@
         }
       ],
       [
-        "zKvw4zDxF2-D6iRw6HAyi",
-        {
-          "type": "instance",
-          "id": "zKvw4zDxF2-D6iRw6HAyi",
-          "component": "Slot",
-          "label": "英語版Mac App Store",
-          "children": [
-            {
-              "type": "id",
-              "value": "CkEIkYGvRpmGxzt62RViq"
-            }
-          ]
-        }
-      ],
-      [
         "A0fRdSml1r9f309mxxs8e",
         {
           "type": "instance",
@@ -97362,21 +97736,6 @@
             {
               "type": "id",
               "value": "ingvtPwuJsUtobo6b3cDT"
-            }
-          ]
-        }
-      ],
-      [
-        "E-CVOBJXw-01_kJUmoxHb",
-        {
-          "type": "instance",
-          "id": "E-CVOBJXw-01_kJUmoxHb",
-          "component": "Slot",
-          "label": "英語版App Store",
-          "children": [
-            {
-              "type": "id",
-              "value": "mn9SXxnHgV9sBZq46Cegp"
             }
           ]
         }
@@ -107309,15 +107668,11 @@
           "children": [
             {
               "type": "id",
-              "value": "sbmTJhGaOveBREzbpAy6d"
+              "value": "VGSNSgtCnd2NQMA_2g7kd"
             },
             {
               "type": "id",
               "value": "1iEEa0WdhIorp9wrYMHYu"
-            },
-            {
-              "type": "id",
-              "value": "rF6J7vBdq3DSZ2jZfxR7-"
             }
           ]
         }
@@ -107521,21 +107876,6 @@
         }
       ],
       [
-        "sbmTJhGaOveBREzbpAy6d",
-        {
-          "type": "instance",
-          "id": "sbmTJhGaOveBREzbpAy6d",
-          "component": "Slot",
-          "label": "日本語版Mac App Store",
-          "children": [
-            {
-              "type": "id",
-              "value": "Ek5LsJk1MJxlgTfr5aYCR"
-            }
-          ]
-        }
-      ],
-      [
         "1iEEa0WdhIorp9wrYMHYu",
         {
           "type": "instance",
@@ -107546,21 +107886,6 @@
             {
               "type": "id",
               "value": "2tO2qBAmAcsbVOsxPN0lc"
-            }
-          ]
-        }
-      ],
-      [
-        "rF6J7vBdq3DSZ2jZfxR7-",
-        {
-          "type": "instance",
-          "id": "rF6J7vBdq3DSZ2jZfxR7-",
-          "component": "Slot",
-          "label": "日本語版App Store",
-          "children": [
-            {
-              "type": "id",
-              "value": "XStlYtNuN_5noq6QhAtsp"
             }
           ]
         }
@@ -115914,6 +116239,54 @@
               "value": "Z6QXXO1ju7pKbQy2faj9y"
             }
           ]
+        }
+      ],
+      [
+        "rxNNQ1Mzqn8atXNp06-Mv",
+        {
+          "type": "instance",
+          "id": "rxNNQ1Mzqn8atXNp06-Mv",
+          "component": "ws:element",
+          "tag": "a",
+          "children": [
+            {
+              "type": "id",
+              "value": "Ev5Xm35GVXLrejCmX3DmV"
+            }
+          ]
+        }
+      ],
+      [
+        "Ev5Xm35GVXLrejCmX3DmV",
+        {
+          "type": "instance",
+          "id": "Ev5Xm35GVXLrejCmX3DmV",
+          "component": "Image",
+          "children": []
+        }
+      ],
+      [
+        "VGSNSgtCnd2NQMA_2g7kd",
+        {
+          "type": "instance",
+          "id": "VGSNSgtCnd2NQMA_2g7kd",
+          "component": "ws:element",
+          "tag": "a",
+          "children": [
+            {
+              "type": "id",
+              "value": "aQ1KI6MFA_LwkKnW9hW8a"
+            }
+          ]
+        }
+      ],
+      [
+        "aQ1KI6MFA_LwkKnW9hW8a",
+        {
+          "type": "instance",
+          "id": "aQ1KI6MFA_LwkKnW9hW8a",
+          "component": "Image",
+          "children": []
         }
       ]
     ],

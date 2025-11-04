@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2025-10-28T06:52:40.291Z";
+      export const lastPublished = "2025-11-04T08:01:17.436Z";
 
       export const siteName = "Mocolamma";
 
@@ -583,7 +583,7 @@ className={`w-element c11wsiwx c1su7aph`}>
 {"Mocolamma Release Notes"}
 </h1>
 <MarkdownEmbed
-code={"## Version 1.0.1\nRelease: October 28, 2025\n\nThis version is the first version released on the App Store.\n\n### Update Details\n#### Bug Fixes and Improvements\n- **Fix issue where opening the inspector at small window sizes caused layout issues or crashes**\n- **Fix issue that text conversion couldn't be confirmed while typing in languages requiring it within the chat screen's message input field**\n- **Fix issue that picker could become empty in the chat screen's model picker when the last selected model couldn't be found after switching servers**\n- **Improve to perform a network check when launching the app**\n  - When you open the app for the first time, a message requesting local network permission will now show automatically.\n\n\n## Version 1.0.0\nRelease: October 12, 2025\n\n### Update Details\n- Initial release"}
+code={"## Version 1.0.2\nRelease: November 4, 2025\n\n### Update Details\n#### Bug Fixes and Improvements\n- **Fix issue where the icon size for the about this app screen was incorrect on macOS Sequoia or earlier**\n- **Fix issue where the model list did not display correctly when models with the same digest as the `latest` tag existed simultaneously**\n- **Fix issue that text conversion couldn't be confirmed while typing in languages requiring text conversion within the message edit field on the chat screen**\n- **Improve chat screen to automatically scroll after sending a message**\n- **Improve the size of the chat send button on iOS / iPadOS versions**\n\n\n## Version 1.0.1\nRelease: October 28, 2025\n\nThis version is the first version released on the App Store.\n\n### Update Details\n#### Bug Fixes and Improvements\n- **Fix issue where opening the inspector at small window sizes caused layout issues or crashes**\n- **Fix issue that text conversion couldn't be confirmed while typing in languages requiring it within the chat screen's message input field**\n- **Fix issue that picker could become empty in the chat screen's model picker when the last selected model couldn't be found after switching servers**\n- **Improve to perform a network check when launching the app**\n  - When you open the app for the first time, a message requesting local network permission will now show automatically.\n\n\n## Version 1.0.0\nRelease: October 12, 2025\n\n### Update Details\n- Initial release"}
 className={`w-markdown-embed c1jwyh4u c1411o3y c1igc709 c1y2x13x c1n8816a c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1m4wc7d csbw7ja c1wbup66 cpqebfv c1kjcvme c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl c1tzwmwe ckdvx6o c1754bfq c1exg9jr cwnj7qc clqnjme c1etwcna cbnpkwc czamide c1k0m0bu c16dg7p2 c1vyosmc ci7c9m9 cq6rd9c`}>
 </MarkdownEmbed>
 </div>
@@ -651,26 +651,22 @@ className={`w-markdown-embed c1igc709 c1411o3y ctsxlvw cjdjvq6 c1wlos4g c1klrugo
 </div>
 <div
 className={`w-element ckkp5ls cv5n7tx c1hfgpcq c1dquu02 cr5s4bi cmntde2`}>
-<Slot>
-<Fragment_1>
 <Link
 data-umami-event-region={"us"}
-data-umami-event={"mac-app-store"}
+data-umami-event={"app-store"}
 target={"_blank"}
-aria-label={"Download on the Mac App Store button"}
+aria-label={"Download on the App Store button"}
 href={"https://apps.apple.com/us/app/mocolamma/id6753896649"}
 className={`w-element ck0qs61`}>
 <Image
-src={"/assets/Mac-App-Store-DL-Badge-us_aWW4IwxcY-CFVpZijqK6_.webp"}
-width={624}
+src={"/assets/App-Store-DL-Badge-us_Bq-LFxfS98Q3mm-NEBHmb.webp"}
+width={480}
 height={160}
-alt={"Download on the Mac App Store"}
+alt={"Download on the App Store"}
 loading={"eager"}
 fetchPriority={"high"}
 className={`w-image c1j4919n c1sq2oqr cjt11so`} />
 </Link>
-</Fragment_1>
-</Slot>
 <Slot>
 <Fragment_1>
 <Link
@@ -685,26 +681,6 @@ src={"/assets/GitHub_Badge_2x_ucvuf0EjTAXJAL9p3EI2b.webp"}
 width={1040}
 height={320}
 alt={"Free Download on the GitHub"}
-loading={"eager"}
-fetchPriority={"high"}
-className={`w-image c1j4919n c1sq2oqr cjt11so`} />
-</Link>
-</Fragment_1>
-</Slot>
-<Slot>
-<Fragment_1>
-<Link
-data-umami-event-region={"us"}
-data-umami-event={"ios-app-store"}
-target={"_blank"}
-aria-label={"Download on the App Store button"}
-href={"https://apps.apple.com/us/app/mocolamma/id6753896649"}
-className={`w-element ck0qs61`}>
-<Image
-src={"/assets/App-Store-DL-Badge-us_Bq-LFxfS98Q3mm-NEBHmb.webp"}
-width={480}
-height={160}
-alt={"Download on the App Store"}
 loading={"eager"}
 fetchPriority={"high"}
 className={`w-image c1j4919n c1sq2oqr cjt11so`} />

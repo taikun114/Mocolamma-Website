@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2025-10-28T06:52:40.291Z";
+      export const lastPublished = "2025-11-04T08:01:17.436Z";
 
       export const siteName = "Mocolamma";
 
@@ -651,26 +651,22 @@ className={`w-markdown-embed c1igc709 c1411o3y ctsxlvw cjdjvq6 c1wlos4g c1klrugo
 </div>
 <div
 className={`w-element ckkp5ls cv5n7tx c1hfgpcq c1dquu02 cr5s4bi cmntde2`}>
-<Slot>
-<Fragment_1>
 <Link
 data-umami-event-region={"us"}
-data-umami-event={"mac-app-store"}
+data-umami-event={"app-store"}
 target={"_blank"}
-aria-label={"Download on the Mac App Store button"}
+aria-label={"Download on the App Store button"}
 href={"https://apps.apple.com/us/app/mocolamma/id6753896649"}
 className={`w-element ck0qs61`}>
 <Image
-src={"/assets/Mac-App-Store-DL-Badge-us_aWW4IwxcY-CFVpZijqK6_.webp"}
-width={624}
+src={"/assets/App-Store-DL-Badge-us_Bq-LFxfS98Q3mm-NEBHmb.webp"}
+width={480}
 height={160}
-alt={"Download on the Mac App Store"}
+alt={"Download on the App Store"}
 loading={"eager"}
 fetchPriority={"high"}
 className={`w-image c1j4919n c1sq2oqr cjt11so`} />
 </Link>
-</Fragment_1>
-</Slot>
 <Slot>
 <Fragment_1>
 <Link
@@ -685,26 +681,6 @@ src={"/assets/GitHub_Badge_2x_ucvuf0EjTAXJAL9p3EI2b.webp"}
 width={1040}
 height={320}
 alt={"Free Download on the GitHub"}
-loading={"eager"}
-fetchPriority={"high"}
-className={`w-image c1j4919n c1sq2oqr cjt11so`} />
-</Link>
-</Fragment_1>
-</Slot>
-<Slot>
-<Fragment_1>
-<Link
-data-umami-event-region={"us"}
-data-umami-event={"ios-app-store"}
-target={"_blank"}
-aria-label={"Download on the App Store button"}
-href={"https://apps.apple.com/us/app/mocolamma/id6753896649"}
-className={`w-element ck0qs61`}>
-<Image
-src={"/assets/App-Store-DL-Badge-us_Bq-LFxfS98Q3mm-NEBHmb.webp"}
-width={480}
-height={160}
-alt={"Download on the App Store"}
 loading={"eager"}
 fetchPriority={"high"}
 className={`w-image c1j4919n c1sq2oqr cjt11so`} />

@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2025-10-28T06:52:40.291Z";
+      export const lastPublished = "2025-11-04T08:01:17.436Z";
 
       export const siteName = "Mocolamma";
 
@@ -654,26 +654,22 @@ className={`w-markdown-embed c1igc709 c1411o3y ctsxlvw cjdjvq6 c1wlos4g c1klrugo
 </div>
 <div
 className={`w-element ckkp5ls cv5n7tx c1hfgpcq c1dquu02 cr5s4bi cmntde2`}>
-<Slot>
-<Fragment_1>
 <Link
 data-umami-event-region={"jp"}
-data-umami-event={"mac-app-store"}
+data-umami-event={"app-store"}
 target={"_blank"}
-aria-label={"Mac App Storeからダウンロードボタン"}
+aria-label={"App Storeからダウンロードボタン"}
 href={"https://apps.apple.com/jp/app/mocolamma/id6753896649"}
 className={`w-element ck0qs61`}>
 <Image
-src={"/assets/Mac-App-Store-DL-Badge-jp_sovjL5oVMGTrMCqpTpKJ1.webp"}
-width={560}
+src={"/assets/App-Store-DL-Badge-jp_aq9FR7w_bDESsiL67oGVw.webp"}
+width={436}
 height={160}
-alt={"Mac App Storeからダウンロード"}
+alt={"App Storeからダウンロード"}
 loading={"eager"}
 fetchPriority={"high"}
 className={`w-image c1j4919n c1sq2oqr cjt11so`} />
 </Link>
-</Fragment_1>
-</Slot>
 <Slot>
 <Fragment_1>
 <Link
@@ -688,26 +684,6 @@ src={"/assets/GitHub_Badge-ja_2x_xyAUXQ8pM2UXM5A4ANyor.webp"}
 width={1040}
 height={320}
 alt={"GitHubから無料でダウンロード"}
-loading={"eager"}
-fetchPriority={"high"}
-className={`w-image c1j4919n c1sq2oqr cjt11so`} />
-</Link>
-</Fragment_1>
-</Slot>
-<Slot>
-<Fragment_1>
-<Link
-data-umami-event-region={"jp"}
-data-umami-event={"ios-app-store"}
-target={"_blank"}
-aria-label={"App Storeからダウンロードボタン"}
-href={"https://apps.apple.com/jp/app/mocolamma/id6753896649"}
-className={`w-element ck0qs61`}>
-<Image
-src={"/assets/App-Store-DL-Badge-jp_aq9FR7w_bDESsiL67oGVw.webp"}
-width={436}
-height={160}
-alt={"App Storeからダウンロード"}
 loading={"eager"}
 fetchPriority={"high"}
 className={`w-image c1j4919n c1sq2oqr cjt11so`} />
