@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2025-11-11T08:33:42.665Z";
+      export const lastPublished = "2025-11-11T11:34:20.157Z";
 
       export const siteName = "Mocolamma";
 
@@ -977,7 +977,6 @@ className={`w-element c13rvnfs ckkp5ls cq2ae4j c1dquu02 cr5s4bi c1u6urjk c1wbj3x
 <div
 className={`w-element c13rvnfs ckkp5ls cq2ae4j cdhbme8 cd7qpso cv5n7tx clrwo5d cd6ip1x`}>
 <h3
-id={"manage-ollama-servers"}
 className={`w-element c1f9sbsw c11wsiwx c1su7aph c1ak9s8m`}>
 {"Your Feedback is Welcome!"}
 </h3>
@@ -1001,7 +1000,6 @@ className={`w-element c11wsiwx c1su7aph c1mmg8q2 c1jx90iq c13zugmy c1qk4yjc cjzt
 <div
 className={`w-element c13rvnfs ckkp5ls cq2ae4j cdhbme8 cd7qpso cv5n7tx clrwo5d cd6ip1x`}>
 <h3
-id={"manage-ollama-servers"}
 className={`w-element c1f9sbsw c11wsiwx c1su7aph c1ak9s8m`}>
 {"Your support encourages development!"}
 </h3>
@@ -1037,6 +1035,36 @@ className={`w-element ck0qs61 c1xduqzz`}>
 <p
 className={`w-element c11wsiwx c1su7aph c1mmg8q2 c1jx90iq c13zugmy c1qk4yjc cjzt2qt c1bu6qb6 c17wll4e cbtn7xi c1nox6s5 c1lz60sb c1ls5mky c1dnsadh ck4iode c1904aiq c1veqtfu c1c1lgar`}>
 {"PayPal.Me"}
+</p>
+</Link>
+</div>
+</div>
+<div
+className={`w-element c13rvnfs ckkp5ls cq2ae4j cdhbme8 cd7qpso cv5n7tx clrwo5d cd6ip1x`}>
+<h3
+className={`w-element c1f9sbsw c11wsiwx c1su7aph c1ak9s8m`}>
+{"Are you interested in other apps too?"}
+</h3>
+<p
+className={`w-element c11wsiwx c1su7aph c1y9f2xs c1ak9s8m`}>
+{"I'd be very happy if you could try out my other apps as well!"}
+{""}
+<br />
+{""}
+{"You can see my other apps here."}
+</p>
+<div
+className={`w-element ckkp5ls cv5n7tx c1hfgpcq c8c06s9`}>
+<Link
+href={"https://www.taikun.design/en/apps"}
+target={"_blank"}
+data-umami-event={"all-apps"}
+data-umami-event-region={"us"}
+aria-label={"See All Apps Button"}
+className={`w-element ck0qs61 c1xduqzz`}>
+<p
+className={`w-element c11wsiwx c1su7aph c1mmg8q2 c1jx90iq c13zugmy c1qk4yjc cjzt2qt c1bu6qb6 c17wll4e cbtn7xi c1nox6s5 c1lz60sb c1ls5mky c1dnsadh ck4iode c1904aiq c1veqtfu c1c1lgar`}>
+{"See All Apps"}
 </p>
 </Link>
 </div>
