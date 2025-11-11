@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2025-11-04T08:01:17.436Z";
+      export const lastPublished = "2025-11-11T08:33:42.665Z";
 
       export const siteName = "Mocolamma";
 
@@ -30,12 +30,13 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
       
 
       const Page = (_props: { system: any; }) => {
+const system = _props.system;
 return <Body
 className={`w-element ckkp5ls cq2ae4j c13zugmy`}>
 <Slot>
 <Fragment_1>
 <div
-className={`w-element c13rvnfs c9uad48 ckkp5ls cylgtyl cphp00e c1c7lq8j cryor9o c1uy3ygc c1nh9dbl clr3fp9 c14i19nj c5d22mu`}>
+className={`w-element c13rvnfs c9uad48 ckkp5ls cylgtyl cphp00e c1c7lq8j crnnxqm c115e144 c1nh9dbl clr3fp9 c14i19nj c5d22mu`}>
 <div
 className={`w-element c13rvnfs c13nk3y6 c1smcck4 ckkp5ls c7rh9ds c1dquu02`}>
 <Link
@@ -80,7 +81,7 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c1904aiq`}>
+className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c16ryuaq c1vtttf6 cjpdtnc c1904aiq`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
@@ -164,7 +165,7 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c1904aiq`}>
+className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c16ryuaq c1vtttf6 cjpdtnc c1904aiq`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
@@ -243,7 +244,7 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c1904aiq`}>
+className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c16ryuaq c1vtttf6 cjpdtnc c1904aiq`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
@@ -305,14 +306,16 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c1904aiq`}>
+className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c16ryuaq c1vtttf6 cjpdtnc c1904aiq`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
 className={`w-box c5qs43r ckkp5ls cd7qpso cv5n7tx cq2ae4j`}>
+<Slot>
+<Fragment_1>
 <NavigationMenuLink>
 <Link_1
-href={"/"}
+href={system?.pathname === '/jp' ? '/' : (system?.pathname?.startsWith?.('/jp') ? system?.pathname?.replace?.('/jp', '') : system?.pathname)}
 className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
@@ -322,7 +325,7 @@ className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 </NavigationMenuLink>
 <NavigationMenuLink>
 <Link_1
-href={"/jp"}
+href={system?.pathname === '/' ? '/jp' : (system?.pathname?.startsWith?.('/jp') ? system?.pathname : '/jp' + system?.pathname)}
 className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
@@ -330,6 +333,8 @@ className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 </Text>
 </Link_1>
 </NavigationMenuLink>
+</Fragment_1>
+</Slot>
 </Box>
 </Box>
 </NavigationMenuContent>
@@ -364,14 +369,16 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c1904aiq`}>
+className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c16ryuaq c1vtttf6 cjpdtnc c1904aiq`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
 className={`w-box c5qs43r ckkp5ls cd7qpso cv5n7tx cq2ae4j`}>
+<Slot>
+<Fragment_1>
 <NavigationMenuLink>
 <Link_1
-href={"/"}
+href={system?.pathname === '/jp' ? '/' : (system?.pathname?.startsWith?.('/jp') ? system?.pathname?.replace?.('/jp', '') : system?.pathname)}
 className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
@@ -381,7 +388,7 @@ className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 </NavigationMenuLink>
 <NavigationMenuLink>
 <Link_1
-href={"/jp"}
+href={system?.pathname === '/' ? '/jp' : (system?.pathname?.startsWith?.('/jp') ? system?.pathname : '/jp' + system?.pathname)}
 className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
@@ -389,6 +396,8 @@ className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 </Text>
 </Link_1>
 </NavigationMenuLink>
+</Fragment_1>
+</Slot>
 </Box>
 </Box>
 </NavigationMenuContent>
@@ -409,11 +418,11 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c1904aiq`}>
+className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c16ryuaq c1vtttf6 cjpdtnc c1904aiq`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
-className={`w-box c5qs43r ckkp5ls cd7qpso cv5n7tx cq2ae4j cgbxp3p c1vtttf6 cjpdtnc`}>
+className={`w-box c5qs43r ckkp5ls cd7qpso cv5n7tx cq2ae4j`}>
 <NavigationMenuLink>
 <Link_1
 href={"/docs"}
@@ -575,7 +584,7 @@ className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c
 <div
 className={`w-element c13rvnfs cq2ae4j c17eij6z ckkp5ls`}>
 <div
-className={`w-element c13rvnfs c14cyv8r ckkp5ls c1yr0oul cylgtyl c16zmz85 cn1s8se c1gpgblx c19iahv3 c13nk3y6 ci58aga c38gmmd c1s34l75`}>
+className={`w-element c13rvnfs c14cyv8r ckkp5ls c1yr0oul cylgtyl c16zmz85 cn1s8se c1skuy9j c1wbj3x9 c13nk3y6 c49br6x cj5ea4k c1s34l75`}>
 <div
 className={`w-element c13rvnfs cdhbme8 ckkp5ls cq2ae4j c6qj28r c1n75u37 c1muqwoi c1l5fgsc c24jrif c1lxhulz clr3fp9 c1yn9fna clrwo5d cd6ip1x c17hxu8w`}>
 <MarkdownEmbed
@@ -595,7 +604,7 @@ className={`w-markdown-embed c1jwyh4u c1411o3y c1igc709 c1y2x13x c1n8816a c1wu3i
 <Slot>
 <Fragment_1>
 <div
-className={`w-element c13rvnfs csvappk c13zugmy ckkp5ls cq2ae4j c1dquu02 cr5s4bi c1gpgblx c19iahv3 ci58aga c38gmmd cmiec8n`}>
+className={`w-element c13rvnfs csvappk c13zugmy ckkp5ls cq2ae4j c1dquu02 cr5s4bi c1skuy9j c1wbj3x9 c49br6x cj5ea4k cmiec8n`}>
 <div
 className={`w-element c13rvnfs c1smcck4 c13nk3y6 ckkp5ls c7rh9ds cd7qpso cv5n7tx c14ai22i clrwo5d cd6ip1x`}>
 <div
@@ -618,7 +627,7 @@ className={`w-element c11wsiwx c1su7aph c1p4jwf c10ieuse c1oca0bm`}>
 </div>
 </div>
 <div
-className={`w-element ckkp5ls c8c06s9 cv5n7tx c1hfgpcq c11wsiwx c1su7aph`}>
+className={`w-element ckkp5ls c8c06s9 cv5n7tx c1hfgpcq c11wsiwx c1su7aph cxgn42i c10crllb cnpgrdb c326b8n`}>
 <Link
 href={"https://github.com/taikun114/Mocolamma/releases/latest"}
 target={"_blank"}

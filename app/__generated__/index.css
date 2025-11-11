@@ -204,7 +204,9 @@
   }
   :root {
     color-scheme: light dark;
-    font-family: "Public Sans", "Noto Sans JP", sans-serif
+    font-family: "Public Sans", "Noto Sans JP", sans-serif;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%
   }
   .c13rvnfs {
     width: 100%
@@ -218,11 +220,11 @@
   .c1c7lq8j {
     top: 0
   }
-  .cryor9o {
-    padding-left: 1rem
+  .crnnxqm {
+    padding-left: max(1rem,env(safe-area-inset-left))
   }
-  .c1uy3ygc {
-    padding-right: 1rem
+  .c115e144 {
+    padding-right: max(1rem,env(safe-area-inset-left))
   }
   .c1nh9dbl {
     background-color: light-dark(#ffffffe5, #222222e5)
@@ -276,11 +278,11 @@
   .c1f9sbsw {
     font-size: 24px
   }
-  .c1gpgblx {
-    padding-left: 2rem
+  .c1skuy9j {
+    padding-left: max(2rem,env(safe-area-inset-left))
   }
-  .c19iahv3 {
-    padding-right: 2rem
+  .c1wbj3x9 {
+    padding-right: max(2rem,env(safe-area-inset-left))
   }
   .c16zmz85 {
     padding-top: 9rem
@@ -342,23 +344,26 @@
   .cdhbme8 {
     max-width: 900px
   }
-  .c1mmg8q2 {
-    color: light-dark(#ffffff, #eeeeee)
+  .c6qj28r {
+    color: light-dark(#000000,#eeeeee)
   }
-  .c1yn9fna {
-    padding: 2rem
+  .c1u6urjk {
+    padding-top: 2rem
+  }
+  .cn1s8se {
+    padding-bottom: 2rem
   }
   .co6eidb {
     font-size: 32px
+  }
+  .c1mmg8q2 {
+    color: light-dark(#ffffff, #eeeeee)
   }
   .c881vmo {
     background-color: light-dark(#6e8895, #192023)
   }
   .c1y9f2xs {
     line-height: 1.5
-  }
-  .c6qj28r {
-    color: light-dark(#000000,#eeeeee)
   }
   .ck0qs61 {
     display: inline-block
@@ -417,6 +422,12 @@
   .c13dxz8k {
     background-color: rgba(237, 92, 210, 0.21)
   }
+  .c1miwggv {
+    flex-grow: 0
+  }
+  .c11qj7kj {
+    flex-shrink: 0
+  }
   .ch0ewdm {
     width: 48px
   }
@@ -462,6 +473,9 @@
   .c1nukkdo {
     justify-content: end
   }
+  .cxgn42i {
+    max-width: 500px
+  }
   .c1411o3y p {
     margin-top: 0
   }
@@ -491,12 +505,6 @@
   }
   .cjt11so {
     width: max-content
-  }
-  .c1u6urjk {
-    padding-top: 2rem
-  }
-  .cn1s8se {
-    padding-bottom: 2rem
   }
   .c10ieuse {
     color: light-dark(#ffffff,#eeeeee)
@@ -536,6 +544,9 @@
   }
   .c1n75u37 {
     background-color: light-dark(#ffffff,#222222)
+  }
+  .c1yn9fna {
+    padding: 2rem
   }
   .c1jwyh4u p {
     line-height: 1.7
@@ -789,9 +800,6 @@
   .c1vimmxz {
     width: 1rem
   }
-  .c11qj7kj {
-    flex-shrink: 0
-  }
   .c1c866wh {
     transition-property: all
   }
@@ -807,33 +815,17 @@
   .cx8aii2 {
     positon: absolute
   }
+  .c16ryuaq {
+    max-height: 80dvh
+  }
+  .c1vtttf6 {
+    overflow-x: auto
+  }
+  .cjpdtnc {
+    overflow-y: auto
+  }
   .c5qs43r {
     width: 16rem
-  }
-  .c1q6bjhq {
-    color: inherit
-  }
-  .c131tdkd {
-    -webkit-user-select: none;
-    user-select: none
-  }
-  .c1uvptrl {
-    line-height: 1
-  }
-  .c1a9ahhd {
-    outline: medium none currentcolor
-  }
-  .c115dhgv {
-    padding: 0.75rem
-  }
-  .cxbpe5s:hover {
-    color: rgba(15, 23, 42, 1)
-  }
-  .cm7whtn:focus {
-    background-color: light-dark(#00000012,#ffffff12)
-  }
-  .c1074fmx:focus {
-    color: rgba(15, 23, 42, 1)
   }
   .caoe2sh {
     background-color: rgba(110, 136, 149, 1)
@@ -880,17 +872,33 @@
   .cie331s:hover {
     background-color: rgba(52, 63, 69, 1)
   }
-  .cgbxp3p {
-    max-height: 70vh
+  .c1q6bjhq {
+    color: inherit
   }
-  .c1vtttf6 {
-    overflow-x: auto
+  .c131tdkd {
+    -webkit-user-select: none;
+    user-select: none
   }
-  .cjpdtnc {
-    overflow-y: auto
+  .c1uvptrl {
+    line-height: 1
   }
   .cz81b4x {
     background-color: unset
+  }
+  .c1a9ahhd {
+    outline: medium none currentcolor
+  }
+  .c115dhgv {
+    padding: 0.75rem
+  }
+  .cxbpe5s:hover {
+    color: rgba(15, 23, 42, 1)
+  }
+  .cm7whtn:focus {
+    background-color: light-dark(#00000012,#ffffff12)
+  }
+  .c1074fmx:focus {
+    color: rgba(15, 23, 42, 1)
   }
   .cpa35a2 {
     overflow-x: hidden
@@ -1025,11 +1033,23 @@
   .chpbxxb {
     display: none
   }
+  .cluiwcc {
+    max-width: 70vw
+  }
+  .cnpgrdb {
+    overflow-x: clip
+  }
+  .c326b8n {
+    overflow-y: clip
+  }
   .c1wizdql {
     min-width: auto
   }
   .c178clut {
     width: auto
+  }
+  .c10crllb {
+    max-width: 100%
   }
   .chid49v {
     position: static
@@ -1045,11 +1065,11 @@
   .c9lo5xm {
     display: none
   }
-  .c38gmmd {
-    padding-right: 1rem
+  .cj5ea4k {
+    padding-right: max(1rem,env(safe-area-inset-left))
   }
-  .ci58aga {
-    padding-left: 1rem
+  .c49br6x {
+    padding-left: max(1rem,env(safe-area-inset-left))
   }
   .cd6ip1x {
     max-width: calc(100vw - 2rem)
