@@ -1,10 +1,10 @@
 {
   "build": {
-    "id": "658de8b1-7281-4ea6-be52-75b48c66e622",
+    "id": "71672c94-c374-4bb4-b5d4-3a09d5354819",
     "projectId": "d3340149-462c-49a8-8b6a-95401a1f067e",
-    "version": 3317,
-    "createdAt": "2025-11-11T11:34:20.157+00:00",
-    "updatedAt": "2025-11-11T11:34:20.157+00:00",
+    "version": 3341,
+    "createdAt": "2025-11-18T04:01:25.179+00:00",
+    "updatedAt": "2025-11-18T04:01:25.179+00:00",
     "pages": {
       "meta": {
         "siteName": "Mocolamma",
@@ -83517,7 +83517,7 @@
           "instanceId": "Hk2xKBIm90GI0cuWjJ9UU",
           "name": "code",
           "type": "string",
-          "value": "## Version 1.0.2\nRelease: November 4, 2025\n\n### Update Details\n#### Bug Fixes and Improvements\n- **Fix issue where the icon size for the about this app screen was incorrect on macOS Sequoia or earlier**\n- **Fix issue where the model list did not display correctly when models with the same digest as the `latest` tag existed simultaneously**\n- **Fix issue that text conversion couldn't be confirmed while typing in languages requiring text conversion within the message edit field on the chat screen**\n- **Improve chat screen to automatically scroll after sending a message**\n- **Improve the size of the chat send button on iOS / iPadOS versions**\n\n\n## Version 1.0.1\nRelease: October 28, 2025\n\nThis version is the first version released on the App Store.\n\n### Update Details\n#### Bug Fixes and Improvements\n- **Fix issue where opening the inspector at small window sizes caused layout issues or crashes**\n- **Fix issue that text conversion couldn't be confirmed while typing in languages requiring it within the chat screen's message input field**\n- **Fix issue that picker could become empty in the chat screen's model picker when the last selected model couldn't be found after switching servers**\n- **Improve to perform a network check when launching the app**\n  - When you open the app for the first time, a message requesting local network permission will now show automatically.\n\n\n## Version 1.0.0\nRelease: October 12, 2025\n\n### Update Details\n- Initial release"
+          "value": "## Version 1.0.3\nRelease: November 18, 2025\n\n### Update Details\n#### New Features\n- **Add French localization by generative AI**\n  - Since I have no knowledge of French, the translations may contain strange translations. If you notice any translations that need correction, I would appreciate it if you could send feedback on what to change and how!\n\n#### Bug Fixes and Improvements\n- **Fix “Click” to “Click or tap”**\n- **Fix issue where network requests could fail when launching the app**\n\n\n## Version 1.0.2\nRelease: November 4, 2025\n\n### Update Details\n#### Bug Fixes and Improvements\n- **Fix issue where the icon size for the about this app screen was incorrect on macOS Sequoia or earlier**\n- **Fix issue where the model list did not display correctly when models with the same digest as the `latest` tag existed simultaneously**\n- **Fix issue that text conversion couldn't be confirmed while typing in languages requiring text conversion within the message edit field on the chat screen**\n- **Improve chat screen to automatically scroll after sending a message**\n- **Improve the size of the chat send button on iOS / iPadOS versions**\n\n\n## Version 1.0.1\nRelease: October 28, 2025\n\nThis version is the first version released on the App Store.\n\n### Update Details\n#### Bug Fixes and Improvements\n- **Fix issue where opening the inspector at small window sizes caused layout issues or crashes**\n- **Fix issue that text conversion couldn't be confirmed while typing in languages requiring it within the chat screen's message input field**\n- **Fix issue that picker could become empty in the chat screen's model picker when the last selected model couldn't be found after switching servers**\n- **Improve to perform a network check when launching the app**\n  - When you open the app for the first time, a message requesting local network permission will now show automatically.\n\n\n## Version 1.0.0\nRelease: October 12, 2025\n\n### Update Details\n- Initial release"
         }
       ],
       [
@@ -88147,7 +88147,7 @@
           "instanceId": "tTPZahl--y2c66yBVq47I",
           "name": "code",
           "type": "string",
-          "value": "## バージョン 1.0.2\nリリース: 2025年11月4日\n\n### アップデート内容\n#### バグ修正と改善\n- **macOS Sequoiaまたはそれ以前で、このアプリについて画面のアイコンサイズが正しくなかった問題を修正**\n- **`latest`タグと同じダイジェストのモデルが同時に存在した場合にモデルリストが正しく表示されない問題を修正**\n- **チャット画面のメッセージ編集欄でテキスト変換が必要な言語で入力中、テキストの変換が確定できない問題を修正**\n- **チャット画面でメッセージを送信したときに自動でスクロールするように改善**\n- **iOS / iPadOS版のチャット送信ボタンの大きさを改善**\n\n\n## バージョン 1.0.1\nリリース: 2025年10月28日\n\nこのバージョンはApp Storeでリリースされた最初のバージョンです。\n\n### アップデート内容\n#### バグ修正と改善\n- **小さいウィンドウサイズでインスペクタを開くとレイアウトが崩れたりクラッシュしたりしてしまう問題を修正**\n- **チャット画面のメッセージ入力欄でテキスト変換が必要な言語で入力中、テキストの変換が確定できない問題を修正**\n- **チャット画面のモデルピッカーで、サーバーを切り替えた後に最後に選択されていたモデルが見つからなかった場合にピッカーが空になってしまうことがあった問題を修正**\n- **アプリ起動時にネットワークチェックを行うように改善**\n  - アプリを初めて開いたときに、自動的にローカルネットワーク許可のメッセージが表示されるようになりました。\n\n\n## バージョン 1.0.0\nリリース: 2025年10月12日\n\n### アップデート内容\n- 初期リリース"
+          "value": "## バージョン 1.0.3\nリリース: 2025年11月18日\n\n### アップデート内容\n#### 新機能\n- **生成AIによるフランス語のローカライズを追加**\n  - 私はフランス語の知識が全くないため、おかしな翻訳が含まれている可能性があります。修正すべき翻訳に気がついた方は、どこをどのように変更すべきかフィードバックをお送りいただけると助かります！\n\n#### バグ修正と改善\n- **「クリック」を「クリックまたはタップ」に修正**\n- **アプリ起動時にネットワークリクエストが失敗することがあった問題を修正**\n\n\n## バージョン 1.0.2\nリリース: 2025年11月4日\n\n### アップデート内容\n#### バグ修正と改善\n- **macOS Sequoiaまたはそれ以前で、このアプリについて画面のアイコンサイズが正しくなかった問題を修正**\n- **`latest`タグと同じダイジェストのモデルが同時に存在した場合にモデルリストが正しく表示されない問題を修正**\n- **チャット画面のメッセージ編集欄でテキスト変換が必要な言語で入力中、テキストの変換が確定できない問題を修正**\n- **チャット画面でメッセージを送信したときに自動でスクロールするように改善**\n- **iOS / iPadOS版のチャット送信ボタンの大きさを改善**\n\n\n## バージョン 1.0.1\nリリース: 2025年10月28日\n\nこのバージョンはApp Storeでリリースされた最初のバージョンです。\n\n### アップデート内容\n#### バグ修正と改善\n- **小さいウィンドウサイズでインスペクタを開くとレイアウトが崩れたりクラッシュしたりしてしまう問題を修正**\n- **チャット画面のメッセージ入力欄でテキスト変換が必要な言語で入力中、テキストの変換が確定できない問題を修正**\n- **チャット画面のモデルピッカーで、サーバーを切り替えた後に最後に選択されていたモデルが見つからなかった場合にピッカーが空になってしまうことがあった問題を修正**\n- **アプリ起動時にネットワークチェックを行うように改善**\n  - アプリを初めて開いたときに、自動的にローカルネットワーク許可のメッセージが表示されるようになりました。\n\n\n## バージョン 1.0.0\nリリース: 2025年10月12日\n\n### アップデート内容\n- 初期リリース"
         }
       ],
       [
