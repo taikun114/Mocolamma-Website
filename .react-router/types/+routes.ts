@@ -38,6 +38,9 @@ type Pages = {
   "/docs/model-tab": {
     params: {};
   };
+  "/jp/docs/news": {
+    params: {};
+  };
   "/docs/chat-tab": {
     params: {};
   };
@@ -51,6 +54,9 @@ type Pages = {
     params: {};
   };
   "/jp/support": {
+    params: {};
+  };
+  "/docs/news": {
     params: {};
   };
   "/sitemap.xml": {
@@ -91,7 +97,7 @@ type Pages = {
 type RouteFiles = {
   "root.tsx": {
     id: "root";
-    page: "/" | "/jp/docs/server-tab" | "/jp/docs/model-tab" | "/jp/docs/chat-tab" | "/jp/docs/settings" | "/jp/privacy-policy" | "/jp/release-notes" | "/docs/server-tab" | "/docs/model-tab" | "/docs/chat-tab" | "/docs/settings" | "/privacy-policy" | "/release-notes" | "/jp/support" | "/sitemap.xml" | "/jp/docs" | "/support" | "/docs" | "/robots.txt" | "/jp" | "/_image/*" | "/jp/*" | "/*";
+    page: "/" | "/jp/docs/server-tab" | "/jp/docs/model-tab" | "/jp/docs/chat-tab" | "/jp/docs/settings" | "/jp/privacy-policy" | "/jp/release-notes" | "/docs/server-tab" | "/docs/model-tab" | "/jp/docs/news" | "/docs/chat-tab" | "/docs/settings" | "/privacy-policy" | "/release-notes" | "/jp/support" | "/docs/news" | "/sitemap.xml" | "/jp/docs" | "/support" | "/docs" | "/robots.txt" | "/jp" | "/_image/*" | "/jp/*" | "/*";
   };
   "routes/[jp].[docs].[server-tab]._index.tsx": {
     id: "routes/[jp].[docs].[server-tab]._index";
@@ -125,6 +131,10 @@ type RouteFiles = {
     id: "routes/[docs].[model-tab]._index";
     page: "/docs/model-tab";
   };
+  "routes/[jp].[docs].[news]._index.tsx": {
+    id: "routes/[jp].[docs].[news]._index";
+    page: "/jp/docs/news";
+  };
   "routes/[docs].[chat-tab]._index.tsx": {
     id: "routes/[docs].[chat-tab]._index";
     page: "/docs/chat-tab";
@@ -144,6 +154,10 @@ type RouteFiles = {
   "routes/[jp].[support]._index.tsx": {
     id: "routes/[jp].[support]._index";
     page: "/jp/support";
+  };
+  "routes/[docs].[news]._index.tsx": {
+    id: "routes/[docs].[news]._index";
+    page: "/docs/news";
   };
   "routes/[sitemap.xml]._index.tsx": {
     id: "routes/[sitemap.xml]._index";
@@ -197,11 +211,13 @@ type RouteModules = {
   "routes/[jp].[release-notes]._index": typeof import("./app/routes/[jp].[release-notes]._index.tsx");
   "routes/[docs].[server-tab]._index": typeof import("./app/routes/[docs].[server-tab]._index.tsx");
   "routes/[docs].[model-tab]._index": typeof import("./app/routes/[docs].[model-tab]._index.tsx");
+  "routes/[jp].[docs].[news]._index": typeof import("./app/routes/[jp].[docs].[news]._index.tsx");
   "routes/[docs].[chat-tab]._index": typeof import("./app/routes/[docs].[chat-tab]._index.tsx");
   "routes/[docs].[settings]._index": typeof import("./app/routes/[docs].[settings]._index.tsx");
   "routes/[privacy-policy]._index": typeof import("./app/routes/[privacy-policy]._index.tsx");
   "routes/[release-notes]._index": typeof import("./app/routes/[release-notes]._index.tsx");
   "routes/[jp].[support]._index": typeof import("./app/routes/[jp].[support]._index.tsx");
+  "routes/[docs].[news]._index": typeof import("./app/routes/[docs].[news]._index.tsx");
   "routes/[sitemap.xml]._index": typeof import("./app/routes/[sitemap.xml]._index.tsx");
   "routes/[jp].[docs]._index": typeof import("./app/routes/[jp].[docs]._index.tsx");
   "routes/[support]._index": typeof import("./app/routes/[support]._index.tsx");

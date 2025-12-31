@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Taiga Imaura
+BEGIN:VEVENT
+DTSTART:20260114
+DTEND:20260116
+SUMMARY:Mocolamma バースデー無料配布期間
+DESCRIPTION:この期間中、App StoreでMocolammaを無料でダウンロードすることができます。\n\nダウンロードリンク:\nhttps://apps.apple.com/app/mocolamma/id6753896649
+END:VEVENT
+END:VCALENDAR

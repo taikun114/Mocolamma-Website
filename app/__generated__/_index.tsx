@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2025-12-04T08:26:33.191Z";
+      export const lastPublished = "2025-12-31T12:20:02.858Z";
 
       export const siteName = "Mocolamma";
 
@@ -57,7 +57,7 @@ className={`w-element c13zugmy ckkp5ls c1dquu02 cr5s4bi cq2ae4j`}>
 <Slot>
 <Fragment_1>
 <div
-className={`w-element c13rvnfs c9uad48 ckkp5ls cylgtyl cphp00e c1c7lq8j crnnxqm c115e144 c1nh9dbl clr3fp9 c14i19nj c5d22mu`}>
+className={`w-element c13rvnfs c9uad48 ckkp5ls cylgtyl cphp00e c1c7lq8j crnnxqm c115e144 c1nh9dbl c1rtwn8k c14i19nj c5d22mu`}>
 <div
 className={`w-element c13rvnfs c13nk3y6 c1smcck4 ckkp5ls c7rh9ds c1dquu02`}>
 <Link
@@ -110,13 +110,13 @@ className={`w-box c5qs43r ckkp5ls cd7qpso cv5n7tx cq2ae4j`}>
 <NavigationMenuLink>
 <Link_1
 href={"/docs"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"Documents"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"How to use the app and other documentation"}
 </Paragraph>
 </Link_1>
@@ -124,13 +124,13 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4
 <NavigationMenuLink>
 <Link_1
 href={"/release-notes"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"Release Notes"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"Update history and changelog"}
 </Paragraph>
 </Link_1>
@@ -138,13 +138,13 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4
 <NavigationMenuLink>
 <Link_1
 href={"/support"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"Support and Feedback"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"Bug reports, contacts, etc."}
 </Paragraph>
 </Link_1>
@@ -152,13 +152,13 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4
 <NavigationMenuLink>
 <Link_1
 href={"/privacy-policy"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"Privacy Policy"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"About handling of personal information in the app"}
 </Paragraph>
 </Link_1>
@@ -197,13 +197,13 @@ href={"https://github.com/taikun114/Mocolamma"}
 target={"_blank"}
 data-umami-event={"gh-repo"}
 data-umami-event-region={"us"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"Give It a Star to the Repository"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"I would be so glad if you could open repository page and give it a star by clicking the “Star” button in the upper right corner!"}
 </Paragraph>
 </Link_1>
@@ -214,13 +214,13 @@ href={"https://www.buymeacoffee.com/i_am_taikun"}
 target={"_blank"}
 data-umami-event={"buymeacoffee"}
 data-umami-event-region={"us"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"Buy Me a Coffee"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"You can support me at Buy Me a Coffee from the price of a cup of green tea"}
 </Paragraph>
 </Link_1>
@@ -231,13 +231,13 @@ href={"https://paypal.me/taikun114"}
 target={"_blank"}
 data-umami-event={"paypal"}
 data-umami-event-region={"us"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"PayPal.Me"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"If you have a PayPal account, you can also donate directly at PayPal."}
 </Paragraph>
 </Link_1>
@@ -276,13 +276,13 @@ href={"https://apps.apple.com/us/app/mocolamma/id6753896649"}
 target={"_blank"}
 data-umami-event={"app-store"}
 data-umami-event-region={"us"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"from App Store"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"Support a developer by purchasing an app"}
 </Paragraph>
 </Link_1>
@@ -293,13 +293,13 @@ href={"https://github.com/taikun114/Mocolamma/releases/latest"}
 target={"_blank"}
 data-umami-event={"gh-release"}
 data-umami-event-region={"us"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"from GitHub"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"Download the app for free"}
 </Paragraph>
 </Link_1>
@@ -337,7 +337,7 @@ className={`w-box c5qs43r ckkp5ls cd7qpso cv5n7tx cq2ae4j`}>
 <NavigationMenuLink>
 <Link_1
 href={system?.pathname === '/jp' ? '/' : (system?.pathname?.startsWith?.('/jp') ? system?.pathname?.replace?.('/jp', '') : system?.pathname)}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"English"}
@@ -347,7 +347,7 @@ className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 <NavigationMenuLink>
 <Link_1
 href={system?.pathname === '/' ? '/jp' : (system?.pathname?.startsWith?.('/jp') ? system?.pathname : '/jp' + system?.pathname)}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"Japanese (日本語)"}
@@ -364,7 +364,7 @@ className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 <Box
 className={`w-box cd8u6er c1e3iuac ckkp5ls cylgtyl cqz0si8`}>
 <NavigationMenuViewport
-className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c1lxhulz c24jrif c14zy6an cj1o619 c1k73zrk c15x7lbj c14fnxmh coxjap7 clrfht8 c1jmx3ta c1qu72nz c11xaz58 c1bilfmk`} />
+className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c1lxhulz c24jrif ccrliu8 cj1o619 c1k73zrk cu8z8f4 c14fnxmh coxjap7 clrfht8 c1jmx3ta c1qu72nz c11xaz58 c1bilfmk`} />
 </Box>
 </NavigationMenu>
 <NavigationMenu
@@ -400,7 +400,7 @@ className={`w-box c5qs43r ckkp5ls cd7qpso cv5n7tx cq2ae4j`}>
 <NavigationMenuLink>
 <Link_1
 href={system?.pathname === '/jp' ? '/' : (system?.pathname?.startsWith?.('/jp') ? system?.pathname?.replace?.('/jp', '') : system?.pathname)}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"English"}
@@ -410,7 +410,7 @@ className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 <NavigationMenuLink>
 <Link_1
 href={system?.pathname === '/' ? '/jp' : (system?.pathname?.startsWith?.('/jp') ? system?.pathname : '/jp' + system?.pathname)}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"Japanese (日本語)"}
@@ -429,7 +429,7 @@ className={`w-menu-item`}>
 <NavigationMenuTrigger>
 <Button
 aria-label={"ナビゲーションメニュー"}
-className={`w-button cgxqre5 c1dquu02 cylgtyl caoe2sh ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1gu5tx2 c83qgap c126skso c1xtxrvq c1g8pixr cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c18g3fo0 c92lprk c5z1ajc cfx2y77 cn9obc7 c1xz4syt c43qx5x c1yw8mba cj4ljrw c1n6lqyh cclnddk clkirae c1mk5zu6 c1wgnin9 c1butb2t czw6kfp c8epfsu cop6iru cie331s`}>
+className={`w-button cgxqre5 c1dquu02 cylgtyl cfiygbw ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1gu5tx2 c83qgap c126skso c1xtxrvq c1g8pixr cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c18g3fo0 c92lprk c5z1ajc cfx2y77 cn9obc7 c1xz4syt c43qx5x c1yw8mba cj4ljrw c1n6lqyh c1sqgw9v clkirae c1mk5zu6 c1wgnin9 c1butb2t czw6kfp c8epfsu cop6iru ck9amq3`}>
 <Box
 className={`w-box c13ddjkk c1vimmxz c11qj7kj`}>
 <HtmlEmbed
@@ -447,13 +447,13 @@ className={`w-box c5qs43r ckkp5ls cd7qpso cv5n7tx cq2ae4j`}>
 <NavigationMenuLink>
 <Link_1
 href={"/docs"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"Documents"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"How to use the app and other documentation"}
 </Paragraph>
 </Link_1>
@@ -461,13 +461,13 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4
 <NavigationMenuLink>
 <Link_1
 href={"/release-notes"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"Release Notes"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"Update history and changelog"}
 </Paragraph>
 </Link_1>
@@ -475,13 +475,13 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4
 <NavigationMenuLink>
 <Link_1
 href={"/support"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"Support and Feedback"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"Bug reports, contacts, etc."}
 </Paragraph>
 </Link_1>
@@ -489,13 +489,13 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4
 <NavigationMenuLink>
 <Link_1
 href={"/privacy-policy"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"Privacy Policy"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"About handling of personal information in the app"}
 </Paragraph>
 </Link_1>
@@ -506,13 +506,13 @@ href={"https://apps.apple.com/us/app/mocolamma/id6753896649"}
 target={"_blank"}
 data-umami-event={"app-store"}
 data-umami-event-region={"us"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"Download from App Store"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"Support a developer by purchasing an app"}
 </Paragraph>
 </Link_1>
@@ -523,13 +523,13 @@ href={"https://github.com/taikun114/Mocolamma/releases/latest"}
 target={"_blank"}
 data-umami-event={"gh-release"}
 data-umami-event-region={"us"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"Download from GitHub"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"Download the app for free"}
 </Paragraph>
 </Link_1>
@@ -540,13 +540,13 @@ href={"https://github.com/taikun114/Mocolamma"}
 target={"_blank"}
 data-umami-event={"gh-repo"}
 data-umami-event-region={"us"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"Give It a Star to the Repository"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"I would be so glad if you could open repository page and give it a star by clicking the “Star” button in the upper right corner!"}
 <br />
 {""}
@@ -559,13 +559,13 @@ href={"https://www.buymeacoffee.com/i_am_taikun"}
 target={"_blank"}
 data-umami-event={"buymeacoffee"}
 data-umami-event-region={"us"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"Buy Me a Coffee"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"You can support me at Buy Me a Coffee from the price of a cup of green tea"}
 </Paragraph>
 </Link_1>
@@ -576,13 +576,13 @@ href={"https://paypal.me/taikun114"}
 target={"_blank"}
 data-umami-event={"paypal"}
 data-umami-event-region={"us"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"PayPal.Me"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"If you have a PayPal account, you can also donate directly at PayPal."}
 </Paragraph>
 </Link_1>
@@ -595,7 +595,7 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4
 <Box
 className={`w-box cd8u6er c1e3iuac ckkp5ls cylgtyl c10oyth4 coqlu7i`}>
 <NavigationMenuViewport
-className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c1lxhulz c24jrif c14zy6an cj1o619 c1k73zrk c15x7lbj c14fnxmh coxjap7 clrfht8 c1jmx3ta c1qu72nz c11xaz58 c1bilfmk`} />
+className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c1lxhulz c24jrif ccrliu8 cj1o619 c1k73zrk cu8z8f4 c14fnxmh coxjap7 clrfht8 c1jmx3ta c1qu72nz c11xaz58 c1bilfmk`} />
 </Box>
 </NavigationMenu>
 </div>
@@ -604,8 +604,19 @@ className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c
 </Slot>
 <div
 className={`w-element c13rvnfs ckkp5ls c1dquu02 cr5s4bi c1skuy9j c1wbj3x9 c16zmz85 c1boxhnt cq2ae4j c7b7hdu c51dlfk c1bwd5u3 ctnidj3 cj5ea4k c49br6x`}>
+<Link
+href={"/docs/news"}
+className={`w-element ck0qs61 cd8u6er cicgpci c13rvnfs c1xduqzz`}>
 <div
-className={`w-element c13rvnfs c1smcck4 ckkp5ls cq2ae4j c818ac9 c1fhacno c1dquu02 cr5s4bi clrwo5d cd6ip1x`}>
+className={`w-element c19j6a9g c13rvnfs ckkp5ls cylgtyl chpycba c1jx90iq cpse9p0 c1c866wh c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1904aiq ctjc114`}>
+<p
+className={`w-element c11wsiwx c1su7aph`}>
+{"News: Announcement of a 2-Day Limited Birthday Free Giveaway Starting January 14"}
+</p>
+</div>
+</Link>
+<div
+className={`w-element c13rvnfs c1smcck4 ckkp5ls cq2ae4j c818ac9 c1fhacno c1dquu02 cr5s4bi cwbzevd clrwo5d c6auflx cd6ip1x`}>
 <div
 className={`w-element c13rvnfs ckkp5ls crgyp91`}>
 <div
@@ -771,11 +782,11 @@ className={`w-element ckkp5ls cd7qpso cv5n7tx c13rvnfs cct7nc0`}>
 href={"#manage-ollama-servers"}
 className={`w-element ck0qs61 c13rvnfs c1xduqzz c6qj28r`}>
 <div
-className={`w-element c13rvnfs cwmr794 c1muqwoi c1l5fgsc c24jrif c1lxhulz ckkp5ls cq2ae4j cd7qpso cv5n7tx clr3fp9 c18b1tda c1nox6s5 c1lz60sb c1ls5mky c1dnsadh c13nk3y6 c1904aiq c1qn477o c1o0p65i`}>
+className={`w-element c13rvnfs cwmr794 c1muqwoi c1l5fgsc c24jrif c1lxhulz ckkp5ls cq2ae4j cd7qpso cv5n7tx c1rtwn8k c18b1tda c1nox6s5 c1lz60sb c1ls5mky c1dnsadh c13nk3y6 c1904aiq cv6lq4t c1o0p65i`}>
 <div
 className={`w-element ckkp5ls c1dquu02 cr5s4bi cv5n7tx cd7qpso`}>
 <div
-className={`w-element cakywc7 c1gz6jks c19a84b6 csp7zn7 c1kn2zho c1ea8qr0 c13dxz8k ckkp5ls c1dquu02 cylgtyl c1miwggv c11qj7kj`}>
+className={`w-element cakywc7 c1gz6jks c19a84b6 csp7zn7 c1kn2zho c1ea8qr0 c1sp0bee ckkp5ls c1dquu02 cylgtyl c1miwggv c11qj7kj`}>
 <HtmlEmbed
 code={"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 640\"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill=\"#ff4eb8\" d=\"M160 96C124.7 96 96 124.7 96 160L96 224C96 259.3 124.7 288 160 288L480 288C515.3 288 544 259.3 544 224L544 160C544 124.7 515.3 96 480 96L160 96zM376 168C389.3 168 400 178.7 400 192C400 205.3 389.3 216 376 216C362.7 216 352 205.3 352 192C352 178.7 362.7 168 376 168zM432 192C432 178.7 442.7 168 456 168C469.3 168 480 178.7 480 192C480 205.3 469.3 216 456 216C442.7 216 432 205.3 432 192zM160 352C124.7 352 96 380.7 96 416L96 480C96 515.3 124.7 544 160 544L480 544C515.3 544 544 515.3 544 480L544 416C544 380.7 515.3 352 480 352L160 352zM376 424C389.3 424 400 434.7 400 448C400 461.3 389.3 472 376 472C362.7 472 352 461.3 352 448C352 434.7 362.7 424 376 424zM432 448C432 434.7 442.7 424 456 424C469.3 424 480 434.7 480 448C480 461.3 469.3 472 456 472C442.7 472 432 461.3 432 448z\"/></svg>"}
 className={`w-html-embed crk50b8 ch0ewdm c1sq2oqr`} />
@@ -795,11 +806,11 @@ className={`w-element c11wsiwx c1su7aph`}>
 href={"#manage-llm"}
 className={`w-element ck0qs61 c13rvnfs c1xduqzz c6qj28r`}>
 <div
-className={`w-element c13rvnfs cwmr794 c1muqwoi c1l5fgsc c24jrif c1lxhulz ckkp5ls cq2ae4j cd7qpso cv5n7tx clr3fp9 c18b1tda c1nox6s5 c1lz60sb c1ls5mky c1dnsadh c13nk3y6 c1904aiq c1qn477o c1o0p65i`}>
+className={`w-element c13rvnfs cwmr794 c1muqwoi c1l5fgsc c24jrif c1lxhulz ckkp5ls cq2ae4j cd7qpso cv5n7tx c1rtwn8k c18b1tda c1nox6s5 c1lz60sb c1ls5mky c1dnsadh c13nk3y6 c1904aiq cv6lq4t c1o0p65i`}>
 <div
 className={`w-element ckkp5ls c1dquu02 cr5s4bi cv5n7tx cd7qpso`}>
 <div
-className={`w-element cakywc7 c1gz6jks c19a84b6 csp7zn7 c1kn2zho c1ea8qr0 c1q8sfr4 ckkp5ls c1dquu02 cylgtyl c1miwggv c11qj7kj`}>
+className={`w-element cakywc7 c1gz6jks c19a84b6 csp7zn7 c1kn2zho c1ea8qr0 ce5vb00 ckkp5ls c1dquu02 cylgtyl c1miwggv c11qj7kj`}>
 <HtmlEmbed
 code={"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 640\"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill=\"#1ecf79\" d=\"M352 96C352 78.3 337.7 64 320 64C302.3 64 288 78.3 288 96L288 306.7L246.6 265.3C234.1 252.8 213.8 252.8 201.3 265.3C188.8 277.8 188.8 298.1 201.3 310.6L297.3 406.6C309.8 419.1 330.1 419.1 342.6 406.6L438.6 310.6C451.1 298.1 451.1 277.8 438.6 265.3C426.1 252.8 405.8 252.8 393.3 265.3L352 306.7L352 96zM160 384C124.7 384 96 412.7 96 448L96 480C96 515.3 124.7 544 160 544L480 544C515.3 544 544 515.3 544 480L544 448C544 412.7 515.3 384 480 384L433.1 384L376.5 440.6C345.3 471.8 294.6 471.8 263.4 440.6L206.9 384L160 384zM464 440C477.3 440 488 450.7 488 464C488 477.3 477.3 488 464 488C450.7 488 440 477.3 440 464C440 450.7 450.7 440 464 440z\"/></svg>"}
 className={`w-html-embed crk50b8 ch0ewdm c1sq2oqr`} />
@@ -819,11 +830,11 @@ className={`w-element c11wsiwx c1su7aph`}>
 href={"#simple-chat-feature"}
 className={`w-element ck0qs61 c13rvnfs c1xduqzz c1ak9s8m`}>
 <div
-className={`w-element c13rvnfs cwmr794 c1muqwoi c1l5fgsc c24jrif c1lxhulz ckkp5ls cq2ae4j cd7qpso cv5n7tx clr3fp9 c18b1tda c1nox6s5 c1lz60sb c1ls5mky c1dnsadh c13nk3y6 c1904aiq c1qn477o c1o0p65i`}>
+className={`w-element c13rvnfs cwmr794 c1muqwoi c1l5fgsc c24jrif c1lxhulz ckkp5ls cq2ae4j cd7qpso cv5n7tx c1rtwn8k c18b1tda c1nox6s5 c1lz60sb c1ls5mky c1dnsadh c13nk3y6 c1904aiq cv6lq4t c1o0p65i`}>
 <div
 className={`w-element ckkp5ls c1dquu02 cr5s4bi cv5n7tx cd7qpso`}>
 <div
-className={`w-element cakywc7 c1gz6jks c19a84b6 csp7zn7 c1kn2zho c1ea8qr0 c1367y7t ckkp5ls c1dquu02 cylgtyl c1miwggv c11qj7kj`}>
+className={`w-element cakywc7 c1gz6jks c19a84b6 csp7zn7 c1kn2zho c1ea8qr0 c1ck5zkl ckkp5ls c1dquu02 cylgtyl c1miwggv c11qj7kj`}>
 <HtmlEmbed
 code={"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 640\"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill=\"#4aa7ff\" d=\"M576 304C576 436.5 461.4 544 320 544C282.9 544 247.7 536.6 215.9 523.3L97.5 574.1C88.1 578.1 77.3 575.8 70.4 568.3C63.5 560.8 62 549.8 66.8 540.8L115.6 448.6C83.2 408.3 64 358.3 64 304C64 171.5 178.6 64 320 64C461.4 64 576 171.5 576 304z\"/></svg>"}
 className={`w-html-embed crk50b8 ch0ewdm c1sq2oqr`} />
@@ -872,7 +883,7 @@ className={`w-element c11wsiwx c1su7aph c1y9f2xs c6qj28r`}>
 <Link
 href={"https://ollama.com/"}
 target={"_blank"}
-className={`w-element c1941udn c1xduqzz`}>
+className={`w-element cdf39yw c1xduqzz`}>
 <b
 className={`w-element`}>
 {"Ollama"}
@@ -991,7 +1002,7 @@ href={"/support"}
 aria-label={"Support and Feedback button"}
 className={`w-element ck0qs61 c1xduqzz`}>
 <p
-className={`w-element c11wsiwx c1su7aph c1mmg8q2 c1jx90iq c13zugmy c1qk4yjc cjzt2qt c1bu6qb6 c17wll4e cbtn7xi c1nox6s5 c1lz60sb c1ls5mky c1dnsadh ck4iode c1904aiq c1veqtfu c1c1lgar`}>
+className={`w-element c11wsiwx c1su7aph c1mmg8q2 c1jx90iq c13zugmy c1qk4yjc cjzt2qt c1bu6qb6 c17wll4e cbtn7xi c1nox6s5 c1lz60sb c1ls5mky c1dnsadh ck4iode c1904aiq c1veqtfu c1el576z`}>
 {"Support and Feedback"}
 </p>
 </Link>
@@ -1021,7 +1032,7 @@ data-umami-event-region={"us"}
 aria-label={"Buy Me a Coffee button"}
 className={`w-element ck0qs61 c1xduqzz`}>
 <p
-className={`w-element c11wsiwx c1su7aph c1mmg8q2 c1jx90iq c13zugmy c1qk4yjc cjzt2qt c1bu6qb6 c17wll4e cbtn7xi c1nox6s5 c1lz60sb c1ls5mky c1dnsadh ck4iode c1904aiq c1veqtfu c1c1lgar`}>
+className={`w-element c11wsiwx c1su7aph c1mmg8q2 c1jx90iq c13zugmy c1qk4yjc cjzt2qt c1bu6qb6 c17wll4e cbtn7xi c1nox6s5 c1lz60sb c1ls5mky c1dnsadh ck4iode c1904aiq c1veqtfu c1el576z`}>
 {"Buy Me a Coffee"}
 </p>
 </Link>
@@ -1033,7 +1044,7 @@ data-umami-event-region={"us"}
 aria-label={"PayPal.Me button"}
 className={`w-element ck0qs61 c1xduqzz`}>
 <p
-className={`w-element c11wsiwx c1su7aph c1mmg8q2 c1jx90iq c13zugmy c1qk4yjc cjzt2qt c1bu6qb6 c17wll4e cbtn7xi c1nox6s5 c1lz60sb c1ls5mky c1dnsadh ck4iode c1904aiq c1veqtfu c1c1lgar`}>
+className={`w-element c11wsiwx c1su7aph c1mmg8q2 c1jx90iq c13zugmy c1qk4yjc cjzt2qt c1bu6qb6 c17wll4e cbtn7xi c1nox6s5 c1lz60sb c1ls5mky c1dnsadh ck4iode c1904aiq c1veqtfu c1el576z`}>
 {"PayPal.Me"}
 </p>
 </Link>
@@ -1063,7 +1074,7 @@ data-umami-event-region={"us"}
 aria-label={"See All Apps Button"}
 className={`w-element ck0qs61 c1xduqzz`}>
 <p
-className={`w-element c11wsiwx c1su7aph c1mmg8q2 c1jx90iq c13zugmy c1qk4yjc cjzt2qt c1bu6qb6 c17wll4e cbtn7xi c1nox6s5 c1lz60sb c1ls5mky c1dnsadh ck4iode c1904aiq c1veqtfu c1c1lgar`}>
+className={`w-element c11wsiwx c1su7aph c1mmg8q2 c1jx90iq c13zugmy c1qk4yjc cjzt2qt c1bu6qb6 c17wll4e cbtn7xi c1nox6s5 c1lz60sb c1ls5mky c1dnsadh ck4iode c1904aiq c1veqtfu c1el576z`}>
 {"See All Apps"}
 </p>
 </Link>

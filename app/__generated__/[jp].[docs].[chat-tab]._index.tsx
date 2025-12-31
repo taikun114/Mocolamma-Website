@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2025-12-04T08:26:33.191Z";
+      export const lastPublished = "2025-12-31T12:20:02.858Z";
 
       export const siteName = "Mocolamma";
 
@@ -36,7 +36,7 @@ className={`w-element ckkp5ls cylgtyl c1dquu02 c13zugmy cq2ae4j`}>
 <Slot>
 <Fragment_1>
 <div
-className={`w-element c13rvnfs c9uad48 ckkp5ls cylgtyl cphp00e c1c7lq8j crnnxqm c115e144 c1nh9dbl clr3fp9 c14i19nj c5d22mu`}>
+className={`w-element c13rvnfs c9uad48 ckkp5ls cylgtyl cphp00e c1c7lq8j crnnxqm c115e144 c1nh9dbl c1rtwn8k c14i19nj c5d22mu`}>
 <div
 className={`w-element c13rvnfs c13nk3y6 c1smcck4 ckkp5ls c7rh9ds c1dquu02`}>
 <Link
@@ -89,13 +89,13 @@ className={`w-box c5qs43r ckkp5ls cd7qpso cv5n7tx cq2ae4j`}>
 <NavigationMenuLink>
 <Link_1
 href={"/jp/docs"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"ドキュメント"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"アプリの使い方などのドキュメント"}
 </Paragraph>
 </Link_1>
@@ -103,13 +103,13 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4
 <NavigationMenuLink>
 <Link_1
 href={"/jp/release-notes"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"リリースノート"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"アップデート履歴と変更ログ"}
 </Paragraph>
 </Link_1>
@@ -117,13 +117,13 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4
 <NavigationMenuLink>
 <Link_1
 href={"/jp/support"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"サポートとフィードバック"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"バグ報告やお問い合わせなど"}
 </Paragraph>
 </Link_1>
@@ -131,13 +131,13 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4
 <NavigationMenuLink>
 <Link_1
 href={"/jp/privacy-policy"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"プライバシーポリシー"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"アプリ内での個人情報の取り扱いについて"}
 </Paragraph>
 </Link_1>
@@ -176,13 +176,13 @@ href={"https://github.com/taikun114/Mocolamma"}
 target={"_blank"}
 data-umami-event={"gh-repo"}
 data-umami-event-region={"jp"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"リポジトリにスターをつける"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"リポジトリのページを開き、右上の「Star」ボタンをクリックしてスターをつけてくださるととてもうれしいです！"}
 </Paragraph>
 </Link_1>
@@ -193,13 +193,13 @@ href={"https://www.buymeacoffee.com/i_am_taikun"}
 target={"_blank"}
 data-umami-event={"buymeacoffee"}
 data-umami-event-region={"jp"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"Buy Me a Coffee"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"Buy Me a Coffeeで緑茶一杯分の金額からサポートしていただけます。"}
 </Paragraph>
 </Link_1>
@@ -210,13 +210,13 @@ href={"https://paypal.me/taikun114"}
 target={"_blank"}
 data-umami-event={"paypal"}
 data-umami-event-region={"jp"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"PayPal.Me"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"PayPalアカウントをお持ちの方は、PayPalで直接寄付していただくこともできます。"}
 </Paragraph>
 </Link_1>
@@ -255,13 +255,13 @@ href={"https://apps.apple.com/jp/app/mocolamma/id6753896649"}
 target={"_blank"}
 data-umami-event={"app-store"}
 data-umami-event-region={"jp"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"App Storeから"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"アプリを購入して開発者をサポート"}
 </Paragraph>
 </Link_1>
@@ -272,13 +272,13 @@ href={"https://github.com/taikun114/Mocolamma/releases/latest"}
 target={"_blank"}
 data-umami-event={"gh-release"}
 data-umami-event-region={"jp"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"GitHubから"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"アプリを無料でダウンロード"}
 </Paragraph>
 </Link_1>
@@ -316,7 +316,7 @@ className={`w-box c5qs43r ckkp5ls cd7qpso cv5n7tx cq2ae4j`}>
 <NavigationMenuLink>
 <Link_1
 href={system?.pathname === '/jp' ? '/' : (system?.pathname?.startsWith?.('/jp') ? system?.pathname?.replace?.('/jp', '') : system?.pathname)}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"English"}
@@ -326,7 +326,7 @@ className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 <NavigationMenuLink>
 <Link_1
 href={system?.pathname === '/' ? '/jp' : (system?.pathname?.startsWith?.('/jp') ? system?.pathname : '/jp' + system?.pathname)}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"Japanese (日本語)"}
@@ -343,7 +343,7 @@ className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 <Box
 className={`w-box cd8u6er c1e3iuac ckkp5ls cylgtyl cqz0si8`}>
 <NavigationMenuViewport
-className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c1lxhulz c24jrif c14zy6an cj1o619 c1k73zrk c15x7lbj c14fnxmh coxjap7 clrfht8 c1jmx3ta c1qu72nz c11xaz58 c1bilfmk`} />
+className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c1lxhulz c24jrif ccrliu8 cj1o619 c1k73zrk cu8z8f4 c14fnxmh coxjap7 clrfht8 c1jmx3ta c1qu72nz c11xaz58 c1bilfmk`} />
 </Box>
 </NavigationMenu>
 <NavigationMenu
@@ -379,7 +379,7 @@ className={`w-box c5qs43r ckkp5ls cd7qpso cv5n7tx cq2ae4j`}>
 <NavigationMenuLink>
 <Link_1
 href={system?.pathname === '/jp' ? '/' : (system?.pathname?.startsWith?.('/jp') ? system?.pathname?.replace?.('/jp', '') : system?.pathname)}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"English"}
@@ -389,7 +389,7 @@ className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 <NavigationMenuLink>
 <Link_1
 href={system?.pathname === '/' ? '/jp' : (system?.pathname?.startsWith?.('/jp') ? system?.pathname : '/jp' + system?.pathname)}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"Japanese (日本語)"}
@@ -408,7 +408,7 @@ className={`w-menu-item`}>
 <NavigationMenuTrigger>
 <Button
 aria-label={"ナビゲーションメニュー"}
-className={`w-button cgxqre5 c1dquu02 cylgtyl caoe2sh ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1gu5tx2 c83qgap c126skso c1xtxrvq c1g8pixr cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c18g3fo0 c92lprk c5z1ajc cfx2y77 cn9obc7 c1xz4syt c43qx5x c1yw8mba cj4ljrw c1n6lqyh cclnddk clkirae c1mk5zu6 c1wgnin9 c1butb2t czw6kfp c8epfsu cop6iru cie331s`}>
+className={`w-button cgxqre5 c1dquu02 cylgtyl cfiygbw ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1gu5tx2 c83qgap c126skso c1xtxrvq c1g8pixr cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c18g3fo0 c92lprk c5z1ajc cfx2y77 cn9obc7 c1xz4syt c43qx5x c1yw8mba cj4ljrw c1n6lqyh c1sqgw9v clkirae c1mk5zu6 c1wgnin9 c1butb2t czw6kfp c8epfsu cop6iru ck9amq3`}>
 <Box
 className={`w-box c13ddjkk c1vimmxz c11qj7kj`}>
 <HtmlEmbed
@@ -426,13 +426,13 @@ className={`w-box c5qs43r ckkp5ls cd7qpso cv5n7tx cq2ae4j`}>
 <NavigationMenuLink>
 <Link_1
 href={"/jp/docs"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"ドキュメント"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"アプリの使い方などのドキュメント"}
 </Paragraph>
 </Link_1>
@@ -440,13 +440,13 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4
 <NavigationMenuLink>
 <Link_1
 href={"/jp/release-notes"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"リリースノート"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"アップデート履歴と変更ログ"}
 </Paragraph>
 </Link_1>
@@ -454,13 +454,13 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4
 <NavigationMenuLink>
 <Link_1
 href={"/jp/support"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"サポートとフィードバック"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"バグ報告やお問い合わせなど"}
 </Paragraph>
 </Link_1>
@@ -468,13 +468,13 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4
 <NavigationMenuLink>
 <Link_1
 href={"/jp/privacy-policy"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"プライバシーポリシー"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"アプリ内での個人情報の取り扱いについて"}
 </Paragraph>
 </Link_1>
@@ -485,13 +485,13 @@ href={"https://apps.apple.com/jp/app/mocolamma/id6753896649"}
 target={"_blank"}
 data-umami-event={"app-store"}
 data-umami-event-region={"jp"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"App Storeから"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"アプリを購入して開発者をサポート"}
 </Paragraph>
 </Link_1>
@@ -502,13 +502,13 @@ href={"https://github.com/taikun114/Mocolamma/releases/latest"}
 target={"_blank"}
 data-umami-event={"gh-release"}
 data-umami-event-region={"jp"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"GitHubから"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"アプリを無料でダウンロード"}
 </Paragraph>
 </Link_1>
@@ -519,13 +519,13 @@ href={"https://github.com/taikun114/Mocolamma"}
 target={"_blank"}
 data-umami-event={"gh-repo"}
 data-umami-event-region={"jp"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz cz81b4x c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"リポジトリにスターをつける"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"リポジトリのページを開き、右上の「Star」ボタンをクリックしてスターをつけてくださるととてもうれしいです！"}
 </Paragraph>
 </Link_1>
@@ -536,13 +536,13 @@ href={"https://www.buymeacoffee.com/i_am_taikun"}
 target={"_blank"}
 data-umami-event={"buymeacoffee"}
 data-umami-event-region={"jp"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c83qgap c126skso c1g8pixr c1xtxrvq c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"Buy Me a Coffee"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"Buy Me a Coffeeで緑茶一杯分の金額からサポートしていただけます。"}
 </Paragraph>
 </Link_1>
@@ -553,13 +553,13 @@ href={"https://paypal.me/taikun114"}
 target={"_blank"}
 data-umami-event={"paypal"}
 data-umami-event-region={"jp"}
-className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 cxbpe5s cm7whtn c1074fmx`}>
+className={`w-link c1q6bjhq ckkp5ls cq2ae4j c131tdkd c15r92d6 c17c8u63 c1uvptrl c1xduqzz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c83qgap c126skso c1xtxrvq c1g8pixr c1a9ahhd c115dhgv c1xeyc00 czr122e cm7whtn cg9l3d6`}>
 <Text
 className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 {"PayPal.Me"}
 </Text>
 <Paragraph
-className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4ud`}>
+className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4ud`}>
 {"PayPalアカウントをお持ちの方は、PayPalで直接寄付していただくこともできます。"}
 </Paragraph>
 </Link_1>
@@ -572,7 +572,7 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj cao5ber c18ku4
 <Box
 className={`w-box cd8u6er c1e3iuac ckkp5ls cylgtyl c10oyth4 coqlu7i`}>
 <NavigationMenuViewport
-className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c1lxhulz c24jrif c14zy6an cj1o619 c1k73zrk c15x7lbj c14fnxmh coxjap7 clrfht8 c1jmx3ta c1qu72nz c11xaz58 c1bilfmk`} />
+className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c1lxhulz c24jrif ccrliu8 cj1o619 c1k73zrk cu8z8f4 c14fnxmh coxjap7 clrfht8 c1jmx3ta c1qu72nz c11xaz58 c1bilfmk`} />
 </Box>
 </NavigationMenu>
 </div>
@@ -584,10 +584,10 @@ className={`w-element c13rvnfs cq2ae4j c17eij6z ckkp5ls`}>
 <div
 className={`w-element c13rvnfs c14cyv8r ckkp5ls c1yr0oul cylgtyl c16zmz85 cn1s8se c1skuy9j c1wbj3x9 c13nk3y6 c49br6x cj5ea4k c1s34l75`}>
 <div
-className={`w-element c13rvnfs cdhbme8 ckkp5ls cq2ae4j c6qj28r c1n75u37 c1muqwoi c1l5fgsc c24jrif c1lxhulz clr3fp9 c1yn9fna clrwo5d cd6ip1x c17hxu8w`}>
+className={`w-element c13rvnfs cdhbme8 ckkp5ls cq2ae4j c6qj28r c1n75u37 c1muqwoi c1l5fgsc c24jrif c1lxhulz c1rtwn8k c1yn9fna clrwo5d cd6ip1x c17hxu8w`}>
 <MarkdownEmbed
 code={"[ドキュメントホーム](/jp/docs) / **チャットタブ**"}
-className={`w-markdown-embed c1jwyh4u c1411o3y cyu9atc c1y2x13x c1n8816a c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1m4wc7d csbw7ja ci7c9m9 cq6rd9c cwnj7qc clqnjme c1etwcna cbnpkwc czamide c1k0m0bu c16dg7p2 c1vyosmc c1wbup66 cpqebfv c1kjcvme c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+className={`w-markdown-embed c1jwyh4u c1411o3y cyu9atc c1y2x13x c1n8816a c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 cq6rd9c cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cpqebfv c1kjcvme c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 <h1
 className={`w-element c11wsiwx c1su7aph`}>
@@ -595,7 +595,7 @@ className={`w-element c11wsiwx c1su7aph`}>
 </h1>
 <MarkdownEmbed
 code={"## チャットを行う\n![チャットタブ](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Chat-Tab-ja-1.webp?raw=true)\n\nチャットタブを開くと、このような画面が表示されます。チャットを行うには、まずはチャットに使用したいモデルを選択する必要があります。\n\n![モデルを選択](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Chat-Tab-ja-2.webp?raw=true)\n\nモデルを選択するには、右上のモデル切り替えボタンをクリックまたはタップすると、選択状態になっているOllamaサーバー上にあるモデルが一覧で表示されるので、使用したいモデルを選択します（サーバーの選択状態を切り替えるには、[**サーバータブのドキュメント**](/jp/docs/server-tab)をご覧ください）。\n\n![メッセージを入力](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Chat-Tab-ja-3.webp?raw=true)\n\nモデルが選択されるとメッセージが入力できるようになりますので、AIモデルに送信したいテキストを入力し、送信ボタンをクリックまたはタップします。\\\nmacOSでメッセージを改行したい場合は、`⇧ (Shift)` + `↩︎ (Return)`キーを同時に押します。\n\n![モデルの読み込み](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Chat-Tab-ja-4.webp?raw=true)\n\nメッセージを送信すると、Ollamaサーバー上にチャット要求が送信され、必要に応じてモデルの読み込み作業が始まります。\\\nモデルの種類や、Ollamaサーバー上のモデルが保存されているストレージの種類によっては読み込みに時間がかかる場合があります。\n\n> **豆知識**\\\n> デフォルトでAPIタイムアウトは30秒に設定されているため、モデルの読み込みに時間がかかる場合はタイムアウトエラーが発生する場合があります。\\\n> モデルの読み込みに時間がかかることがわかっている場合は、設定からAPIタイムアウトまでの時間を長くするか、無制限に設定することをおすすめします。\\\n> APIタイムアウトまでの時間を設定する方法については、[**設定のドキュメント**](/jp/docs/settings)をご覧ください。\n\n\n![メッセージの操作](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Chat-Tab-ja-5.webp?raw=true)\n\nしばらくすると、AIから回答が返ってきます。\\\n応答が最後まで終了すると、メッセージに対して操作を行うことができます。可能な操作は以下の通りです。\n- **自分のメッセージ**\n  - **コピー**\n    - メッセージをMarkdown形式のテキストとしてコピーすることができます。\n  - **編集**\n    - 送信したメッセージを編集して送信し直すことができます。最後に送信したメッセージのみ編集可能です。\n- **AIからのメッセージ**\n  - **前のリビジョンに切り替える**\n    - やり直す前のリビジョンに切り替えることができます。リビジョンが2つ以上ある場合に表示されます。\n  - **次のリビジョンに切り替える**\n    - 前のリビジョンから次のリビジョンに切り替えることができます。リビジョンが2つ以上ある場合に表示されます。\n  - **やり直す**\n    - AIからの回答をやり直すことができます。最後のメッセージのみやり直し可能です。\n  - **コピー**\n    - メッセージをMarkdown形式のテキストとしてコピーすることができます。\n\n> **情報**\\\n> パフォーマンスの低下を防ぐため、AIからの回答が返ってきている間（ストリームレスポンス中）のMarkdownテキストは1行ずつ処理されます。\\\n> そのため、表示が崩れているように見えることがありますが、すぐに正しい表示に変わるはずです。\n\n## 新規チャットを始める\nチャットの履歴を消去して新規チャットを始めるには、右上にある新規チャットボタンをクリックするか、`⌥ (Option)` + `⌘ (Command)` + `N`キーを同時に押します。\n\n## チャットの設定を変更する\n![チャットインスペクタ](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Chat-Tab-ja-6.webp?raw=true)\n\nインスペクタを開くことで、チャットの設定をカスタマイズすることができます。\\\nインスペクタを開くには、右上のサイドバー切り替えボタンをクリックまたはタップします。\n\nインスペクタからは、次の設定をカスタマイズすることができます。\n- **チャット設定**\n  - **ストリームレスポンス**\n    - AIからのメッセージを連続的に受信するかどうかを切り替えます。オフにする場合、最終回答が返ってくるまで応答が来なくなるため、APIタイムアウトを無制限にすることをおすすめします。APIタイムアウトまでの時間を設定する方法については、[**設定のドキュメント**](/jp/docs/settings)をご覧ください。\n  - **思考**\n    - 思考に対応したモデルを使う場合に、推論を行うかどうかを切り替えます。「モデルの機能」で「思考」に対応したモデルのみ設定可能です。モデルの機能を確認するには、[**モデルタブのドキュメント**](/jp/docs/model-tab)をご覧ください。\n  - **システムプロンプト**\n    - AIモデルに対してシステムプロンプトを設定することができます。\n- **カスタム設定**\n  - **カスタム設定を有効にする**\n    - 以下の設定を使うためにカスタム設定を有効化するかどうかを切り替えます。\n  - **温度**\n    - モデルの温度を指定します。`0.0`〜`2.0`の間で設定することができ、温度を下げるとより正確に、温度を上げるとより創造的になります（すべてのモデルがこの設定に従うとは限りませんし、設定によって正しく出力されなくなる場合もあります）。\n  - **コンテキストウィンドウ**\n    - モデルが一度に読み込めるトークン数を指定します。`512`〜モデルのコンテキスト長の間で設定することができます。モデルのコンテキスト長を確認するには、[**モデルタブのドキュメント**](/jp/docs/model-tab)をご覧ください。\n\nここで設定した内容は、次回送信したメッセージ以降に反映されます。\n"}
-className={`w-markdown-embed c1jwyh4u c1411o3y c1igc709 c1y2x13x c1n8816a c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1m4wc7d csbw7ja ci7c9m9 cq6rd9c cwnj7qc clqnjme c1etwcna cbnpkwc czamide c1k0m0bu c16dg7p2 c1vyosmc c1wbup66 cpqebfv c1kjcvme c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+className={`w-markdown-embed c1jwyh4u c1411o3y c1igc709 c1y2x13x c1n8816a c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 cq6rd9c cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cpqebfv c1kjcvme c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 </div>
 </div>
