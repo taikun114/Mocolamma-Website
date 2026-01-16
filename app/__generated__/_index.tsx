@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2025-12-31T12:20:02.858Z";
+      export const lastPublished = "2026-01-16T07:02:27.329Z";
 
       export const siteName = "Mocolamma";
 
@@ -604,19 +604,8 @@ className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c
 </Slot>
 <div
 className={`w-element c13rvnfs ckkp5ls c1dquu02 cr5s4bi c1skuy9j c1wbj3x9 c16zmz85 c1boxhnt cq2ae4j c7b7hdu c51dlfk c1bwd5u3 ctnidj3 cj5ea4k c49br6x`}>
-<Link
-href={"/docs/news"}
-className={`w-element ck0qs61 cd8u6er cicgpci c13rvnfs c1xduqzz`}>
 <div
-className={`w-element c19j6a9g c13rvnfs ckkp5ls cylgtyl chpycba c1jx90iq cpse9p0 c1c866wh c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c1904aiq ctjc114`}>
-<p
-className={`w-element c11wsiwx c1su7aph`}>
-{"News: Announcement of a 2-Day Limited Birthday Free Giveaway Starting January 14"}
-</p>
-</div>
-</Link>
-<div
-className={`w-element c13rvnfs c1smcck4 ckkp5ls cq2ae4j c818ac9 c1fhacno c1dquu02 cr5s4bi cwbzevd clrwo5d c6auflx cd6ip1x`}>
+className={`w-element c13rvnfs c1smcck4 ckkp5ls cq2ae4j c818ac9 c1fhacno c1dquu02 cr5s4bi clrwo5d cd6ip1x`}>
 <div
 className={`w-element c13rvnfs ckkp5ls crgyp91`}>
 <div

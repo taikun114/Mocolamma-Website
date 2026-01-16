@@ -1,10 +1,10 @@
 {
   "build": {
-    "id": "cb4da235-69a6-45b1-a2d8-ed7d512dc264",
+    "id": "247afec1-ada1-4bca-83b3-13f228887337",
     "projectId": "d3340149-462c-49a8-8b6a-95401a1f067e",
-    "version": 3648,
-    "createdAt": "2025-12-31T12:20:02.858+00:00",
-    "updatedAt": "2025-12-31T12:20:02.858+00:00",
+    "version": 3687,
+    "createdAt": "2026-01-16T07:02:27.329+00:00",
+    "updatedAt": "2026-01-16T07:02:27.329+00:00",
     "pages": {
       "meta": {
         "siteName": "Mocolamma",
@@ -67595,32 +67595,6 @@
         }
       ],
       [
-        "0Ohu7YG4HAXCH3qzghv74:Nr5VaLoI8PXeozyOBhddI:marginTop:",
-        {
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "styleSourceId": "0Ohu7YG4HAXCH3qzghv74",
-          "property": "marginTop",
-          "value": {
-            "type": "unit",
-            "unit": "rem",
-            "value": 3
-          }
-        }
-      ],
-      [
-        "0Ohu7YG4HAXCH3qzghv74:qqfLvB64QR6AqlhzbJLnj:marginTop:",
-        {
-          "breakpointId": "qqfLvB64QR6AqlhzbJLnj",
-          "styleSourceId": "0Ohu7YG4HAXCH3qzghv74",
-          "property": "marginTop",
-          "value": {
-            "type": "unit",
-            "unit": "rem",
-            "value": 6
-          }
-        }
-      ],
-      [
         "Uzuj5zWMt_gZW1wv26Ga8:Nr5VaLoI8PXeozyOBhddI:display:",
         {
           "styleSourceId": "Uzuj5zWMt_gZW1wv26Ga8",
@@ -67951,32 +67925,6 @@
           "value": {
             "type": "keyword",
             "value": "none"
-          }
-        }
-      ],
-      [
-        "-_f1fC9LzBar831OCnpZe:Nr5VaLoI8PXeozyOBhddI:marginTop:",
-        {
-          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
-          "styleSourceId": "-_f1fC9LzBar831OCnpZe",
-          "property": "marginTop",
-          "value": {
-            "type": "unit",
-            "unit": "rem",
-            "value": 3
-          }
-        }
-      ],
-      [
-        "-_f1fC9LzBar831OCnpZe:qqfLvB64QR6AqlhzbJLnj:marginTop:",
-        {
-          "breakpointId": "qqfLvB64QR6AqlhzbJLnj",
-          "styleSourceId": "-_f1fC9LzBar831OCnpZe",
-          "property": "marginTop",
-          "value": {
-            "type": "unit",
-            "unit": "rem",
-            "value": 6
           }
         }
       ],
@@ -69595,6 +69543,93 @@
             "type": "unit",
             "unit": "px",
             "value": 0
+          }
+        }
+      ],
+      [
+        "bb8Q3v7YMc2Zz24kGmo4n:Nr5VaLoI8PXeozyOBhddI:borderTopStyle:",
+        {
+          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
+          "styleSourceId": "bb8Q3v7YMc2Zz24kGmo4n",
+          "property": "borderTopStyle",
+          "value": {
+            "type": "keyword",
+            "value": "solid"
+          }
+        }
+      ],
+      [
+        "bb8Q3v7YMc2Zz24kGmo4n:Nr5VaLoI8PXeozyOBhddI:borderRightStyle:",
+        {
+          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
+          "styleSourceId": "bb8Q3v7YMc2Zz24kGmo4n",
+          "property": "borderRightStyle",
+          "value": {
+            "type": "keyword",
+            "value": "solid"
+          }
+        }
+      ],
+      [
+        "bb8Q3v7YMc2Zz24kGmo4n:Nr5VaLoI8PXeozyOBhddI:borderLeftStyle:",
+        {
+          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
+          "styleSourceId": "bb8Q3v7YMc2Zz24kGmo4n",
+          "property": "borderLeftStyle",
+          "value": {
+            "type": "keyword",
+            "value": "solid"
+          }
+        }
+      ],
+      [
+        "bb8Q3v7YMc2Zz24kGmo4n:Nr5VaLoI8PXeozyOBhddI:borderBottomStyle:",
+        {
+          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
+          "styleSourceId": "bb8Q3v7YMc2Zz24kGmo4n",
+          "property": "borderBottomStyle",
+          "value": {
+            "type": "keyword",
+            "value": "solid"
+          }
+        }
+      ],
+      [
+        "bb8Q3v7YMc2Zz24kGmo4n:Nr5VaLoI8PXeozyOBhddI:width:",
+        {
+          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
+          "styleSourceId": "bb8Q3v7YMc2Zz24kGmo4n",
+          "property": "width",
+          "value": {
+            "type": "unit",
+            "unit": "%",
+            "value": 100
+          }
+        }
+      ],
+      [
+        "bb8Q3v7YMc2Zz24kGmo4n:Nr5VaLoI8PXeozyOBhddI:marginTop:",
+        {
+          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
+          "styleSourceId": "bb8Q3v7YMc2Zz24kGmo4n",
+          "property": "marginTop",
+          "value": {
+            "type": "unit",
+            "unit": "rem",
+            "value": 1
+          }
+        }
+      ],
+      [
+        "bb8Q3v7YMc2Zz24kGmo4n:Nr5VaLoI8PXeozyOBhddI:marginBottom:",
+        {
+          "breakpointId": "Nr5VaLoI8PXeozyOBhddI",
+          "styleSourceId": "bb8Q3v7YMc2Zz24kGmo4n",
+          "property": "marginBottom",
+          "value": {
+            "type": "unit",
+            "unit": "rem",
+            "value": 1
           }
         }
       ]
@@ -97514,7 +97549,7 @@
           "instanceId": "_sWYmUUlUfZ2gZhVF1Zq6",
           "name": "code",
           "type": "string",
-          "value": "Happy New Year, everyone!\\\nJanuary 14, 2026, marks the **22nd birthday of myself, Taiga Imaura**, the developer of Mocolamma. To celebrate this occasion and to encourage more people to experience Mocolamma, I have decided to hold a **limited-time giveaway of Mocolamma on the App Store!**\n\nDuring the same period, I will also be running a **[parallel giveaway for Clip Hold](https://clip-hold.taikun.design/docs/news#birthday-giveaway-2026)**, the clipboard and standard phrases manager app I developed, so don't forget to check that out as well!\n\n### Giveaway Period\n\n- **Scheduled for 2 days: January 14, 2026, 0:00 local time to January 15, 2026, 23:59 local time.**\n\n\"Local time\" refers to the time in the region where you use the App Store.\n"
+          "value": "**2026/1/16 Update:**\\\nBirthday Giveaway has ended.\n\nMy goal for this two-day giveaway was to have over 100 people download the app. I'm incredibly happy to say that over 800 people downloaded it, exceeding my initial goal! Thank you to everyone who downloaded the app!\\\nI sincerely hope everyone who downloaded it enjoys my app!\n\n---\n\nHappy New Year, everyone!\\\nJanuary 14, 2026, marks the **22nd birthday of myself, Taiga Imaura**, the developer of Mocolamma. To celebrate this occasion and to encourage more people to experience Mocolamma, I have decided to hold a **limited-time giveaway of Mocolamma on the App Store!**\n\nDuring the same period, I will also be running a **[parallel giveaway for Clip Hold](https://clip-hold.taikun.design/docs/news#birthday-giveaway-2026)**, the clipboard and standard phrases manager app I developed, so don't forget to check that out as well!\n\n### Giveaway Period\n\n- **Scheduled for 2 days: January 14, 2026, 0:00 local time to January 15, 2026, 23:59 local time.**\n\n\"Local time\" refers to the time in the region where you use the App Store.\n"
         }
       ],
       [
@@ -97944,7 +97979,7 @@
           "instanceId": "0VZGKEOvqhSLae4biH2h0",
           "name": "code",
           "type": "string",
-          "value": "皆様、あけましておめでとうございます！\\\n2026年1月14日はMocolammaの開発者である私、**今浦大雅の22歳を迎える誕生日**となります。この機会に、より多くの皆様にMocolammaを使っていただきたいと思い、**期間限定でApp StoreでのMocolamma無料配布を実施することにしました！**\n\nまた、同じ期間に、私が開発したクリップボードと定型文マネージャーアプリ[**「Clip Hold」の無料配布も並行して行います**](https://clip-hold.taikun.design/jp/docs/news#birthday-giveaway-2026)ので、こちらもご確認をお忘れなく！\n\n### 無料配布の実施期間\n\n- **2026年1月14日 現地時間0:00 〜 2026年1月15日 現地時間23:59 までの2日間**を予定\n\n「現地時間」とは、App Storeをご利用の地域ごとの時間となります。\n"
+          "value": "**2026/1/16 更新:**\\\nバースデー無料配布は終了しました。\n\n私としては、この2日間の無料配布期間で100人以上にダウンロードしてもらうことを目標としていましたが、大変うれしいことに、当初の目標を上回る800人以上の方々にダウンロードしていただきました！多くの方々にアプリをダウンロードしていただき、ありがとうございました！\\\nダウンロードしていただいた皆様に、私のアプリを気に入っていただけることを心より願っています！\n\n---\n\n皆様、あけましておめでとうございます！\\\n2026年1月14日はMocolammaの開発者である私、**今浦大雅の22歳を迎える誕生日**となります。この機会に、より多くの皆様にMocolammaを使っていただきたいと思い、**期間限定でApp StoreでのMocolamma無料配布を実施することにしました！**\n\nまた、同じ期間に、私が開発したクリップボードと定型文マネージャーアプリ[**「Clip Hold」の無料配布も並行して行います**](https://clip-hold.taikun.design/jp/docs/news#birthday-giveaway-2026)ので、こちらもご確認をお忘れなく！\n\n### 無料配布の実施期間\n\n- **2026年1月14日 現地時間0:00 〜 2026年1月15日 現地時間23:59 までの2日間**を予定\n\n「現地時間」とは、App Storeをご利用の地域ごとの時間となります。\n"
         }
       ],
       [
@@ -98685,6 +98720,26 @@
           "name": "target",
           "type": "string",
           "value": "_blank"
+        }
+      ],
+      [
+        "dCjIZPGFb7bl-WnAnhDXw",
+        {
+          "id": "dCjIZPGFb7bl-WnAnhDXw",
+          "instanceId": "h4Mq8tF1UGzB3PnFnuHCU",
+          "name": "data-ws-show",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      [
+        "FjM0TnAk0k3mPy_mMHdkk",
+        {
+          "id": "FjM0TnAk0k3mPy_mMHdkk",
+          "instanceId": "aF3lRRhlponUCxsG4ARI9",
+          "name": "data-ws-show",
+          "type": "boolean",
+          "value": false
         }
       ]
     ],
@@ -120943,7 +120998,7 @@
           "children": [
             {
               "type": "text",
-              "value": "January 1, 2026: Birthday Free Giveaway Announcement"
+              "value": "January 1, 2026: [Ended] Birthday Free Giveaway Announcement"
             }
           ]
         }
@@ -121676,7 +121731,7 @@
           "children": [
             {
               "type": "text",
-              "value": "2026/1/1: バースデー無料配布実施のお知らせ"
+              "value": "2026/1/1: 【終了】バースデー無料配布実施のお知らせ"
             }
           ]
         }

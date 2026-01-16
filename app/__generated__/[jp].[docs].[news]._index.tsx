@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2025-12-31T12:20:02.858Z";
+      export const lastPublished = "2026-01-16T07:02:27.329Z";
 
       export const siteName = "Mocolamma";
 
@@ -596,11 +596,11 @@ className={`w-element c11wsiwx c1su7aph`}>
 <h2
 id={"birthday-giveaway-2026"}
 className={`w-element c1rb5kua`}>
-{"2026/1/1: バースデー無料配布実施のお知らせ"}
+{"2026/1/1: 【終了】バースデー無料配布実施のお知らせ"}
 </h2>
 <MarkdownEmbed
-code={"皆様、あけましておめでとうございます！\\\n2026年1月14日はMocolammaの開発者である私、**今浦大雅の22歳を迎える誕生日**となります。この機会に、より多くの皆様にMocolammaを使っていただきたいと思い、**期間限定でApp StoreでのMocolamma無料配布を実施することにしました！**\n\nまた、同じ期間に、私が開発したクリップボードと定型文マネージャーアプリ[**「Clip Hold」の無料配布も並行して行います**](https://clip-hold.taikun.design/jp/docs/news#birthday-giveaway-2026)ので、こちらもご確認をお忘れなく！\n\n### 無料配布の実施期間\n\n- **2026年1月14日 現地時間0:00 〜 2026年1月15日 現地時間23:59 までの2日間**を予定\n\n「現地時間」とは、App Storeをご利用の地域ごとの時間となります。\n"}
-className={`w-markdown-embed ckr5l9b cfin9nv cnkmlxi c3ovf9w c15l2emi c1va7xwf c1opb4fk c1vc4f3l cfa8mih csbw7ja ci7c9m9 c7tc9mb c19es3fj c16d23tx c1arbw53 ct5tj6h c7b70zd c11w8fvb c1hti67v c1x9znti c16weql9 cfwn7fg c1n2ry01 c1t326u7 c1c00ac2 c7retf cbje6ix c14a81n5 cgwrgp8 c1r61068 c1rnewgl cwidp34 cpk6oyn ckdvx6o c19syrx6 cmtmwnf c10dnu08 chk0yvr c95g2ry cp1i2eu cwncg5a cq14hpt c1mg93cg csx1r28 c1l1134w c1wkwybg c1wuf2nj cp7us2p cn81q4p cda9odk cj9yoos cv3wdk0 c1b47sd8 c1jhqd1n c191arxj ch3bbdq c1lxnfl c11fw1l1 cj8tzf8 c1eo3xfg c1hbjly9 c1dc2ne8 cv02efc cw2fjqo cs8hh6g c14g4g c1k3kmme c11387ew ci8atmf cyyb5ge c8jhskq c9ho2tu c2zie8l caldph7 cqlnnnq c1av35pp`}>
+code={"**2026/1/16 更新:**\\\nバースデー無料配布は終了しました。\n\n私としては、この2日間の無料配布期間で100人以上にダウンロードしてもらうことを目標としていましたが、大変うれしいことに、当初の目標を上回る800人以上の方々にダウンロードしていただきました！多くの方々にアプリをダウンロードしていただき、ありがとうございました！\\\nダウンロードしていただいた皆様に、私のアプリを気に入っていただけることを心より願っています！\n\n---\n\n皆様、あけましておめでとうございます！\\\n2026年1月14日はMocolammaの開発者である私、**今浦大雅の22歳を迎える誕生日**となります。この機会に、より多くの皆様にMocolammaを使っていただきたいと思い、**期間限定でApp StoreでのMocolamma無料配布を実施することにしました！**\n\nまた、同じ期間に、私が開発したクリップボードと定型文マネージャーアプリ[**「Clip Hold」の無料配布も並行して行います**](https://clip-hold.taikun.design/jp/docs/news#birthday-giveaway-2026)ので、こちらもご確認をお忘れなく！\n\n### 無料配布の実施期間\n\n- **2026年1月14日 現地時間0:00 〜 2026年1月15日 現地時間23:59 までの2日間**を予定\n\n「現地時間」とは、App Storeをご利用の地域ごとの時間となります。\n"}
+className={`w-markdown-embed ckr5l9b cfin9nv cnkmlxi c3ovf9w c15l2emi c1va7xwf c1opb4fk c1vc4f3l cfa8mih csbw7ja ci7c9m9 c7tc9mb c19es3fj c16d23tx c1arbw53 ct5tj6h c7b70zd c11w8fvb c1hti67v c1x9znti c16weql9 cfwn7fg c1n2ry01 c1t326u7 c1c00ac2 c7retf cbje6ix c14a81n5 cgwrgp8 c1r61068 c1rnewgl cwidp34 cpk6oyn ckdvx6o c19syrx6 c1pm9tau c1kz40te c19m5h3j c1nu8pcz c12b2x8j c1uvc7ok c2ruc5x cmtmwnf c10dnu08 chk0yvr c95g2ry cp1i2eu cwncg5a cq14hpt c1mg93cg csx1r28 c1l1134w c1wkwybg c1wuf2nj cp7us2p cn81q4p cda9odk cj9yoos cv3wdk0 c1b47sd8 c1jhqd1n c191arxj ch3bbdq c1lxnfl c11fw1l1 cj8tzf8 c1eo3xfg c1hbjly9 c1dc2ne8 cv02efc cw2fjqo cs8hh6g c14g4g c1k3kmme c11387ew ci8atmf cyyb5ge c8jhskq c9ho2tu c2zie8l caldph7 cqlnnnq c1av35pp`}>
 </MarkdownEmbed>
 <div
 className={`w-element ckkp5ls cv5n7tx cd7qpso c12e0v0g c1eswi8f`}>
@@ -620,7 +620,7 @@ className={`w-element c11wsiwx c1su7aph c1mmg8q2 c1jx90iq c13zugmy c1qk4yjc cjzt
 </div>
 <MarkdownEmbed
 code={"以前よりMac版はGitHubでは無料配布をしておりましたが、より多くの方々に、より簡単にダウンロードしていただけるように、全プラットフォームでApp Store版を無料配布します。\\\n上記期間に一度でもApp Storeでダウンロードしていただくとお使いのApple Accountに購入履歴が残るため、無料配布期間終了後もいつでも再ダウンロードできるようになります。**すぐにご利用いただく予定がない場合でも、この期間に一度ダウンロードしておくことをおすすめします！**\n\n### フィードバックやレビューなどをお待ちしております！\n\n**Mocolammaを使っていただいた感想や、「こうして欲しい」「こんな機能が欲しい」などのフィードバックをぜひお送りいただけるととてもうれしいです！**\\\nフィードバックの送信方法については「[**サポートとフィードバック**](/jp/support)」ページをご確認ください。\n\nまた、**App Storeでレビューを残していただけるととてもうれしいです！**\\\n他にも、XなどのSNSで「**#Mocolamma**」をつけて、Mocolammaを使ってみた感想を気軽にシェアしていただけるととてもありがたいです！\n\nたくさんの皆様にMocolammaを使っていただけるのがとても楽しみです！\\\n2026年もMocolammaをよろしくお願いします。"}
-className={`w-markdown-embed ckr5l9b cfin9nv cnkmlxi c3ovf9w c15l2emi c1va7xwf c1opb4fk c1vc4f3l cfa8mih csbw7ja ci7c9m9 c7tc9mb c19es3fj c16d23tx c1arbw53 ct5tj6h c7b70zd c11w8fvb c1hti67v c1x9znti c16weql9 cfwn7fg c1n2ry01 c1t326u7 c1c00ac2 c7retf cbje6ix c14a81n5 cgwrgp8 c1r61068 c1rnewgl cwidp34 cpk6oyn ckdvx6o c19syrx6 cmtmwnf c10dnu08 chk0yvr c95g2ry cp1i2eu cwncg5a cq14hpt c1mg93cg csx1r28 c1l1134w c1wkwybg c1wuf2nj cp7us2p cn81q4p cda9odk cj9yoos cv3wdk0 c1b47sd8 c1jhqd1n c191arxj ch3bbdq c1lxnfl c11fw1l1 cj8tzf8 c1eo3xfg c1hbjly9 c1dc2ne8 cv02efc cw2fjqo cs8hh6g c14g4g c1k3kmme c11387ew ci8atmf cyyb5ge c8jhskq c9ho2tu c2zie8l caldph7 cqlnnnq c1av35pp`}>
+className={`w-markdown-embed ckr5l9b cfin9nv cnkmlxi c3ovf9w c15l2emi c1va7xwf c1opb4fk c1vc4f3l cfa8mih csbw7ja ci7c9m9 c7tc9mb c19es3fj c16d23tx c1arbw53 ct5tj6h c7b70zd c11w8fvb c1hti67v c1x9znti c16weql9 cfwn7fg c1n2ry01 c1t326u7 c1c00ac2 c7retf cbje6ix c14a81n5 cgwrgp8 c1r61068 c1rnewgl cwidp34 cpk6oyn ckdvx6o c19syrx6 c1pm9tau c1kz40te c19m5h3j c1nu8pcz c12b2x8j c1uvc7ok c2ruc5x cmtmwnf c10dnu08 chk0yvr c95g2ry cp1i2eu cwncg5a cq14hpt c1mg93cg csx1r28 c1l1134w c1wkwybg c1wuf2nj cp7us2p cn81q4p cda9odk cj9yoos cv3wdk0 c1b47sd8 c1jhqd1n c191arxj ch3bbdq c1lxnfl c11fw1l1 cj8tzf8 c1eo3xfg c1hbjly9 c1dc2ne8 cv02efc cw2fjqo cs8hh6g c14g4g c1k3kmme c11387ew ci8atmf cyyb5ge c8jhskq c9ho2tu c2zie8l caldph7 cqlnnnq c1av35pp`}>
 </MarkdownEmbed>
 </div>
 </div>
