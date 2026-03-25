@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2026-01-16T07:02:27.329Z";
+      export const lastPublished = "2026-03-25T10:47:36.047Z";
 
       export const siteName = "Mocolamma";
 
@@ -31,6 +31,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       const Page = (_props: { system: any; }) => {
 const system = _props.system;
+let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/dev/docs/images")
 return <Body
 className={`w-element ckkp5ls cq2ae4j c13zugmy`}>
 <Slot>
@@ -589,15 +590,69 @@ className={`w-element c13rvnfs c14cyv8r ckkp5ls c1yr0oul cylgtyl c16zmz85 cn1s8s
 className={`w-element c13rvnfs cdhbme8 ckkp5ls cq2ae4j c6qj28r c1n75u37 c1muqwoi c1l5fgsc c24jrif c1lxhulz c1rtwn8k c1yn9fna clrwo5d cd6ip1x c17hxu8w`}>
 <MarkdownEmbed
 code={"[Document Home](/docs) / **Chat Tab**"}
-className={`w-markdown-embed c1jwyh4u c1411o3y cyu9atc c1y2x13x c1n8816a c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 cq6rd9c cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cpqebfv c1kjcvme c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+className={`w-markdown-embed c1jwyh4u c71q0nn cyu9atc c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 <h1
 className={`w-element c11wsiwx c1su7aph`}>
 {"Chat Tab"}
 </h1>
 <MarkdownEmbed
-code={"## Starting a Chat\n![Chat Tab](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Chat-Tab-1.webp?raw=true)\n\nWhen you open the Chat tab, a screen like this is displayed. To start a chat, you first need to select the model you want to use for the chat.\n\n![Select Model](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Chat-Tab-2.webp?raw=true)\n\nTo select a model, click or tap the model switch button in the top right corner. This will display a list of models on the currently selected Ollama server, and you can select the model you want to use (to switch the selected server, please refer to the [**Server Tab documentation**](/docs/server-tab)).\n\n![Enter Message](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Chat-Tab-3.webp?raw=true)\n\nOnce a model is selected, you can enter a message. Type the text you want to send to the AI model and click or tap the Send button.\\\nTo insert a line break on macOS, press `⇧ (Shift)` + `↩︎ (Return)` simultaneously.\n\n![Model Loading](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Chat-Tab-4.webp?raw=true)\n\nWhen you send a message, a chat request is sent to the Ollama server, and the model loading process will begin if necessary.\\\nLoading may take time depending on the model type and the type of storage where the model is saved on the Ollama server.\n\n> **Tip**\\\n> The API timeout is set to 30 seconds by default, so a timeout error may occur if model loading takes a long time.\\\n> If you know that model loading will take time, I recommend increasing the API timeout duration in Settings or setting it to unlimited.\\\n> For instructions on how to set the API timeout duration, please refer to the [**Settings documentation**](/docs/settings).\n\n![Message Operations](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Chat-Tab-5.webp?raw=true)\n\nAfter a while, you will receive a response from the AI.\\\nOnce the response is fully completed, you can perform operations on the message. The possible operations are as follows:\n- **Your Messages**\n  - **Copy**\n    - You can copy the message as Markdown-formatted text.\n  - **Edit**\n    - You can edit the sent message and resend it. Only the last sent message can be edited.\n- **AI Messages**\n  - **Switch to Previous Revision**\n    - You can switch to the revision before the regeneration. This is displayed only if there are two or more revisions.\n  - **Switch to Next Revision**\n    - You can switch from the previous revision to the next revision. This is displayed only if there are two or more revisions.\n  - **Retry**\n    - You can regenerate the AI's response. Only the last message can be regenerated.\n  - **Copy**\n    - You can copy the message as Markdown-formatted text.\n\n> **Information**\\\n> To prevent performance degradation, Markdown text is processed line by line while the AI's response is being returned (during stream response).\\\n> Therefore, the display may appear corrupted temporarily, but it should quickly change to the correct display.\n\n## Starting a New Chat\nTo clear the chat history and start a new chat, click the New Chat button in the top right corner or press `⌥ (Option)` + `⌘ (Command)` + `N` simultaneously.\n\n## Changing Chat Settings\n![Chat Inspector](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Chat-Tab-6.webp?raw=true)\n\nBy opening the Inspector, you can customize the chat settings.\\\nTo open the Inspector, click or tap the sidebar toggle button in the top right corner.\n\nFrom the Inspector, you can customize the following settings:\n- **Chat Settings**\n  - **Stream Response**\n    - Toggles whether to receive the AI's message continuously. If turned off, you will not receive a response until the final answer is returned, so I recommend setting the API timeout to unlimited. For instructions on how to set the API timeout duration, please refer to the [**Settings documentation**](/docs/settings).\n  - **Thinking**\n    - Toggles whether to perform inference when using a model that supports Thinking. This is only configurable for models that support \"Thinking\" in their \"Model Capabilities.\" To check model capabilities, please refer to the [**Model Tab documentation**](/docs/model-tab).\n  - **System Prompt**\n    - You can set a system prompt for the AI model.\n- **Custom Settings**\n  - **Enable Custom Settings**\n    - Toggles whether to enable custom settings for the configurations below.\n  - **Temperature**\n    - Specifies the model's temperature. It can be set between `0.0` and `2.0`. Lowering the temperature makes the output more accurate, while raising it makes it more creative (not all models may follow this setting, and incorrect output may result depending on the setting).\n  - **Context Window**\n    - Specifies the number of tokens the model can load at once. It can be set between `512` and the model's context length. To check the model's context length, please refer to the [**Model Tab documentation**](/docs/model-tab).\n\nThe settings configured here will be reflected from the next message you send onward."}
-className={`w-markdown-embed c1jwyh4u c1411o3y c1igc709 c1y2x13x c1n8816a c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 cq6rd9c cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cpqebfv c1kjcvme c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+code={"## Starting a Chat\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Chat-Tab-1.webp?raw=true"}
+loading={"lazy"}
+alt={"Chat Tab"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"When you open the Chat tab, a screen like this is displayed. To start a chat, you first need to select the model you want to use for the chat.\n\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Chat-Tab-2.webp?raw=true"}
+loading={"lazy"}
+alt={"Select Model"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"\nTo select a model, click or tap the model switch button in the top right corner. This will display a list of models on the currently selected Ollama server, and you can select the model you want to use (to switch the selected server, please refer to the [**Server Tab documentation**](/docs/server-tab)).\n\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Chat-Tab-3.webp?raw=true"}
+loading={"lazy"}
+alt={"Enter Message"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"\nOnce a model is selected, you can enter a message. Type the text you want to send to the AI model and click or tap the Send button.\\\nTo insert a line break on macOS, press `⇧ (Shift)` + `↩︎ (Return)` simultaneously.\n\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Chat-Tab-4.webp?raw=true"}
+loading={"lazy"}
+alt={"Model Loading"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"\nWhen you send a message, a chat request is sent to the Ollama server, and the model loading process will begin if necessary.\\\nLoading may take time depending on the model type and the type of storage where the model is saved on the Ollama server.\n\n> **Tip**\\\n> The API timeout is set to 30 seconds by default, so a timeout error may occur if model loading takes a long time.\\\n> If you know that model loading will take time, I recommend increasing the API timeout duration in Settings or setting it to unlimited.\\\n> For instructions on how to set the API timeout duration, please refer to the [**Settings documentation**](/docs/settings).\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Chat-Tab-5.webp?raw=true"}
+loading={"lazy"}
+alt={"Message Operations"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"\nAfter a while, you will receive a response from the AI.\\\nOnce the response is fully completed, you can perform operations on the message. The possible operations are as follows:\n- **Your Messages**\n  - **Copy**\n    - You can copy the message as Markdown-formatted text.\n  - **Edit**\n    - You can edit the sent message and resend it. Only the last sent message can be edited.\n- **AI Messages**\n  - **Switch to Previous Revision**\n    - You can switch to the revision before the regeneration. This is displayed only if there are two or more revisions.\n  - **Switch to Next Revision**\n    - You can switch from the previous revision to the next revision. This is displayed only if there are two or more revisions.\n  - **Retry**\n    - You can regenerate the AI's response. Only the last message can be regenerated.\n  - **Copy**\n    - You can copy the message as Markdown-formatted text.\n  - **Share**\n    - You can share the generated text.\n\n## Starting a New Chat\nTo clear the chat history and start a new chat, click the New Chat button in the top right corner or press `⌥ (Option)` + `⌘ (Command)` + `N` simultaneously.\n\n## Changing Chat Settings\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Chat-Tab-6.webp?raw=true"}
+loading={"lazy"}
+alt={"Chat Inspector"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"By opening the Inspector, you can customize the chat settings.\\\nTo open the Inspector, click or tap the sidebar toggle button in the top right corner.\n\nFrom the Inspector, you can customize the following settings:\n- **Chat Settings**\n  - **Stream Response**\n    - Toggles whether to receive the AI's message continuously. If turned off, you will not receive a response until the final answer is returned, so I recommend setting the API timeout to unlimited. For instructions on how to set the API timeout duration, please refer to the [**Settings documentation**](/docs/settings).\n  - **Keep Alive**\n    - Select how long the model stays loaded in the server's memory.\n  - **Thinking**\n    - Toggles whether to perform inference when using a model that supports Thinking. This is only configurable for models that support \"Thinking\" in their \"Model Capabilities.\" To check model capabilities, please refer to the [**Model Tab documentation**](/docs/model-tab).\n  - **System Prompt**\n    - You can set a system prompt for the AI model.\n- **Custom Settings**\n  - **Enable Custom Settings**\n    - Toggles whether to enable custom settings for the configurations below.\n  - **Seed**\n    - You can specify a seed value to achieve reproducible generation.\n  - **Temperature**\n    - Specifies the model's temperature. It can be set between `0.0` and `2.0`. Lowering the temperature makes the output more accurate, while raising it makes it more creative (not all models may follow this setting, and incorrect output may result depending on the setting).\n  - **Context Window**\n    - Specifies the number of tokens the model can load at once. It can be set between `512` and the model's context length. To check the model's context length, please refer to the [**Model Tab documentation**](/docs/model-tab).\n   - **Repeat Last N**\n     - Sets how far back for the model to look back to prevent repetition.\n   - **Repeat Penalty**\n     - Sets how strongly to penalize repetitions.\n   - **Top-k**\n     - Reduces the probability of generating nonsense. A higher value like 100 will give more diverse answers, while a lower value like 10 will give more stable answers.\n   - **Top-p**\n     - Works together with Top-k. A higher value like 0.95 will lead to more diverse text, while a lower value like 0.5 will generate more focused and stable text.\n   - **Min-p**\n     - An alternative to Top-p, aimed at ensuring a balance of quality and variety. It discourages low-quality responses by excluding tokens with a relative probability below a threshold (P) compared to the most likely token.\n\nThe settings configured here will be reflected from the next message you send onward."}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 </div>
 </div>
@@ -612,7 +667,7 @@ className={`w-element cjt11so c1u6urjk cn1s8se ckkp5ls cq2ae4j cv5n7tx cd7qpso c
 <div
 className={`w-element ckkp5ls c1dquu02 cr5s4bi cv5n7tx cd7qpso ctrrskr`}>
 <HtmlEmbed
-code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"}
+code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"" + imagePath + "/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"" + imagePath + "/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"}
 className={`w-html-embed crk50b8 cakywc7 c1gz6jks`} />
 <div
 className={`w-element c1yr0oul cr5s4bi`}>
@@ -705,7 +760,7 @@ className={`w-image c1j4919n c1sq2oqr cjt11so`} />
 <div
 className={`w-element c13nk3y6 c17c8i9t czyf6ca c12qprsv c110q0hy c1olcu3a`}>
 <Image
-src={"https://github.com/taikun114/Mocolamma/blob/main/docs/images/Introduction-HP.webp?raw=true"}
+src={imagePath + "/Introduction-HP.webp?raw=true"}
 width={1920}
 height={1080}
 alt={"Introduction"}

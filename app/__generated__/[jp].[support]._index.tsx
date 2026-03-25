@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2026-01-16T07:02:27.329Z";
+      export const lastPublished = "2026-03-25T10:47:36.047Z";
 
       export const siteName = "Mocolamma";
 
@@ -31,6 +31,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       const Page = (_props: { system: any; }) => {
 const system = _props.system;
+let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/dev/docs/images")
 return <Body
 className={`w-element ckkp5ls cylgtyl c1dquu02 c13zugmy cq2ae4j`}>
 <Slot>
@@ -594,8 +595,26 @@ className={`w-element c1a2244i c1eswi8f`}>
 {"最終更新: 2025年10月14日"}
 </p>
 <HtmlEmbed
-code={"<h2>バグを見つけた場合</h2>\n<p>Mocolammaは生成AIを活用して開発されたアプリです。開発中に何度もテストは行いましたが、それでもバグが残っていたり、一部機能が正常に動作しなかったりする場合があります。</p>\n<p>バグや動作の問題を見つけた場合は、既に開かれている<a href=\"https://github.com/taikun114/Mocolamma/issues\" target=\"_blank\" data-umami-event=\"gh-issue\" data-umami-event-region=\"jp\"><b>Issue</b></a>（既知のバグや問題）を確認し、他の方が報告している同じ問題がないか探してみてください。同じ問題が見つからなかった場合は新しいIssueを開き、問題の報告をお願いします。<br>\nバグトラッキングを容易にするため、複数の問題を報告したい場合は1つの問題に対して1つのIssueを開いてください。つまり、2つのバグを報告したい場合は2つのIssueを開く必要があります。</p>\n\n<h2>フィードバック</h2>\n<p>GitHubアカウントをお持ちでない方のバグ報告やアイデア共有、開発者（私）へのメッセージなど、フィードバックを送りたい場合は<a href=\"mailto:contact.taikun@gmail.com?subject=Mocolamma%E3%81%AE%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%83%90%E3%83%83%E3%82%AF%3A%20&amp;body=%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%83%90%E3%83%83%E3%82%AF%E5%86%85%E5%AE%B9%E3%82%92%E5%85%B7%E4%BD%93%E7%9A%84%E3%81%AB%E8%AA%AC%E6%98%8E%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%3A%0D%0A%0D%0A%0D%0A%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%83%85%E5%A0%B1%3A%0D%0A%0D%0A%0D%0A%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%0D%0A%E3%81%8A%E4%BD%BF%E3%81%84%E3%81%AEMac%20%2F%20iPhone%20%2F%20iPad%20%2F%20Apple%20Vision%20Pro%E3%81%AE%E6%A9%9F%E7%A8%AE%E3%82%92%E5%85%A5%E5%8A%9B%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%0D%0A%0D%0A%0D%0A%E3%83%BBOS%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%0D%0A%E5%95%8F%E9%A1%8C%E3%81%8C%E8%B5%B7%E3%81%93%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E5%A0%B4%E5%90%88%E3%80%81Mocolamma%E3%82%92%E5%AE%9F%E8%A1%8C%E3%81%97%E3%81%A6%E3%81%84%E3%82%8BmacOS%20%2F%20iOS%20%2F%20iPadOS%20%2F%20visionOS%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%92%E5%85%A5%E5%8A%9B%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%0D%0A%0D%0A%0D%0A%E3%83%BB%E3%82%A2%E3%83%97%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%0D%0A%E5%95%8F%E9%A1%8C%E3%81%8C%E8%B5%B7%E3%81%93%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E5%A0%B4%E5%90%88%E3%80%81%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%92%E5%85%A5%E5%8A%9B%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%0D%0A%0D%0A\" data-umami-event=\"feedback-mail\" data-umami-event-region=\"jp\"><b>こちらのリンク</b></a>をクリックするか、以下に紹介しているアプリからの送信機能を使ってメールをお送りいただけます（すべてのメッセージに返信できるとは限りませんので、あらかじめご了承ください）。<br>\nアプリ内のボタンからメールの送信画面を開くと、システム情報（デバイスの種類とOSのバージョン情報）やアプリのバージョン情報など、テンプレートが事前に入力された状態になるため、こちらから送信していただくことをおすすめします。</p>\n\n<h3>アプリからフィードバックを送信する方法</h3>\n<p>アプリからフィードバックを送信するには、まずはアプリについての画面を開く必要があります。</p>\n<img alt=\"アプリについての画面の開き方\" src=\"https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Feedback-ja-1.webp?raw=true\">\n<p>アプリについての画面を開くには、すべてのバージョンのmacOSとiPadOS 26.0またはそれ以降の場合はメニューバーの「Mocolammaについて」をクリック、iOS / iPadOS / visionOSの場合は設定タブの右上にある情報ボタンをタップすることで開くことができます。</p>\n<img alt=\"フィードバックを送信ボタン\" src=\"https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Feedback-ja-2.webp?raw=true\">\n<p>アプリについての画面を開いたら、「サポートとフィードバック」セクションにある「フィードバックを送信」ボタンをタップすることで、テンプレートが事前に入力された状態でメール送信画面を開くことができますので、必要な情報を入力してメールをお送りください。</p>\n\n<h2>コミュニティ</h2>\n<p>アプリに追加してほしい新機能の共有や、バグかどうかはわからないけど気になる問題など、質問したり他の人と意見交換したりなどが可能な<a href=\"https://github.com/taikun114/Mocolamma/discussions\" target=\"_blank\" data-umami-event=\"gh-discussion\" data-umami-event-region=\"jp\"><b>ディスカッションページ</b></a>が用意されています。<br>\n情報交換の場として、ぜひご活用ください。私もよく覗いているので、開発者へのメッセージも大歓迎です！</p>"}
-className={`w-html-embed c1jwyh4u c1411o3y c1igc709 c1y2x13x c1n8816a c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 cq6rd9c cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cpqebfv c1kjcvme c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+code={"<h2>バグを見つけた場合</h2>\n<p>Mocolammaは生成AIを活用して開発されたアプリです。開発中に何度もテストは行いましたが、それでもバグが残っていたり、一部機能が正常に動作しなかったりする場合があります。</p>\n<p>バグや動作の問題を見つけた場合は、既に開かれている<a href=\"https://github.com/taikun114/Mocolamma/issues\" target=\"_blank\" data-umami-event=\"gh-issue\" data-umami-event-region=\"jp\"><b>Issue</b></a>（既知のバグや問題）を確認し、他の方が報告している同じ問題がないか探してみてください。同じ問題が見つからなかった場合は新しいIssueを開き、問題の報告をお願いします。<br>\nバグトラッキングを容易にするため、複数の問題を報告したい場合は1つの問題に対して1つのIssueを開いてください。つまり、2つのバグを報告したい場合は2つのIssueを開く必要があります。</p>\n\n<h2>フィードバック</h2>\n<p>GitHubアカウントをお持ちでない方のバグ報告やアイデア共有、開発者（私）へのメッセージなど、フィードバックを送りたい場合は<a href=\"mailto:contact.taikun@gmail.com?subject=Mocolamma%E3%81%AE%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%83%90%E3%83%83%E3%82%AF%3A%20&amp;body=%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%83%90%E3%83%83%E3%82%AF%E5%86%85%E5%AE%B9%E3%82%92%E5%85%B7%E4%BD%93%E7%9A%84%E3%81%AB%E8%AA%AC%E6%98%8E%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%3A%0D%0A%0D%0A%0D%0A%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%83%85%E5%A0%B1%3A%0D%0A%0D%0A%0D%0A%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%0D%0A%E3%81%8A%E4%BD%BF%E3%81%84%E3%81%AEMac%20%2F%20iPhone%20%2F%20iPad%20%2F%20Apple%20Vision%20Pro%E3%81%AE%E6%A9%9F%E7%A8%AE%E3%82%92%E5%85%A5%E5%8A%9B%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%0D%0A%0D%0A%0D%0A%E3%83%BBOS%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%0D%0A%E5%95%8F%E9%A1%8C%E3%81%8C%E8%B5%B7%E3%81%93%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E5%A0%B4%E5%90%88%E3%80%81Mocolamma%E3%82%92%E5%AE%9F%E8%A1%8C%E3%81%97%E3%81%A6%E3%81%84%E3%82%8BmacOS%20%2F%20iOS%20%2F%20iPadOS%20%2F%20visionOS%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%92%E5%85%A5%E5%8A%9B%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%0D%0A%0D%0A%0D%0A%E3%83%BB%E3%82%A2%E3%83%97%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%0D%0A%E5%95%8F%E9%A1%8C%E3%81%8C%E8%B5%B7%E3%81%93%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E5%A0%B4%E5%90%88%E3%80%81%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%92%E5%85%A5%E5%8A%9B%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%0D%0A%0D%0A\" data-umami-event=\"feedback-mail\" data-umami-event-region=\"jp\"><b>こちらのリンク</b></a>をクリックするか、以下に紹介しているアプリからの送信機能を使ってメールをお送りいただけます（すべてのメッセージに返信できるとは限りませんので、あらかじめご了承ください）。<br>\nアプリ内のボタンからメールの送信画面を開くと、システム情報（デバイスの種類とOSのバージョン情報）やアプリのバージョン情報など、テンプレートが事前に入力された状態になるため、こちらから送信していただくことをおすすめします。</p>\n\n<h3>アプリからフィードバックを送信する方法</h3>\n<p>アプリからフィードバックを送信するには、まずはアプリについての画面を開く必要があります。</p>\n"}
+className={`w-html-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</HtmlEmbed>
+<Image
+src={imagePath + "/Feedback-ja-1.webp?raw=true"}
+loading={"lazy"}
+alt={"アプリについての画面の開き方"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<HtmlEmbed
+code={"<p>アプリについての画面を開くには、すべてのバージョンのmacOSとiPadOS 26.0またはそれ以降の場合はメニューバーの「Mocolammaについて」をクリック、iOS / iPadOS / visionOSの場合は設定タブの右上にある情報ボタンをタップすることで開くことができます。</p>\n"}
+className={`w-html-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</HtmlEmbed>
+<Image
+src={imagePath + "/Feedback-ja-2.webp?raw=true"}
+loading={"lazy"}
+alt={"フィードバックを送信ボタン"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<HtmlEmbed
+code={"<p>アプリについての画面を開いたら、「サポートとフィードバック」セクションにある「フィードバックを送信」ボタンをタップすることで、テンプレートが事前に入力された状態でメール送信画面を開くことができますので、必要な情報を入力してメールをお送りください。</p>\n\n<h2>コミュニティ</h2>\n<p>アプリに追加してほしい新機能の共有や、バグかどうかはわからないけど気になる問題など、質問したり他の人と意見交換したりなどが可能な<a href=\"https://github.com/taikun114/Mocolamma/discussions\" target=\"_blank\" data-umami-event=\"gh-discussion\" data-umami-event-region=\"jp\"><b>ディスカッションページ</b></a>が用意されています。<br>\n情報交換の場として、ぜひご活用ください。私もよく覗いているので、開発者へのメッセージも大歓迎です！</p>"}
+className={`w-html-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </HtmlEmbed>
 </div>
 </div>
@@ -610,7 +629,7 @@ className={`w-element cjt11so c1u6urjk cn1s8se ckkp5ls cq2ae4j cv5n7tx cd7qpso c
 <div
 className={`w-element ckkp5ls c1dquu02 cr5s4bi cv5n7tx cd7qpso ctrrskr`}>
 <HtmlEmbed
-code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"}
+code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"" + imagePath + "/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"" + imagePath + "/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"}
 className={`w-html-embed crk50b8 cakywc7 c1gz6jks`} />
 <div
 className={`w-element c1yr0oul cr5s4bi`}>
@@ -703,7 +722,7 @@ className={`w-image c1j4919n c1sq2oqr cjt11so`} />
 <div
 className={`w-element c13nk3y6 c17c8i9t czyf6ca c12qprsv c110q0hy c1olcu3a`}>
 <Image
-src={"https://github.com/taikun114/Mocolamma/blob/main/docs/images/Introduction-HP-ja.webp?raw=true"}
+src={imagePath + "/Introduction-HP-ja.webp?raw=true"}
 width={1920}
 height={1080}
 alt={"紹介"}

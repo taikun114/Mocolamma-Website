@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2026-01-16T07:02:27.329Z";
+      export const lastPublished = "2026-03-25T10:47:36.047Z";
 
       export const siteName = "Mocolamma";
 
@@ -31,6 +31,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       const Page = (_props: { system: any; }) => {
 const system = _props.system;
+let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/dev/docs/images")
 return <Body
 className={`w-element c13zugmy ckkp5ls c1dquu02 cr5s4bi cq2ae4j`}>
 <Slot>
@@ -590,7 +591,7 @@ className={`w-element ckkp5ls c1yr0oul cylgtyl cq2ae4j c818ac9 c1fhacno c1bftqhl
 <div
 className={`w-element ckkp5ls c1dquu02 cr5s4bi cv5n7tx cd7qpso ctrrskr`}>
 <HtmlEmbed
-code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"}
+code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"" + imagePath + "/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"" + imagePath + "/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"}
 className={`w-html-embed crk50b8 cakywc7 c1gz6jks`} />
 <div
 className={`w-element c1yr0oul cr5s4bi`}>
@@ -685,7 +686,7 @@ className={`w-image c1j4919n c1sq2oqr cjt11so`} />
 </div>
 <p
 className={`w-element c11wsiwx c1su7aph cvd4ss2`}>
-{"macOS Sonoma（14.0）またはそれ以降"}
+{"macOS Sequoia（15.0）またはそれ以降"}
 </p>
 </div>
 <div
@@ -719,13 +720,13 @@ className={`w-image c1j4919n c1sq2oqr cjt11so`} />
 </div>
 <p
 className={`w-element c11wsiwx c1su7aph cvd4ss2 c1y9f2xs chpbxxb`}>
-{"iOS / iPadOS 17.0またはそれ以降、"}
+{"iOS / iPadOS 18.0またはそれ以降、"}
 <br />
 {"visionOS 2.0またはそれ以降"}
 </p>
 <p
 className={`w-element c11wsiwx c1su7aph cvd4ss2 c1y9f2xs c1ga6br6 cefqn60`}>
-{"iOS / iPadOS 17.0またはそれ以降、visionOS 2.0またはそれ以降"}
+{"iOS / iPadOS 18.0またはそれ以降、visionOS 2.0またはそれ以降"}
 </p>
 </div>
 </div>
@@ -733,7 +734,7 @@ className={`w-element c11wsiwx c1su7aph cvd4ss2 c1y9f2xs c1ga6br6 cefqn60`}>
 <div
 className={`w-element ckkp5ls c1dquu02 cylgtyl c17zp3zn c1kw6xnm c13nk3y6 c13rvnfs chid49v`}>
 <Image
-src={"https://github.com/taikun114/Mocolamma/blob/main/docs/images/Introduction-HP-ja.webp?raw=true"}
+src={imagePath + "/Introduction-HP-ja.webp?raw=true"}
 width={1920}
 height={1080}
 alt={"紹介"}
@@ -742,7 +743,9 @@ className={`w-image c1dd5s61 c13rvnfs c13nk3y6 cjzh884 c1kpn0ia cvi5vpg c1pfu9tq
 </div>
 </div>
 <div
-className={`w-element ckkp5ls cd7qpso cv5n7tx c13rvnfs cct7nc0`}>
+className={`w-element ckkp5ls cd7qpso cv5n7tx c13rvnfs cq2ae4j`}>
+<div
+className={`w-element ckkp5ls ctrrskr cv5n7tx cd7qpso cct7nc0`}>
 <Link
 href={"#manage-ollama-servers"}
 className={`w-element ck0qs61 c13rvnfs c1xduqzz c6qj28r`}>
@@ -791,6 +794,9 @@ className={`w-element c11wsiwx c1su7aph`}>
 </p>
 </div>
 </Link>
+</div>
+<div
+className={`w-element ckkp5ls ctrrskr cv5n7tx cd7qpso cct7nc0`}>
 <Link
 href={"#simple-chat-feature"}
 className={`w-element ck0qs61 c13rvnfs c1xduqzz c1ak9s8m`}>
@@ -815,6 +821,31 @@ className={`w-element c11wsiwx c1su7aph`}>
 </p>
 </div>
 </Link>
+<Link
+href={"#image-generation"}
+className={`w-element ck0qs61 c13rvnfs c1xduqzz c1ak9s8m`}>
+<div
+className={`w-element c13rvnfs cwmr794 c1muqwoi c1l5fgsc c24jrif c1lxhulz ckkp5ls cq2ae4j cd7qpso cv5n7tx c1rtwn8k c18b1tda c1nox6s5 c1lz60sb c1ls5mky c1dnsadh c13nk3y6 c1904aiq cv6lq4t c1o0p65i`}>
+<div
+className={`w-element ckkp5ls c1dquu02 cr5s4bi cv5n7tx cd7qpso`}>
+<div
+className={`w-element cakywc7 c1gz6jks c19a84b6 csp7zn7 c1kn2zho c1ea8qr0 ckuhajy ckkp5ls c1dquu02 cylgtyl c1miwggv c11qj7kj`}>
+<HtmlEmbed
+code={"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 640\"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path fill=\"rgb(255, 163, 49)\" d=\"M160 96C124.7 96 96 124.7 96 160L96 480C96 515.3 124.7 544 160 544L480 544C515.3 544 544 515.3 544 480L544 160C544 124.7 515.3 96 480 96L160 96zM224 176C250.5 176 272 197.5 272 224C272 250.5 250.5 272 224 272C197.5 272 176 250.5 176 224C176 197.5 197.5 176 224 176zM368 288C376.4 288 384.1 292.4 388.5 299.5L476.5 443.5C481 450.9 481.2 460.2 477 467.8C472.8 475.4 464.7 480 456 480L184 480C175.1 480 166.8 475 162.7 467.1C158.6 459.2 159.2 449.6 164.3 442.3L220.3 362.3C224.8 355.9 232.1 352.1 240 352.1C247.9 352.1 255.2 355.9 259.7 362.3L286.1 400.1L347.5 299.6C351.9 292.5 359.6 288.1 368 288.1z\"/></svg>"}
+className={`w-html-embed crk50b8 ch0ewdm c1sq2oqr`} />
+</div>
+<h2
+className={`w-element c11wsiwx c1su7aph`}>
+{"画像を生成"}
+</h2>
+</div>
+<p
+className={`w-element c11wsiwx c1su7aph`}>
+{"簡単な操作だけで、接続したサーバー上の画像モデルを使って画像を生成することができます。"}
+</p>
+</div>
+</Link>
+</div>
 </div>
 </div>
 </div>
@@ -837,14 +868,14 @@ className={`w-element c1f9sbsw c11wsiwx c1su7aph c6qj28r`}>
 </h3>
 <Image
 loading={"lazy"}
-src={"https://github.com/taikun114/Mocolamma/blob/main/docs/images/Introduction-HP-ja.webp?raw=true"}
+src={imagePath + "/Introduction-HP-ja.webp?raw=true"}
 width={1920}
 height={1080}
 alt={"紹介"}
 className={`w-image c13rvnfs`} />
 <p
 className={`w-element c11wsiwx c1su7aph c1y9f2xs c6qj28r`}>
-{"Mocolammaは、macOSおよびiOS / iPadOS用の非公式"}
+{"Mocolammaは、macOS、iOS / iPadOSおよびvisionOS用の非公式"}
 <Link
 href={"https://ollama.com/"}
 target={"_blank"}
@@ -883,7 +914,7 @@ className={`w-element c1f9sbsw c11wsiwx c1su7aph c1mmg8q2`}>
 </h3>
 <Image
 loading={"lazy"}
-src={"https://github.com/taikun114/Mocolamma/blob/main/docs/images/Server-Tab-HP-ja.webp?raw=true"}
+src={imagePath + "/Server-Tab-HP-ja.webp?raw=true"}
 width={1920}
 height={1080}
 alt={"サーバータブ"}
@@ -905,7 +936,7 @@ className={`w-element c1f9sbsw c11wsiwx c1su7aph c1mmg8q2`}>
 </h3>
 <Image
 loading={"lazy"}
-src={"https://github.com/taikun114/Mocolamma/blob/main/docs/images/Model-Tab-HP-ja.webp?raw=true"}
+src={imagePath + "/Model-Tab-HP-ja.webp?raw=true"}
 width={1920}
 height={1080}
 alt={"モデルタブ"}
@@ -927,7 +958,7 @@ className={`w-element c1f9sbsw c11wsiwx c1su7aph c1mmg8q2`}>
 </h3>
 <Image
 loading={"lazy"}
-src={"https://github.com/taikun114/Mocolamma/blob/main/docs/images/Chat-Tab-HP-ja.webp?raw=true"}
+src={imagePath + "/Chat-Tab-HP-ja.webp?raw=true"}
 width={1920}
 height={1080}
 alt={"チャットタブ"}
@@ -935,6 +966,28 @@ className={`w-image c13rvnfs`} />
 <p
 className={`w-element c11wsiwx c1su7aph c1y9f2xs c10ieuse`}>
 {"接続したOllamaサーバー上にあるモデルを使って、シンプルなチャットを行うことができます。新しく追加したモデルのテストを行うのに最適です。この機能はあくまで簡易的なテスト用ですので、高度なチャットを行いたい場合はOllama公式アプリを使うか、チャットに特化したアプリを使うことをおすすめします。"}
+</p>
+</div>
+</div>
+<div
+className={`w-element c13rvnfs ckkp5ls cq2ae4j c1dquu02 cr5s4bi c1u6urjk c1wbj3x9 cn1s8se c1skuy9j csy5d8p c49br6x cj5ea4k`}>
+<div
+className={`w-element c13rvnfs ckkp5ls cq2ae4j cdhbme8 clrwo5d cd6ip1x`}>
+<h3
+id={"image-generation"}
+className={`w-element c1f9sbsw c11wsiwx c1su7aph c1mmg8q2`}>
+{"簡単に画像を生成"}
+</h3>
+<Image
+loading={"lazy"}
+src={imagePath + "/Image-Generation-Tab-HP-ja.webp?raw=true"}
+width={1920}
+height={1080}
+alt={"画像生成タブ"}
+className={`w-image c13rvnfs`} />
+<p
+className={`w-element c11wsiwx c1su7aph c1y9f2xs c10ieuse`}>
+{"接続したOllamaサーバー上にある画像モデルを使って画像生成を行うことができます。生成された画像をデバイス内に保存したり、共有したりすることもできます。"}
 </p>
 </div>
 </div>
@@ -1058,7 +1111,7 @@ className={`w-element cjt11so c1u6urjk cn1s8se ckkp5ls cq2ae4j cv5n7tx cd7qpso c
 <div
 className={`w-element ckkp5ls c1dquu02 cr5s4bi cv5n7tx cd7qpso ctrrskr`}>
 <HtmlEmbed
-code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"}
+code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"" + imagePath + "/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"" + imagePath + "/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"}
 className={`w-html-embed crk50b8 cakywc7 c1gz6jks`} />
 <div
 className={`w-element c1yr0oul cr5s4bi`}>
@@ -1151,7 +1204,7 @@ className={`w-image c1j4919n c1sq2oqr cjt11so`} />
 <div
 className={`w-element c13nk3y6 c17c8i9t czyf6ca c12qprsv c110q0hy c1olcu3a`}>
 <Image
-src={"https://github.com/taikun114/Mocolamma/blob/main/docs/images/Introduction-HP-ja.webp?raw=true"}
+src={imagePath + "/Introduction-HP-ja.webp?raw=true"}
 width={1920}
 height={1080}
 alt={"紹介"}

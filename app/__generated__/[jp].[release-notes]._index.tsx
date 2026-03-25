@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2026-01-16T07:02:27.329Z";
+      export const lastPublished = "2026-03-25T10:47:36.047Z";
 
       export const siteName = "Mocolamma";
 
@@ -31,6 +31,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       const Page = (_props: { system: any; }) => {
 const system = _props.system;
+let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/dev/docs/images")
 return <Body
 className={`w-element ckkp5ls cylgtyl c1dquu02 c13zugmy cq2ae4j`}>
 <Slot>
@@ -589,9 +590,59 @@ className={`w-element c13rvnfs cdhbme8 ckkp5ls cq2ae4j c6qj28r c1n75u37 c1muqwoi
 className={`w-element c11wsiwx c1su7aph`}>
 {"Mocolamma リリースノート"}
 </h1>
+<h2
+id={"v1-2-0"}
+className={`w-element c12e0v0g c1eswi8f`}>
+{"バージョン 1.2.0"}
+</h2>
 <MarkdownEmbed
-code={"## バージョン 1.1.0\nリリース: 2025年12月4日\n\n### アップデート内容\n#### 新機能\n- **生成AIによるドイツ語（`de`）、スペイン語（`es`）のローカライズを追加**\n  - 私は日本語と英語以外の知識が全くないため、おかしな翻訳が含まれている可能性があります。修正すべき翻訳に気がついた方は、どこをどのように変更すべきかフィードバックをお送りいただけると助かります！\n- **「表示」メニューに各タブのアクセスを追加**\n  - メニューバーの「表示」メニューに「サーバー」「モデル」「チャット」タブを開くメニュー項目を追加しました。「サーバー」タブは`⌘ (Command)` + `1`キー、「モデル」タブは`⌘ (Command)` + `2`キー、「チャット」タブは`⌘ (Command)` + `3`キーを押すことで開くことができます。\n- **デモモードを追加**\n  - App Storeの審査向けに、アプリの基本的な機能をテストできるデモモードを実装しました。\n  - ホスト名が`demo-mode`のサーバー（サーバー名はお好みで）を追加し、選択することで、デモモードにアクセスすることができます。\n\n#### バグ修正と改善\n- **チャット画面で`scrollEdgeEffect`が機能しない問題を修正**\n  - iOS / iPadOS 26とmacOS 26以降では、チャット入力欄の背景が溶け込むようにぼやけるようになりました。\n- **アプリ起動時にネットワークリクエストが失敗することがあった問題を修正**\n  - 前回の修正ではこの問題が時々発生することがあったため、確実にこの問題を修正するために、アプリ起動時のネットワークチェックにリトライ機能を追加しました。\n- **iOS / iPadOS 17とmacOS 14で、チャット画面のコピーボタンとやり直すボタンのアイコンが表示されなかった問題を修正**\n- **チャット画面のモデルピッカーで「モデルを選択」が選ばれているときに停止ボタンが押せなかった問題を修正**\n\n\n## バージョン 1.0.3\nリリース: 2025年11月18日\n\n### アップデート内容\n#### 新機能\n- **生成AIによるフランス語のローカライズを追加**\n  - 私はフランス語の知識が全くないため、おかしな翻訳が含まれている可能性があります。修正すべき翻訳に気がついた方は、どこをどのように変更すべきかフィードバックをお送りいただけると助かります！\n\n#### バグ修正と改善\n- **「クリック」を「クリックまたはタップ」に修正**\n- **アプリ起動時にネットワークリクエストが失敗することがあった問題を修正**\n\n\n## バージョン 1.0.2\nリリース: 2025年11月4日\n\n### アップデート内容\n#### バグ修正と改善\n- **macOS Sequoiaまたはそれ以前で、このアプリについて画面のアイコンサイズが正しくなかった問題を修正**\n- **`latest`タグと同じダイジェストのモデルが同時に存在した場合にモデルリストが正しく表示されない問題を修正**\n- **チャット画面のメッセージ編集欄でテキスト変換が必要な言語で入力中、テキストの変換が確定できない問題を修正**\n- **チャット画面でメッセージを送信したときに自動でスクロールするように改善**\n- **iOS / iPadOS版のチャット送信ボタンの大きさを改善**\n\n\n## バージョン 1.0.1\nリリース: 2025年10月28日\n\nこのバージョンはApp Storeでリリースされた最初のバージョンです。\n\n### アップデート内容\n#### バグ修正と改善\n- **小さいウィンドウサイズでインスペクタを開くとレイアウトが崩れたりクラッシュしたりしてしまう問題を修正**\n- **チャット画面のメッセージ入力欄でテキスト変換が必要な言語で入力中、テキストの変換が確定できない問題を修正**\n- **チャット画面のモデルピッカーで、サーバーを切り替えた後に最後に選択されていたモデルが見つからなかった場合にピッカーが空になってしまうことがあった問題を修正**\n- **アプリ起動時にネットワークチェックを行うように改善**\n  - アプリを初めて開いたときに、自動的にローカルネットワーク許可のメッセージが表示されるようになりました。\n\n\n## バージョン 1.0.0\nリリース: 2025年10月12日\n\n### アップデート内容\n- 初期リリース"}
-className={`w-markdown-embed c1jwyh4u c1411o3y c1igc709 c1y2x13x c1n8816a c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 cq6rd9c cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cpqebfv c1kjcvme c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+code={"リリース: 2026年3月25日\n\n### アップデート内容\n#### 新機能\n- **Markdownレンタリングエンジンを刷新**\n  - チャットのMarkdownレンダリングエンジンが[**MarkdownUI**](https://github.com/gonzalezreal/swift-markdown-ui)から[**Textual**](https://github.com/gonzalezreal/textual)に刷新され、パフォーマンスの向上、コードブロックのシンタックスハイライト対応などといった改善が取り込まれ、使いやすさが向上しました。\n  - これに伴い、Mocolammaは**iOS / iPadOS 18.0またはそれ以降、macOS 15.0またはそれ以降、visionOS 2.0またはそれ以降**が必要になります。古いOSをご利用の方はソフトウェアアップデートを行っていただく必要がありますのでご注意ください。\n- **visionOSにネイティブ対応**\n  - visionOSデバイス上でMocolammaがネイティブに動作するようになりました。visionOS上ではインスペクタやメッセージ入力画面などが専用表示となり、ネイティブSwiftUIによる空間に馴染むデザインで使えるようになり、操作性が向上しました。\n- **チャットの画像添付に対応**\n  - 画像認識機能に対応したモデルでは、画像を添付して回答を得ることが可能になりました。画像ファイルの互換性のために、添付された画像はPNGに変換され、大きな画像は最大2048px × 2048pxにリサイズされてAPIに送信されます。\n  - 添付された画像はドラッグアンドドロップで並び替えることができ、他のアプリから画像ファイルをドラッグアンドドロップして添付することもできます。\n- **Ollamaの画像生成機能に対応（ベータ）**\n  - 現在、Ollamaの画像生成機能がベータ版のため、将来的なOllamaのアップデートにより機能（Ollama API）に変更が加えられた場合、Mocolammaで画像生成機能が動作しなくなる可能性があります。\n  - 画像生成機能のデモが利用可能です。画像生成モデルとして`demo-image:0b`を選択して何らかのプロンプトを送信すると、1ステップあたり0.2秒ずつ進むシミュレーションが行われ、最終的にテスト画像が出力されます。\n- **画像モデルのタグに対応**\n  - モデルインスペクタで画像モデルのタグが正しく表示されるようになりました。\n- **画像プレビュー機能を追加**\n  - 添付された画像や生成された画像を大きく拡大プレビューすることができます。\n- **サーバー画面のインスペクタにモデルのアンロードボタンを追加**\n  - Ollamaサーバーのメモリ上に読み込まれているモデルを素早くアンロード（メモリから解放）することができます。\n- **サーバーの追加編集画面にアイコン変更機能を追加**\n  - 各サーバーのアイコンをお好みのSF Symbolsアイコンに変更することができるようになりました。サーバー画面に表示されるアイコンが変わるだけではありますが、複数サーバーが設定されている場合に名前だけでなくアイコンで識別することができます。\n- **モデル画面にタグフィルターを追加**\n  - 特定の機能に対応したモデルを探すのに便利です。ツールバーのフィルターボタンからフィルタリングしたい項目を選択するか、モデルインスペクタに表示されるタグをタップすることでフィルタリングできます。\n- **チャット画面と画像生成画面に自動追従スクロール機能を追加**\n  - 下までスクロールされた状態では、ストリームレスポンス中などにメッセージが長くなっていっても、自動で下方向にスクロールが追従するようになりました。自動追従スクロールは上方向に少しスクロールすると解除され、再び下までスクロールすると追従が開始します。\n- **チャット画面と画像生成画面のインスペクタにキープアライブオプションを追加**\n  - Ollamaサーバーのメモリ上にモデルを保持する時間を指定することができます。\n- **チャット画面と画像生成画面のインスペクタにシード値オプションを追加**\n  - 再現性のある生成を行うことができます。\n- **チャット画面と画像生成画面のメッセージバブル下に共有ボタンを追加**\n  - 生成結果を素早く共有することができるようになりました。\n- **チャットのカスタム設定に、上級者向けオプションを多数追加**\n  - モデルの動作を細かく調整してテストを行いたい上級者向けに、「シード値」「繰り返し参照範囲（Repeat Last N）」「繰り返しペナルティ（Repeat Penalty）」「最大出力数（Num Predict）」「Top-k」「Top-p」「Min-p」のオプションを追加しました。\n- **デモモードでモデルダウンロードのシミュレーションを追加**\n  - デモモードが有効になっている時、モデル追加シートでモデル名として`demo-dl`または`demo-dl:0b`が入力された状態で追加ボタンを押すと、モデルのダウンロードを1分間かけたシミュレーションが行われます。\n- **App Storeへのレビューリクエスト機能を追加（App Store版のみ）**\n  - 定期的に（非常に低頻度で）ユーザーへ、App Storeでのアプリのレビューを求める画面が表示されるようになりました。\n  - レビュー画面が表示されて欲しくない場合は、アプリの設定から完全に無効化することができますのでご安心ください。\n  - レビューを求める画面が表示されるタイミングについては、「[**App Storeレビューリクエストについて**](/jp/docs/app-store-review-requests)」ドキュメントをご覧ください。\n- **アプリについての画面に、App Storeでのレビューボタンを追加（App Store版のみ）**\n  - 「開発者をサポート」セクションに追加されたボタンから直接App Storeのレビュー画面を開くことができます。\n- **生成AIによるアラビア語（`ar`）、中国語（香港）（`zh-HK`）、中国語（簡体字）（`zh-Hans`）、中国語（繁体字）（`zh-Hant`）、韓国語（`ko`）、ロシア語（`ru`）、ウクライナ語（`uk`）のローカライズを追加**\n  - 私は日本語と英語以外の知識が全くないため、おかしな翻訳が含まれている可能性があります。修正すべき翻訳に気がついた方は、どこをどのように変更すべきかフィードバックをお送りいただけると助かります！\n\n#### バグ修正と改善\n- **画像モデルの詳細情報が正しく表示されるように修正**\n- **モデルのダウンロード中、モデル画面をリフレッシュできてしまった問題を修正**\n- **チャット画面でスクロール中にフリーズする問題を修正**\n- **インスペクタを開いているときにモデルを選んでも入力欄にフォーカスが当たらない問題を修正**\n- **macOSのチャット画面と画像生成画面で、スクロールエッジエフェクトが正しく表示されないことがあった問題を修正**\n  - macOS 26.0またはそれ以降でチャット画面と画像生成画面を表示している際、インスペクターを開閉するかウインドウサイズを変更するまで、ツールバーのスクロールエッジエフェクトが意図しない表示になってしまう（ソフトではなくハードスタイルになってしまう）問題が修正され、美しいぼかしエフェクトが正しく表示されるようになりました。\n- **インスペクタボタンのアイコンを、よりわかりやすいものが表示されるように改善**\n  - iPhoneやiPadのコンパクト表示時など、シートスタイルでインスペクタが表示される場合は`info.circle`アイコンが表示されるようになりました。サイドバースタイルでインスペクタが表示される場合は今まで通りです。\n- **APIタイムアウトのアラートメッセージを改善**\n  - 大きなモデルの読み込みに時間がかかる場合などに設定からタイムアウト時間を変更することに関するアドバイスメッセージを追加しました。\n- **スワイプアクションの見た目を改善**\n  - サーバーとモデル画面のリスト項目をスワイプした時に表示されるアクションが、項目の高さにかかわらず、常にアイコンだけ表示されるようになりました。\n- **iOS / iPadOSのサーバーとモデル追加シートを下スワイプしても閉じてしまわないように改善**\n- **iOS / iPadOS 26において、サーバーとモデル追加シートの追加・完了ボタンのスタイルを改善**\n  - 完了ボタンはシステムネイティブデザイン、追加ボタンはシステムネイティブデザインにかなり近いデザインになりました。\n- **サーバー追加時のエラーハンドリングを改善**\n  - サーバーへの接続に失敗した際にエラー内容が詳しく表示されるように改善され、同じホスト名のサーバーがすでに登録されている場合は登録できないようになりました。\n- **モデル画面で、ダウンロード進捗表示のパフォーマンスを改善**\n- **モデルインスペクタのタグ表示を改善**\n- **モデルインスペクタでライセンスタイトルが存在しないがライセンス本文が存在する場合、特定のライセンスを推測して表示されるように改善**\n  - ライセンス本文に`MIT License`が存在する場合はライセンスタイトルとして`MIT License`と表示、ライセンス本文に`Apache License`と`Version 2.0`が同時に存在する場合はライセンスタイトルとして`Apache License 2.0`と表示されるようになります。\n- **iOS / iPadOS 26以降でのモデルダウンロード進捗表示の見た目を改善**\n  - iOS / iPadOS 26.0またはそれ以降では、モデルダウンロード進捗表示が`safeAreaBar`として配置されるようになり、スクロールエッジエフェクトによる溶け込むような美しいぼかしエフェクトが適用されるようになりました。\n- **モデルダウンロード中にエラーが発生した際、アラートにも表示するように改善**\n- **モデル名を`ollama`コマンド形式で入力された場合でもダウンロードできるように改善**\n  - モデル名の入力欄に`ollama run モデル名`や`ollama pull モデル名`のような形式で入力された場合でも、モデル名を適切に抽出してダウンロードできるようになりました。\n- **チャット画面と画像生成画面のモデルピッカーに、メモリ上にロードされたモデルにアイコンを表示するように改善**\n- **iOS / iPadOSでチャット画面と画像生成画面のモデルピッカーの見た目を改善**\n  - 選択肢の間に区切り線が追加され、モデルピッカーがオーバーフローメニューの中にあるときにモデル名が表示されるようになりました。\n- **チャット画面で画像専用モデルを選択したときにエラーが表示されるように改善**\n- **新規チャットボタンに確認を求めるアクションシートを表示するように改善**\n- **iOS / iPadOSで、表示サイズが大きい場合のメッセージバブル表示を改善**\n  - iPadでウィンドウの横幅を大きくしている場合や画面サイズの大きなiPhoneで横向きにしている場合に、メッセージバブルの最大幅がmacOSと同様にわずかに小さくなることで見やすくなりました。\n- **メッセージのコピー成功時にチェックマークアイコンが表示されるように改善**\n- **コードブロックの上に言語を表示するように改善**\n- **チャット画面のエラーハンドリングを強化するように改善**\n- **サーバーインスペクタにある実行中のモデル数のコンテキストメニューの再読み込みボタンにアイコンを追加**\n- **チャット画面のモデルピッカーにチャット非対応のモデルが表示されないようにフィルタリングを追加**\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<h2
+id={"v1-1-0"}
+className={`w-element c12e0v0g c1eswi8f`}>
+{"バージョン 1.1.0"}
+</h2>
+<MarkdownEmbed
+code={"リリース: 2025年12月4日\n\n### アップデート内容\n#### 新機能\n- **生成AIによるドイツ語（`de`）、スペイン語（`es`）のローカライズを追加**\n  - 私は日本語と英語以外の知識が全くないため、おかしな翻訳が含まれている可能性があります。修正すべき翻訳に気がついた方は、どこをどのように変更すべきかフィードバックをお送りいただけると助かります！\n- **「表示」メニューに各タブのアクセスを追加**\n  - メニューバーの「表示」メニューに「サーバー」「モデル」「チャット」タブを開くメニュー項目を追加しました。「サーバー」タブは`⌘ (Command)` + `1`キー、「モデル」タブは`⌘ (Command)` + `2`キー、「チャット」タブは`⌘ (Command)` + `3`キーを押すことで開くことができます。\n- **デモモードを追加**\n  - App Storeの審査向けに、アプリの基本的な機能をテストできるデモモードを実装しました。\n  - ホスト名が`demo-mode`のサーバー（サーバー名はお好みで）を追加し、選択することで、デモモードにアクセスすることができます。\n\n#### バグ修正と改善\n- **チャット画面で`scrollEdgeEffect`が機能しない問題を修正**\n  - iOS / iPadOS 26とmacOS 26以降では、チャット入力欄の背景が溶け込むようにぼやけるようになりました。\n- **アプリ起動時にネットワークリクエストが失敗することがあった問題を修正**\n  - 前回の修正ではこの問題が時々発生することがあったため、確実にこの問題を修正するために、アプリ起動時のネットワークチェックにリトライ機能を追加しました。\n- **iOS / iPadOS 17とmacOS 14で、チャット画面のコピーボタンとやり直すボタンのアイコンが表示されなかった問題を修正**\n- **チャット画面のモデルピッカーで「モデルを選択」が選ばれているときに停止ボタンが押せなかった問題を修正**"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<h2
+id={"v1-0-3"}
+className={`w-element c12e0v0g c1eswi8f`}>
+{"バージョン 1.0.3"}
+</h2>
+<MarkdownEmbed
+code={"リリース: 2025年11月18日\n\n### アップデート内容\n#### 新機能\n- **生成AIによるフランス語のローカライズを追加**\n  - 私はフランス語の知識が全くないため、おかしな翻訳が含まれている可能性があります。修正すべき翻訳に気がついた方は、どこをどのように変更すべきかフィードバックをお送りいただけると助かります！\n\n#### バグ修正と改善\n- **「クリック」を「クリックまたはタップ」に修正**\n- **アプリ起動時にネットワークリクエストが失敗することがあった問題を修正**"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<h2
+id={"v1-0-2"}
+className={`w-element c12e0v0g c1eswi8f`}>
+{"バージョン 1.0.2"}
+</h2>
+<MarkdownEmbed
+code={"リリース: 2025年11月4日\n\n### アップデート内容\n#### バグ修正と改善\n- **macOS Sequoiaまたはそれ以前で、このアプリについて画面のアイコンサイズが正しくなかった問題を修正**\n- **`latest`タグと同じダイジェストのモデルが同時に存在した場合にモデルリストが正しく表示されない問題を修正**\n- **チャット画面のメッセージ編集欄でテキスト変換が必要な言語で入力中、テキストの変換が確定できない問題を修正**\n- **チャット画面でメッセージを送信したときに自動でスクロールするように改善**\n- **iOS / iPadOS版のチャット送信ボタンの大きさを改善**"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<h2
+id={"v1-0-1"}
+className={`w-element c12e0v0g c1eswi8f`}>
+{"バージョン 1.0.1"}
+</h2>
+<MarkdownEmbed
+code={"リリース: 2025年10月28日\n\nこのバージョンはApp Storeでリリースされた最初のバージョンです。\n\n### アップデート内容\n#### バグ修正と改善\n- **小さいウィンドウサイズでインスペクタを開くとレイアウトが崩れたりクラッシュしたりしてしまう問題を修正**\n- **チャット画面のメッセージ入力欄でテキスト変換が必要な言語で入力中、テキストの変換が確定できない問題を修正**\n- **チャット画面のモデルピッカーで、サーバーを切り替えた後に最後に選択されていたモデルが見つからなかった場合にピッカーが空になってしまうことがあった問題を修正**\n- **アプリ起動時にネットワークチェックを行うように改善**\n  - アプリを初めて開いたときに、自動的にローカルネットワーク許可のメッセージが表示されるようになりました。"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<h2
+id={"v1-0-0"}
+className={`w-element c12e0v0g c1eswi8f`}>
+{"バージョン 1.0.0"}
+</h2>
+<MarkdownEmbed
+code={"リリース: 2025年10月12日\n\n### アップデート内容\n- 初期リリース"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 </div>
 </div>
@@ -606,7 +657,7 @@ className={`w-element cjt11so c1u6urjk cn1s8se ckkp5ls cq2ae4j cv5n7tx cd7qpso c
 <div
 className={`w-element ckkp5ls c1dquu02 cr5s4bi cv5n7tx cd7qpso ctrrskr`}>
 <HtmlEmbed
-code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"}
+code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"" + imagePath + "/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"" + imagePath + "/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"}
 className={`w-html-embed crk50b8 cakywc7 c1gz6jks`} />
 <div
 className={`w-element c1yr0oul cr5s4bi`}>
@@ -699,7 +750,7 @@ className={`w-image c1j4919n c1sq2oqr cjt11so`} />
 <div
 className={`w-element c13nk3y6 c17c8i9t czyf6ca c12qprsv c110q0hy c1olcu3a`}>
 <Image
-src={"https://github.com/taikun114/Mocolamma/blob/main/docs/images/Introduction-HP-ja.webp?raw=true"}
+src={imagePath + "/Introduction-HP-ja.webp?raw=true"}
 width={1920}
 height={1080}
 alt={"紹介"}

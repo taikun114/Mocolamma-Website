@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2026-01-16T07:02:27.329Z";
+      export const lastPublished = "2026-03-25T10:47:36.047Z";
 
       export const siteName = "Mocolamma";
 
@@ -31,6 +31,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       const Page = (_props: { system: any; }) => {
 const system = _props.system;
+let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/dev/docs/images")
 return <Body
 className={`w-element ckkp5ls cylgtyl c1dquu02 c13zugmy cq2ae4j`}>
 <Slot>
@@ -587,15 +588,69 @@ className={`w-element c13rvnfs c14cyv8r ckkp5ls c1yr0oul cylgtyl c16zmz85 cn1s8s
 className={`w-element c13rvnfs cdhbme8 ckkp5ls cq2ae4j c6qj28r c1n75u37 c1muqwoi c1l5fgsc c24jrif c1lxhulz c1rtwn8k c1yn9fna clrwo5d cd6ip1x c17hxu8w`}>
 <MarkdownEmbed
 code={"[ドキュメントホーム](/jp/docs) / **モデルタブ**"}
-className={`w-markdown-embed c1jwyh4u c1411o3y cyu9atc c1y2x13x c1n8816a c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 cq6rd9c cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cpqebfv c1kjcvme c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+className={`w-markdown-embed c1jwyh4u c71q0nn cyu9atc c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 <h1
 className={`w-element c11wsiwx c1su7aph`}>
 {"モデルタブ"}
 </h1>
 <MarkdownEmbed
-code={"## モデル一覧を確認する\n![モデルタブ](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Model-Tab-ja-1.webp?raw=true)\n\nモデルタブを開くと、選択状態になっているOllamaサーバー上にあるモデルが一覧で表示されます（サーバーの選択状態を切り替えるには、[**サーバータブのドキュメント**](/jp/docs/server-tab)をご覧ください）。\\\nmacOS版ではリストのヘッダーセルをクリックするか、iOS / iPadOS / visionOS版では右上の並び替えボタンをクリックすることでリストを並び変えることができます。\n\n## モデルを追加する\nOllamaサーバーにモデルを追加するには、右上にある「**+**」ボタンをクリックするか、`⌥ (Option)` + `⌘ (Command)` + `M`キーを同時に押します。\n\n![モデルを追加](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Model-Tab-ja-3.webp?raw=true)\n\nモデルの追加画面を開くとこのような画面が表示されるので、追加したいモデル名を入力します。\\\n入力できたら、追加ボタンをクリックまたはタップするか、`↩︎ (Return)`キーを押すとモデルの追加が始まります。\n\n> **豆知識**\\\n> どのようなモデル名を入力したら良いかわからない場合や追加できるモデルを探したい場合、左下の「ウェブサイトを開く」ボタンをクリックすることでOllamaのモデル一覧ページを開くことができます。\\\n> 追加したモデルを見つけたら、モデル名の入力欄に`モデル名:タグ名`（例: `gemma3:4b`）または`モデル名`（例: `gemma3`）を入力することでモデルを追加することができます。\\\n> タグ名が入力されずにモデル名だけが入力された場合、そのモデルの`latest`タグがついたものがダウンロードされます。\n\n![モデルのダウンロード](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Model-Tab-ja-4.webp?raw=true)\n\nモデルのダウンロード中はこのような画面が表示されます。モデルによっては容量が大きく、ダウンロードが完了するまでに時間がかかる場合があります。\\\nダウンロード中は画面の下にプログレスバーと進捗情報が表示されるため、ダウンロードの進捗が視覚的にわかりやすいです。\n\nダウンロードが完了すると自動的にモデルリストが更新され、最新のリストが反映されます。\n\n## モデルを削除する\n![モデルの削除](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Model-Tab-ja-5.webp?raw=true)\n\nモデルを削除するには、削除したいモデル項目上でコンテキストメニューを開き「**削除...**」をクリックまたはタップするか、削除したサーバーを左端までスワイプする（iOS / iPadOS / visionOS版のみ）ことで削除することができます。\n\n## モデルの詳細情報を確認する\n![モデルインスペクタ](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Model-Tab-ja-2.webp?raw=true)\n\nインスペクタを開くことで、リストでハイライトされているモデルの詳細情報を確認することができます。\\\nインスペクタを開くには、右上のサイドバー切り替えボタンをクリックまたはタップします。\n\nインスペクタからは、次の情報を確認することができます。\n- **モデル名**\n- **モデルの機能**\n  - インスペクタエリアからはみ出ている場合は横スクロールすることができます。\n- **モデルのサイズ**\n- **モデルの変更日**\n  - 多くの場合、モデルをダウンロードした日付が表示されます。\n- **モデルのダイジェスト**\n- **詳細情報**\n  - **形式**\n  - **ファミリー / ファミリーズ**\n    - モデルが属しているグループが表示されます。\n  - **パラメーターサイズ**\n  - **量子化レベル**\n- **モデル情報**\n  - **モデルのライセンス**\n    - 存在する場合、モデルのライセンス全文を表示することができます。\n  - **モデルの詳細なパラメーター数**\n  - **モデルのコンテキスト長**\n  - **モデルの埋め込み長**\n\nこれらのうち、「**モデルの機能**」と「**モデル情報**」はOllama APIを通じてOllamaのウェブサイト上から取得されるため、Ollamaサーバーがインターネットに接続されていないと表示することができません。\n\n> **豆知識**\\\n> 各項目のテキスト上でコンテキストメニューを開くと、値をコピーすることができます。\n"}
-className={`w-markdown-embed c1jwyh4u c1411o3y c1igc709 c1y2x13x c1n8816a c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 cq6rd9c cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cpqebfv c1kjcvme c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+code={"## モデル一覧を確認する\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Model-Tab-ja-1.webp?raw=true"}
+loading={"lazy"}
+alt={"モデルタブ"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"\nモデルタブを開くと、選択状態になっているOllamaサーバー上にあるモデルが一覧で表示されます（サーバーの選択状態を切り替えるには、[**サーバータブのドキュメント**](/jp/docs/server-tab)をご覧ください）。\\\nmacOS版ではリストのヘッダーセルをクリックするか、iOS / iPadOS / visionOS版では右上の並び替えボタンをクリックすることでリストを並び変えることができます。\n\n## モデルを追加する\nOllamaサーバーにモデルを追加するには、右上にある「**+**」ボタンをクリックするか、`⌥ (Option)` + `⌘ (Command)` + `M`キーを同時に押します。\n\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Model-Tab-ja-3.webp?raw=true"}
+loading={"lazy"}
+alt={"モデルを追加"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"\nモデルの追加画面を開くとこのような画面が表示されるので、追加したいモデル名を入力します。\\\n入力できたら、追加ボタンをクリックまたはタップするか、`↩︎ (Return)`キーを押すとモデルの追加が始まります。\n\n> **豆知識**\\\n> どのようなモデル名を入力したら良いかわからない場合や追加できるモデルを探したい場合、左下の「ウェブサイトを開く」ボタンをクリックすることでOllamaのモデル一覧ページを開くことができます。\\\n> 追加したモデルを見つけたら、モデル名の入力欄に`モデル名:タグ名`（例: `gemma3:4b`）または`モデル名`（例: `gemma3`）を入力することでモデルを追加することができます。\\\n> タグ名が入力されずにモデル名だけが入力された場合、そのモデルの`latest`タグがついたものがダウンロードされます。\\\n> `ollama run モデル名:タグ名`や`ollama pull モデル名:タグ名`のようなコマンド形式でもモデルをダウンロードすることができます。\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Model-Tab-ja-4.webp?raw=true"}
+loading={"lazy"}
+alt={"モデルのダウンロード"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"\nモデルのダウンロード中はこのような画面が表示されます。モデルによっては容量が大きく、ダウンロードが完了するまでに時間がかかる場合があります。\\\nダウンロード中は画面の下にプログレスバーと進捗情報が表示されるため、ダウンロードの進捗が視覚的にわかりやすいです。\n\nダウンロードが完了すると自動的にモデルリストが更新され、最新のリストが反映されます。\n\n## モデルを削除する\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Model-Tab-ja-5.webp?raw=true"}
+loading={"lazy"}
+alt={"モデルの削除"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"\nモデルを削除するには、削除したいモデル項目上でコンテキストメニューを開き「**削除...**」をクリックまたはタップするか、削除したサーバーを左端までスワイプする（iOS / iPadOS / visionOS版のみ）ことで削除することができます。\n\n## モデルの詳細情報を確認する\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Model-Tab-ja-2.webp?raw=true"}
+loading={"lazy"}
+alt={"モデルインスペクタ"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"\nインスペクタを開くことで、リストでハイライトされているモデルの詳細情報を確認することができます。\\\nインスペクタを開くには、右上のサイドバー切り替えボタンをクリックまたはタップします。\n\nインスペクタからは、次の情報を確認することができます。\n- **モデル名**\n- **モデルの機能**\n  - インスペクタエリアからはみ出ている場合は横スクロールすることができます。\n- **モデルのサイズ**\n- **モデルの変更日**\n  - 多くの場合、モデルをダウンロードした日付が表示されます。\n- **モデルのダイジェスト**\n  - モデルのSHA-256ハッシュ値が表示されます。\n- **詳細情報**\n  - **形式**\n  - **ファミリー / ファミリーズ**\n    - モデルが属しているグループが表示されます。\n  - **パラメーターサイズ**\n  - **量子化レベル**\n- **モデル情報**\n  - **モデルのライセンス**\n    - 存在する場合、モデルのライセンス全文を表示することができます。\n  - **モデルの詳細なパラメーター数**\n  - **モデルのコンテキスト長**\n  - **モデルの埋め込み長**\n\n\n> **豆知識**\\\n> 各項目のテキスト上でコンテキストメニューを開くと、値をコピーすることができます。\n\n## 特定の機能に対応したモデルだけを表示する"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Model-Tab-ja-6.webp?raw=true"}
+loading={"lazy"}
+alt={"モデルのフィルタリング"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"インスペクタに表示されているモデル機能タグをクリックまたはタップするか、ツールバーに表示されているフィルターメニューから、特定の機能に対応したモデルだけを表示することができます。"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 </div>
 </div>
@@ -610,7 +665,7 @@ className={`w-element cjt11so c1u6urjk cn1s8se ckkp5ls cq2ae4j cv5n7tx cd7qpso c
 <div
 className={`w-element ckkp5ls c1dquu02 cr5s4bi cv5n7tx cd7qpso ctrrskr`}>
 <HtmlEmbed
-code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"}
+code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"" + imagePath + "/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"" + imagePath + "/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"}
 className={`w-html-embed crk50b8 cakywc7 c1gz6jks`} />
 <div
 className={`w-element c1yr0oul cr5s4bi`}>
@@ -703,7 +758,7 @@ className={`w-image c1j4919n c1sq2oqr cjt11so`} />
 <div
 className={`w-element c13nk3y6 c17c8i9t czyf6ca c12qprsv c110q0hy c1olcu3a`}>
 <Image
-src={"https://github.com/taikun114/Mocolamma/blob/main/docs/images/Introduction-HP-ja.webp?raw=true"}
+src={imagePath + "/Introduction-HP-ja.webp?raw=true"}
 width={1920}
 height={1080}
 alt={"紹介"}

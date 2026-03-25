@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2026-01-16T07:02:27.329Z";
+      export const lastPublished = "2026-03-25T10:47:36.047Z";
 
       export const siteName = "Mocolamma";
 
@@ -31,6 +31,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       const Page = (_props: { system: any; }) => {
 const system = _props.system;
+let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/dev/docs/images")
 return <Body
 className={`w-element ckkp5ls cylgtyl c1dquu02 c13zugmy cq2ae4j`}>
 <Slot>
@@ -591,11 +592,11 @@ className={`w-element c11wsiwx c1su7aph`}>
 </h1>
 <p
 className={`w-element c1a2244i c1eswi8f`}>
-{"最終更新: 2025年10月10日"}
+{"最終更新: 2026年3月23日"}
 </p>
 <MarkdownEmbed
-code={"## ウェブサイトが収集する情報について\n当ウェブサイトでは、アクセス解析ツールとして「Umami」を使用しています。これらの収集するトラフィックデータは匿名であり、個人を特定するものではありません。\n\n### Umami\nUmamiでは、トラフィックデータの収集にCookieを使用していません。そのため、トラフィックデータの収集を拒否したい場合は[**こちらのドキュメント**](https://umami.is/docs/exclude-my-own-visits)をご覧ください。\\\nUmamiの規約に関しては、[**こちら**](https://umami.is/privacy)のページをご確認ください。\n\n## アプリによる情報の収集について\nMocolammaは、ユーザーのいかなる情報も収集・送信しません。\\\nシステム設定の「プライバシーとセキュリティ」設定内にある「解析と改善」で「**アプリデベロッパと共有**」をオンにしているユーザーの使用状況データとクラッシュレポートが共有される場合がありますが、アプリ自体には情報を収集して送信する機能は全く搭載されていません。プライバシーが心配な方でも安心してお使いいただけます。\n\n### Mocolammaが取得する情報\nMocolammaの機能が正しく動作するために取得する情報があります。次の情報が取得されます。\n\n- ローカルホストと入力したホスト上のOllama情報\n  - Ollama APIを使い、以下の情報を取得します。\n    - Ollamaのバージョン\n    - Ollamaサーバー上で実行中のモデル数・モデル名\n    - Ollamaサーバー上にあるモデル情報\n- Ollamaサイト上からの詳細なモデル情報\n  - このデータを取得するには、Ollamaサーバーがインターネットに接続されている必要があります。\n- デバイスのローカルネットワーク許可状況\n  - アプリがローカルネットワーク内のOllamaサーバーと通信するために必要な許可が与えられているかどうかを確認します。\n- システム情報・アプリのバージョン情報\n  - アプリ内の「フィードバックを送信」ボタンをクリックした際に、フィードバックテンプレート言語の自動検出及びこちらで必要な情報が事前入力される機能のために使用されています。この機能には、以下の情報が取得されます。\n    - アプリの言語（日本語かそれ以外か）\n    - OS情報（例: `macOS`）\n    - システムバージョン情報（例: `バージョン26.0.1（ビルド25A362）`）\n    - アプリバージョン情報（例: `バージョン1.0.0（ビルド2350）`）\n \nOllamaサーバーにモデルを追加するために入力されたモデル名と、Ollamaのウェブサイト上からモデルの詳細を確認するためにモデル名がOllamaのウェブサイトに送信される場合がありますが、これはOllama APIの一般的な仕様であり、このアプリからその他の情報を外部に送信する事はありません。\n\nOllamaのウェブサイトでこれらの情報がどのように扱われるかについては、Ollamaの[**プライバシー情報**](https://github.com/ollama/ollama/blob/main/docs/faq.md#does-ollama-send-my-prompts-and-responses-back-to-ollamacom)をご覧ください。"}
-className={`w-markdown-embed c1jwyh4u c1411o3y c1igc709 c1y2x13x c1n8816a c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 cq6rd9c cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cpqebfv c1kjcvme c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+code={"## ウェブサイトが収集する情報について\n当ウェブサイトでは、アクセス解析ツールとして「Umami」を使用しています。これらの収集するトラフィックデータは匿名であり、個人を特定するものではありません。\n\n### Umami\nUmamiでは、トラフィックデータの収集にCookieを使用していません。そのため、トラフィックデータの収集を拒否したい場合は[**こちらのドキュメント**](https://umami.is/docs/exclude-my-own-visits)をご覧ください。\\\nUmamiの規約に関しては、[**こちら**](https://umami.is/privacy)のページをご確認ください。\n\n## アプリによる情報の収集について\nMocolammaは、ユーザーのいかなる情報も収集・送信しません。\\\nシステム設定の「プライバシーとセキュリティ」設定内にある「解析と改善」で「**アプリデベロッパと共有**」をオンにしているユーザーの使用状況データとクラッシュレポートが共有される場合がありますが、アプリ自体には情報を収集して送信する機能は全く搭載されていません。プライバシーが心配な方でも安心してお使いいただけます。\n\n### Mocolammaが取得する情報\nMocolammaの機能が正しく動作するために取得する情報があります。次の情報が取得されます。\n\n- ローカルホストと入力したホスト上のOllama情報\n  - Ollama APIを使い、以下の情報を取得します。\n    - Ollamaのバージョン\n    - Ollamaサーバー上で実行中のモデル数・モデル名\n    - Ollamaサーバー上にあるモデル情報\n- デバイスのローカルネットワーク許可状況\n  - アプリがローカルネットワーク内のOllamaサーバーと通信するために必要な許可が与えられているかどうかを確認します。\n- システム情報・アプリのバージョン情報\n  - アプリ内の「フィードバックを送信」ボタンをクリックした際に、フィードバックテンプレート言語の自動検出及びこちらで必要な情報が事前入力される機能のために使用されています。この機能には、以下の情報が取得されます。\n    - アプリの言語（日本語かそれ以外か）\n    - OS情報（例: `macOS`）\n    - システムバージョン情報（例: `バージョン26.3.1（ビルド25D2128）`）\n    - アプリバージョン情報（例: `バージョン1.2.0（ビルド4244）`）\n- 主な機能のアクション数（App Store版のみ）\n  - App Store版では、レビューリクエストを適切なタイミングで表示するために、モデルの追加、チャット、画像生成のような主要な機能を使用した回数が記録されます。\n  - この情報について詳しくは「[**App Storeレビューリクエストについて**](/jp/docs/app-store-review-requests)」ドキュメントをご覧ください。\n \nOllamaサーバーにモデルを追加するために入力されたモデル名と、Ollamaのウェブサイト上からモデルの情報を確認するためにモデル名がOllamaのウェブサイトに送信される場合がありますが、これはOllama APIの一般的な仕様であり、このアプリからその他の情報を外部に送信する事はありません。\n\nOllamaのウェブサイトでこれらの情報がどのように扱われるかについては、Ollamaの[**プライバシー情報**](https://github.com/ollama/ollama/blob/main/docs/faq.md#does-ollama-send-my-prompts-and-responses-back-to-ollamacom)をご覧ください。"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 </div>
 </div>
@@ -610,7 +611,7 @@ className={`w-element cjt11so c1u6urjk cn1s8se ckkp5ls cq2ae4j cv5n7tx cd7qpso c
 <div
 className={`w-element ckkp5ls c1dquu02 cr5s4bi cv5n7tx cd7qpso ctrrskr`}>
 <HtmlEmbed
-code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"}
+code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"" + imagePath + "/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"" + imagePath + "/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"}
 className={`w-html-embed crk50b8 cakywc7 c1gz6jks`} />
 <div
 className={`w-element c1yr0oul cr5s4bi`}>
@@ -703,7 +704,7 @@ className={`w-image c1j4919n c1sq2oqr cjt11so`} />
 <div
 className={`w-element c13nk3y6 c17c8i9t czyf6ca c12qprsv c110q0hy c1olcu3a`}>
 <Image
-src={"https://github.com/taikun114/Mocolamma/blob/main/docs/images/Introduction-HP-ja.webp?raw=true"}
+src={imagePath + "/Introduction-HP-ja.webp?raw=true"}
 width={1920}
 height={1080}
 alt={"紹介"}

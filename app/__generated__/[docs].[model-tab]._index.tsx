@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2026-01-16T07:02:27.329Z";
+      export const lastPublished = "2026-03-25T10:47:36.047Z";
 
       export const siteName = "Mocolamma";
 
@@ -31,6 +31,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       const Page = (_props: { system: any; }) => {
 const system = _props.system;
+let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/dev/docs/images")
 return <Body
 className={`w-element ckkp5ls cq2ae4j c13zugmy`}>
 <Slot>
@@ -589,15 +590,69 @@ className={`w-element c13rvnfs c14cyv8r ckkp5ls c1yr0oul cylgtyl c16zmz85 cn1s8s
 className={`w-element c13rvnfs cdhbme8 ckkp5ls cq2ae4j c6qj28r c1n75u37 c1muqwoi c1l5fgsc c24jrif c1lxhulz c1rtwn8k c1yn9fna clrwo5d cd6ip1x c17hxu8w`}>
 <MarkdownEmbed
 code={"[Document Home](/docs) / **Model Tab**"}
-className={`w-markdown-embed c1jwyh4u c1411o3y cyu9atc c1y2x13x c1n8816a c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 cq6rd9c cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cpqebfv c1kjcvme c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+className={`w-markdown-embed c1jwyh4u c71q0nn cyu9atc c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 <h1
 className={`w-element c11wsiwx c1su7aph`}>
 {"Model Tab"}
 </h1>
 <MarkdownEmbed
-code={"## Viewing the Model List\n![Model Tab](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Model-Tab-1.webp?raw=true)\n\nWhen you open the Model tab, a list of models on the currently selected Ollama server is displayed (to switch the selected server, please refer to the [**Server Tab documentation**](/docs/server-tab)).\\\nYou can sort the list by clicking the list header cell in the macOS version, or by clicking the sort button in the top right corner in the iOS / iPadOS / visionOS versions.\n\n## Adding a Model\nTo add a model to the Ollama server, click the \"**+**\" button in the top right corner or press `⌥ (Option)` + `⌘ (Command)` + `M` simultaneously.\n\n![Add Model](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Model-Tab-3.webp?raw=true)\n\nWhen you open the Add Model screen, you will see a screen like this. Enter the name of the model you want to add.\\\nOnce entered, click or tap the Add button, or press the `↩︎ (Return)` key to start adding the model.\n\n> **Tip**\\\n> If you are unsure what model name to enter or want to find models you can add, you can click the \"Open Website\" button in the bottom left to open the Ollama model list page.\\\n> Once you find a model to add, you can add it by entering `model-name:tag-name` (e.g., `gemma3:4b`) or `model-name` (e.g., `gemma3`) into the model name input field.\\\n> If only the model name is entered without a tag name, the model with the `latest` tag for that model will be downloaded.\n\n![Model Download](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Model-Tab-4.webp?raw=true)\n\nA screen like this is displayed while the model is downloading. Some models are large and may take time to complete the download.\\\nA progress bar and status information are displayed at the bottom of the screen during the download, making the download progress visually clear.\n\nThe model list is automatically updated once the download is complete, reflecting the latest list.\n\n## Deleting a Model\n![Delete Model](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Model-Tab-5.webp?raw=true)\n\nTo delete a model, open the context menu on the desired model item and click or tap \"**Delete...**\", or swipe the server to the far left (iOS / iPadOS / visionOS versions only).\n\n## Viewing Model Details\n![Model Inspector](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Model-Tab-2.webp?raw=true)\n\nBy opening the Inspector, you can view the detailed information of the model highlighted in the list.\\\nTo open the Inspector, click or tap the sidebar toggle button in the top right corner.\n\nFrom the Inspector, you can view the following information:\n- **Model Name**\n- **Model Capabilities**\n  - You can scroll horizontally if the text exceeds the Inspector area.\n- **Model Size**\n- **Model Modified Date**\n  - In most cases, the date the model was downloaded is displayed.\n- **Model Digest**\n- **Details Information**\n  - **Format**\n  - **Family / Families**\n    - The group(s) the model belongs to are displayed.\n  - **Parameter Size**\n  - **Quantization Level**\n- **Model Information**\n  - **Model License**\n    - If it exists, the full text of the model's license can be viewed.\n  - **Detailed Model Parameter Count**\n  - **Model Context Length**\n  - **Model Embedding Length**\n\nAmong these, \"**Model Capabilities**\" and \"**Model Information**\" are retrieved from the Ollama website via the Ollama API and cannot be displayed if the Ollama server is not connected to the internet.\n\n> **Tip**\\\n> Open the context menu on the text of each item to copy the value."}
-className={`w-markdown-embed c1jwyh4u c1411o3y c1igc709 c1y2x13x c1n8816a c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 cq6rd9c cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cpqebfv c1kjcvme c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+code={"## Viewing the Model List\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Model-Tab-1.webp?raw=true"}
+loading={"lazy"}
+alt={"Model Tab"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"When you open the Model tab, a list of models on the currently selected Ollama server is displayed (to switch the selected server, please refer to the [**Server Tab documentation**](/docs/server-tab)).\\\nYou can sort the list by clicking the list header cell in the macOS version, or by clicking the sort button in the top right corner in the iOS / iPadOS / visionOS versions.\n\n## Adding a Model\nTo add a model to the Ollama server, click the \"**+**\" button in the top right corner or press `⌥ (Option)` + `⌘ (Command)` + `M` simultaneously.\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Model-Tab-3.webp?raw=true"}
+loading={"lazy"}
+alt={"Add Model"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"When you open the Add Model screen, you will see a screen like this. Enter the name of the model you want to add.\\\nOnce entered, click or tap the Add button, or press the `↩︎ (Return)` key to start adding the model.\n\n> **Tip**\\\n> If you are unsure what model name to enter or want to find models you can add, you can click the \"Open Website\" button in the bottom left to open the Ollama model list page.\\\n> Once you find a model to add, you can add it by entering `model-name:tag-name` (e.g., `gemma3:4b`) or `model-name` (e.g., `gemma3`) into the model name input field.\\\n> If only the model name is entered without a tag name, the model with the `latest` tag for that model will be downloaded.\\\n> You can also download models using command formats such as `ollama run model-name:tag-name` or `ollama pull model-name:tag-name`."}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Model-Tab-4.webp?raw=true"}
+loading={"lazy"}
+alt={"Model Download"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"A screen like this is displayed while the model is downloading. Some models are large and may take time to complete the download.\\\nA progress bar and status information are displayed at the bottom of the screen during the download, making the download progress visually clear.\n\nThe model list is automatically updated once the download is complete, reflecting the latest list.\n\n## Deleting a Model\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Model-Tab-5.webp?raw=true"}
+loading={"lazy"}
+alt={"Delete Model"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"To delete a model, open the context menu on the desired model item and click or tap \"**Delete...**\", or swipe the server to the far left (iOS / iPadOS / visionOS versions only).\n\n## Viewing Model Details\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Model-Tab-2.webp?raw=true"}
+loading={"lazy"}
+alt={"Model Inspector"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"\nBy opening the Inspector, you can view the detailed information of the model highlighted in the list.\\\nTo open the Inspector, click or tap the sidebar toggle button in the top right corner.\n\nFrom the Inspector, you can view the following information:\n- **Model Name**\n- **Model Capabilities**\n  - You can scroll horizontally if the text exceeds the Inspector area.\n- **Model Size**\n- **Model Modified Date**\n  - In most cases, the date the model was downloaded is displayed.\n- **Model Digest**\n  - The SHA-256 hash value of the model is displayed.\n- **Details Information**\n  - **Format**\n  - **Family / Families**\n    - The group(s) the model belongs to are displayed.\n  - **Parameter Size**\n  - **Quantization Level**\n- **Model Information**\n  - **Model License**\n    - If it exists, the full text of the model's license can be viewed.\n  - **Detailed Model Parameter Count**\n  - **Model Context Length**\n  - **Model Embedding Length**\n\n\n> **Tip**\\\n> Open the context menu on the text of each item to copy the value.\n\n## Displaying only models that support specific capabilities"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Model-Tab-6.webp?raw=true"}
+loading={"lazy"}
+alt={"Filtering Models"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"You can display only models that support specific capabilities by clicking or tapping the model capability tags shown in the inspector, or through the filter menu displayed in the toolbar."}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 </div>
 </div>
@@ -612,7 +667,7 @@ className={`w-element cjt11so c1u6urjk cn1s8se ckkp5ls cq2ae4j cv5n7tx cd7qpso c
 <div
 className={`w-element ckkp5ls c1dquu02 cr5s4bi cv5n7tx cd7qpso ctrrskr`}>
 <HtmlEmbed
-code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"}
+code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"" + imagePath + "/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"" + imagePath + "/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"}
 className={`w-html-embed crk50b8 cakywc7 c1gz6jks`} />
 <div
 className={`w-element c1yr0oul cr5s4bi`}>
@@ -705,7 +760,7 @@ className={`w-image c1j4919n c1sq2oqr cjt11so`} />
 <div
 className={`w-element c13nk3y6 c17c8i9t czyf6ca c12qprsv c110q0hy c1olcu3a`}>
 <Image
-src={"https://github.com/taikun114/Mocolamma/blob/main/docs/images/Introduction-HP.webp?raw=true"}
+src={imagePath + "/Introduction-HP.webp?raw=true"}
 width={1920}
 height={1080}
 alt={"Introduction"}

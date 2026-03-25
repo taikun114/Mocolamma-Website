@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2026-01-16T07:02:27.329Z";
+      export const lastPublished = "2026-03-25T10:47:36.047Z";
 
       export const siteName = "Mocolamma";
 
@@ -31,6 +31,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       const Page = (_props: { system: any; }) => {
 const system = _props.system;
+let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/dev/docs/images")
 return <Body
 className={`w-element ckkp5ls cylgtyl c1dquu02 c13zugmy cq2ae4j`}>
 <Slot>
@@ -587,15 +588,69 @@ className={`w-element c13rvnfs c14cyv8r ckkp5ls c1yr0oul cylgtyl c16zmz85 cn1s8s
 className={`w-element c13rvnfs cdhbme8 ckkp5ls cq2ae4j c6qj28r c1n75u37 c1muqwoi c1l5fgsc c24jrif c1lxhulz c1rtwn8k c1yn9fna clrwo5d cd6ip1x c17hxu8w`}>
 <MarkdownEmbed
 code={"[ドキュメントホーム](/jp/docs) / **サーバータブ**"}
-className={`w-markdown-embed c1jwyh4u c1411o3y cyu9atc c1y2x13x c1n8816a c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 cq6rd9c cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cpqebfv c1kjcvme c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+className={`w-markdown-embed c1jwyh4u c71q0nn cyu9atc c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 <h1
 className={`w-element c11wsiwx c1su7aph`}>
 {"サーバータブ"}
 </h1>
 <MarkdownEmbed
-code={"## サーバーを追加する\n![サーバータブ](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Server-Tab-ja-1.webp?raw=true)\n\nMocolammaを開くと、最初にこのような画面が表示されます。Mocolammaを使ってOllamaサーバーを管理するには、最初に管理したいOllamaサーバーを追加する必要があります。\n\n> **豆知識**\\\n> macOS版の場合、初期状態で`localhost`サーバーが自動で追加されます。Mocolammaを開いたMacで既にOllamaサーバーを実行している場合はこの手順をスキップできます。\n\nOllamaサーバーを追加するには、右上にある「**+**」ボタンをクリックするか、`⌥ (Option)` + `⌘ (Command)` + `S`キーを同時に押します。\n\n![サーバーを追加](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Server-Tab-ja-2.webp?raw=true)\n\nサーバーの追加画面を開くとこのような画面が表示されるので、識別しやすいお好みの名前と、Ollamaサーバーのホスト名を入力します。\\\n入力できたら、保存ボタンをクリックまたはタップするか、`↩︎ (Return)`キーを押すとOllamaサーバーへの接続確認が行われ、問題なく接続できるとサーバーが追加されます。\n\n> **情報**\\\n> Ollamaサーバーに接続できない場合、ネットワークからOllamaにアクセスできるように設定されていることをご確認ください。\\\n> [**公式ドキュメント**](https://github.com/ollama/ollama/blob/main/docs/faq.md#how-do-i-configure-ollama-server)を参考に環境変数を使ってネットワークに公開するか、Ollamaアプリからネットワークに公開するように設定します。\n\n> **豆知識**\\\n> 「ホスト」に`demo-mode`と入力してサーバーを追加し、選択することでデモモードを有効にすることができます。\n\n![サーバー一覧](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Server-Tab-ja-3.webp?raw=true)\n\nサーバーが追加されると、追加されたサーバーが自動的に選択状態になります。\n\n## サーバーを編集・削除する\nサーバーを編集するには、編集したいサーバー項目上でコンテキストメニューを開き「**編集...**」をクリックまたはタップするか、編集したいサーバーを左にスワイプして編集ボタンをクリックまたはタップすると編集画面を開くことができます。\n\n削除したいサーバー項目上でコンテキストメニューを開き「**削除...**」をクリックまたはタップするか、削除したサーバーを左端までスワイプすることで削除することができます。\n\n## サーバーの選択状態を切り替える\nこの選択状態は、MocolammaがどのOllamaサーバーに接続して管理するかを決めるものです。選択状態になっているサーバーには、右側にチェックマークが付いています。\n\nサーバーの選択状態は、次の方法で切り替えることができます。\n- ダブルクリックする（macOS版のみ）\n- コンテキストメニューから「**選択**」をクリックまたはタップする\n- 選択したいサーバーを右端までスワイプする\n\n## サーバーの詳細情報を確認する\n![サーバーインスペクタ](https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Server-Tab-ja-4.webp?raw=true)\n\nインスペクタを開くことで、リストでハイライトされているサーバーの詳細情報を確認することができます。\\\nインスペクタを開くには、右上のサイドバー切り替えボタンをクリックまたはタップします。\n\nインスペクタからは、次の情報を確認することができます。\n- 設定したサーバー名\n- サーバーの接続状況と接続エラー情報（接続エラーが起きている場合）\n- 設定したサーバーのホスト\n- サーバー上で実行しているOllamaのバージョン\n- サーバー上で現在読み込まれているモデルの数\n  - 1つ以上のモデルが読み込まれている場合、実行中のモデル名、使用中のVRAM容量、メモリから解放される予定時刻が表示されます。\n\n> **豆知識**\\\n> 「**ホスト**」と「**Ollamaバージョン**」のテキスト上でコンテキストメニューを開くと、値をコピーすることができます。\\\n> 「**実行中のモデル数**」のテキスト上でコンテキストメニューを開くと、実行中のモデル数を再読み込みすることができます。\n"}
-className={`w-markdown-embed c1jwyh4u c1411o3y c1igc709 c1y2x13x c1n8816a c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 cq6rd9c cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cpqebfv c1kjcvme c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+code={"## サーバーを追加する\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Server-Tab-ja-1.webp?raw=true"}
+loading={"lazy"}
+alt={"サーバータブ"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"\nMocolammaを開くと、最初にこのような画面が表示されます。Mocolammaを使ってOllamaサーバーを管理するには、最初に管理したいOllamaサーバーを追加する必要があります。\n\n> **豆知識**\\\n> macOS版の場合、初期状態で`localhost`サーバーが自動で追加されます。Mocolammaを開いたMacで既にOllamaサーバーを実行している場合はこの手順をスキップできます。\n\nOllamaサーバーを追加するには、右上にある「**+**」ボタンをクリックするか、`⌥ (Option)` + `⌘ (Command)` + `S`キーを同時に押します。\n\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Server-Tab-ja-2.webp?raw=true"}
+loading={"lazy"}
+alt={"サーバーを追加"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"\nサーバーの追加画面を開くとこのような画面が表示されるので、識別しやすいお好みの名前と、Ollamaサーバーのホスト名を入力します。\\\n入力できたら、保存ボタンをクリックまたはタップするか、`↩︎ (Return)`キーを押すとOllamaサーバーへの接続確認が行われ、問題なく接続できるとサーバーが追加されます。\n\n> **情報**\\\n> Ollamaサーバーに接続できない場合、ネットワークからOllamaにアクセスできるように設定されていることをご確認ください。\\\n> [**公式ドキュメント**](https://github.com/ollama/ollama/blob/main/docs/faq.md#how-do-i-configure-ollama-server)を参考に環境変数を使ってネットワークに公開するか、Ollamaアプリからネットワークに公開するように設定します。\n\n> **豆知識**\\\n> 「ホスト」に`demo-mode`と入力してサーバーを追加し、選択することでデモモードを有効にすることができます。\n\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Server-Tab-ja-3.webp?raw=true"}
+loading={"lazy"}
+alt={"サーバー一覧"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"\nサーバーが追加されると、追加されたサーバーが自動的に選択状態になります。\n\n## サーバーを編集・削除する\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Server-Tab-ja-5.webp?raw=true"}
+loading={"lazy"}
+alt={"サーバー一覧"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"サーバーを編集するには、編集したいサーバー項目上でコンテキストメニューを開き「**編集...**」をクリックまたはタップするか、編集したいサーバーを左にスワイプして編集ボタンをクリックまたはタップすると編集画面を開くことができます。\n\n削除したいサーバー項目上でコンテキストメニューを開き「**削除...**」をクリックまたはタップするか、削除したサーバーを左端までスワイプすることで削除することができます。\n\n## サーバーの選択状態を切り替える\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Server-Tab-ja-6.webp?raw=true"}
+loading={"lazy"}
+alt={"サーバー一覧"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"この選択状態は、MocolammaがどのOllamaサーバーに接続して管理するかを決めるものです。選択状態になっているサーバーには、右側にチェックマークが付いています。\n\nサーバーの選択状態は、次の方法で切り替えることができます。\n- ダブルクリックする（macOS版のみ）\n- コンテキストメニューから「**選択**」をクリックまたはタップする\n- 選択したいサーバーを右端までスワイプする\n\n## サーバーの詳細情報を確認する\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
+<Image
+src={imagePath + "/Server-Tab-ja-4.webp?raw=true"}
+loading={"lazy"}
+alt={"サーバーインスペクタ"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<MarkdownEmbed
+code={"\nインスペクタを開くことで、リストでハイライトされているサーバーの詳細情報を確認することができます。\\\nインスペクタを開くには、右上のサイドバー切り替えボタンをクリックまたはタップします。\n\nインスペクタからは、次の情報を確認することができます。\n- 設定したサーバー名\n- サーバーの接続状況と接続エラー情報（接続エラーが起きている場合）\n- 設定したサーバーのホスト\n- サーバー上で実行しているOllamaのバージョン\n- サーバー上で現在読み込まれているモデルの数\n  - 1つ以上のモデルが読み込まれている場合、実行中のモデル名、使用中のVRAM容量、メモリから解放される予定時刻が表示されます。\n\n> **豆知識**\\\n> 「**ホスト**」と「**Ollamaバージョン**」のテキスト上でコンテキストメニューを開くと、値をコピーすることができます。\\\n> 読み込まれているモデル名の右側に表示されるアイコンからモデルを即座にアンロード（メモリから解放）することもできます。"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 </div>
 </div>
@@ -610,7 +665,7 @@ className={`w-element cjt11so c1u6urjk cn1s8se ckkp5ls cq2ae4j cv5n7tx cd7qpso c
 <div
 className={`w-element ckkp5ls c1dquu02 cr5s4bi cv5n7tx cd7qpso ctrrskr`}>
 <HtmlEmbed
-code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"}
+code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"" + imagePath + "/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"" + imagePath + "/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"}
 className={`w-html-embed crk50b8 cakywc7 c1gz6jks`} />
 <div
 className={`w-element c1yr0oul cr5s4bi`}>
@@ -703,7 +758,7 @@ className={`w-image c1j4919n c1sq2oqr cjt11so`} />
 <div
 className={`w-element c13nk3y6 c17c8i9t czyf6ca c12qprsv c110q0hy c1olcu3a`}>
 <Image
-src={"https://github.com/taikun114/Mocolamma/blob/main/docs/images/Introduction-HP-ja.webp?raw=true"}
+src={imagePath + "/Introduction-HP-ja.webp?raw=true"}
 width={1920}
 height={1080}
 alt={"紹介"}

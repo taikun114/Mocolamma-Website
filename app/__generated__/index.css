@@ -2,6 +2,8 @@
   :root {
     display: grid;
     min-height: 100%;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
     font-family: Arial, Roboto, sans-serif;
     font-size: 16px;
     line-height: 1.2;
@@ -273,83 +275,11 @@
   .c1y9f2xs {
     line-height: 1.5
   }
-  .ck0qs61 {
-    display: inline-block
-  }
-  .cwmr794 {
-    background-color: light-dark(#ffffff, #222222)
-  }
-  .c1muqwoi {
-    border-top-left-radius: 24px
-  }
-  .c1l5fgsc {
-    border-top-right-radius: 24px
-  }
-  .c24jrif {
-    border-bottom-left-radius: 24px
-  }
-  .c1lxhulz {
-    border-bottom-right-radius: 24px
-  }
-  .c18b1tda {
-    transition-property: box-shadow, background-color
-  }
-  .c1nox6s5 {
-    transition-duration: 200ms, 200ms
-  }
-  .c1lz60sb {
-    transition-timing-function: ease, ease
-  }
-  .c1ls5mky {
-    transition-delay: 0ms, 0ms
-  }
-  .c1dnsadh {
-    transition-behavior: normal, normal
-  }
-  .c1904aiq {
-    padding: 1rem
-  }
-  .cv6lq4t:hover {
-    box-shadow: 0px 0px 32px 0px rgb(0 0 0 / 0.3)
-  }
-  .c1o0p65i:hover {
-    background-color: light-dark(#ffffff, #111111)
-  }
-  .c19a84b6 {
-    border-top-left-radius: 16px
-  }
-  .csp7zn7 {
-    border-top-right-radius: 16px
-  }
-  .c1kn2zho {
-    border-bottom-left-radius: 16px
-  }
-  .c1ea8qr0 {
-    border-bottom-right-radius: 16px
-  }
-  .c1sp0bee {
-    background-color: rgb(237 92 210 / 0.21)
-  }
-  .c1miwggv {
-    flex-grow: 0
-  }
-  .c11qj7kj {
-    flex-shrink: 0
-  }
-  .ch0ewdm {
-    width: 48px
-  }
-  .c1sq2oqr {
-    height: 48px
-  }
-  .ce5vb00 {
-    background-color: rgb(52 220 109 / 0.21)
-  }
-  .c1ck5zkl {
-    background-color: rgb(107 180 220 / 0.28)
-  }
   .cvd4ss2 {
     font-weight: 400
+  }
+  .ck0qs61 {
+    display: inline-block
   }
   .c1qk4yjc {
     border-top-left-radius: 12px
@@ -366,8 +296,23 @@
   .cbtn7xi {
     transition-property: background-color, color
   }
+  .c1nox6s5 {
+    transition-duration: 200ms, 200ms
+  }
+  .c1lz60sb {
+    transition-timing-function: ease, ease
+  }
+  .c1ls5mky {
+    transition-delay: 0ms, 0ms
+  }
+  .c1dnsadh {
+    transition-behavior: normal, normal
+  }
   .ck4iode {
     border: 2px solid light-dark(#000000, #eeeeee)
+  }
+  .c1904aiq {
+    padding: 1rem
   }
   .c1veqtfu:hover {
     background-color: light-dark(#ffffff, #eeeeee)
@@ -420,6 +365,9 @@
   .c1j4919n {
     object-fit: contain
   }
+  .c1sq2oqr {
+    height: 48px
+  }
   .c17zp3zn {
     position: relative
   }
@@ -453,17 +401,35 @@
   .c1n75u37 {
     background-color: light-dark(#ffffff,#222222)
   }
+  .c1muqwoi {
+    border-top-left-radius: 24px
+  }
+  .c1l5fgsc {
+    border-top-right-radius: 24px
+  }
+  .c24jrif {
+    border-bottom-left-radius: 24px
+  }
+  .c1lxhulz {
+    border-bottom-right-radius: 24px
+  }
   .c1yn9fna {
     padding: 2rem
   }
   .c1jwyh4u p {
     line-height: 1.7
   }
-  .c1y2x13x h2 {
-    margin-top: 16px
+  .c71q0nn p {
+    margin-top: 0.2rem
   }
-  .c1n8816a h2 {
-    margin-bottom: 8px
+  .cznj3ay p {
+    margin-bottom: 0.2rem
+  }
+  .c1suh244 h2 {
+    margin-top: 2rem
+  }
+  .c1ggxnc2 h2 {
+    margin-bottom: 1rem
   }
   .c1wu3i9x h3 {
     margin-top: 16px
@@ -486,11 +452,11 @@
   .c1wbup66 code {
     background-color: light-dark(#eeeeee, #000000)
   }
-  .cpqebfv code {
-    padding-top: 8px
+  .cbje6ix code {
+    padding-top: 4px
   }
-  .c1kjcvme code {
-    padding-bottom: 8px
+  .c7retf code {
+    padding-bottom: 4px
   }
   .c1wqf82o code {
     padding-right: 6px
@@ -555,8 +521,11 @@
   .ci7c9m9 img {
     width: 100%
   }
-  .cq6rd9c img {
-    margin-top: 1rem
+  .c1g2fr61 img {
+    margin-top: 2rem
+  }
+  .cxt8a1l img {
+    margin-bottom: 1rem
   }
   .c1a2244i {
     margin-top: 1rem
@@ -707,6 +676,9 @@
   }
   .c1vimmxz {
     width: 1rem
+  }
+  .c11qj7kj {
+    flex-shrink: 0
   }
   .c1c866wh {
     transition-property: all
@@ -964,12 +936,6 @@
   .c1c00ac2 code {
     padding-right: 8px
   }
-  .c7retf code {
-    padding-bottom: 4px
-  }
-  .cbje6ix code {
-    padding-top: 4px
-  }
   .cwidp34 code {
     background-color: light-dark(#F2F4FF, #131838)
   }
@@ -1126,6 +1092,51 @@
   .c12e0v0g {
     margin-top: 2rem
   }
+  .cwmr794 {
+    background-color: light-dark(#ffffff, #222222)
+  }
+  .c18b1tda {
+    transition-property: box-shadow, background-color
+  }
+  .cv6lq4t:hover {
+    box-shadow: 0px 0px 32px 0px rgb(0 0 0 / 0.3)
+  }
+  .c1o0p65i:hover {
+    background-color: light-dark(#ffffff, #111111)
+  }
+  .c19a84b6 {
+    border-top-left-radius: 16px
+  }
+  .csp7zn7 {
+    border-top-right-radius: 16px
+  }
+  .c1kn2zho {
+    border-bottom-left-radius: 16px
+  }
+  .c1ea8qr0 {
+    border-bottom-right-radius: 16px
+  }
+  .c1sp0bee {
+    background-color: rgb(237 92 210 / 0.21)
+  }
+  .c1miwggv {
+    flex-grow: 0
+  }
+  .ch0ewdm {
+    width: 48px
+  }
+  .ckuhajy {
+    background-color: rgb(219 175 107 / 0.28)
+  }
+  .ce5vb00 {
+    background-color: rgb(52 220 109 / 0.21)
+  }
+  .c1ck5zkl {
+    background-color: rgb(107 180 220 / 0.28)
+  }
+  .csy5d8p {
+    background-color: light-dark(#97611d, #38240b)
+  }
 }
 @media all and (max-width: 991px) {
   .cmiec8n {
@@ -1184,9 +1195,6 @@
   .c4lzchq {
     row-gap: 0.5rem
   }
-  .cct7nc0 {
-    flex-direction: column
-  }
   .chpbxxb {
     display: none
   }
@@ -1216,6 +1224,9 @@
   }
   .coqlu7i {
     margin-left: -250px
+  }
+  .cct7nc0 {
+    flex-direction: column
   }
 }
 @media all and (max-width: 479px) {

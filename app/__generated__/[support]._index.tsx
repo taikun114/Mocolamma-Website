@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2026-01-16T07:02:27.329Z";
+      export const lastPublished = "2026-03-25T10:47:36.047Z";
 
       export const siteName = "Mocolamma";
 
@@ -31,6 +31,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       const Page = (_props: { system: any; }) => {
 const system = _props.system;
+let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/dev/docs/images")
 return <Body
 className={`w-element ckkp5ls cq2ae4j c13zugmy`}>
 <Slot>
@@ -596,8 +597,26 @@ className={`w-element c1a2244i c1eswi8f`}>
 {"Last Update: October 14, 2025"}
 </p>
 <HtmlEmbed
-code={"<h2>If you find a bug</h2>\n<p>Mocolamma is an app developed using generative AI. Although extensive testing was performed during development, bugs may remain, or some functions may not work properly.</p>\n<p>If you find bugs or operational issues, please check the already opened <a href=\"https://github.com/taikun114/Mocolamma/issues\" target=\"_blank\" data-umami-event=\"gh-issue\" data-umami-event-region=\"us\"><b>Issues</b></a> (known bugs or issues) and look for the same problems already reported by others. If you can't find the same issue, please open a new Issue to report the problem.<br>\nTo make bug tracking easier, please open one Issue per issue if you want to report multiple issues. In other words, if you want to report two bugs, you need to open two Issues.</p>\n\n<h2>Feedback</h2>\n<p>If you want to submit bug reports, idea sharing, or messages to the developer (me) as someone without a GitHub account, please click <a href=\"mailto:contact.taikun@gmail.com?subject=Mocolamma%20Feedback%3A%20&amp;body=Please%20describe%20the%20feedback%20in%20detail%3A%0D%0A%0D%0ASystem%20Information%3A%0D%0A%0D%0A-%20System%0D%0APlease%20enter%20the%20model%20of%20your%20Mac%20%2F%20iPhone%20%2F%20iPad%20%2F%20Apple%20Vision%20Pro.%0D%0A%0D%0A-%20OS%20Version%0D%0AIf%20you%20are%20experiencing%20problems%2C%20please%20enter%20the%20version%20of%20macOS%20%2F%20iOS%20%2F%20iPadOS%20%2F%20visionOS%20on%20which%20Mocolamma%20is%20running.%0D%0A%0D%0A-%20App%20Version%0D%0AIf%20you%20are%20experiencing%20problems%2C%20please%20enter%20the%20version%20of%20the%20app.%0D%0A%0D%0A\" data-umami-event=\"feedback-mail\" data-umami-event-region=\"us\"><b>this link</b></a> or use the in-app submission feature introduced below to send me an email (please note that I may not be able to reply to every message).<br>\nI recommend sending feedback from the in-app button, as this will open the email composition screen with a pre-filled template including system information (such as device type and OS version) and the app version.\n</p>\n\n<h3>How to Send Feedback from the App</h3>\n<p>To send feedback from the app, you first need to open the About screen for the app.</p>\n<img alt=\"How to open the About screen for the app\" src=\"https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Feedback-1.webp?raw=true\">\n<p>To open the About screen: on all versions of macOS and iPadOS 26.0 or later, click \"About Mocolamma\" in the menu bar. On iOS / iPadOS / visionOS, tap the Information button in the top right corner of the Settings tab.</p>\n<img alt=\"Send Feedback button\" src=\"https://github.com/taikun114/Mocolamma/blob/dev/docs/images/Feedback-2.webp?raw=true\">\n<p>Once the About screen is open, tap the \"Send Feedback\" button in the \"Support and Feedback\" section. This will open the email composition screen with a pre-filled template. Please enter the necessary information and send the email.</p>\n\n<h2>Community</h2>\n<p>A <a href=\"https://github.com/taikun114/Mocolamma/discussions\" target=\"_blank\" data-umami-event=\"gh-discussion\" data-umami-event-region=\"us\"><b>Discussion page</b></a> is available where you can share new features you'd like added to the app, ask questions about potential issues, or exchange opinions with others.<br>\nPlease make good use of it as a place for information exchange. I often look at it too, so messages to the developer are welcome!</p>"}
-className={`w-html-embed c1jwyh4u c1411o3y c1igc709 c1y2x13x c1n8816a c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 cq6rd9c cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cpqebfv c1kjcvme c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+code={"<h2>If you find a bug</h2>\n<p>Mocolamma is an app developed using generative AI. Although extensive testing was performed during development, bugs may remain, or some functions may not work properly.</p>\n<p>If you find bugs or operational issues, please check the already opened <a href=\"https://github.com/taikun114/Mocolamma/issues\" target=\"_blank\" data-umami-event=\"gh-issue\" data-umami-event-region=\"us\"><b>Issues</b></a> (known bugs or issues) and look for the same problems already reported by others. If you can't find the same issue, please open a new Issue to report the problem.<br>\nTo make bug tracking easier, please open one Issue per issue if you want to report multiple issues. In other words, if you want to report two bugs, you need to open two Issues.</p>\n\n<h2>Feedback</h2>\n<p>If you want to submit bug reports, idea sharing, or messages to the developer (me) as someone without a GitHub account, please click <a href=\"mailto:contact.taikun@gmail.com?subject=Mocolamma%20Feedback%3A%20&amp;body=Please%20describe%20the%20feedback%20in%20detail%3A%0D%0A%0D%0ASystem%20Information%3A%0D%0A%0D%0A-%20System%0D%0APlease%20enter%20the%20model%20of%20your%20Mac%20%2F%20iPhone%20%2F%20iPad%20%2F%20Apple%20Vision%20Pro.%0D%0A%0D%0A-%20OS%20Version%0D%0AIf%20you%20are%20experiencing%20problems%2C%20please%20enter%20the%20version%20of%20macOS%20%2F%20iOS%20%2F%20iPadOS%20%2F%20visionOS%20on%20which%20Mocolamma%20is%20running.%0D%0A%0D%0A-%20App%20Version%0D%0AIf%20you%20are%20experiencing%20problems%2C%20please%20enter%20the%20version%20of%20the%20app.%0D%0A%0D%0A\" data-umami-event=\"feedback-mail\" data-umami-event-region=\"us\"><b>this link</b></a> or use the in-app submission feature introduced below to send me an email (please note that I may not be able to reply to every message).<br>\nI recommend sending feedback from the in-app button, as this will open the email composition screen with a pre-filled template including system information (such as device type and OS version) and the app version.\n</p>\n\n<h3>How to Send Feedback from the App</h3>\n<p>To send feedback from the app, you first need to open the About screen for the app.</p>"}
+className={`w-html-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</HtmlEmbed>
+<Image
+src={imagePath + "/Feedback-1.webp?raw=true"}
+loading={"lazy"}
+alt={"How to open the About screen for the app"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<HtmlEmbed
+code={"<p>To open the About screen: on all versions of macOS and iPadOS 26.0 or later, click \"About Mocolamma\" in the menu bar. On iOS / iPadOS / visionOS, tap the Information button in the top right corner of the Settings tab.</p>\n"}
+className={`w-html-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</HtmlEmbed>
+<Image
+src={imagePath + "/Feedback-2.webp?raw=true"}
+loading={"lazy"}
+alt={"Send Feedback button"}
+className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
+<HtmlEmbed
+code={"<p>Once the About screen is open, tap the \"Send Feedback\" button in the \"Support and Feedback\" section. This will open the email composition screen with a pre-filled template. Please enter the necessary information and send the email.</p>\n\n<h2>Community</h2>\n<p>A <a href=\"https://github.com/taikun114/Mocolamma/discussions\" target=\"_blank\" data-umami-event=\"gh-discussion\" data-umami-event-region=\"us\"><b>Discussion page</b></a> is available where you can share new features you'd like added to the app, ask questions about potential issues, or exchange opinions with others.<br>\nPlease make good use of it as a place for information exchange. I often look at it too, so messages to the developer are welcome!</p>"}
+className={`w-html-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </HtmlEmbed>
 </div>
 </div>
@@ -612,7 +631,7 @@ className={`w-element cjt11so c1u6urjk cn1s8se ckkp5ls cq2ae4j cv5n7tx cd7qpso c
 <div
 className={`w-element ckkp5ls c1dquu02 cr5s4bi cv5n7tx cd7qpso ctrrskr`}>
 <HtmlEmbed
-code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"}
+code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"" + imagePath + "/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"" + imagePath + "/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"}
 className={`w-html-embed crk50b8 cakywc7 c1gz6jks`} />
 <div
 className={`w-element c1yr0oul cr5s4bi`}>
@@ -705,7 +724,7 @@ className={`w-image c1j4919n c1sq2oqr cjt11so`} />
 <div
 className={`w-element c13nk3y6 c17c8i9t czyf6ca c12qprsv c110q0hy c1olcu3a`}>
 <Image
-src={"https://github.com/taikun114/Mocolamma/blob/main/docs/images/Introduction-HP.webp?raw=true"}
+src={imagePath + "/Introduction-HP.webp?raw=true"}
 width={1920}
 height={1080}
 alt={"Introduction"}

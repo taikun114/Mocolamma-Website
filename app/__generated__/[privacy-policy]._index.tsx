@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2026-01-16T07:02:27.329Z";
+      export const lastPublished = "2026-03-25T10:47:36.047Z";
 
       export const siteName = "Mocolamma";
 
@@ -31,6 +31,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       const Page = (_props: { system: any; }) => {
 const system = _props.system;
+let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/dev/docs/images")
 return <Body
 className={`w-element ckkp5ls cq2ae4j c13zugmy`}>
 <Slot>
@@ -593,11 +594,11 @@ className={`w-element c11wsiwx c1su7aph`}>
 </h1>
 <p
 className={`w-element c1a2244i c1eswi8f`}>
-{"Last Update: October 10, 2025"}
+{"Last Update: March 23, 2026"}
 </p>
 <MarkdownEmbed
-code={"## Information Collected by the Website\nThis website uses \"Umami\" as access analysis tools. The traffic data collected by these tools is anonymous and does not identify individuals.\n\n### Umami\nUmami does not use cookies to collect traffic data. If you wish to opt-out of traffic data collection, please see [**this documentation**](https://umami.is/docs/exclude-my-own-visits).\\\nFor Umami's terms, please see [**this page**](https://umami.is/privacy).\n\n## Information Collected by the App\nMocolamma does not collect or transmit any user information.\\\nUsage data and crash reports may be shared if a user has \"**Share with app developers**\" turned on in the \"Analytics & Improvements\" section of System Settings' \"Privacy & Security\" settings, but the app itself has no feature to collect and transmit information whatsoever. Users concerned about privacy can use it with peace of mind.\n\n### Information Retrieved by Mocolamma\nMocolamma retrieves certain information to function correctly. The following information is retrieved:\n\n- Ollama information on the localhost and on the specified host\n  - Using the Ollama API, the following information is retrieved:\n    - Ollama version\n    - Number and names of models running on the Ollama server\n    - Model information available on the Ollama server\n- Detailed model information from the Ollama website\n  - To retrieve this data, the Ollama server should be connected to the internet.\n- Local network permission status of the device\n  - Check whether the necessary permissions are granted for the app to communicate with the Ollama server within the local network.\n- System information and app version information\n  - Used to automatically detect the feedback template language and pre-fill necessary information when the \"Send Feedback\" button is clicked within the app. The following information is retrieved for this feature:\n    - App language (Japanese or other)\n    - OS information (e.g., `macOS`)\n    - System version information (e.g., `Version 26.0.1 (Build 25A362)`)\n    - App version information (e.g., `Version 1.0.0 (Build 2350)`)\n\nThe model name you enter to add a model to the Ollama server, and the model name used to view model details from the Ollama website, may be sent to the Ollama website. This is a standard feature of the Ollama API, and this app does not send any other information externally.\n\nFor information on how this data is handled on the Ollama website, please refer to Ollama's [**Privacy Information**](https://github.com/ollama/ollama/blob/main/docs/faq.md#does-ollama-send-my-prompts-and-responses-back-to-ollamacom)."}
-className={`w-markdown-embed c1jwyh4u c1411o3y c1igc709 c1y2x13x c1n8816a c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 cq6rd9c cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cpqebfv c1kjcvme c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+code={"## Information Collected by the Website\nThis website uses \"Umami\" as an access analysis tool. The traffic data collected is anonymous and does not identify individuals.\n\n### Umami\nUmami does not use cookies to collect traffic data. Therefore, if you wish to opt out of traffic data collection, please see [**this document**](https://umami.is/docs/exclude-my-own-visits).\\\nFor Umami's terms, please check [**this page**](https://umami.is/privacy).\n\n## Information Collected by the App\nMocolamma does not collect or transmit any user information.\\\nUsage data and crash reports may be shared if a user has enabled \"**Share with App Developers**\" under \"Analytics & Improvements\" in the system's \"Privacy & Security\" settings, but the app itself is not equipped with any functions to collect and transmit information. You can use it with peace of mind even if you are concerned about privacy.\n\n### Information Obtained by Mocolamma\nMocolamma obtains certain information to ensure its functions work correctly. The following information is obtained:\n\n- Ollama information on localhost and entered hosts\n  - The following information is obtained using the Ollama API:\n    - Ollama version\n    - Number and names of models running on the Ollama server\n    - Model information on the Ollama server\n- Device local network permission status\n  - Checks whether the necessary permissions have been granted for the app to communicate with the Ollama server within the local network.\n- System information and app version information\n  - This is used for the function that automatically detects the feedback template language and pre-fills necessary information when the \"Send Feedback\" button in the app is clicked. The following information is obtained for this function:\n    - App language (Japanese or otherwise)\n    - OS information (e.g., `macOS`)\n    - System version information (e.g., `Version 26.3.1 (Build 25D2128)`)\n    - App version information (e.g., `Version 1.2.0 (Build 4244)`)\n- Action counts for major functions (App Store version only)\n  - In the App Store version, the number of times major functions such as adding models, chatting, and generating images are used is recorded in order to display review requests at appropriate times.\n  - For more details on this information, please see the \"[**App Store Review Requests**](/docs/app-store-review-requests)\" document.\n\nModel names entered to add models to the Ollama server and model names used to check model information from the Ollama website may be sent to the Ollama website. This is a general specification of the Ollama API, and no other information is sent externally from this app.\n\nFor information on how this data is handled on the Ollama website, please see Ollama's [**privacy information**](https://github.com/ollama/ollama/blob/main/docs/faq.md#does-ollama-send-my-prompts-and-responses-back-to-ollamacom)."}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 </div>
 </div>
@@ -612,7 +613,7 @@ className={`w-element cjt11so c1u6urjk cn1s8se ckkp5ls cq2ae4j cv5n7tx cd7qpso c
 <div
 className={`w-element ckkp5ls c1dquu02 cr5s4bi cv5n7tx cd7qpso ctrrskr`}>
 <HtmlEmbed
-code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"https://github.com/taikun114/Mocolamma/blob/main/docs/images/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"}
+code={"<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"" + imagePath + "/AppIconLiquidGlassDark@1x.webp?raw=true\"\n  />\n  <img\n    src=\"" + imagePath + "/AppIconLiquidGlassLight@1x.webp?raw=true\"\n    alt=\"Mocolamma Icon\"\n    height=\"64\"\n    width=\"64\"\n  />\n</picture>\n"}
 className={`w-html-embed crk50b8 cakywc7 c1gz6jks`} />
 <div
 className={`w-element c1yr0oul cr5s4bi`}>
@@ -705,7 +706,7 @@ className={`w-image c1j4919n c1sq2oqr cjt11so`} />
 <div
 className={`w-element c13nk3y6 c17c8i9t czyf6ca c12qprsv c110q0hy c1olcu3a`}>
 <Image
-src={"https://github.com/taikun114/Mocolamma/blob/main/docs/images/Introduction-HP.webp?raw=true"}
+src={imagePath + "/Introduction-HP.webp?raw=true"}
 width={1920}
 height={1080}
 alt={"Introduction"}
