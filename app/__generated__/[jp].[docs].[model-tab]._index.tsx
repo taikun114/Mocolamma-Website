@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2026-03-25T10:47:36.047Z";
+      export const lastPublished = "2026-03-30T07:54:44.837Z";
 
       export const siteName = "Mocolamma";
 
@@ -613,7 +613,7 @@ loading={"lazy"}
 alt={"モデルを追加"}
 className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
 <MarkdownEmbed
-code={"\nモデルの追加画面を開くとこのような画面が表示されるので、追加したいモデル名を入力します。\\\n入力できたら、追加ボタンをクリックまたはタップするか、`↩︎ (Return)`キーを押すとモデルの追加が始まります。\n\n> **豆知識**\\\n> どのようなモデル名を入力したら良いかわからない場合や追加できるモデルを探したい場合、左下の「ウェブサイトを開く」ボタンをクリックすることでOllamaのモデル一覧ページを開くことができます。\\\n> 追加したモデルを見つけたら、モデル名の入力欄に`モデル名:タグ名`（例: `gemma3:4b`）または`モデル名`（例: `gemma3`）を入力することでモデルを追加することができます。\\\n> タグ名が入力されずにモデル名だけが入力された場合、そのモデルの`latest`タグがついたものがダウンロードされます。\\\n> `ollama run モデル名:タグ名`や`ollama pull モデル名:タグ名`のようなコマンド形式でもモデルをダウンロードすることができます。\n"}
+code={"\nモデルの追加画面を開くとこのような画面が表示されるので、追加したいモデル名を入力します。\\\n入力できたら、追加ボタンをクリックまたはタップするか、`↩︎ (Return)`キーを押すとモデルの追加が始まります。\n\n> **豆知識**\\\n> どのようなモデル名を入力したら良いかわからない場合や追加できるモデルを探したい場合、左下の「ウェブサイトを開く」ボタンをクリックすることでOllamaのモデル一覧ページを開くことができます。\\\n> 追加したモデルを見つけたら、モデル名の入力欄に`モデル名:タグ名`（例: `gemma3:4b`）または`モデル名`（例: `gemma3`）を入力することでモデルを追加することができます。\\\n> タグ名が入力されずにモデル名だけが入力された場合、そのモデルの`latest`タグがついたものがダウンロードされます。\\\n> `ollama run モデル名:タグ名`や`ollama pull モデル名:タグ名`のようなコマンド形式でもモデルをダウンロードすることができます。\n\n> **豆知識**\\\n> デモモードを有効化している場合、`demo-dl`または`demo-dl:0b`と入力することでダウンロードのデモを実行することができます。\\\n> デモモードを有効化する方法については、[**サーバータブのドキュメント**](/jp/docs/server-tab)をご覧ください）。"}
 className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 <Image

@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2026-03-25T10:47:36.047Z";
+      export const lastPublished = "2026-03-30T07:54:44.837Z";
 
       export const siteName = "Mocolamma";
 
@@ -615,7 +615,7 @@ loading={"lazy"}
 alt={"Add Model"}
 className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
 <MarkdownEmbed
-code={"When you open the Add Model screen, you will see a screen like this. Enter the name of the model you want to add.\\\nOnce entered, click or tap the Add button, or press the `↩︎ (Return)` key to start adding the model.\n\n> **Tip**\\\n> If you are unsure what model name to enter or want to find models you can add, you can click the \"Open Website\" button in the bottom left to open the Ollama model list page.\\\n> Once you find a model to add, you can add it by entering `model-name:tag-name` (e.g., `gemma3:4b`) or `model-name` (e.g., `gemma3`) into the model name input field.\\\n> If only the model name is entered without a tag name, the model with the `latest` tag for that model will be downloaded.\\\n> You can also download models using command formats such as `ollama run model-name:tag-name` or `ollama pull model-name:tag-name`."}
+code={"When you open the Add Model screen, you will see a screen like this. Enter the name of the model you want to add.\\\nOnce entered, click or tap the Add button, or press the `↩︎ (Return)` key to start adding the model.\n\n> **Tip**\\\n> If you are unsure what model name to enter or want to find models you can add, you can click the \"Open Website\" button in the bottom left to open the Ollama model list page.\\\n> Once you find a model to add, you can add it by entering `model-name:tag-name` (e.g., `gemma3:4b`) or `model-name` (e.g., `gemma3`) into the model name input field.\\\n> If only the model name is entered without a tag name, the model with the `latest` tag for that model will be downloaded.\\\n> You can also download models using command formats such as `ollama run model-name:tag-name` or `ollama pull model-name:tag-name`.\n\n> **Tip**\\\n> When Demo Mode is enabled, you can run a download demo by entering `demo-dl` or `demo-dl:0b`.\\\n> For instructions on how to enable Demo Mode, please refer to the [**Server Tab documentation**](/docs/server-tab)."}
 className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 <Image

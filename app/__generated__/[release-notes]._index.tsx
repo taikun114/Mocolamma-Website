@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2026-03-25T10:47:36.047Z";
+      export const lastPublished = "2026-03-30T07:54:44.837Z";
 
       export const siteName = "Mocolamma";
 
@@ -592,6 +592,15 @@ className={`w-element c13rvnfs cdhbme8 ckkp5ls cq2ae4j c6qj28r c1n75u37 c1muqwoi
 className={`w-element c11wsiwx c1su7aph`}>
 {"Mocolamma Release Notes"}
 </h1>
+<h2
+id={"v1-2-1"}
+className={`w-element c12e0v0g c1eswi8f`}>
+{"Version 1.2.1"}
+</h2>
+<MarkdownEmbed
+code={"Release: March 30, 2026\n\n### Update Details\n#### Bug Fixes and Improvements\n- **Fix issue where insecure HTTP connections were being blocked**\n  - This has resolved the issue ([**#3**](https://github.com/taikun114/Mocolamma/issues/3)) where connections to remote servers using VPNs, etc., were being blocked.\n- **Fix padding in the model inspector**\n  - An issue where the top and bottom padding was too tight on platforms other than visionOS has been fixed.\n- **Fix issue where model lists could not be sorted in macOS**"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
 <h2
 id={"v1-2-0"}
 className={`w-element c12e0v0g c1eswi8f`}>

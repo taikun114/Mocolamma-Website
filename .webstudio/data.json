@@ -1,10 +1,10 @@
 {
   "build": {
-    "id": "fa7c1689-cf11-4c72-a654-7a165a2a8620",
+    "id": "3e4f523b-9ebf-4e83-8487-d8d17b5b1eb9",
     "projectId": "d3340149-462c-49a8-8b6a-95401a1f067e",
-    "version": 5374,
-    "createdAt": "2026-03-25T10:47:36.047+00:00",
-    "updatedAt": "2026-03-25T10:47:36.047+00:00",
+    "version": 5447,
+    "createdAt": "2026-03-30T07:54:44.837+00:00",
+    "updatedAt": "2026-03-30T07:54:44.837+00:00",
     "pages": {
       "meta": {
         "siteName": "Mocolamma",
@@ -245,6 +245,9 @@
           "id": "Cc2mp_fCvBBa0sN6vzAty",
           "name": "サーバータブ",
           "title": "\"サーバータブ - Mocolamma\"",
+          "history": [
+            "/server-tab"
+          ],
           "rootInstanceId": "BowLna6os5bW0DG3vuN-g",
           "meta": {
             "description": "\"MocolammaにOllamaサーバーを追加したり、選択されているサーバーを切り替えたり、サーバーの詳細情報を確認したりする方法をご紹介します。\"",
@@ -104926,6 +104929,384 @@
             "CAcjRclQrTgTcW8AUxYRQ"
           ]
         }
+      ],
+      [
+        "0d0yK55fiXaTdeju5T6ri",
+        {
+          "instanceId": "0d0yK55fiXaTdeju5T6ri",
+          "values": [
+            "glI50p-4x_diD972R_Mhk"
+          ]
+        }
+      ],
+      [
+        "YMKOgcHEnQ-GtSfQlxHzE",
+        {
+          "instanceId": "YMKOgcHEnQ-GtSfQlxHzE",
+          "values": [
+            "J9pHWPfrA2N1cxZtezBd8"
+          ]
+        }
+      ],
+      [
+        "oqvxOA0V5BfCnsNywnTOk",
+        {
+          "instanceId": "oqvxOA0V5BfCnsNywnTOk",
+          "values": [
+            "Nq_Kj5xg2E1pzLrqBIkf2"
+          ]
+        }
+      ],
+      [
+        "nPRguiInALqmKcZYFwsAP",
+        {
+          "instanceId": "nPRguiInALqmKcZYFwsAP",
+          "values": [
+            "glI50p-4x_diD972R_Mhk"
+          ]
+        }
+      ],
+      [
+        "3mJnzDt1ESt-kyh7foG5l",
+        {
+          "instanceId": "3mJnzDt1ESt-kyh7foG5l",
+          "values": [
+            "KNbrMJCws8EAe5nr52g2o"
+          ]
+        }
+      ],
+      [
+        "F2fpKQ2uRAanzcpoL6SV0",
+        {
+          "instanceId": "F2fpKQ2uRAanzcpoL6SV0",
+          "values": [
+            "kRPylQRS-1ZBTDeJQ90Av"
+          ]
+        }
+      ],
+      [
+        "bzcUZ2jQ7RnAcWE3e-96H",
+        {
+          "instanceId": "bzcUZ2jQ7RnAcWE3e-96H",
+          "values": [
+            "_Od9QbHInzO6Pc-URASQH"
+          ]
+        }
+      ],
+      [
+        "c6AIA4s-k6HcSAqn-eoPS",
+        {
+          "instanceId": "c6AIA4s-k6HcSAqn-eoPS",
+          "values": [
+            "siBzT0jLgFMbGjk5tTUWI"
+          ]
+        }
+      ],
+      [
+        "eCA_wo1M_v2AU_jWYvUzC",
+        {
+          "instanceId": "eCA_wo1M_v2AU_jWYvUzC",
+          "values": [
+            "4t1k49d4vNG2NYh2vo13h"
+          ]
+        }
+      ],
+      [
+        "cwzNjdSvNV4MQwkVyBYmR",
+        {
+          "instanceId": "cwzNjdSvNV4MQwkVyBYmR",
+          "values": [
+            "G2LOJlrR_PWGeVf3LCiGX"
+          ]
+        }
+      ],
+      [
+        "ZsYeWfXCkmH_mT-Qi9veI",
+        {
+          "instanceId": "ZsYeWfXCkmH_mT-Qi9veI",
+          "values": [
+            "pKOtRm1l4CKBvwnSjWJCd"
+          ]
+        }
+      ],
+      [
+        "u0zG3vDuaN6HY5HR0s__3",
+        {
+          "instanceId": "u0zG3vDuaN6HY5HR0s__3",
+          "values": [
+            "CAcjRclQrTgTcW8AUxYRQ"
+          ]
+        }
+      ],
+      [
+        "rm1OpRHY4P2AWYUyYT7vK",
+        {
+          "instanceId": "rm1OpRHY4P2AWYUyYT7vK",
+          "values": [
+            "aWD8VjMcbNezvnZF8qlHl"
+          ]
+        }
+      ],
+      [
+        "eAAxZGTY4d3aAnMaQBLWd",
+        {
+          "instanceId": "eAAxZGTY4d3aAnMaQBLWd",
+          "values": [
+            "DscokbWNofXTKM8USiPQ2"
+          ]
+        }
+      ],
+      [
+        "XugICRDK4nh_8V0iJZtpa",
+        {
+          "instanceId": "XugICRDK4nh_8V0iJZtpa",
+          "values": [
+            "TMEm89yZQMAoxF94RgRYl"
+          ]
+        }
+      ],
+      [
+        "U4BzaCkeZBxM3QE1cGIl_",
+        {
+          "instanceId": "U4BzaCkeZBxM3QE1cGIl_",
+          "values": [
+            "6p7t4OCWrUO6uxB2__1w3"
+          ]
+        }
+      ],
+      [
+        "mB4-TqsMzylGNM_YWnPbz",
+        {
+          "instanceId": "mB4-TqsMzylGNM_YWnPbz",
+          "values": [
+            "fY2XUjshoGZjoXYxn8R7L"
+          ]
+        }
+      ],
+      [
+        "3z1F_ygKCJtFrZpp5a0tz",
+        {
+          "instanceId": "3z1F_ygKCJtFrZpp5a0tz",
+          "values": [
+            "5C4yCmIUIfukaLrx3rPtg"
+          ]
+        }
+      ],
+      [
+        "sytzTni-OyqNg_hZF18rl",
+        {
+          "instanceId": "sytzTni-OyqNg_hZF18rl",
+          "values": [
+            "Wfm5MAycMQi_7_ooyy7W1"
+          ]
+        }
+      ],
+      [
+        "OVX7Z5fDMfaBaC0dJehQ4",
+        {
+          "instanceId": "OVX7Z5fDMfaBaC0dJehQ4",
+          "values": [
+            "CJPHnQcgYqRwaJxsdD8Ag"
+          ]
+        }
+      ],
+      [
+        "9gFwO4_0a1Ua2Qtfa6Mr0",
+        {
+          "instanceId": "9gFwO4_0a1Ua2Qtfa6Mr0",
+          "values": [
+            "Yd7wa8BRMmg5FJBi2wQ31"
+          ]
+        }
+      ],
+      [
+        "B7Lm2XeKsdF5wgEXkP6lA",
+        {
+          "instanceId": "B7Lm2XeKsdF5wgEXkP6lA",
+          "values": [
+            "glI50p-4x_diD972R_Mhk"
+          ]
+        }
+      ],
+      [
+        "wHclVxfxAGtyw4C6yOrqC",
+        {
+          "instanceId": "wHclVxfxAGtyw4C6yOrqC",
+          "values": [
+            "J9pHWPfrA2N1cxZtezBd8"
+          ]
+        }
+      ],
+      [
+        "Z1bznI0J5zDalwqzxACP-",
+        {
+          "instanceId": "Z1bznI0J5zDalwqzxACP-",
+          "values": [
+            "Nq_Kj5xg2E1pzLrqBIkf2"
+          ]
+        }
+      ],
+      [
+        "xTWTHW46r5XXpDzn9fYkC",
+        {
+          "instanceId": "xTWTHW46r5XXpDzn9fYkC",
+          "values": [
+            "glI50p-4x_diD972R_Mhk"
+          ]
+        }
+      ],
+      [
+        "tyjwlVFm0JsOHGENN1HvN",
+        {
+          "instanceId": "tyjwlVFm0JsOHGENN1HvN",
+          "values": [
+            "KNbrMJCws8EAe5nr52g2o"
+          ]
+        }
+      ],
+      [
+        "0f-e_rXmQcRPG_exOTGoA",
+        {
+          "instanceId": "0f-e_rXmQcRPG_exOTGoA",
+          "values": [
+            "kRPylQRS-1ZBTDeJQ90Av"
+          ]
+        }
+      ],
+      [
+        "IZ6j0a4O2_ASSL5CQpUOi",
+        {
+          "instanceId": "IZ6j0a4O2_ASSL5CQpUOi",
+          "values": [
+            "_Od9QbHInzO6Pc-URASQH"
+          ]
+        }
+      ],
+      [
+        "-crXE1rZOjoktC_Q5k2iX",
+        {
+          "instanceId": "-crXE1rZOjoktC_Q5k2iX",
+          "values": [
+            "siBzT0jLgFMbGjk5tTUWI"
+          ]
+        }
+      ],
+      [
+        "rzQKSbDKvLMWk3JFgiGLz",
+        {
+          "instanceId": "rzQKSbDKvLMWk3JFgiGLz",
+          "values": [
+            "4t1k49d4vNG2NYh2vo13h"
+          ]
+        }
+      ],
+      [
+        "naMCM3_lcwHhDRX1d8iy3",
+        {
+          "instanceId": "naMCM3_lcwHhDRX1d8iy3",
+          "values": [
+            "G2LOJlrR_PWGeVf3LCiGX"
+          ]
+        }
+      ],
+      [
+        "aE9P8suYnNu7eUajw_ycL",
+        {
+          "instanceId": "aE9P8suYnNu7eUajw_ycL",
+          "values": [
+            "pKOtRm1l4CKBvwnSjWJCd"
+          ]
+        }
+      ],
+      [
+        "1dFlGxFfjSjWiurIi-98Z",
+        {
+          "instanceId": "1dFlGxFfjSjWiurIi-98Z",
+          "values": [
+            "CAcjRclQrTgTcW8AUxYRQ"
+          ]
+        }
+      ],
+      [
+        "rwW01csZ44J3b00VkXPB_",
+        {
+          "instanceId": "rwW01csZ44J3b00VkXPB_",
+          "values": [
+            "aWD8VjMcbNezvnZF8qlHl"
+          ]
+        }
+      ],
+      [
+        "Jdl_hSUAYiNUcVdimVt22",
+        {
+          "instanceId": "Jdl_hSUAYiNUcVdimVt22",
+          "values": [
+            "DscokbWNofXTKM8USiPQ2"
+          ]
+        }
+      ],
+      [
+        "vvhmCTuTVm4i0amtDFpQ0",
+        {
+          "instanceId": "vvhmCTuTVm4i0amtDFpQ0",
+          "values": [
+            "TMEm89yZQMAoxF94RgRYl"
+          ]
+        }
+      ],
+      [
+        "OxCTU1UYqnecNtsEazSn5",
+        {
+          "instanceId": "OxCTU1UYqnecNtsEazSn5",
+          "values": [
+            "6p7t4OCWrUO6uxB2__1w3"
+          ]
+        }
+      ],
+      [
+        "A-aXEhPJ0Sm5bQACRnC6I",
+        {
+          "instanceId": "A-aXEhPJ0Sm5bQACRnC6I",
+          "values": [
+            "fY2XUjshoGZjoXYxn8R7L"
+          ]
+        }
+      ],
+      [
+        "Vfh_tDJtr2El-thLhy_By",
+        {
+          "instanceId": "Vfh_tDJtr2El-thLhy_By",
+          "values": [
+            "5C4yCmIUIfukaLrx3rPtg"
+          ]
+        }
+      ],
+      [
+        "X0myRR_tgtLciBVqiszOX",
+        {
+          "instanceId": "X0myRR_tgtLciBVqiszOX",
+          "values": [
+            "Wfm5MAycMQi_7_ooyy7W1"
+          ]
+        }
+      ],
+      [
+        "ItnmthRwwdaJ4i8rDWdp2",
+        {
+          "instanceId": "ItnmthRwwdaJ4i8rDWdp2",
+          "values": [
+            "CJPHnQcgYqRwaJxsdD8Ag"
+          ]
+        }
+      ],
+      [
+        "1VobrOrkkSg2iABz24U4Z",
+        {
+          "instanceId": "1VobrOrkkSg2iABz24U4Z",
+          "values": [
+            "Yd7wa8BRMmg5FJBi2wQ31"
+          ]
+        }
       ]
     ],
     "props": [
@@ -118856,7 +119237,7 @@
           "instanceId": "2zX2OJbfjWKqKQoRYDV5J",
           "name": "id",
           "type": "string",
-          "value": "v1-2-0"
+          "value": "v1-2-1"
         }
       ],
       [
@@ -119646,7 +120027,7 @@
           "instanceId": "qDEptGZ7WVBHvao6xBy3z",
           "name": "id",
           "type": "string",
-          "value": "v1-2-0"
+          "value": "v1-2-1"
         }
       ],
       [
@@ -122886,7 +123267,7 @@
           "instanceId": "3gMcXdmHJ_aJygZyGLpUq",
           "name": "code",
           "type": "string",
-          "value": "When you open the Add Model screen, you will see a screen like this. Enter the name of the model you want to add.\\\nOnce entered, click or tap the Add button, or press the `↩︎ (Return)` key to start adding the model.\n\n> **Tip**\\\n> If you are unsure what model name to enter or want to find models you can add, you can click the \"Open Website\" button in the bottom left to open the Ollama model list page.\\\n> Once you find a model to add, you can add it by entering `model-name:tag-name` (e.g., `gemma3:4b`) or `model-name` (e.g., `gemma3`) into the model name input field.\\\n> If only the model name is entered without a tag name, the model with the `latest` tag for that model will be downloaded.\\\n> You can also download models using command formats such as `ollama run model-name:tag-name` or `ollama pull model-name:tag-name`."
+          "value": "When you open the Add Model screen, you will see a screen like this. Enter the name of the model you want to add.\\\nOnce entered, click or tap the Add button, or press the `↩︎ (Return)` key to start adding the model.\n\n> **Tip**\\\n> If you are unsure what model name to enter or want to find models you can add, you can click the \"Open Website\" button in the bottom left to open the Ollama model list page.\\\n> Once you find a model to add, you can add it by entering `model-name:tag-name` (e.g., `gemma3:4b`) or `model-name` (e.g., `gemma3`) into the model name input field.\\\n> If only the model name is entered without a tag name, the model with the `latest` tag for that model will be downloaded.\\\n> You can also download models using command formats such as `ollama run model-name:tag-name` or `ollama pull model-name:tag-name`.\n\n> **Tip**\\\n> When Demo Mode is enabled, you can run a download demo by entering `demo-dl` or `demo-dl:0b`.\\\n> For instructions on how to enable Demo Mode, please refer to the [**Server Tab documentation**](/docs/server-tab)."
         }
       ],
       [
@@ -126996,7 +127377,7 @@
           "instanceId": "uMzmmFJGOzKyCxuUQWDSA",
           "name": "code",
           "type": "string",
-          "value": "\nモデルの追加画面を開くとこのような画面が表示されるので、追加したいモデル名を入力します。\\\n入力できたら、追加ボタンをクリックまたはタップするか、`↩︎ (Return)`キーを押すとモデルの追加が始まります。\n\n> **豆知識**\\\n> どのようなモデル名を入力したら良いかわからない場合や追加できるモデルを探したい場合、左下の「ウェブサイトを開く」ボタンをクリックすることでOllamaのモデル一覧ページを開くことができます。\\\n> 追加したモデルを見つけたら、モデル名の入力欄に`モデル名:タグ名`（例: `gemma3:4b`）または`モデル名`（例: `gemma3`）を入力することでモデルを追加することができます。\\\n> タグ名が入力されずにモデル名だけが入力された場合、そのモデルの`latest`タグがついたものがダウンロードされます。\\\n> `ollama run モデル名:タグ名`や`ollama pull モデル名:タグ名`のようなコマンド形式でもモデルをダウンロードすることができます。\n"
+          "value": "\nモデルの追加画面を開くとこのような画面が表示されるので、追加したいモデル名を入力します。\\\n入力できたら、追加ボタンをクリックまたはタップするか、`↩︎ (Return)`キーを押すとモデルの追加が始まります。\n\n> **豆知識**\\\n> どのようなモデル名を入力したら良いかわからない場合や追加できるモデルを探したい場合、左下の「ウェブサイトを開く」ボタンをクリックすることでOllamaのモデル一覧ページを開くことができます。\\\n> 追加したモデルを見つけたら、モデル名の入力欄に`モデル名:タグ名`（例: `gemma3:4b`）または`モデル名`（例: `gemma3`）を入力することでモデルを追加することができます。\\\n> タグ名が入力されずにモデル名だけが入力された場合、そのモデルの`latest`タグがついたものがダウンロードされます。\\\n> `ollama run モデル名:タグ名`や`ollama pull モデル名:タグ名`のようなコマンド形式でもモデルをダウンロードすることができます。\n\n> **豆知識**\\\n> デモモードを有効化している場合、`demo-dl`または`demo-dl:0b`と入力することでダウンロードのデモを実行することができます。\\\n> デモモードを有効化する方法については、[**サーバータブのドキュメント**](/jp/docs/server-tab)をご覧ください）。"
         }
       ],
       [
@@ -135508,6 +135889,446 @@
           "type": "string",
           "value": "Generating Image"
         }
+      ],
+      [
+        "iAUqwc_RivRB4RIONeYN-",
+        {
+          "id": "iAUqwc_RivRB4RIONeYN-",
+          "instanceId": "0d0yK55fiXaTdeju5T6ri",
+          "name": "id",
+          "type": "string",
+          "value": "v1-2-0"
+        }
+      ],
+      [
+        "EuC5aR8Uikql0VPvfKNV-",
+        {
+          "id": "EuC5aR8Uikql0VPvfKNV-",
+          "instanceId": "FXC5mgMx-dYsn7sjmqsOx",
+          "name": "code",
+          "type": "string",
+          "value": "Release: March 30, 2026\n\n### Update Details\n#### Bug Fixes and Improvements\n- **Fix issue where insecure HTTP connections were being blocked**\n  - This has resolved the issue ([**#3**](https://github.com/taikun114/Mocolamma/issues/3)) where connections to remote servers using VPNs, etc., were being blocked.\n- **Fix padding in the model inspector**\n  - An issue where the top and bottom padding was too tight on platforms other than visionOS has been fixed.\n- **Fix issue where model lists could not be sorted in macOS**"
+        }
+      ],
+      [
+        "d7B_QgcbyAJZnG5c_cDsC",
+        {
+          "id": "d7B_QgcbyAJZnG5c_cDsC",
+          "instanceId": "YMKOgcHEnQ-GtSfQlxHzE",
+          "name": "selector",
+          "type": "string",
+          "value": " p"
+        }
+      ],
+      [
+        "Gd6I1U7MLRKgckGGCM1_5",
+        {
+          "id": "Gd6I1U7MLRKgckGGCM1_5",
+          "instanceId": "oqvxOA0V5BfCnsNywnTOk",
+          "name": "selector",
+          "type": "string",
+          "value": " h1"
+        }
+      ],
+      [
+        "c59a5fjZkfWJh6Ovx4QqQ",
+        {
+          "id": "c59a5fjZkfWJh6Ovx4QqQ",
+          "instanceId": "nPRguiInALqmKcZYFwsAP",
+          "name": "selector",
+          "type": "string",
+          "value": " h2"
+        }
+      ],
+      [
+        "rvfiVwLwwyQYbqM3RDhjG",
+        {
+          "id": "rvfiVwLwwyQYbqM3RDhjG",
+          "instanceId": "3mJnzDt1ESt-kyh7foG5l",
+          "name": "selector",
+          "type": "string",
+          "value": " h3"
+        }
+      ],
+      [
+        "fkKpsbAMA9WqzLJIZ3Ohb",
+        {
+          "id": "fkKpsbAMA9WqzLJIZ3Ohb",
+          "instanceId": "F2fpKQ2uRAanzcpoL6SV0",
+          "name": "selector",
+          "type": "string",
+          "value": " h4"
+        }
+      ],
+      [
+        "Z_9oG5IZ0t9jAs0OT3kG7",
+        {
+          "id": "Z_9oG5IZ0t9jAs0OT3kG7",
+          "instanceId": "bzcUZ2jQ7RnAcWE3e-96H",
+          "name": "selector",
+          "type": "string",
+          "value": " h5"
+        }
+      ],
+      [
+        "HPJn_ClAPUPtPeZAuDvmX",
+        {
+          "id": "HPJn_ClAPUPtPeZAuDvmX",
+          "instanceId": "c6AIA4s-k6HcSAqn-eoPS",
+          "name": "selector",
+          "type": "string",
+          "value": " h6"
+        }
+      ],
+      [
+        "8Uf8_6QvGUu18Fw6vnZc5",
+        {
+          "id": "8Uf8_6QvGUu18Fw6vnZc5",
+          "instanceId": "eCA_wo1M_v2AU_jWYvUzC",
+          "name": "selector",
+          "type": "string",
+          "value": " :where(strong, b)"
+        }
+      ],
+      [
+        "s47nvwoKbwlTA5HhAdqzG",
+        {
+          "id": "s47nvwoKbwlTA5HhAdqzG",
+          "instanceId": "cwzNjdSvNV4MQwkVyBYmR",
+          "name": "selector",
+          "type": "string",
+          "value": " :where(em, i)"
+        }
+      ],
+      [
+        "DM1UbdEARD9bpZdPiieSB",
+        {
+          "id": "DM1UbdEARD9bpZdPiieSB",
+          "instanceId": "ZsYeWfXCkmH_mT-Qi9veI",
+          "name": "selector",
+          "type": "string",
+          "value": " a"
+        }
+      ],
+      [
+        "m_VKsrBm00nX7Q04V48Zd",
+        {
+          "id": "m_VKsrBm00nX7Q04V48Zd",
+          "instanceId": "u0zG3vDuaN6HY5HR0s__3",
+          "name": "selector",
+          "type": "string",
+          "value": " img"
+        }
+      ],
+      [
+        "QZXbGJm1e41hmAm8s4d-z",
+        {
+          "id": "QZXbGJm1e41hmAm8s4d-z",
+          "instanceId": "rm1OpRHY4P2AWYUyYT7vK",
+          "name": "selector",
+          "type": "string",
+          "value": " blockquote"
+        }
+      ],
+      [
+        "JoHxYXtJA7z8VVQTXnaWf",
+        {
+          "id": "JoHxYXtJA7z8VVQTXnaWf",
+          "instanceId": "eAAxZGTY4d3aAnMaQBLWd",
+          "name": "selector",
+          "type": "string",
+          "value": " code"
+        }
+      ],
+      [
+        "zvGkKrfBQUupgTO8NFu7S",
+        {
+          "id": "zvGkKrfBQUupgTO8NFu7S",
+          "instanceId": "XugICRDK4nh_8V0iJZtpa",
+          "name": "selector",
+          "type": "string",
+          "value": " :where(ul, ol)"
+        }
+      ],
+      [
+        "KcP-hYYXRGnFhmZsxVXhy",
+        {
+          "id": "KcP-hYYXRGnFhmZsxVXhy",
+          "instanceId": "U4BzaCkeZBxM3QE1cGIl_",
+          "name": "selector",
+          "type": "string",
+          "value": " li"
+        }
+      ],
+      [
+        "PABE7YAwEgi9pPptyFmsE",
+        {
+          "id": "PABE7YAwEgi9pPptyFmsE",
+          "instanceId": "mB4-TqsMzylGNM_YWnPbz",
+          "name": "selector",
+          "type": "string",
+          "value": " hr"
+        }
+      ],
+      [
+        "Yuo3JVriYnPq-r_hgZzJP",
+        {
+          "id": "Yuo3JVriYnPq-r_hgZzJP",
+          "instanceId": "3z1F_ygKCJtFrZpp5a0tz",
+          "name": "selector",
+          "type": "string",
+          "value": " table"
+        }
+      ],
+      [
+        "JkHzOQcVq3r15jHE-EA-1",
+        {
+          "id": "JkHzOQcVq3r15jHE-EA-1",
+          "instanceId": "sytzTni-OyqNg_hZF18rl",
+          "name": "selector",
+          "type": "string",
+          "value": " tr"
+        }
+      ],
+      [
+        "Pmf5mTkeZVfWt25Jvxj_J",
+        {
+          "id": "Pmf5mTkeZVfWt25Jvxj_J",
+          "instanceId": "OVX7Z5fDMfaBaC0dJehQ4",
+          "name": "selector",
+          "type": "string",
+          "value": " th"
+        }
+      ],
+      [
+        "OvMbH79TdOYna907MfJe3",
+        {
+          "id": "OvMbH79TdOYna907MfJe3",
+          "instanceId": "9gFwO4_0a1Ua2Qtfa6Mr0",
+          "name": "selector",
+          "type": "string",
+          "value": " td"
+        }
+      ],
+      [
+        "5USSpUwbV1n0jjJNvUOT4",
+        {
+          "id": "5USSpUwbV1n0jjJNvUOT4",
+          "instanceId": "B7Lm2XeKsdF5wgEXkP6lA",
+          "name": "id",
+          "type": "string",
+          "value": "v1-2-0"
+        }
+      ],
+      [
+        "T9_pZ_Zt4oM_rfAnKSrib",
+        {
+          "id": "T9_pZ_Zt4oM_rfAnKSrib",
+          "instanceId": "HEj2_AggnLqSqXiOve6ip",
+          "name": "code",
+          "type": "string",
+          "value": "リリース: 2026年3月30日\n\n### アップデート内容\n#### バグ修正と改善\n- **非セキュアなHTTP接続がブロックされる問題を修正**\n  - これにより、VPNなどを使ってリモートサーバーへの接続がブロックされてしまう問題（[**#3**](https://github.com/taikun114/Mocolamma/issues/3)）が修正されました。\n- **モデルインスペクタの余白を修正**\n  - visionOS以外で上下の余白が詰まっていた問題が修正されました。\n- **macOSでモデルリストを並び替えられなかった問題を修正**"
+        }
+      ],
+      [
+        "EgRekTuId4V7z2cNI2Cfo",
+        {
+          "id": "EgRekTuId4V7z2cNI2Cfo",
+          "instanceId": "wHclVxfxAGtyw4C6yOrqC",
+          "name": "selector",
+          "type": "string",
+          "value": " p"
+        }
+      ],
+      [
+        "ROUcNGbR4KGYNDnLSPlTn",
+        {
+          "id": "ROUcNGbR4KGYNDnLSPlTn",
+          "instanceId": "Z1bznI0J5zDalwqzxACP-",
+          "name": "selector",
+          "type": "string",
+          "value": " h1"
+        }
+      ],
+      [
+        "iMsP8yBiygQpz-oWDJnqH",
+        {
+          "id": "iMsP8yBiygQpz-oWDJnqH",
+          "instanceId": "xTWTHW46r5XXpDzn9fYkC",
+          "name": "selector",
+          "type": "string",
+          "value": " h2"
+        }
+      ],
+      [
+        "e8YqOfq1mZwi1U9q71CVt",
+        {
+          "id": "e8YqOfq1mZwi1U9q71CVt",
+          "instanceId": "tyjwlVFm0JsOHGENN1HvN",
+          "name": "selector",
+          "type": "string",
+          "value": " h3"
+        }
+      ],
+      [
+        "EyyeIG32mPWoxrazoK9GE",
+        {
+          "id": "EyyeIG32mPWoxrazoK9GE",
+          "instanceId": "0f-e_rXmQcRPG_exOTGoA",
+          "name": "selector",
+          "type": "string",
+          "value": " h4"
+        }
+      ],
+      [
+        "iyxMeRIKrCHySVnk12J34",
+        {
+          "id": "iyxMeRIKrCHySVnk12J34",
+          "instanceId": "IZ6j0a4O2_ASSL5CQpUOi",
+          "name": "selector",
+          "type": "string",
+          "value": " h5"
+        }
+      ],
+      [
+        "FNiO9LTOkaSmOUQEBr3oE",
+        {
+          "id": "FNiO9LTOkaSmOUQEBr3oE",
+          "instanceId": "-crXE1rZOjoktC_Q5k2iX",
+          "name": "selector",
+          "type": "string",
+          "value": " h6"
+        }
+      ],
+      [
+        "OHunR7EYdEfK1XiPDNnRY",
+        {
+          "id": "OHunR7EYdEfK1XiPDNnRY",
+          "instanceId": "rzQKSbDKvLMWk3JFgiGLz",
+          "name": "selector",
+          "type": "string",
+          "value": " :where(strong, b)"
+        }
+      ],
+      [
+        "G9zPfA9aWEM0uytF9QhTN",
+        {
+          "id": "G9zPfA9aWEM0uytF9QhTN",
+          "instanceId": "naMCM3_lcwHhDRX1d8iy3",
+          "name": "selector",
+          "type": "string",
+          "value": " :where(em, i)"
+        }
+      ],
+      [
+        "l4XVVFmTR_8d01JuXm8zz",
+        {
+          "id": "l4XVVFmTR_8d01JuXm8zz",
+          "instanceId": "aE9P8suYnNu7eUajw_ycL",
+          "name": "selector",
+          "type": "string",
+          "value": " a"
+        }
+      ],
+      [
+        "z5x4PuOiyJSTl-0ND_-Dk",
+        {
+          "id": "z5x4PuOiyJSTl-0ND_-Dk",
+          "instanceId": "1dFlGxFfjSjWiurIi-98Z",
+          "name": "selector",
+          "type": "string",
+          "value": " img"
+        }
+      ],
+      [
+        "XXuvTq8dOpGvM_0RBN3BQ",
+        {
+          "id": "XXuvTq8dOpGvM_0RBN3BQ",
+          "instanceId": "rwW01csZ44J3b00VkXPB_",
+          "name": "selector",
+          "type": "string",
+          "value": " blockquote"
+        }
+      ],
+      [
+        "tcsuMHytS68n0XtsDy8hd",
+        {
+          "id": "tcsuMHytS68n0XtsDy8hd",
+          "instanceId": "Jdl_hSUAYiNUcVdimVt22",
+          "name": "selector",
+          "type": "string",
+          "value": " code"
+        }
+      ],
+      [
+        "9wdIr2Gn3PwYUJOx350dS",
+        {
+          "id": "9wdIr2Gn3PwYUJOx350dS",
+          "instanceId": "vvhmCTuTVm4i0amtDFpQ0",
+          "name": "selector",
+          "type": "string",
+          "value": " :where(ul, ol)"
+        }
+      ],
+      [
+        "wPTfIVZjuG8UCJDv1LwTN",
+        {
+          "id": "wPTfIVZjuG8UCJDv1LwTN",
+          "instanceId": "OxCTU1UYqnecNtsEazSn5",
+          "name": "selector",
+          "type": "string",
+          "value": " li"
+        }
+      ],
+      [
+        "ST-DtfS83D-CpIPBVllr9",
+        {
+          "id": "ST-DtfS83D-CpIPBVllr9",
+          "instanceId": "A-aXEhPJ0Sm5bQACRnC6I",
+          "name": "selector",
+          "type": "string",
+          "value": " hr"
+        }
+      ],
+      [
+        "WvIMrQl9rGjlXoNPH5wdZ",
+        {
+          "id": "WvIMrQl9rGjlXoNPH5wdZ",
+          "instanceId": "Vfh_tDJtr2El-thLhy_By",
+          "name": "selector",
+          "type": "string",
+          "value": " table"
+        }
+      ],
+      [
+        "ABN8r8r3pZfLqazMHBArE",
+        {
+          "id": "ABN8r8r3pZfLqazMHBArE",
+          "instanceId": "X0myRR_tgtLciBVqiszOX",
+          "name": "selector",
+          "type": "string",
+          "value": " tr"
+        }
+      ],
+      [
+        "sFW0BlUuXuFvDGS1NzCgJ",
+        {
+          "id": "sFW0BlUuXuFvDGS1NzCgJ",
+          "instanceId": "ItnmthRwwdaJ4i8rDWdp2",
+          "name": "selector",
+          "type": "string",
+          "value": " th"
+        }
+      ],
+      [
+        "5jH62a2cfGBerSGs6jVEl",
+        {
+          "id": "5jH62a2cfGBerSGs6jVEl",
+          "instanceId": "1VobrOrkkSg2iABz24U4Z",
+          "name": "selector",
+          "type": "string",
+          "value": " td"
+        }
       ]
     ],
     "dataSources": [
@@ -138477,6 +139298,14 @@
             {
               "type": "id",
               "value": "qDEptGZ7WVBHvao6xBy3z"
+            },
+            {
+              "type": "id",
+              "value": "FXC5mgMx-dYsn7sjmqsOx"
+            },
+            {
+              "type": "id",
+              "value": "0d0yK55fiXaTdeju5T6ri"
             },
             {
               "type": "id",
@@ -148376,6 +149205,14 @@
             {
               "type": "id",
               "value": "2zX2OJbfjWKqKQoRYDV5J"
+            },
+            {
+              "type": "id",
+              "value": "HEj2_AggnLqSqXiOve6ip"
+            },
+            {
+              "type": "id",
+              "value": "B7Lm2XeKsdF5wgEXkP6lA"
             },
             {
               "type": "id",
@@ -161032,7 +161869,7 @@
           "children": [
             {
               "type": "text",
-              "value": "バージョン 1.2.0"
+              "value": "バージョン 1.2.1"
             }
           ]
         }
@@ -162609,7 +163446,7 @@
           "children": [
             {
               "type": "text",
-              "value": "Version 1.2.0"
+              "value": "Version 1.2.1"
             }
           ]
         }
@@ -183210,6 +184047,618 @@
           "component": "Image",
           "children": []
         }
+      ],
+      [
+        "0d0yK55fiXaTdeju5T6ri",
+        {
+          "type": "instance",
+          "id": "0d0yK55fiXaTdeju5T6ri",
+          "component": "ws:element",
+          "tag": "h2",
+          "children": [
+            {
+              "type": "text",
+              "value": "Version 1.2.0"
+            }
+          ]
+        }
+      ],
+      [
+        "FXC5mgMx-dYsn7sjmqsOx",
+        {
+          "type": "instance",
+          "id": "FXC5mgMx-dYsn7sjmqsOx",
+          "component": "MarkdownEmbed",
+          "label": "コンテンツ",
+          "children": [
+            {
+              "type": "id",
+              "value": "YMKOgcHEnQ-GtSfQlxHzE"
+            },
+            {
+              "type": "id",
+              "value": "oqvxOA0V5BfCnsNywnTOk"
+            },
+            {
+              "type": "id",
+              "value": "nPRguiInALqmKcZYFwsAP"
+            },
+            {
+              "type": "id",
+              "value": "3mJnzDt1ESt-kyh7foG5l"
+            },
+            {
+              "type": "id",
+              "value": "F2fpKQ2uRAanzcpoL6SV0"
+            },
+            {
+              "type": "id",
+              "value": "bzcUZ2jQ7RnAcWE3e-96H"
+            },
+            {
+              "type": "id",
+              "value": "c6AIA4s-k6HcSAqn-eoPS"
+            },
+            {
+              "type": "id",
+              "value": "eCA_wo1M_v2AU_jWYvUzC"
+            },
+            {
+              "type": "id",
+              "value": "cwzNjdSvNV4MQwkVyBYmR"
+            },
+            {
+              "type": "id",
+              "value": "ZsYeWfXCkmH_mT-Qi9veI"
+            },
+            {
+              "type": "id",
+              "value": "u0zG3vDuaN6HY5HR0s__3"
+            },
+            {
+              "type": "id",
+              "value": "rm1OpRHY4P2AWYUyYT7vK"
+            },
+            {
+              "type": "id",
+              "value": "eAAxZGTY4d3aAnMaQBLWd"
+            },
+            {
+              "type": "id",
+              "value": "XugICRDK4nh_8V0iJZtpa"
+            },
+            {
+              "type": "id",
+              "value": "U4BzaCkeZBxM3QE1cGIl_"
+            },
+            {
+              "type": "id",
+              "value": "mB4-TqsMzylGNM_YWnPbz"
+            },
+            {
+              "type": "id",
+              "value": "3z1F_ygKCJtFrZpp5a0tz"
+            },
+            {
+              "type": "id",
+              "value": "sytzTni-OyqNg_hZF18rl"
+            },
+            {
+              "type": "id",
+              "value": "OVX7Z5fDMfaBaC0dJehQ4"
+            },
+            {
+              "type": "id",
+              "value": "9gFwO4_0a1Ua2Qtfa6Mr0"
+            }
+          ]
+        }
+      ],
+      [
+        "YMKOgcHEnQ-GtSfQlxHzE",
+        {
+          "type": "instance",
+          "id": "YMKOgcHEnQ-GtSfQlxHzE",
+          "component": "ws:descendant",
+          "label": "Paragraph",
+          "children": []
+        }
+      ],
+      [
+        "oqvxOA0V5BfCnsNywnTOk",
+        {
+          "type": "instance",
+          "id": "oqvxOA0V5BfCnsNywnTOk",
+          "component": "ws:descendant",
+          "label": "Heading 1",
+          "children": []
+        }
+      ],
+      [
+        "nPRguiInALqmKcZYFwsAP",
+        {
+          "type": "instance",
+          "id": "nPRguiInALqmKcZYFwsAP",
+          "component": "ws:descendant",
+          "label": "Heading 2",
+          "children": []
+        }
+      ],
+      [
+        "3mJnzDt1ESt-kyh7foG5l",
+        {
+          "type": "instance",
+          "id": "3mJnzDt1ESt-kyh7foG5l",
+          "component": "ws:descendant",
+          "label": "Heading 3",
+          "children": []
+        }
+      ],
+      [
+        "F2fpKQ2uRAanzcpoL6SV0",
+        {
+          "type": "instance",
+          "id": "F2fpKQ2uRAanzcpoL6SV0",
+          "component": "ws:descendant",
+          "label": "Heading 4",
+          "children": []
+        }
+      ],
+      [
+        "bzcUZ2jQ7RnAcWE3e-96H",
+        {
+          "type": "instance",
+          "id": "bzcUZ2jQ7RnAcWE3e-96H",
+          "component": "ws:descendant",
+          "label": "Heading 5",
+          "children": []
+        }
+      ],
+      [
+        "c6AIA4s-k6HcSAqn-eoPS",
+        {
+          "type": "instance",
+          "id": "c6AIA4s-k6HcSAqn-eoPS",
+          "component": "ws:descendant",
+          "label": "Heading 6",
+          "children": []
+        }
+      ],
+      [
+        "eCA_wo1M_v2AU_jWYvUzC",
+        {
+          "type": "instance",
+          "id": "eCA_wo1M_v2AU_jWYvUzC",
+          "component": "ws:descendant",
+          "label": "Bold",
+          "children": []
+        }
+      ],
+      [
+        "cwzNjdSvNV4MQwkVyBYmR",
+        {
+          "type": "instance",
+          "id": "cwzNjdSvNV4MQwkVyBYmR",
+          "component": "ws:descendant",
+          "label": "Italic",
+          "children": []
+        }
+      ],
+      [
+        "ZsYeWfXCkmH_mT-Qi9veI",
+        {
+          "type": "instance",
+          "id": "ZsYeWfXCkmH_mT-Qi9veI",
+          "component": "ws:descendant",
+          "label": "Link",
+          "children": []
+        }
+      ],
+      [
+        "u0zG3vDuaN6HY5HR0s__3",
+        {
+          "type": "instance",
+          "id": "u0zG3vDuaN6HY5HR0s__3",
+          "component": "ws:descendant",
+          "label": "Image",
+          "children": []
+        }
+      ],
+      [
+        "rm1OpRHY4P2AWYUyYT7vK",
+        {
+          "type": "instance",
+          "id": "rm1OpRHY4P2AWYUyYT7vK",
+          "component": "ws:descendant",
+          "label": "Blockquote",
+          "children": []
+        }
+      ],
+      [
+        "eAAxZGTY4d3aAnMaQBLWd",
+        {
+          "type": "instance",
+          "id": "eAAxZGTY4d3aAnMaQBLWd",
+          "component": "ws:descendant",
+          "label": "Code Text",
+          "children": []
+        }
+      ],
+      [
+        "XugICRDK4nh_8V0iJZtpa",
+        {
+          "type": "instance",
+          "id": "XugICRDK4nh_8V0iJZtpa",
+          "component": "ws:descendant",
+          "label": "List",
+          "children": []
+        }
+      ],
+      [
+        "U4BzaCkeZBxM3QE1cGIl_",
+        {
+          "type": "instance",
+          "id": "U4BzaCkeZBxM3QE1cGIl_",
+          "component": "ws:descendant",
+          "label": "List Item",
+          "children": []
+        }
+      ],
+      [
+        "mB4-TqsMzylGNM_YWnPbz",
+        {
+          "type": "instance",
+          "id": "mB4-TqsMzylGNM_YWnPbz",
+          "component": "ws:descendant",
+          "label": "Separator",
+          "children": []
+        }
+      ],
+      [
+        "3z1F_ygKCJtFrZpp5a0tz",
+        {
+          "type": "instance",
+          "id": "3z1F_ygKCJtFrZpp5a0tz",
+          "component": "ws:descendant",
+          "label": "Table",
+          "children": []
+        }
+      ],
+      [
+        "sytzTni-OyqNg_hZF18rl",
+        {
+          "type": "instance",
+          "id": "sytzTni-OyqNg_hZF18rl",
+          "component": "ws:descendant",
+          "label": "Table Row",
+          "children": []
+        }
+      ],
+      [
+        "OVX7Z5fDMfaBaC0dJehQ4",
+        {
+          "type": "instance",
+          "id": "OVX7Z5fDMfaBaC0dJehQ4",
+          "component": "ws:descendant",
+          "label": "Table Header Cell",
+          "children": []
+        }
+      ],
+      [
+        "9gFwO4_0a1Ua2Qtfa6Mr0",
+        {
+          "type": "instance",
+          "id": "9gFwO4_0a1Ua2Qtfa6Mr0",
+          "component": "ws:descendant",
+          "label": "Table Cell",
+          "children": []
+        }
+      ],
+      [
+        "B7Lm2XeKsdF5wgEXkP6lA",
+        {
+          "type": "instance",
+          "id": "B7Lm2XeKsdF5wgEXkP6lA",
+          "component": "ws:element",
+          "tag": "h2",
+          "children": [
+            {
+              "type": "text",
+              "value": "バージョン 1.2.0"
+            }
+          ]
+        }
+      ],
+      [
+        "HEj2_AggnLqSqXiOve6ip",
+        {
+          "type": "instance",
+          "id": "HEj2_AggnLqSqXiOve6ip",
+          "component": "MarkdownEmbed",
+          "label": "コンテンツ",
+          "children": [
+            {
+              "type": "id",
+              "value": "wHclVxfxAGtyw4C6yOrqC"
+            },
+            {
+              "type": "id",
+              "value": "Z1bznI0J5zDalwqzxACP-"
+            },
+            {
+              "type": "id",
+              "value": "xTWTHW46r5XXpDzn9fYkC"
+            },
+            {
+              "type": "id",
+              "value": "tyjwlVFm0JsOHGENN1HvN"
+            },
+            {
+              "type": "id",
+              "value": "0f-e_rXmQcRPG_exOTGoA"
+            },
+            {
+              "type": "id",
+              "value": "IZ6j0a4O2_ASSL5CQpUOi"
+            },
+            {
+              "type": "id",
+              "value": "-crXE1rZOjoktC_Q5k2iX"
+            },
+            {
+              "type": "id",
+              "value": "rzQKSbDKvLMWk3JFgiGLz"
+            },
+            {
+              "type": "id",
+              "value": "naMCM3_lcwHhDRX1d8iy3"
+            },
+            {
+              "type": "id",
+              "value": "aE9P8suYnNu7eUajw_ycL"
+            },
+            {
+              "type": "id",
+              "value": "1dFlGxFfjSjWiurIi-98Z"
+            },
+            {
+              "type": "id",
+              "value": "rwW01csZ44J3b00VkXPB_"
+            },
+            {
+              "type": "id",
+              "value": "Jdl_hSUAYiNUcVdimVt22"
+            },
+            {
+              "type": "id",
+              "value": "vvhmCTuTVm4i0amtDFpQ0"
+            },
+            {
+              "type": "id",
+              "value": "OxCTU1UYqnecNtsEazSn5"
+            },
+            {
+              "type": "id",
+              "value": "A-aXEhPJ0Sm5bQACRnC6I"
+            },
+            {
+              "type": "id",
+              "value": "Vfh_tDJtr2El-thLhy_By"
+            },
+            {
+              "type": "id",
+              "value": "X0myRR_tgtLciBVqiszOX"
+            },
+            {
+              "type": "id",
+              "value": "ItnmthRwwdaJ4i8rDWdp2"
+            },
+            {
+              "type": "id",
+              "value": "1VobrOrkkSg2iABz24U4Z"
+            }
+          ]
+        }
+      ],
+      [
+        "wHclVxfxAGtyw4C6yOrqC",
+        {
+          "type": "instance",
+          "id": "wHclVxfxAGtyw4C6yOrqC",
+          "component": "ws:descendant",
+          "label": "Paragraph",
+          "children": []
+        }
+      ],
+      [
+        "Z1bznI0J5zDalwqzxACP-",
+        {
+          "type": "instance",
+          "id": "Z1bznI0J5zDalwqzxACP-",
+          "component": "ws:descendant",
+          "label": "Heading 1",
+          "children": []
+        }
+      ],
+      [
+        "xTWTHW46r5XXpDzn9fYkC",
+        {
+          "type": "instance",
+          "id": "xTWTHW46r5XXpDzn9fYkC",
+          "component": "ws:descendant",
+          "label": "Heading 2",
+          "children": []
+        }
+      ],
+      [
+        "tyjwlVFm0JsOHGENN1HvN",
+        {
+          "type": "instance",
+          "id": "tyjwlVFm0JsOHGENN1HvN",
+          "component": "ws:descendant",
+          "label": "Heading 3",
+          "children": []
+        }
+      ],
+      [
+        "0f-e_rXmQcRPG_exOTGoA",
+        {
+          "type": "instance",
+          "id": "0f-e_rXmQcRPG_exOTGoA",
+          "component": "ws:descendant",
+          "label": "Heading 4",
+          "children": []
+        }
+      ],
+      [
+        "IZ6j0a4O2_ASSL5CQpUOi",
+        {
+          "type": "instance",
+          "id": "IZ6j0a4O2_ASSL5CQpUOi",
+          "component": "ws:descendant",
+          "label": "Heading 5",
+          "children": []
+        }
+      ],
+      [
+        "-crXE1rZOjoktC_Q5k2iX",
+        {
+          "type": "instance",
+          "id": "-crXE1rZOjoktC_Q5k2iX",
+          "component": "ws:descendant",
+          "label": "Heading 6",
+          "children": []
+        }
+      ],
+      [
+        "rzQKSbDKvLMWk3JFgiGLz",
+        {
+          "type": "instance",
+          "id": "rzQKSbDKvLMWk3JFgiGLz",
+          "component": "ws:descendant",
+          "label": "Bold",
+          "children": []
+        }
+      ],
+      [
+        "naMCM3_lcwHhDRX1d8iy3",
+        {
+          "type": "instance",
+          "id": "naMCM3_lcwHhDRX1d8iy3",
+          "component": "ws:descendant",
+          "label": "Italic",
+          "children": []
+        }
+      ],
+      [
+        "aE9P8suYnNu7eUajw_ycL",
+        {
+          "type": "instance",
+          "id": "aE9P8suYnNu7eUajw_ycL",
+          "component": "ws:descendant",
+          "label": "Link",
+          "children": []
+        }
+      ],
+      [
+        "1dFlGxFfjSjWiurIi-98Z",
+        {
+          "type": "instance",
+          "id": "1dFlGxFfjSjWiurIi-98Z",
+          "component": "ws:descendant",
+          "label": "Image",
+          "children": []
+        }
+      ],
+      [
+        "rwW01csZ44J3b00VkXPB_",
+        {
+          "type": "instance",
+          "id": "rwW01csZ44J3b00VkXPB_",
+          "component": "ws:descendant",
+          "label": "Blockquote",
+          "children": []
+        }
+      ],
+      [
+        "Jdl_hSUAYiNUcVdimVt22",
+        {
+          "type": "instance",
+          "id": "Jdl_hSUAYiNUcVdimVt22",
+          "component": "ws:descendant",
+          "label": "Code Text",
+          "children": []
+        }
+      ],
+      [
+        "vvhmCTuTVm4i0amtDFpQ0",
+        {
+          "type": "instance",
+          "id": "vvhmCTuTVm4i0amtDFpQ0",
+          "component": "ws:descendant",
+          "label": "List",
+          "children": []
+        }
+      ],
+      [
+        "OxCTU1UYqnecNtsEazSn5",
+        {
+          "type": "instance",
+          "id": "OxCTU1UYqnecNtsEazSn5",
+          "component": "ws:descendant",
+          "label": "List Item",
+          "children": []
+        }
+      ],
+      [
+        "A-aXEhPJ0Sm5bQACRnC6I",
+        {
+          "type": "instance",
+          "id": "A-aXEhPJ0Sm5bQACRnC6I",
+          "component": "ws:descendant",
+          "label": "Separator",
+          "children": []
+        }
+      ],
+      [
+        "Vfh_tDJtr2El-thLhy_By",
+        {
+          "type": "instance",
+          "id": "Vfh_tDJtr2El-thLhy_By",
+          "component": "ws:descendant",
+          "label": "Table",
+          "children": []
+        }
+      ],
+      [
+        "X0myRR_tgtLciBVqiszOX",
+        {
+          "type": "instance",
+          "id": "X0myRR_tgtLciBVqiszOX",
+          "component": "ws:descendant",
+          "label": "Table Row",
+          "children": []
+        }
+      ],
+      [
+        "ItnmthRwwdaJ4i8rDWdp2",
+        {
+          "type": "instance",
+          "id": "ItnmthRwwdaJ4i8rDWdp2",
+          "component": "ws:descendant",
+          "label": "Table Header Cell",
+          "children": []
+        }
+      ],
+      [
+        "1VobrOrkkSg2iABz24U4Z",
+        {
+          "type": "instance",
+          "id": "1VobrOrkkSg2iABz24U4Z",
+          "component": "ws:descendant",
+          "label": "Table Cell",
+          "children": []
+        }
       ]
     ],
     "deployment": {
@@ -183470,6 +184919,9 @@
       "id": "Cc2mp_fCvBBa0sN6vzAty",
       "name": "サーバータブ",
       "title": "\"サーバータブ - Mocolamma\"",
+      "history": [
+        "/server-tab"
+      ],
       "rootInstanceId": "BowLna6os5bW0DG3vuN-g",
       "meta": {
         "description": "\"MocolammaにOllamaサーバーを追加したり、選択されているサーバーを切り替えたり、サーバーの詳細情報を確認したりする方法をご紹介します。\"",
