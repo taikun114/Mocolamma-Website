@@ -25,7 +25,7 @@ export const getResources = (_props: { system: System }) => {
     description: "Here is an explanation of when App Store review requests are displayed for Mocolamma on the App Store version.",
     excludePageFromSearch: false,
     language: "en-us",
-    socialImageAssetName: "Mocolamma_Social_k4PJT2CUac45I3tPGa4rC.webp",
+    socialImageAssetName: "Mocolamma_Social_v4bPMu4TakXy-hXjX6vsW.png",
     socialImageUrl: undefined,
     status: undefined,
     redirect: "",

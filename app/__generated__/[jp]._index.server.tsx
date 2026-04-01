@@ -22,10 +22,10 @@ export const getResources = (_props: { system: System }) => {
 }): PageMeta => {
   return {
     title: "Mocolamma - Ollamaマネージャーアプリ",
-    description: "サーバー管理、モデル管理、簡易チャット機能を備えた、macOS、iOS、iPadOS、visionOSで使えるOllamaマネージャーアプリ",
+    description: "サーバー管理、モデル管理、チャット、画像生成機能を備えた、macOS、iOS、iPadOS、visionOSで使えるOllamaマネージャーアプリ",
     excludePageFromSearch: false,
     language: "ja-jp",
-    socialImageAssetName: "Mocolamma_Social-ja_BkB_2QEqAgmUES7k42Gt7.webp",
+    socialImageAssetName: "Mocolamma_Social-ja_wQt7_oQuO0KpseiK9VDWM.png",
     socialImageUrl: undefined,
     status: undefined,
     redirect: undefined,

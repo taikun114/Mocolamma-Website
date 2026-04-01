@@ -25,7 +25,7 @@ export const getResources = (_props: { system: System }) => {
     description: "Mocolammaのアップデート履歴と変更ログ",
     excludePageFromSearch: false,
     language: "ja-jp",
-    socialImageAssetName: "Mocolamma_Social-ja_BkB_2QEqAgmUES7k42Gt7.webp",
+    socialImageAssetName: "Mocolamma_Social-ja_wQt7_oQuO0KpseiK9VDWM.png",
     socialImageUrl: undefined,
     status: undefined,
     redirect: undefined,

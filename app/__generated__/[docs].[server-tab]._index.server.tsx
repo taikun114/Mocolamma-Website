@@ -25,7 +25,7 @@ export const getResources = (_props: { system: System }) => {
     description: "Here's how to add an Ollama server to Mocolamma, switch between selected servers, and view detailed server information.",
     excludePageFromSearch: false,
     language: "en-us",
-    socialImageAssetName: "Mocolamma_Social_k4PJT2CUac45I3tPGa4rC.webp",
+    socialImageAssetName: "Mocolamma_Social_v4bPMu4TakXy-hXjX6vsW.png",
     socialImageUrl: undefined,
     status: undefined,
     redirect: "",

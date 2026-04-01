@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2026-03-30T07:54:44.837Z";
+      export const lastPublished = "2026-04-01T07:25:32.610Z";
 
       export const siteName = "Mocolamma";
 
@@ -592,6 +592,15 @@ className={`w-element c13rvnfs cdhbme8 ckkp5ls cq2ae4j c6qj28r c1n75u37 c1muqwoi
 className={`w-element c11wsiwx c1su7aph`}>
 {"Mocolamma Release Notes"}
 </h1>
+<h2
+id={"v1-2-2"}
+className={`w-element c12e0v0g c1eswi8f`}>
+{"Version 1.2.2"}
+</h2>
+<MarkdownEmbed
+code={"Release: April 1, 2026\n\n### Update Details\n#### New Features\n- **Add a copy button to code blocks in the chat screen**\n  - You can copy only the code within the code block.\n\n#### Bug Fixes and Improvements\n- **Fix issues where text selection could not cross code blocks and where multiple word selection was not possible by holding down the double-click button in the chat screen ([#4](https://github.com/taikun114/Mocolamma/issues/4))**\n- **Fix issue where text selection could not be released in the chat screen on platforms other than macOS**"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
 <h2
 id={"v1-2-1"}
 className={`w-element c12e0v0g c1eswi8f`}>

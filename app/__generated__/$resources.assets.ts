@@ -1,5 +1,10 @@
 
     export const assets = {
+  "0a50ff35860a6fd4ac135182d872f886e57a4a7a048a021fe0028919f84e8141": {
+    "url": "/cgi/image/Mocolamma_Social_v4bPMu4TakXy-hXjX6vsW.png?format=raw",
+    "width": 1280,
+    "height": 640
+  },
   "0b56f079dd45b3ce47af61afe11548d8fb88093282d3ef3adbdd3fe2beccdb4f": {
     "url": "/cgi/image/Mocolamma_Logo_1Hud1LO-7f_-fiBpR59VO.webp?format=raw",
     "width": 256,
@@ -40,8 +45,8 @@
     "width": 192,
     "height": 192
   },
-  "70c8dd13f17790c6afdb5ed01fdb7f73dc666f637ab9880d42ee496d0e467e44": {
-    "url": "/cgi/image/Mocolamma_Social_k4PJT2CUac45I3tPGa4rC.webp?format=raw",
+  "99c5d209dc909111e16264245e487334826e75b88601ede6f1cb861279e68331": {
+    "url": "/cgi/image/Mocolamma_Social-ja_wQt7_oQuO0KpseiK9VDWM.png?format=raw",
     "width": 1280,
     "height": 640
   },
@@ -49,11 +54,6 @@
     "url": "/cgi/image/App-Store-DL-Badge-us_Bq-LFxfS98Q3mm-NEBHmb.webp?format=raw",
     "width": 480,
     "height": 160
-  },
-  "b54dc8b54b9d6c76762bdb4bf25014b66c3132496d1e4702dce25ae89f460071": {
-    "url": "/cgi/image/Mocolamma_Social-ja_BkB_2QEqAgmUES7k42Gt7.webp?format=raw",
-    "width": 1280,
-    "height": 640
   }
 };
     
