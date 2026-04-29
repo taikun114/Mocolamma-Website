@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2026-04-01T07:25:32.610Z";
+      export const lastPublished = "2026-04-29T09:23:11.658Z";
 
       export const siteName = "Mocolamma";
 
@@ -592,6 +592,15 @@ className={`w-element c13rvnfs cdhbme8 ckkp5ls cq2ae4j c6qj28r c1n75u37 c1muqwoi
 className={`w-element c11wsiwx c1su7aph`}>
 {"Mocolamma Release Notes"}
 </h1>
+<h2
+id={"v1-3-0"}
+className={`w-element c12e0v0g c1eswi8f`}>
+{"Version 1.3.0"}
+</h2>
+<MarkdownEmbed
+code={"Release: April 29, 2026\n\n### New Features\n#### Model\n- **Support audio model tag**\n- **Add a feature that allows scrolling by dragging tags in the model inspector**\n- **Add the ability to load and unload models from the context menu of each model**\n  - You can load models by specifying a Keep Alive time, or unload them. You can also check the loading status in the model list.\n- **Add a feature to cancel model downloading**\n\n#### Chat and Image Generation\n- **Add options to set the order of models**\n  - By default, the order displayed on the model screen is used, but you can change it to your preferred order in the settings.\n- **Add a button to scroll to the bottom**\n  - A button now appears that allows you to scroll straight to the bottom when you are outside the auto-follow scroll range.\n\n### Bug Fixes and Improvements\n#### General\n- **Fix issue where sheet backgrounds appear slightly green in iPadOS 26 Dark Mode**\n- **Fix issue where performance significantly degrades when voice control is enabled ([#5](https://github.com/taikun114/Mocolamma/issues/5))**\n- **Improve the layout of the settings screen**\n\n#### Server\n- **Improve the display of connection status in server inspector**\n\n#### Model\n- **Fix issue where the model filter icon was not displayed in macOS Sequoia**\n- **Fix issue where models could not be added in a specific format**\n  - Fixed an issue where models could not be downloaded if the model name contained a `/` in the `ollama` command format.\n- **Improve model loading process**\n  - Performance has improved by automatically loading models when the app launches and when the server changes, thereby eliminating unnecessary model loading.\n- **Improve the feature to allow copying the model name using a keyboard shortcut**\n  - You can copy the model name by pressing `⌘ (Command)` + `C` while the model is selected. On macOS, you can also copy it by selecting “Copy” from the “Edit” menu.\n\n#### Chat and Image Generation\n- **Fix issue where the corner radius of the message input field was shifted**\n- **Fix issue where auto-follow scrolling would sometimes jumps**\n- **Fix issue where the keyboard sometimes did not close when the background was tapped**\n- **Improve the model picker display while loading models**\n- **Improve the appearance of the model picker**\n  - On macOS, the width now remains fixed, and on visionOS, model names are now displayed just like on macOS.\n- **Improve the appearance of the message input field**\n  - When an input field is disabled, it is now semi-transparent to make its disabled state easier to recognize.\n- **Improve to scroll when editing or retrying a message**\n\n#### Chat\n- **Fix issue where list bullets were not displayed**\n- **Fix issue where text selection did not work properly in visionOS**\n- **Improve the display of the thinking text to use Markdown**\n- **Improve Markdown styling**\n- **Improve the performance of the thinking process**"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
 <h2
 id={"v1-2-2"}
 className={`w-element c12e0v0g c1eswi8f`}>

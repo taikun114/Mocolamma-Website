@@ -1,16 +1,16 @@
 {
   "build": {
-    "id": "f3ec9a93-59fd-4382-84c0-001ed75b12ca",
+    "id": "ff1ce1ec-51db-44d2-9de4-22b9b8a1c4c2",
     "projectId": "d3340149-462c-49a8-8b6a-95401a1f067e",
-    "version": 5536,
-    "createdAt": "2026-04-01T07:25:32.61+00:00",
-    "updatedAt": "2026-04-01T07:25:32.61+00:00",
+    "version": 5565,
+    "createdAt": "2026-04-29T09:23:11.658+00:00",
+    "updatedAt": "2026-04-29T09:23:11.658+00:00",
     "pages": {
       "meta": {
         "siteName": "Mocolamma",
-        "contactEmail": "contact.taikun@gmail.com",
+        "contactEmail": "",
         "faviconAssetId": "6878a1fc87a1b33f7d8dfaeb522c14d9026fc134116c01599e80638060a652bc",
-        "code": "<meta name='viewport' content='initial-scale=1, viewport-fit=cover'>\n\n<!-- Style Settings -->\n<style>\n  html {\n    scroll-padding-top: 6rem;\n    scroll-behavior: smooth;\n  }\n</style>\n\n<!-- Web Fonts -->\n<style>\n@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');\n</style>\n\n<!-- Umami -->\n<script defer src=\"https://umami.taikun.blog/script.js\" data-website-id=\"e071652d-3ebb-4b63-82bc-3ceaeb8cf0bf\"></script>\n\n<!-- NProgress -->\n<link rel=\"stylesheet\" href=\"https://unpkg.com/nprogress@0.2.0/nprogress.css\" />\n<script src=\"https://unpkg.com/nprogress@0.2.0/nprogress.js\"></script>\n\n<style>\n  #nprogress .bar {\n    background-color: light-dark(#192023, #6e8895) !important;\n  }\n</style>\n\n<script>\n  (function () {\n    // NProgress 設定\n    NProgress.configure({ showSpinner: false, trickleSpeed: 100 });\n\n    let startTime = 0;\n    const MIN_DURATION = 300; // 最低表示時間 0.3秒\n\n    // --- 🧱 NProgressのコンテナを <html> に移動してDOMリセット対策 ---\n    function ensureNProgressContainer() {\n      if (!document.getElementById(\"nprogress\")) return;\n      const np = document.getElementById(\"nprogress\");\n      if (np.parentNode !== document.documentElement) {\n        document.documentElement.appendChild(np);\n      }\n    }\n\n    // --- 進行開始 ---\n    function startProgress() {\n      ensureNProgressContainer();\n      if (NProgress.isStarted()) return;\n      startTime = Date.now();\n      NProgress.start();\n    }\n\n    // --- 完了 ---\n    function endProgress() {\n      const elapsed = Date.now() - startTime;\n      const remaining = Math.max(MIN_DURATION - elapsed, 0);\n      setTimeout(() => {\n        ensureNProgressContainer();\n        NProgress.done();\n      }, remaining);\n    }\n\n    // --- history APIフック ---\n    const originalPush = history.pushState;\n    const originalReplace = history.replaceState;\n\n    history.pushState = function (...args) {\n      startProgress();\n      const result = originalPush.apply(this, args);\n      endProgress();\n      return result;\n    };\n\n    history.replaceState = function (...args) {\n      startProgress();\n      const result = originalReplace.apply(this, args);\n      endProgress();\n      return result;\n    };\n\n    // --- 戻る／進む操作 ---\n    window.addEventListener(\"popstate\", () => {\n      startProgress();\n      setTimeout(endProgress, MIN_DURATION);\n    });\n\n    // --- 内部リンククリックで即スタート ---\n    document.addEventListener(\"click\", (e) => {\n      const link = e.target.closest(\"a\");\n      if (!link) return;\n      const isInternal =\n        link.host === window.location.host &&\n        !link.target &&\n        !link.hasAttribute(\"download\") &&\n        !link.href.startsWith(\"mailto:\");\n      if (isInternal) startProgress();\n    });\n\n    // --- 初回ロード時 ---\n    window.addEventListener(\"load\", () => {\n      ensureNProgressContainer();\n      NProgress.done();\n    });\n\n    // --- SPAの再描画タイミング対策 ---\n    const observer = new MutationObserver(() => ensureNProgressContainer());\n    observer.observe(document.documentElement, { childList: true, subtree: true });\n  })();\n</script> \n"
+        "code": "<meta name='viewport' content='initial-scale=1, viewport-fit=cover'>\n\n<!-- Style Settings -->\n<style>\n  html {\n    scroll-padding-top: 6rem;\n    scroll-behavior: smooth;\n  }\n</style>\n\n<!-- Web Fonts -->\n<style>\n@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');\n</style>\n\n<!-- Umami -->\n<script defer src=\"https://umami.taikun.blog/script.js\" data-website-id=\"e071652d-3ebb-4b63-82bc-3ceaeb8cf0bf\" data-performance=\"true\"></script>\n\n<!-- NProgress -->\n<link rel=\"stylesheet\" href=\"https://unpkg.com/nprogress@0.2.0/nprogress.css\" />\n<script src=\"https://unpkg.com/nprogress@0.2.0/nprogress.js\"></script>\n\n<style>\n  #nprogress .bar {\n    background-color: light-dark(#192023, #6e8895) !important;\n  }\n</style>\n\n<script>\n  (function () {\n    // NProgress 設定\n    NProgress.configure({ showSpinner: false, trickleSpeed: 100 });\n\n    let startTime = 0;\n    const MIN_DURATION = 300; // 最低表示時間 0.3秒\n\n    // --- 🧱 NProgressのコンテナを <html> に移動してDOMリセット対策 ---\n    function ensureNProgressContainer() {\n      if (!document.getElementById(\"nprogress\")) return;\n      const np = document.getElementById(\"nprogress\");\n      if (np.parentNode !== document.documentElement) {\n        document.documentElement.appendChild(np);\n      }\n    }\n\n    // --- 進行開始 ---\n    function startProgress() {\n      ensureNProgressContainer();\n      if (NProgress.isStarted()) return;\n      startTime = Date.now();\n      NProgress.start();\n    }\n\n    // --- 完了 ---\n    function endProgress() {\n      const elapsed = Date.now() - startTime;\n      const remaining = Math.max(MIN_DURATION - elapsed, 0);\n      setTimeout(() => {\n        ensureNProgressContainer();\n        NProgress.done();\n      }, remaining);\n    }\n\n    // --- history APIフック ---\n    const originalPush = history.pushState;\n    const originalReplace = history.replaceState;\n\n    history.pushState = function (...args) {\n      startProgress();\n      const result = originalPush.apply(this, args);\n      endProgress();\n      return result;\n    };\n\n    history.replaceState = function (...args) {\n      startProgress();\n      const result = originalReplace.apply(this, args);\n      endProgress();\n      return result;\n    };\n\n    // --- 戻る／進む操作 ---\n    window.addEventListener(\"popstate\", () => {\n      startProgress();\n      setTimeout(endProgress, MIN_DURATION);\n    });\n\n    // --- 内部リンククリックで即スタート ---\n    document.addEventListener(\"click\", (e) => {\n      const link = e.target.closest(\"a\");\n      if (!link) return;\n      const isInternal =\n        link.host === window.location.host &&\n        !link.target &&\n        !link.hasAttribute(\"download\") &&\n        !link.href.startsWith(\"mailto:\");\n      if (isInternal) startProgress();\n    });\n\n    // --- 初回ロード時 ---\n    window.addEventListener(\"load\", () => {\n      ensureNProgressContainer();\n      NProgress.done();\n    });\n\n    // --- SPAの再描画タイミング対策 ---\n    const observer = new MutationObserver(() => ensureNProgressContainer());\n    observer.observe(document.documentElement, { childList: true, subtree: true });\n  })();\n</script> \n"
       },
       "homePage": {
         "id": "hgrvtiNFaAsjLj_pePPka",
@@ -105685,6 +105685,384 @@
             "Yd7wa8BRMmg5FJBi2wQ31"
           ]
         }
+      ],
+      [
+        "XVfvrtnyt-2kXf-UpOkDb",
+        {
+          "instanceId": "XVfvrtnyt-2kXf-UpOkDb",
+          "values": [
+            "glI50p-4x_diD972R_Mhk"
+          ]
+        }
+      ],
+      [
+        "_T1HtQKh2n4aJrIxGYCtp",
+        {
+          "instanceId": "_T1HtQKh2n4aJrIxGYCtp",
+          "values": [
+            "J9pHWPfrA2N1cxZtezBd8"
+          ]
+        }
+      ],
+      [
+        "GHcUjHJEVlmy5JVFimyjG",
+        {
+          "instanceId": "GHcUjHJEVlmy5JVFimyjG",
+          "values": [
+            "Nq_Kj5xg2E1pzLrqBIkf2"
+          ]
+        }
+      ],
+      [
+        "Vksf6r2QHH1MgZKhoHP02",
+        {
+          "instanceId": "Vksf6r2QHH1MgZKhoHP02",
+          "values": [
+            "glI50p-4x_diD972R_Mhk"
+          ]
+        }
+      ],
+      [
+        "xr8hzlEQ6tp9IeI5v_mv1",
+        {
+          "instanceId": "xr8hzlEQ6tp9IeI5v_mv1",
+          "values": [
+            "KNbrMJCws8EAe5nr52g2o"
+          ]
+        }
+      ],
+      [
+        "nPwECx9hAT7ThJVRRbg1y",
+        {
+          "instanceId": "nPwECx9hAT7ThJVRRbg1y",
+          "values": [
+            "kRPylQRS-1ZBTDeJQ90Av"
+          ]
+        }
+      ],
+      [
+        "UA05_gyXCD9N5HdtDfwjI",
+        {
+          "instanceId": "UA05_gyXCD9N5HdtDfwjI",
+          "values": [
+            "_Od9QbHInzO6Pc-URASQH"
+          ]
+        }
+      ],
+      [
+        "c0NuQeImIWqv7YuT9G7gu",
+        {
+          "instanceId": "c0NuQeImIWqv7YuT9G7gu",
+          "values": [
+            "siBzT0jLgFMbGjk5tTUWI"
+          ]
+        }
+      ],
+      [
+        "1nwrMoLRpRVDwHW-VEf8n",
+        {
+          "instanceId": "1nwrMoLRpRVDwHW-VEf8n",
+          "values": [
+            "4t1k49d4vNG2NYh2vo13h"
+          ]
+        }
+      ],
+      [
+        "DrhMaTScoIN6KDKFzB4P8",
+        {
+          "instanceId": "DrhMaTScoIN6KDKFzB4P8",
+          "values": [
+            "G2LOJlrR_PWGeVf3LCiGX"
+          ]
+        }
+      ],
+      [
+        "kn07wSTxHhKLGYoXT86_F",
+        {
+          "instanceId": "kn07wSTxHhKLGYoXT86_F",
+          "values": [
+            "pKOtRm1l4CKBvwnSjWJCd"
+          ]
+        }
+      ],
+      [
+        "RzwnUX5_em3ham59_cPdP",
+        {
+          "instanceId": "RzwnUX5_em3ham59_cPdP",
+          "values": [
+            "CAcjRclQrTgTcW8AUxYRQ"
+          ]
+        }
+      ],
+      [
+        "IshbdvPbVv4o4ReSjJtYY",
+        {
+          "instanceId": "IshbdvPbVv4o4ReSjJtYY",
+          "values": [
+            "aWD8VjMcbNezvnZF8qlHl"
+          ]
+        }
+      ],
+      [
+        "gJDUpYk3e_chFqTluKz31",
+        {
+          "instanceId": "gJDUpYk3e_chFqTluKz31",
+          "values": [
+            "DscokbWNofXTKM8USiPQ2"
+          ]
+        }
+      ],
+      [
+        "3ZLftBwXscS7QjCxsB6Hq",
+        {
+          "instanceId": "3ZLftBwXscS7QjCxsB6Hq",
+          "values": [
+            "TMEm89yZQMAoxF94RgRYl"
+          ]
+        }
+      ],
+      [
+        "KcpGA9oxCFcdgnlE5FtPl",
+        {
+          "instanceId": "KcpGA9oxCFcdgnlE5FtPl",
+          "values": [
+            "6p7t4OCWrUO6uxB2__1w3"
+          ]
+        }
+      ],
+      [
+        "o2HnlgQaLWKBhYJS7YzaF",
+        {
+          "instanceId": "o2HnlgQaLWKBhYJS7YzaF",
+          "values": [
+            "fY2XUjshoGZjoXYxn8R7L"
+          ]
+        }
+      ],
+      [
+        "fOEiGxYhoa9O_QvkeFt-i",
+        {
+          "instanceId": "fOEiGxYhoa9O_QvkeFt-i",
+          "values": [
+            "5C4yCmIUIfukaLrx3rPtg"
+          ]
+        }
+      ],
+      [
+        "g_sI8Dh_SGaf6Zl5f-k1u",
+        {
+          "instanceId": "g_sI8Dh_SGaf6Zl5f-k1u",
+          "values": [
+            "Wfm5MAycMQi_7_ooyy7W1"
+          ]
+        }
+      ],
+      [
+        "ut19bENSssEUjV87x6eX4",
+        {
+          "instanceId": "ut19bENSssEUjV87x6eX4",
+          "values": [
+            "CJPHnQcgYqRwaJxsdD8Ag"
+          ]
+        }
+      ],
+      [
+        "pk__XD-X_0ptoWRpy8j7L",
+        {
+          "instanceId": "pk__XD-X_0ptoWRpy8j7L",
+          "values": [
+            "Yd7wa8BRMmg5FJBi2wQ31"
+          ]
+        }
+      ],
+      [
+        "G17L_QGSabgcnYLhbcD1o",
+        {
+          "instanceId": "G17L_QGSabgcnYLhbcD1o",
+          "values": [
+            "glI50p-4x_diD972R_Mhk"
+          ]
+        }
+      ],
+      [
+        "oaHmJtQdeJeF8lHBnPgMR",
+        {
+          "instanceId": "oaHmJtQdeJeF8lHBnPgMR",
+          "values": [
+            "J9pHWPfrA2N1cxZtezBd8"
+          ]
+        }
+      ],
+      [
+        "Of8HGa_6z0U3vmf4xfTIG",
+        {
+          "instanceId": "Of8HGa_6z0U3vmf4xfTIG",
+          "values": [
+            "Nq_Kj5xg2E1pzLrqBIkf2"
+          ]
+        }
+      ],
+      [
+        "oMogdEHztZK_fXT7WyCG6",
+        {
+          "instanceId": "oMogdEHztZK_fXT7WyCG6",
+          "values": [
+            "glI50p-4x_diD972R_Mhk"
+          ]
+        }
+      ],
+      [
+        "Ua68MGSMio56rva2_TqJk",
+        {
+          "instanceId": "Ua68MGSMio56rva2_TqJk",
+          "values": [
+            "KNbrMJCws8EAe5nr52g2o"
+          ]
+        }
+      ],
+      [
+        "IL-kxGY3OqKk9Cm8JjDbF",
+        {
+          "instanceId": "IL-kxGY3OqKk9Cm8JjDbF",
+          "values": [
+            "kRPylQRS-1ZBTDeJQ90Av"
+          ]
+        }
+      ],
+      [
+        "3iqmOedtfwVDyjh8cpeWJ",
+        {
+          "instanceId": "3iqmOedtfwVDyjh8cpeWJ",
+          "values": [
+            "_Od9QbHInzO6Pc-URASQH"
+          ]
+        }
+      ],
+      [
+        "TyC7VVpfoM7XF_NIdV8uI",
+        {
+          "instanceId": "TyC7VVpfoM7XF_NIdV8uI",
+          "values": [
+            "siBzT0jLgFMbGjk5tTUWI"
+          ]
+        }
+      ],
+      [
+        "VurZerppL-0gHTilydj6C",
+        {
+          "instanceId": "VurZerppL-0gHTilydj6C",
+          "values": [
+            "4t1k49d4vNG2NYh2vo13h"
+          ]
+        }
+      ],
+      [
+        "JC-XkrLelWy5Rcu_ImJdx",
+        {
+          "instanceId": "JC-XkrLelWy5Rcu_ImJdx",
+          "values": [
+            "G2LOJlrR_PWGeVf3LCiGX"
+          ]
+        }
+      ],
+      [
+        "4nQS6GNAjpS_x7kbT6r5s",
+        {
+          "instanceId": "4nQS6GNAjpS_x7kbT6r5s",
+          "values": [
+            "pKOtRm1l4CKBvwnSjWJCd"
+          ]
+        }
+      ],
+      [
+        "yYXQesS9GyL1Gaxpml8lG",
+        {
+          "instanceId": "yYXQesS9GyL1Gaxpml8lG",
+          "values": [
+            "CAcjRclQrTgTcW8AUxYRQ"
+          ]
+        }
+      ],
+      [
+        "IX_lJEjN8WQBwgukJ1H-V",
+        {
+          "instanceId": "IX_lJEjN8WQBwgukJ1H-V",
+          "values": [
+            "aWD8VjMcbNezvnZF8qlHl"
+          ]
+        }
+      ],
+      [
+        "eZqrl-l2Zf-6XIDaVOAT0",
+        {
+          "instanceId": "eZqrl-l2Zf-6XIDaVOAT0",
+          "values": [
+            "DscokbWNofXTKM8USiPQ2"
+          ]
+        }
+      ],
+      [
+        "qBW7ttV2SN1OPmBXY5-FC",
+        {
+          "instanceId": "qBW7ttV2SN1OPmBXY5-FC",
+          "values": [
+            "TMEm89yZQMAoxF94RgRYl"
+          ]
+        }
+      ],
+      [
+        "JwQLxPbKP6lE77x6zAPRW",
+        {
+          "instanceId": "JwQLxPbKP6lE77x6zAPRW",
+          "values": [
+            "6p7t4OCWrUO6uxB2__1w3"
+          ]
+        }
+      ],
+      [
+        "jq2Rr9TLISa-Uo4_UvESh",
+        {
+          "instanceId": "jq2Rr9TLISa-Uo4_UvESh",
+          "values": [
+            "fY2XUjshoGZjoXYxn8R7L"
+          ]
+        }
+      ],
+      [
+        "fI9XyPrpFWI6VBjFnJyJw",
+        {
+          "instanceId": "fI9XyPrpFWI6VBjFnJyJw",
+          "values": [
+            "5C4yCmIUIfukaLrx3rPtg"
+          ]
+        }
+      ],
+      [
+        "k55YQHXwK2Km-tOpPgqor",
+        {
+          "instanceId": "k55YQHXwK2Km-tOpPgqor",
+          "values": [
+            "Wfm5MAycMQi_7_ooyy7W1"
+          ]
+        }
+      ],
+      [
+        "CjY5R5W4f39-cY7fdj1hQ",
+        {
+          "instanceId": "CjY5R5W4f39-cY7fdj1hQ",
+          "values": [
+            "CJPHnQcgYqRwaJxsdD8Ag"
+          ]
+        }
+      ],
+      [
+        "PH-ntdM6ZnHq9_K3VSWzA",
+        {
+          "instanceId": "PH-ntdM6ZnHq9_K3VSWzA",
+          "values": [
+            "Yd7wa8BRMmg5FJBi2wQ31"
+          ]
+        }
       ]
     ],
     "props": [
@@ -119615,7 +119993,7 @@
           "instanceId": "2zX2OJbfjWKqKQoRYDV5J",
           "name": "id",
           "type": "string",
-          "value": "v1-2-2"
+          "value": "v1-3-0"
         }
       ],
       [
@@ -120405,7 +120783,7 @@
           "instanceId": "qDEptGZ7WVBHvao6xBy3z",
           "name": "id",
           "type": "string",
-          "value": "v1-2-2"
+          "value": "v1-3-0"
         }
       ],
       [
@@ -137147,6 +137525,446 @@
           "type": "string",
           "value": " td"
         }
+      ],
+      [
+        "fJR9mb98XmkgZX9FL9zUz",
+        {
+          "id": "fJR9mb98XmkgZX9FL9zUz",
+          "instanceId": "XVfvrtnyt-2kXf-UpOkDb",
+          "name": "id",
+          "type": "string",
+          "value": "v1-2-2"
+        }
+      ],
+      [
+        "USCMOcKCNbI57fj5qAZJc",
+        {
+          "id": "USCMOcKCNbI57fj5qAZJc",
+          "instanceId": "zdP2Rpqy7pxMweVWOvfDl",
+          "name": "code",
+          "type": "string",
+          "value": "リリース: 2026年4月29日\n\n### 新機能\n#### モデル\n- **オーディオモデルのタグに対応**\n- **モデルインスペクタのタグをドラッグしてスクロールする機能を追加**\n- **各モデルのコンテキストメニューからモデルのロード・アンロードする機能を追加**\n  - キープアライブ時間を指定してモデルをロードしたり、アンロードしたりすることができます。モデルリストでロード状況を確認することもできます。\n- **モデルダウンロードをキャンセルする機能を追加**\n\n#### チャットと画像生成\n- **モデルの並び順を設定するオプションを追加**\n  - デフォルトではモデル画面での並び順が使用され、設定からお好みの並び順に変更することができます。\n- **下までスクロールするボタンを追加**\n  - 自動追従スクロールの範囲以外にいるときに、一気に下までスクロールするためのボタンが表示されるようになりました。\n\n### バグ修正と改善\n#### 全般\n- **iPadOS 26のダークモード時にシートの背景がわずかにグリーンに見える問題を修正**\n- **音声コントロール有効時にパフォーマンスが著しく低下する問題（[#5](https://github.com/taikun114/Mocolamma/issues/5)）を修正**\n- **設定画面のレイアウトを改善**\n\n#### サーバー\n- **サーバーインスペクタの接続状況表示を改善**\n\n#### モデル\n- **macOS Sequoiaでモデルフィルターのアイコンが表示されなかった問題を修正**\n- **特定の形式でモデルを追加できなかった問題を修正**\n  - `ollama`コマンド形式でモデル名に`/`が含まれているとモデルがダウンロードできなかった問題が修正されました。\n- **モデルの読み込み動作を改善**\n  - アプリ起動時とサーバー変更時に自動でモデルが読み込まれるようになり、不必要なモデル読み込みが行われなくなったことでパフォーマンスが改善しました。\n- **モデル名をキーボードショートカットでコピーできるように改善**\n  - モデルが選択された状態で`⌘ (Command)` + `C`キーを押すとモデル名がコピーされます。macOSでは「編集」メニューの「コピー」からコピーすることもできます。\n\n#### チャットと画像生成\n- **メッセージ入力欄の角丸半径がずれていた問題を修正**\n- **自動追従スクロールが飛ぶことがあった問題を修正**\n- **背景をタップしてもキーボードが閉じないことがあった問題を修正**\n- **モデルを読み込み中のモデルピッカー表示を改善**\n- **モデルピッカーの見た目を改善**\n  - macOSでは幅が変わらないようにし、visionOSではmacOSと同じようにモデル名が表示されるようになりました。\n- **メッセージ入力欄の見た目を改善**\n  - 入力欄が無効化されているときは半透明にして無効化状態がわかりやすくなりました。\n- **メッセージを編集したりやり直したりしたときにスクロールするように改善**\n\n#### チャット\n- **リストの行頭記号が表示されなかった問題を修正**\n- **visionOSでテキスト選択が正常に機能しなかった問題を修正**\n- **思考中のテキストをMarkdownで表示するように改善**\n- **Markdownのスタイルを改善**\n- **思考プロセスのパフォーマンスを改善**"
+        }
+      ],
+      [
+        "wHMotbsBTX8f7QiKL21mE",
+        {
+          "id": "wHMotbsBTX8f7QiKL21mE",
+          "instanceId": "_T1HtQKh2n4aJrIxGYCtp",
+          "name": "selector",
+          "type": "string",
+          "value": " p"
+        }
+      ],
+      [
+        "Wxrnvu7TA2G5pocr7Ad0R",
+        {
+          "id": "Wxrnvu7TA2G5pocr7Ad0R",
+          "instanceId": "GHcUjHJEVlmy5JVFimyjG",
+          "name": "selector",
+          "type": "string",
+          "value": " h1"
+        }
+      ],
+      [
+        "LRsUBYW1AlXHL9UoMbBW-",
+        {
+          "id": "LRsUBYW1AlXHL9UoMbBW-",
+          "instanceId": "Vksf6r2QHH1MgZKhoHP02",
+          "name": "selector",
+          "type": "string",
+          "value": " h2"
+        }
+      ],
+      [
+        "dIkuL5eMO3a-v46ey1D1f",
+        {
+          "id": "dIkuL5eMO3a-v46ey1D1f",
+          "instanceId": "xr8hzlEQ6tp9IeI5v_mv1",
+          "name": "selector",
+          "type": "string",
+          "value": " h3"
+        }
+      ],
+      [
+        "Lr4bMG7UT21GzXEANTMAk",
+        {
+          "id": "Lr4bMG7UT21GzXEANTMAk",
+          "instanceId": "nPwECx9hAT7ThJVRRbg1y",
+          "name": "selector",
+          "type": "string",
+          "value": " h4"
+        }
+      ],
+      [
+        "WTLWsfUpuuNkn33dSw5Ws",
+        {
+          "id": "WTLWsfUpuuNkn33dSw5Ws",
+          "instanceId": "UA05_gyXCD9N5HdtDfwjI",
+          "name": "selector",
+          "type": "string",
+          "value": " h5"
+        }
+      ],
+      [
+        "93skXvIIcvXA6xp5sIzNo",
+        {
+          "id": "93skXvIIcvXA6xp5sIzNo",
+          "instanceId": "c0NuQeImIWqv7YuT9G7gu",
+          "name": "selector",
+          "type": "string",
+          "value": " h6"
+        }
+      ],
+      [
+        "smKiYxcLeUBQIDNVbE4M0",
+        {
+          "id": "smKiYxcLeUBQIDNVbE4M0",
+          "instanceId": "1nwrMoLRpRVDwHW-VEf8n",
+          "name": "selector",
+          "type": "string",
+          "value": " :where(strong, b)"
+        }
+      ],
+      [
+        "B3exBgsmN-6g-DiaT8Wbk",
+        {
+          "id": "B3exBgsmN-6g-DiaT8Wbk",
+          "instanceId": "DrhMaTScoIN6KDKFzB4P8",
+          "name": "selector",
+          "type": "string",
+          "value": " :where(em, i)"
+        }
+      ],
+      [
+        "jOVyXqvA_1OvHnjCBh21s",
+        {
+          "id": "jOVyXqvA_1OvHnjCBh21s",
+          "instanceId": "kn07wSTxHhKLGYoXT86_F",
+          "name": "selector",
+          "type": "string",
+          "value": " a"
+        }
+      ],
+      [
+        "VnpHw-qMF_yYH2g50fWzB",
+        {
+          "id": "VnpHw-qMF_yYH2g50fWzB",
+          "instanceId": "RzwnUX5_em3ham59_cPdP",
+          "name": "selector",
+          "type": "string",
+          "value": " img"
+        }
+      ],
+      [
+        "ZIhZ_-WemUYrwUDZoyipc",
+        {
+          "id": "ZIhZ_-WemUYrwUDZoyipc",
+          "instanceId": "IshbdvPbVv4o4ReSjJtYY",
+          "name": "selector",
+          "type": "string",
+          "value": " blockquote"
+        }
+      ],
+      [
+        "w54KRY5OcfiTC8Q_0H9Yv",
+        {
+          "id": "w54KRY5OcfiTC8Q_0H9Yv",
+          "instanceId": "gJDUpYk3e_chFqTluKz31",
+          "name": "selector",
+          "type": "string",
+          "value": " code"
+        }
+      ],
+      [
+        "SjFmz7cSsK7lynOL-_pB3",
+        {
+          "id": "SjFmz7cSsK7lynOL-_pB3",
+          "instanceId": "3ZLftBwXscS7QjCxsB6Hq",
+          "name": "selector",
+          "type": "string",
+          "value": " :where(ul, ol)"
+        }
+      ],
+      [
+        "snLsWymm3p6c8keLqjy6t",
+        {
+          "id": "snLsWymm3p6c8keLqjy6t",
+          "instanceId": "KcpGA9oxCFcdgnlE5FtPl",
+          "name": "selector",
+          "type": "string",
+          "value": " li"
+        }
+      ],
+      [
+        "5KXNnePDVmEqOVnwEltsP",
+        {
+          "id": "5KXNnePDVmEqOVnwEltsP",
+          "instanceId": "o2HnlgQaLWKBhYJS7YzaF",
+          "name": "selector",
+          "type": "string",
+          "value": " hr"
+        }
+      ],
+      [
+        "LHNLIBY7lkXcL44Jbuo3M",
+        {
+          "id": "LHNLIBY7lkXcL44Jbuo3M",
+          "instanceId": "fOEiGxYhoa9O_QvkeFt-i",
+          "name": "selector",
+          "type": "string",
+          "value": " table"
+        }
+      ],
+      [
+        "7FA4G7qp2pKB2PySLQLdM",
+        {
+          "id": "7FA4G7qp2pKB2PySLQLdM",
+          "instanceId": "g_sI8Dh_SGaf6Zl5f-k1u",
+          "name": "selector",
+          "type": "string",
+          "value": " tr"
+        }
+      ],
+      [
+        "Fqt_l4tlxt5Ot6X4uqnBA",
+        {
+          "id": "Fqt_l4tlxt5Ot6X4uqnBA",
+          "instanceId": "ut19bENSssEUjV87x6eX4",
+          "name": "selector",
+          "type": "string",
+          "value": " th"
+        }
+      ],
+      [
+        "U3oAOuSLxlTRZNljYFJUq",
+        {
+          "id": "U3oAOuSLxlTRZNljYFJUq",
+          "instanceId": "pk__XD-X_0ptoWRpy8j7L",
+          "name": "selector",
+          "type": "string",
+          "value": " td"
+        }
+      ],
+      [
+        "pvh8GVaUSx3EMoSLP4yuY",
+        {
+          "id": "pvh8GVaUSx3EMoSLP4yuY",
+          "instanceId": "G17L_QGSabgcnYLhbcD1o",
+          "name": "id",
+          "type": "string",
+          "value": "v1-2-2"
+        }
+      ],
+      [
+        "wpzftiZILzqtvxIhcvWpR",
+        {
+          "id": "wpzftiZILzqtvxIhcvWpR",
+          "instanceId": "xfDY4sIzvYg0KWdrV2-iF",
+          "name": "code",
+          "type": "string",
+          "value": "Release: April 29, 2026\n\n### New Features\n#### Model\n- **Support audio model tag**\n- **Add a feature that allows scrolling by dragging tags in the model inspector**\n- **Add the ability to load and unload models from the context menu of each model**\n  - You can load models by specifying a Keep Alive time, or unload them. You can also check the loading status in the model list.\n- **Add a feature to cancel model downloading**\n\n#### Chat and Image Generation\n- **Add options to set the order of models**\n  - By default, the order displayed on the model screen is used, but you can change it to your preferred order in the settings.\n- **Add a button to scroll to the bottom**\n  - A button now appears that allows you to scroll straight to the bottom when you are outside the auto-follow scroll range.\n\n### Bug Fixes and Improvements\n#### General\n- **Fix issue where sheet backgrounds appear slightly green in iPadOS 26 Dark Mode**\n- **Fix issue where performance significantly degrades when voice control is enabled ([#5](https://github.com/taikun114/Mocolamma/issues/5))**\n- **Improve the layout of the settings screen**\n\n#### Server\n- **Improve the display of connection status in server inspector**\n\n#### Model\n- **Fix issue where the model filter icon was not displayed in macOS Sequoia**\n- **Fix issue where models could not be added in a specific format**\n  - Fixed an issue where models could not be downloaded if the model name contained a `/` in the `ollama` command format.\n- **Improve model loading process**\n  - Performance has improved by automatically loading models when the app launches and when the server changes, thereby eliminating unnecessary model loading.\n- **Improve the feature to allow copying the model name using a keyboard shortcut**\n  - You can copy the model name by pressing `⌘ (Command)` + `C` while the model is selected. On macOS, you can also copy it by selecting “Copy” from the “Edit” menu.\n\n#### Chat and Image Generation\n- **Fix issue where the corner radius of the message input field was shifted**\n- **Fix issue where auto-follow scrolling would sometimes jumps**\n- **Fix issue where the keyboard sometimes did not close when the background was tapped**\n- **Improve the model picker display while loading models**\n- **Improve the appearance of the model picker**\n  - On macOS, the width now remains fixed, and on visionOS, model names are now displayed just like on macOS.\n- **Improve the appearance of the message input field**\n  - When an input field is disabled, it is now semi-transparent to make its disabled state easier to recognize.\n- **Improve to scroll when editing or retrying a message**\n\n#### Chat\n- **Fix issue where list bullets were not displayed**\n- **Fix issue where text selection did not work properly in visionOS**\n- **Improve the display of the thinking text to use Markdown**\n- **Improve Markdown styling**\n- **Improve the performance of the thinking process**"
+        }
+      ],
+      [
+        "ZYoP_Zg6XkxLdkcqDuOFy",
+        {
+          "id": "ZYoP_Zg6XkxLdkcqDuOFy",
+          "instanceId": "oaHmJtQdeJeF8lHBnPgMR",
+          "name": "selector",
+          "type": "string",
+          "value": " p"
+        }
+      ],
+      [
+        "5xsCR6djdhFpCgKPzDbA2",
+        {
+          "id": "5xsCR6djdhFpCgKPzDbA2",
+          "instanceId": "Of8HGa_6z0U3vmf4xfTIG",
+          "name": "selector",
+          "type": "string",
+          "value": " h1"
+        }
+      ],
+      [
+        "jsNE4umogcG7GDFj302dJ",
+        {
+          "id": "jsNE4umogcG7GDFj302dJ",
+          "instanceId": "oMogdEHztZK_fXT7WyCG6",
+          "name": "selector",
+          "type": "string",
+          "value": " h2"
+        }
+      ],
+      [
+        "gIFiPNEM3wa0c9IzIWads",
+        {
+          "id": "gIFiPNEM3wa0c9IzIWads",
+          "instanceId": "Ua68MGSMio56rva2_TqJk",
+          "name": "selector",
+          "type": "string",
+          "value": " h3"
+        }
+      ],
+      [
+        "HR7WAtNrtM6ydpoVE0ceO",
+        {
+          "id": "HR7WAtNrtM6ydpoVE0ceO",
+          "instanceId": "IL-kxGY3OqKk9Cm8JjDbF",
+          "name": "selector",
+          "type": "string",
+          "value": " h4"
+        }
+      ],
+      [
+        "0TXukdiZxG8x1-RXuenSZ",
+        {
+          "id": "0TXukdiZxG8x1-RXuenSZ",
+          "instanceId": "3iqmOedtfwVDyjh8cpeWJ",
+          "name": "selector",
+          "type": "string",
+          "value": " h5"
+        }
+      ],
+      [
+        "e3sUOEz6XG6D7CG2T1vOa",
+        {
+          "id": "e3sUOEz6XG6D7CG2T1vOa",
+          "instanceId": "TyC7VVpfoM7XF_NIdV8uI",
+          "name": "selector",
+          "type": "string",
+          "value": " h6"
+        }
+      ],
+      [
+        "efIFuGFHKGE4kxueFbma3",
+        {
+          "id": "efIFuGFHKGE4kxueFbma3",
+          "instanceId": "VurZerppL-0gHTilydj6C",
+          "name": "selector",
+          "type": "string",
+          "value": " :where(strong, b)"
+        }
+      ],
+      [
+        "VQoSt1fINvUlVo0DUy4mG",
+        {
+          "id": "VQoSt1fINvUlVo0DUy4mG",
+          "instanceId": "JC-XkrLelWy5Rcu_ImJdx",
+          "name": "selector",
+          "type": "string",
+          "value": " :where(em, i)"
+        }
+      ],
+      [
+        "hfTatNn0C3tN__eb3FusV",
+        {
+          "id": "hfTatNn0C3tN__eb3FusV",
+          "instanceId": "4nQS6GNAjpS_x7kbT6r5s",
+          "name": "selector",
+          "type": "string",
+          "value": " a"
+        }
+      ],
+      [
+        "8w5YjQmdmX1GIaOO_rlN2",
+        {
+          "id": "8w5YjQmdmX1GIaOO_rlN2",
+          "instanceId": "yYXQesS9GyL1Gaxpml8lG",
+          "name": "selector",
+          "type": "string",
+          "value": " img"
+        }
+      ],
+      [
+        "CBu-dz-5hagsfB_q4Mzgn",
+        {
+          "id": "CBu-dz-5hagsfB_q4Mzgn",
+          "instanceId": "IX_lJEjN8WQBwgukJ1H-V",
+          "name": "selector",
+          "type": "string",
+          "value": " blockquote"
+        }
+      ],
+      [
+        "vzxz0dkUclwo4H9uXl3ct",
+        {
+          "id": "vzxz0dkUclwo4H9uXl3ct",
+          "instanceId": "eZqrl-l2Zf-6XIDaVOAT0",
+          "name": "selector",
+          "type": "string",
+          "value": " code"
+        }
+      ],
+      [
+        "jFkx9g2Clh2Kc3znQqazs",
+        {
+          "id": "jFkx9g2Clh2Kc3znQqazs",
+          "instanceId": "qBW7ttV2SN1OPmBXY5-FC",
+          "name": "selector",
+          "type": "string",
+          "value": " :where(ul, ol)"
+        }
+      ],
+      [
+        "g8lP38FEfvDnloEt4u2C3",
+        {
+          "id": "g8lP38FEfvDnloEt4u2C3",
+          "instanceId": "JwQLxPbKP6lE77x6zAPRW",
+          "name": "selector",
+          "type": "string",
+          "value": " li"
+        }
+      ],
+      [
+        "n-qxKT7gAM-eqwMdPxtMa",
+        {
+          "id": "n-qxKT7gAM-eqwMdPxtMa",
+          "instanceId": "jq2Rr9TLISa-Uo4_UvESh",
+          "name": "selector",
+          "type": "string",
+          "value": " hr"
+        }
+      ],
+      [
+        "hztv62rSZm6xQLuhtg7eR",
+        {
+          "id": "hztv62rSZm6xQLuhtg7eR",
+          "instanceId": "fI9XyPrpFWI6VBjFnJyJw",
+          "name": "selector",
+          "type": "string",
+          "value": " table"
+        }
+      ],
+      [
+        "i9GH6Mj7pyRJQnCNN0xAM",
+        {
+          "id": "i9GH6Mj7pyRJQnCNN0xAM",
+          "instanceId": "k55YQHXwK2Km-tOpPgqor",
+          "name": "selector",
+          "type": "string",
+          "value": " tr"
+        }
+      ],
+      [
+        "w3VeVa-jJ-bOhcvPQ_6Bo",
+        {
+          "id": "w3VeVa-jJ-bOhcvPQ_6Bo",
+          "instanceId": "CjY5R5W4f39-cY7fdj1hQ",
+          "name": "selector",
+          "type": "string",
+          "value": " th"
+        }
+      ],
+      [
+        "ABhSJB8l8dglrj9wL0ome",
+        {
+          "id": "ABhSJB8l8dglrj9wL0ome",
+          "instanceId": "PH-ntdM6ZnHq9_K3VSWzA",
+          "name": "selector",
+          "type": "string",
+          "value": " td"
+        }
       ]
     ],
     "dataSources": [
@@ -140116,6 +140934,14 @@
             {
               "type": "id",
               "value": "qDEptGZ7WVBHvao6xBy3z"
+            },
+            {
+              "type": "id",
+              "value": "xfDY4sIzvYg0KWdrV2-iF"
+            },
+            {
+              "type": "id",
+              "value": "G17L_QGSabgcnYLhbcD1o"
             },
             {
               "type": "id",
@@ -150031,6 +150857,14 @@
             {
               "type": "id",
               "value": "2zX2OJbfjWKqKQoRYDV5J"
+            },
+            {
+              "type": "id",
+              "value": "zdP2Rpqy7pxMweVWOvfDl"
+            },
+            {
+              "type": "id",
+              "value": "XVfvrtnyt-2kXf-UpOkDb"
             },
             {
               "type": "id",
@@ -162703,7 +163537,7 @@
           "children": [
             {
               "type": "text",
-              "value": "バージョン 1.2.2"
+              "value": "バージョン 1.3.0"
             }
           ]
         }
@@ -164280,7 +165114,7 @@
           "children": [
             {
               "type": "text",
-              "value": "Version 1.2.2"
+              "value": "Version 1.3.0"
             }
           ]
         }
@@ -186101,6 +186935,618 @@
         {
           "type": "instance",
           "id": "t_JkRNTh9JEIE-1V4joXR",
+          "component": "ws:descendant",
+          "label": "Table Cell",
+          "children": []
+        }
+      ],
+      [
+        "XVfvrtnyt-2kXf-UpOkDb",
+        {
+          "type": "instance",
+          "id": "XVfvrtnyt-2kXf-UpOkDb",
+          "component": "ws:element",
+          "tag": "h2",
+          "children": [
+            {
+              "type": "text",
+              "value": "バージョン 1.2.2"
+            }
+          ]
+        }
+      ],
+      [
+        "zdP2Rpqy7pxMweVWOvfDl",
+        {
+          "type": "instance",
+          "id": "zdP2Rpqy7pxMweVWOvfDl",
+          "component": "MarkdownEmbed",
+          "label": "コンテンツ",
+          "children": [
+            {
+              "type": "id",
+              "value": "_T1HtQKh2n4aJrIxGYCtp"
+            },
+            {
+              "type": "id",
+              "value": "GHcUjHJEVlmy5JVFimyjG"
+            },
+            {
+              "type": "id",
+              "value": "Vksf6r2QHH1MgZKhoHP02"
+            },
+            {
+              "type": "id",
+              "value": "xr8hzlEQ6tp9IeI5v_mv1"
+            },
+            {
+              "type": "id",
+              "value": "nPwECx9hAT7ThJVRRbg1y"
+            },
+            {
+              "type": "id",
+              "value": "UA05_gyXCD9N5HdtDfwjI"
+            },
+            {
+              "type": "id",
+              "value": "c0NuQeImIWqv7YuT9G7gu"
+            },
+            {
+              "type": "id",
+              "value": "1nwrMoLRpRVDwHW-VEf8n"
+            },
+            {
+              "type": "id",
+              "value": "DrhMaTScoIN6KDKFzB4P8"
+            },
+            {
+              "type": "id",
+              "value": "kn07wSTxHhKLGYoXT86_F"
+            },
+            {
+              "type": "id",
+              "value": "RzwnUX5_em3ham59_cPdP"
+            },
+            {
+              "type": "id",
+              "value": "IshbdvPbVv4o4ReSjJtYY"
+            },
+            {
+              "type": "id",
+              "value": "gJDUpYk3e_chFqTluKz31"
+            },
+            {
+              "type": "id",
+              "value": "3ZLftBwXscS7QjCxsB6Hq"
+            },
+            {
+              "type": "id",
+              "value": "KcpGA9oxCFcdgnlE5FtPl"
+            },
+            {
+              "type": "id",
+              "value": "o2HnlgQaLWKBhYJS7YzaF"
+            },
+            {
+              "type": "id",
+              "value": "fOEiGxYhoa9O_QvkeFt-i"
+            },
+            {
+              "type": "id",
+              "value": "g_sI8Dh_SGaf6Zl5f-k1u"
+            },
+            {
+              "type": "id",
+              "value": "ut19bENSssEUjV87x6eX4"
+            },
+            {
+              "type": "id",
+              "value": "pk__XD-X_0ptoWRpy8j7L"
+            }
+          ]
+        }
+      ],
+      [
+        "_T1HtQKh2n4aJrIxGYCtp",
+        {
+          "type": "instance",
+          "id": "_T1HtQKh2n4aJrIxGYCtp",
+          "component": "ws:descendant",
+          "label": "Paragraph",
+          "children": []
+        }
+      ],
+      [
+        "GHcUjHJEVlmy5JVFimyjG",
+        {
+          "type": "instance",
+          "id": "GHcUjHJEVlmy5JVFimyjG",
+          "component": "ws:descendant",
+          "label": "Heading 1",
+          "children": []
+        }
+      ],
+      [
+        "Vksf6r2QHH1MgZKhoHP02",
+        {
+          "type": "instance",
+          "id": "Vksf6r2QHH1MgZKhoHP02",
+          "component": "ws:descendant",
+          "label": "Heading 2",
+          "children": []
+        }
+      ],
+      [
+        "xr8hzlEQ6tp9IeI5v_mv1",
+        {
+          "type": "instance",
+          "id": "xr8hzlEQ6tp9IeI5v_mv1",
+          "component": "ws:descendant",
+          "label": "Heading 3",
+          "children": []
+        }
+      ],
+      [
+        "nPwECx9hAT7ThJVRRbg1y",
+        {
+          "type": "instance",
+          "id": "nPwECx9hAT7ThJVRRbg1y",
+          "component": "ws:descendant",
+          "label": "Heading 4",
+          "children": []
+        }
+      ],
+      [
+        "UA05_gyXCD9N5HdtDfwjI",
+        {
+          "type": "instance",
+          "id": "UA05_gyXCD9N5HdtDfwjI",
+          "component": "ws:descendant",
+          "label": "Heading 5",
+          "children": []
+        }
+      ],
+      [
+        "c0NuQeImIWqv7YuT9G7gu",
+        {
+          "type": "instance",
+          "id": "c0NuQeImIWqv7YuT9G7gu",
+          "component": "ws:descendant",
+          "label": "Heading 6",
+          "children": []
+        }
+      ],
+      [
+        "1nwrMoLRpRVDwHW-VEf8n",
+        {
+          "type": "instance",
+          "id": "1nwrMoLRpRVDwHW-VEf8n",
+          "component": "ws:descendant",
+          "label": "Bold",
+          "children": []
+        }
+      ],
+      [
+        "DrhMaTScoIN6KDKFzB4P8",
+        {
+          "type": "instance",
+          "id": "DrhMaTScoIN6KDKFzB4P8",
+          "component": "ws:descendant",
+          "label": "Italic",
+          "children": []
+        }
+      ],
+      [
+        "kn07wSTxHhKLGYoXT86_F",
+        {
+          "type": "instance",
+          "id": "kn07wSTxHhKLGYoXT86_F",
+          "component": "ws:descendant",
+          "label": "Link",
+          "children": []
+        }
+      ],
+      [
+        "RzwnUX5_em3ham59_cPdP",
+        {
+          "type": "instance",
+          "id": "RzwnUX5_em3ham59_cPdP",
+          "component": "ws:descendant",
+          "label": "Image",
+          "children": []
+        }
+      ],
+      [
+        "IshbdvPbVv4o4ReSjJtYY",
+        {
+          "type": "instance",
+          "id": "IshbdvPbVv4o4ReSjJtYY",
+          "component": "ws:descendant",
+          "label": "Blockquote",
+          "children": []
+        }
+      ],
+      [
+        "gJDUpYk3e_chFqTluKz31",
+        {
+          "type": "instance",
+          "id": "gJDUpYk3e_chFqTluKz31",
+          "component": "ws:descendant",
+          "label": "Code Text",
+          "children": []
+        }
+      ],
+      [
+        "3ZLftBwXscS7QjCxsB6Hq",
+        {
+          "type": "instance",
+          "id": "3ZLftBwXscS7QjCxsB6Hq",
+          "component": "ws:descendant",
+          "label": "List",
+          "children": []
+        }
+      ],
+      [
+        "KcpGA9oxCFcdgnlE5FtPl",
+        {
+          "type": "instance",
+          "id": "KcpGA9oxCFcdgnlE5FtPl",
+          "component": "ws:descendant",
+          "label": "List Item",
+          "children": []
+        }
+      ],
+      [
+        "o2HnlgQaLWKBhYJS7YzaF",
+        {
+          "type": "instance",
+          "id": "o2HnlgQaLWKBhYJS7YzaF",
+          "component": "ws:descendant",
+          "label": "Separator",
+          "children": []
+        }
+      ],
+      [
+        "fOEiGxYhoa9O_QvkeFt-i",
+        {
+          "type": "instance",
+          "id": "fOEiGxYhoa9O_QvkeFt-i",
+          "component": "ws:descendant",
+          "label": "Table",
+          "children": []
+        }
+      ],
+      [
+        "g_sI8Dh_SGaf6Zl5f-k1u",
+        {
+          "type": "instance",
+          "id": "g_sI8Dh_SGaf6Zl5f-k1u",
+          "component": "ws:descendant",
+          "label": "Table Row",
+          "children": []
+        }
+      ],
+      [
+        "ut19bENSssEUjV87x6eX4",
+        {
+          "type": "instance",
+          "id": "ut19bENSssEUjV87x6eX4",
+          "component": "ws:descendant",
+          "label": "Table Header Cell",
+          "children": []
+        }
+      ],
+      [
+        "pk__XD-X_0ptoWRpy8j7L",
+        {
+          "type": "instance",
+          "id": "pk__XD-X_0ptoWRpy8j7L",
+          "component": "ws:descendant",
+          "label": "Table Cell",
+          "children": []
+        }
+      ],
+      [
+        "G17L_QGSabgcnYLhbcD1o",
+        {
+          "type": "instance",
+          "id": "G17L_QGSabgcnYLhbcD1o",
+          "component": "ws:element",
+          "tag": "h2",
+          "children": [
+            {
+              "type": "text",
+              "value": "Version 1.2.2"
+            }
+          ]
+        }
+      ],
+      [
+        "xfDY4sIzvYg0KWdrV2-iF",
+        {
+          "type": "instance",
+          "id": "xfDY4sIzvYg0KWdrV2-iF",
+          "component": "MarkdownEmbed",
+          "label": "コンテンツ",
+          "children": [
+            {
+              "type": "id",
+              "value": "oaHmJtQdeJeF8lHBnPgMR"
+            },
+            {
+              "type": "id",
+              "value": "Of8HGa_6z0U3vmf4xfTIG"
+            },
+            {
+              "type": "id",
+              "value": "oMogdEHztZK_fXT7WyCG6"
+            },
+            {
+              "type": "id",
+              "value": "Ua68MGSMio56rva2_TqJk"
+            },
+            {
+              "type": "id",
+              "value": "IL-kxGY3OqKk9Cm8JjDbF"
+            },
+            {
+              "type": "id",
+              "value": "3iqmOedtfwVDyjh8cpeWJ"
+            },
+            {
+              "type": "id",
+              "value": "TyC7VVpfoM7XF_NIdV8uI"
+            },
+            {
+              "type": "id",
+              "value": "VurZerppL-0gHTilydj6C"
+            },
+            {
+              "type": "id",
+              "value": "JC-XkrLelWy5Rcu_ImJdx"
+            },
+            {
+              "type": "id",
+              "value": "4nQS6GNAjpS_x7kbT6r5s"
+            },
+            {
+              "type": "id",
+              "value": "yYXQesS9GyL1Gaxpml8lG"
+            },
+            {
+              "type": "id",
+              "value": "IX_lJEjN8WQBwgukJ1H-V"
+            },
+            {
+              "type": "id",
+              "value": "eZqrl-l2Zf-6XIDaVOAT0"
+            },
+            {
+              "type": "id",
+              "value": "qBW7ttV2SN1OPmBXY5-FC"
+            },
+            {
+              "type": "id",
+              "value": "JwQLxPbKP6lE77x6zAPRW"
+            },
+            {
+              "type": "id",
+              "value": "jq2Rr9TLISa-Uo4_UvESh"
+            },
+            {
+              "type": "id",
+              "value": "fI9XyPrpFWI6VBjFnJyJw"
+            },
+            {
+              "type": "id",
+              "value": "k55YQHXwK2Km-tOpPgqor"
+            },
+            {
+              "type": "id",
+              "value": "CjY5R5W4f39-cY7fdj1hQ"
+            },
+            {
+              "type": "id",
+              "value": "PH-ntdM6ZnHq9_K3VSWzA"
+            }
+          ]
+        }
+      ],
+      [
+        "oaHmJtQdeJeF8lHBnPgMR",
+        {
+          "type": "instance",
+          "id": "oaHmJtQdeJeF8lHBnPgMR",
+          "component": "ws:descendant",
+          "label": "Paragraph",
+          "children": []
+        }
+      ],
+      [
+        "Of8HGa_6z0U3vmf4xfTIG",
+        {
+          "type": "instance",
+          "id": "Of8HGa_6z0U3vmf4xfTIG",
+          "component": "ws:descendant",
+          "label": "Heading 1",
+          "children": []
+        }
+      ],
+      [
+        "oMogdEHztZK_fXT7WyCG6",
+        {
+          "type": "instance",
+          "id": "oMogdEHztZK_fXT7WyCG6",
+          "component": "ws:descendant",
+          "label": "Heading 2",
+          "children": []
+        }
+      ],
+      [
+        "Ua68MGSMio56rva2_TqJk",
+        {
+          "type": "instance",
+          "id": "Ua68MGSMio56rva2_TqJk",
+          "component": "ws:descendant",
+          "label": "Heading 3",
+          "children": []
+        }
+      ],
+      [
+        "IL-kxGY3OqKk9Cm8JjDbF",
+        {
+          "type": "instance",
+          "id": "IL-kxGY3OqKk9Cm8JjDbF",
+          "component": "ws:descendant",
+          "label": "Heading 4",
+          "children": []
+        }
+      ],
+      [
+        "3iqmOedtfwVDyjh8cpeWJ",
+        {
+          "type": "instance",
+          "id": "3iqmOedtfwVDyjh8cpeWJ",
+          "component": "ws:descendant",
+          "label": "Heading 5",
+          "children": []
+        }
+      ],
+      [
+        "TyC7VVpfoM7XF_NIdV8uI",
+        {
+          "type": "instance",
+          "id": "TyC7VVpfoM7XF_NIdV8uI",
+          "component": "ws:descendant",
+          "label": "Heading 6",
+          "children": []
+        }
+      ],
+      [
+        "VurZerppL-0gHTilydj6C",
+        {
+          "type": "instance",
+          "id": "VurZerppL-0gHTilydj6C",
+          "component": "ws:descendant",
+          "label": "Bold",
+          "children": []
+        }
+      ],
+      [
+        "JC-XkrLelWy5Rcu_ImJdx",
+        {
+          "type": "instance",
+          "id": "JC-XkrLelWy5Rcu_ImJdx",
+          "component": "ws:descendant",
+          "label": "Italic",
+          "children": []
+        }
+      ],
+      [
+        "4nQS6GNAjpS_x7kbT6r5s",
+        {
+          "type": "instance",
+          "id": "4nQS6GNAjpS_x7kbT6r5s",
+          "component": "ws:descendant",
+          "label": "Link",
+          "children": []
+        }
+      ],
+      [
+        "yYXQesS9GyL1Gaxpml8lG",
+        {
+          "type": "instance",
+          "id": "yYXQesS9GyL1Gaxpml8lG",
+          "component": "ws:descendant",
+          "label": "Image",
+          "children": []
+        }
+      ],
+      [
+        "IX_lJEjN8WQBwgukJ1H-V",
+        {
+          "type": "instance",
+          "id": "IX_lJEjN8WQBwgukJ1H-V",
+          "component": "ws:descendant",
+          "label": "Blockquote",
+          "children": []
+        }
+      ],
+      [
+        "eZqrl-l2Zf-6XIDaVOAT0",
+        {
+          "type": "instance",
+          "id": "eZqrl-l2Zf-6XIDaVOAT0",
+          "component": "ws:descendant",
+          "label": "Code Text",
+          "children": []
+        }
+      ],
+      [
+        "qBW7ttV2SN1OPmBXY5-FC",
+        {
+          "type": "instance",
+          "id": "qBW7ttV2SN1OPmBXY5-FC",
+          "component": "ws:descendant",
+          "label": "List",
+          "children": []
+        }
+      ],
+      [
+        "JwQLxPbKP6lE77x6zAPRW",
+        {
+          "type": "instance",
+          "id": "JwQLxPbKP6lE77x6zAPRW",
+          "component": "ws:descendant",
+          "label": "List Item",
+          "children": []
+        }
+      ],
+      [
+        "jq2Rr9TLISa-Uo4_UvESh",
+        {
+          "type": "instance",
+          "id": "jq2Rr9TLISa-Uo4_UvESh",
+          "component": "ws:descendant",
+          "label": "Separator",
+          "children": []
+        }
+      ],
+      [
+        "fI9XyPrpFWI6VBjFnJyJw",
+        {
+          "type": "instance",
+          "id": "fI9XyPrpFWI6VBjFnJyJw",
+          "component": "ws:descendant",
+          "label": "Table",
+          "children": []
+        }
+      ],
+      [
+        "k55YQHXwK2Km-tOpPgqor",
+        {
+          "type": "instance",
+          "id": "k55YQHXwK2Km-tOpPgqor",
+          "component": "ws:descendant",
+          "label": "Table Row",
+          "children": []
+        }
+      ],
+      [
+        "CjY5R5W4f39-cY7fdj1hQ",
+        {
+          "type": "instance",
+          "id": "CjY5R5W4f39-cY7fdj1hQ",
+          "component": "ws:descendant",
+          "label": "Table Header Cell",
+          "children": []
+        }
+      ],
+      [
+        "PH-ntdM6ZnHq9_K3VSWzA",
+        {
+          "type": "instance",
+          "id": "PH-ntdM6ZnHq9_K3VSWzA",
           "component": "ws:descendant",
           "label": "Table Cell",
           "children": []

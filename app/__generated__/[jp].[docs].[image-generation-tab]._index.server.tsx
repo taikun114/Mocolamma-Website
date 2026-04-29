@@ -41,5 +41,5 @@ export const getRemixParams = ({ ...params }: Params): Params => {
 }
 
 
-      export const contactEmail = "contact.taikun@gmail.com";
+      export const contactEmail = "hello@webstudio.is";
     

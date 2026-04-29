@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2026-04-01T07:25:32.610Z";
+      export const lastPublished = "2026-04-29T09:23:11.658Z";
 
       export const siteName = "Mocolamma";
 
@@ -590,6 +590,15 @@ className={`w-element c13rvnfs cdhbme8 ckkp5ls cq2ae4j c6qj28r c1n75u37 c1muqwoi
 className={`w-element c11wsiwx c1su7aph`}>
 {"Mocolamma リリースノート"}
 </h1>
+<h2
+id={"v1-3-0"}
+className={`w-element c12e0v0g c1eswi8f`}>
+{"バージョン 1.3.0"}
+</h2>
+<MarkdownEmbed
+code={"リリース: 2026年4月29日\n\n### 新機能\n#### モデル\n- **オーディオモデルのタグに対応**\n- **モデルインスペクタのタグをドラッグしてスクロールする機能を追加**\n- **各モデルのコンテキストメニューからモデルのロード・アンロードする機能を追加**\n  - キープアライブ時間を指定してモデルをロードしたり、アンロードしたりすることができます。モデルリストでロード状況を確認することもできます。\n- **モデルダウンロードをキャンセルする機能を追加**\n\n#### チャットと画像生成\n- **モデルの並び順を設定するオプションを追加**\n  - デフォルトではモデル画面での並び順が使用され、設定からお好みの並び順に変更することができます。\n- **下までスクロールするボタンを追加**\n  - 自動追従スクロールの範囲以外にいるときに、一気に下までスクロールするためのボタンが表示されるようになりました。\n\n### バグ修正と改善\n#### 全般\n- **iPadOS 26のダークモード時にシートの背景がわずかにグリーンに見える問題を修正**\n- **音声コントロール有効時にパフォーマンスが著しく低下する問題（[#5](https://github.com/taikun114/Mocolamma/issues/5)）を修正**\n- **設定画面のレイアウトを改善**\n\n#### サーバー\n- **サーバーインスペクタの接続状況表示を改善**\n\n#### モデル\n- **macOS Sequoiaでモデルフィルターのアイコンが表示されなかった問題を修正**\n- **特定の形式でモデルを追加できなかった問題を修正**\n  - `ollama`コマンド形式でモデル名に`/`が含まれているとモデルがダウンロードできなかった問題が修正されました。\n- **モデルの読み込み動作を改善**\n  - アプリ起動時とサーバー変更時に自動でモデルが読み込まれるようになり、不必要なモデル読み込みが行われなくなったことでパフォーマンスが改善しました。\n- **モデル名をキーボードショートカットでコピーできるように改善**\n  - モデルが選択された状態で`⌘ (Command)` + `C`キーを押すとモデル名がコピーされます。macOSでは「編集」メニューの「コピー」からコピーすることもできます。\n\n#### チャットと画像生成\n- **メッセージ入力欄の角丸半径がずれていた問題を修正**\n- **自動追従スクロールが飛ぶことがあった問題を修正**\n- **背景をタップしてもキーボードが閉じないことがあった問題を修正**\n- **モデルを読み込み中のモデルピッカー表示を改善**\n- **モデルピッカーの見た目を改善**\n  - macOSでは幅が変わらないようにし、visionOSではmacOSと同じようにモデル名が表示されるようになりました。\n- **メッセージ入力欄の見た目を改善**\n  - 入力欄が無効化されているときは半透明にして無効化状態がわかりやすくなりました。\n- **メッセージを編集したりやり直したりしたときにスクロールするように改善**\n\n#### チャット\n- **リストの行頭記号が表示されなかった問題を修正**\n- **visionOSでテキスト選択が正常に機能しなかった問題を修正**\n- **思考中のテキストをMarkdownで表示するように改善**\n- **Markdownのスタイルを改善**\n- **思考プロセスのパフォーマンスを改善**"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+</MarkdownEmbed>
 <h2
 id={"v1-2-2"}
 className={`w-element c12e0v0g c1eswi8f`}>
