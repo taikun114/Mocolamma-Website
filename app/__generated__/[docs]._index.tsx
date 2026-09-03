@@ -3,15 +3,19 @@
 
 
       import { Fragment, useState } from "react";
-      import { useResource, useVariableState } from "@webstudio-is/react-sdk/runtime";
-      import { Fragment as Fragment_1, Image as Image, MarkdownEmbed as MarkdownEmbed, Slot as Slot, Button as Button, Text as Text, Box as Box, HtmlEmbed as HtmlEmbed, Paragraph as Paragraph } from "@webstudio-is/sdk-components-react";
+      import { renderText, useResource, useVariableState } from "@webstudio-is/react-sdk/runtime";
+      import { Fragment as Fragment_1, Image as Image, MarkdownEmbed as MarkdownEmbed, Slot as Slot, Button as Button, Text as Text, Box as Box, HtmlEmbed as HtmlEmbed, Paragraph as Paragraph } from "@webstudio-is/sdk-components-react/components";
 import { Link as Link, Body as Body, Link as Link_1 } from "@webstudio-is/sdk-components-react-router";
 import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuList, NavigationMenuItem as NavigationMenuItem, NavigationMenuTrigger as NavigationMenuTrigger, NavigationMenuContent as NavigationMenuContent, NavigationMenuLink as NavigationMenuLink, NavigationMenuViewport as NavigationMenuViewport } from "@webstudio-is/sdk-components-react-radix";
 
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2026-04-29T09:23:11.658Z";
+      
+
+      export const projectDomain = "mocolamma-5c81a";
+
+      export const lastPublished = "2026-09-03T10:35:49.637Z";
 
       export const siteName = "Mocolamma";
 
@@ -31,7 +35,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       const Page = (_props: { system: any; }) => {
 const system = _props.system;
-let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/dev/docs/images")
+let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/main/docs/images")
 return <Body
 className={`w-element ckkp5ls cq2ae4j c13zugmy`}>
 <Slot>
@@ -598,7 +602,7 @@ loading={"eager"}
 fetchPriority={"high"}
 className={`w-image c1a2244i c1eswi8f`} />
 <MarkdownEmbed
-code={"Welcome to the Mocolamma Documents!\nThis page provides information about Mocolamma, from how to use it to detailed settings.\n\n- [**News**](/docs/news)\n- [**Server Tab**](/docs/server-tab)\n- [**Model Tab**](/docs/model-tab)\n- [**Chat Tab**](/docs/chat-tab)\n- [**Image Generation Tab**](/docs/image-generation-tab)\n- [**Settings**](/docs/settings)\n- [**App Store Review Requests**](/docs/app-store-review-requests)"}
+code={"Welcome to the Mocolamma Documents!\\\nThis page provides information about Mocolamma, from how to use it to detailed settings.\n\n- [**News**](/docs/news)\n- [**Server Tab**](/docs/server-tab)\n- [**Model Tab**](/docs/model-tab)\n- [**Chat Tab**](/docs/chat-tab)\n- [**Image Generation Tab**](/docs/image-generation-tab)\n- [**Settings**](/docs/settings)\n- [**App Store Review Requests**](/docs/app-store-review-requests)"}
 className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 </div>

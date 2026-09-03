@@ -3,15 +3,19 @@
 
 
       import { Fragment, useState } from "react";
-      import { useResource, useVariableState } from "@webstudio-is/react-sdk/runtime";
+      import { renderText, useResource, useVariableState } from "@webstudio-is/react-sdk/runtime";
       import { Body as Body, Link as Link, Link as Link_1 } from "@webstudio-is/sdk-components-react-router";
-import { HtmlEmbed as HtmlEmbed, MarkdownEmbed as MarkdownEmbed, Image as Image, Button as Button, Text as Text, Box as Box, Paragraph as Paragraph, Fragment as Fragment_1, Slot as Slot } from "@webstudio-is/sdk-components-react";
+import { HtmlEmbed as HtmlEmbed, MarkdownEmbed as MarkdownEmbed, Image as Image, Button as Button, Text as Text, Box as Box, Paragraph as Paragraph, Fragment as Fragment_1, Slot as Slot } from "@webstudio-is/sdk-components-react/components";
 import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuList, NavigationMenuItem as NavigationMenuItem, NavigationMenuTrigger as NavigationMenuTrigger, NavigationMenuContent as NavigationMenuContent, NavigationMenuLink as NavigationMenuLink, NavigationMenuViewport as NavigationMenuViewport } from "@webstudio-is/sdk-components-react-radix";
 
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const lastPublished = "2026-04-29T09:23:11.658Z";
+      
+
+      export const projectDomain = "mocolamma-5c81a";
+
+      export const lastPublished = "2026-09-03T10:35:49.637Z";
 
       export const siteName = "Mocolamma";
 
@@ -31,7 +35,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       const Page = (_props: { system: any; }) => {
 const system = _props.system;
-let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/dev/docs/images")
+let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/main/docs/images")
 return <Body
 className={`w-element c13zugmy ckkp5ls c1dquu02 cr5s4bi cq2ae4j`}>
 <Slot>
