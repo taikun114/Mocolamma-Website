@@ -11,11 +11,11 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const projectVersion = 5568;
+      export const projectVersion = 5569;
 
       export const projectDomain = "mocolamma-5c81a";
 
-      export const lastPublished = "2026-09-03T10:35:49.637Z";
+      export const lastPublished = "2026-09-03T10:47:34.268Z";
 
       export const siteName = "Mocolamma";
 
