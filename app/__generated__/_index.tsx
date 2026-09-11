@@ -11,18 +11,18 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const projectVersion = 5569;
+      export const projectVersion = 5771;
 
       export const projectDomain = "mocolamma-5c81a";
 
-      export const lastPublished = "2026-09-03T10:47:34.268Z";
+      export const lastPublished = "2025-10-08T12:42:01.705Z";
 
       export const siteName = "Mocolamma";
 
       export const breakpoints = [{"id":"Nr5VaLoI8PXeozyOBhddI"},{"id":"q2_D0PRyg_Y559h1SO8Un","maxWidth":991},{"id":"qqfLvB64QR6AqlhzbJLnj","maxWidth":767},{"id":"RIM5D42dASjBT3eDlN2hj","maxWidth":479}];
 
       export const favIconAsset: string | undefined =
-        "favicon__3sUvP8Dn_n4uHorlwhyg.png";
+        "favicon_1_HDrdChpmMEMY-gduT00dZ.png";
 
       // Font assets on current page (can be preloaded)
       export const pageFontAssets: string[] =
@@ -50,34 +50,36 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
             
 
             export const CustomCode = () => {
-              return (<><meta name={"viewport"} content={"initial-scale=1, viewport-fit=cover"}></meta>{"\n\n"}<Style>{"\n  html {\n    scroll-padding-top: 6rem;\n    scroll-behavior: smooth;\n  }\n"}</Style>{"\n\n"}<Style>{"\n@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');\n"}</Style>{"\n\n"}<Script defer src={"https://umami.taikun.blog/script.js"} data-website-id={"e071652d-3ebb-4b63-82bc-3ceaeb8cf0bf"} data-performance={"true"}></Script>{"\n\n"}<link rel={"stylesheet"} href={"https://unpkg.com/nprogress@0.2.0/nprogress.css"}></link><Script src={"https://unpkg.com/nprogress@0.2.0/nprogress.js"}></Script>{"\n\n"}<Style>{"\n  #nprogress .bar {\n    background-color: light-dark(#192023, #6e8895) !important;\n  }\n"}</Style>{"\n\n"}<Script>{"\n  (function () {\n    // NProgress 設定\n    NProgress.configure({ showSpinner: false, trickleSpeed: 100 });\n\n    let startTime = 0;\n    const MIN_DURATION = 300; // 最低表示時間 0.3秒\n\n    // --- 🧱 NProgressのコンテナを <html> に移動してDOMリセット対策 ---\n    function ensureNProgressContainer() {\n      if (!document.getElementById(\"nprogress\")) return;\n      const np = document.getElementById(\"nprogress\");\n      if (np.parentNode !== document.documentElement) {\n        document.documentElement.appendChild(np);\n      }\n    }\n\n    // --- 進行開始 ---\n    function startProgress() {\n      ensureNProgressContainer();\n      if (NProgress.isStarted()) return;\n      startTime = Date.now();\n      NProgress.start();\n    }\n\n    // --- 完了 ---\n    function endProgress() {\n      const elapsed = Date.now() - startTime;\n      const remaining = Math.max(MIN_DURATION - elapsed, 0);\n      setTimeout(() => {\n        ensureNProgressContainer();\n        NProgress.done();\n      }, remaining);\n    }\n\n    // --- history APIフック ---\n    const originalPush = history.pushState;\n    const originalReplace = history.replaceState;\n\n    history.pushState = function (...args) {\n      startProgress();\n      const result = originalPush.apply(this, args);\n      endProgress();\n      return result;\n    };\n\n    history.replaceState = function (...args) {\n      startProgress();\n      const result = originalReplace.apply(this, args);\n      endProgress();\n      return result;\n    };\n\n    // --- 戻る／進む操作 ---\n    window.addEventListener(\"popstate\", () => {\n      startProgress();\n      setTimeout(endProgress, MIN_DURATION);\n    });\n\n    // --- 内部リンククリックで即スタート ---\n    document.addEventListener(\"click\", (e) => {\n      const link = e.target.closest(\"a\");\n      if (!link) return;\n      const isInternal =\n        link.host === window.location.host &&\n        !link.target &&\n        !link.hasAttribute(\"download\") &&\n        !link.href.startsWith(\"mailto:\");\n      if (isInternal) startProgress();\n    });\n\n    // --- 初回ロード時 ---\n    window.addEventListener(\"load\", () => {\n      ensureNProgressContainer();\n      NProgress.done();\n    });\n\n    // --- SPAの再描画タイミング対策 ---\n    const observer = new MutationObserver(() => ensureNProgressContainer());\n    observer.observe(document.documentElement, { childList: true, subtree: true });\n  })();\n"}</Script>{" \n"}</>);
+              return (<><meta name={"viewport"} content={"initial-scale=1, viewport-fit=cover"}></meta>{"\n\n"}<Style>{"\n  html {\n    scroll-padding-top: 6rem;\n    scroll-behavior: smooth;\n  }\n"}</Style>{"\n\n"}<Style>{"\n@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Manrope:wght@200..800&display=swap');\n"}</Style>{"\n\n"}<Script defer src={"https://umami.taikun.blog/script.js"} data-website-id={"e071652d-3ebb-4b63-82bc-3ceaeb8cf0bf"} data-performance={"true"}></Script>{"\n\n"}<link rel={"stylesheet"} href={"https://unpkg.com/nprogress@0.2.0/nprogress.css"}></link><Script src={"https://unpkg.com/nprogress@0.2.0/nprogress.js"}></Script>{"\n\n"}<Style>{"\n  #nprogress .bar {\n    background-color: #42577D !important;\n  }\n"}</Style>{"\n\n"}<Script>{"\n  (function () {\n    // NProgress 設定\n    NProgress.configure({ showSpinner: false, trickleSpeed: 100 });\n\n    let startTime = 0;\n    const MIN_DURATION = 300; // 最低表示時間 0.3秒\n\n    // --- 🧱 NProgressのコンテナを <html> に移動してDOMリセット対策 ---\n    function ensureNProgressContainer() {\n      if (!document.getElementById(\"nprogress\")) return;\n      const np = document.getElementById(\"nprogress\");\n      if (np.parentNode !== document.documentElement) {\n        document.documentElement.appendChild(np);\n      }\n    }\n\n    // --- 進行開始 ---\n    function startProgress() {\n      ensureNProgressContainer();\n      if (NProgress.isStarted()) return;\n      startTime = Date.now();\n      NProgress.start();\n    }\n\n    // --- 完了 ---\n    function endProgress() {\n      const elapsed = Date.now() - startTime;\n      const remaining = Math.max(MIN_DURATION - elapsed, 0);\n      setTimeout(() => {\n        ensureNProgressContainer();\n        NProgress.done();\n      }, remaining);\n    }\n\n    // --- history APIフック ---\n    const originalPush = history.pushState;\n    const originalReplace = history.replaceState;\n\n    history.pushState = function (...args) {\n      startProgress();\n      const result = originalPush.apply(this, args);\n      endProgress();\n      return result;\n    };\n\n    history.replaceState = function (...args) {\n      startProgress();\n      const result = originalReplace.apply(this, args);\n      endProgress();\n      return result;\n    };\n\n    // --- 戻る／進む操作 ---\n    window.addEventListener(\"popstate\", () => {\n      startProgress();\n      setTimeout(endProgress, MIN_DURATION);\n    });\n\n    // --- 内部リンククリックで即スタート ---\n    document.addEventListener(\"click\", (e) => {\n      const link = e.target.closest(\"a\");\n      if (!link) return;\n      const isInternal =\n        link.host === window.location.host &&\n        !link.target &&\n        !link.hasAttribute(\"download\") &&\n        !link.href.startsWith(\"mailto:\");\n      if (isInternal) startProgress();\n    });\n\n    // --- 初回ロード時 ---\n    window.addEventListener(\"load\", () => {\n      ensureNProgressContainer();\n      NProgress.done();\n    });\n\n    // --- SPAの再描画タイミング対策 ---\n    const observer = new MutationObserver(() => ensureNProgressContainer());\n    observer.observe(document.documentElement, { childList: true, subtree: true });\n  })();\n"}</Script>{" \n\n\n"}<Style>{"\n@keyframes navPopupFadeIn {\n  from {\n    opacity: 0;\n    transform: translateY(-8px) scale(0.96);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0) scale(1);\n  }\n}\n\n@keyframes navPopupFadeOut {\n  from {\n    opacity: 1;\n    transform: translateY(0) scale(1);\n  }\n  to {\n    opacity: 0;\n    transform: translateY(-8px) scale(0.96);\n  }\n}\n"}</Style></>);
             }
           
 
       const Page = (_props: { system: any; }) => {
 const system = _props.system;
-let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/main/docs/images")
+let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/dev/docs/images")
 return <Body
-className={`w-element c13zugmy ckkp5ls c1dquu02 cr5s4bi cq2ae4j`}>
+className={`w-element ckkp5ls c1dquu02 cr5s4bi cq2ae4j`}>
 <Slot>
 <Fragment_1>
 <div
-className={`w-element c13rvnfs c9uad48 ckkp5ls cylgtyl cphp00e c1c7lq8j crnnxqm c115e144 c1nh9dbl c1rtwn8k c14i19nj c5d22mu`}>
+className={`w-element c13rvnfs c9uad48 ckkp5ls cylgtyl cphp00e c1c7lq8j crnnxqm c115e144 c5d22mu`}>
 <div
-className={`w-element c13rvnfs c13nk3y6 c1smcck4 ckkp5ls c7rh9ds c1dquu02`}>
+className={`w-element cd8u6er c1tywneo c1kw6xnm c13rvnfs c13nk3y6 cbst7u2 cr6j5lm c11wy0y4 c1rtwn8k c1m7ym1u c102zl4c`} />
+<div
+className={`w-element c13rvnfs c13nk3y6 c1smcck4 ckkp5ls c7rh9ds c1dquu02 c17zp3zn c1wcivba`}>
 <Link
 href={"/"}
-className={`w-element ckkp5ls c1dquu02 c1xduqzz c1hfgpcq ctn4k21`}>
+className={`w-element ckkp5ls c1dquu02 c1xduqzz cd7qpso cv5n7tx`}>
 <div
-className={`w-element ch9z7zy c9uad48 ckkp5ls cygwog6 cr5s4bi`}>
+className={`w-element c26ihkm c8jyyiu ckkp5ls c1dquu02 cylgtyl`}>
 <Image
-src={"/assets/Mocolamma_Logo_1Hud1LO-7f_-fiBpR59VO.webp"}
-width={256}
-height={256}
+src={"/assets/Mocolamma_Logo_V2_1OmQbNHgIcHMo1xiQE8XD.webp"}
+width={1024}
+height={1024}
 alt={"Logo"}
 loading={"eager"}
 fetchPriority={"high"}
-className={`w-image ch9z7zy cxw7e3h`} />
+className={`w-image c26ihkm c8jyyiu`} />
 </div>
 <h1
 className={`w-element c1ak9s8m c11wsiwx c1su7aph c1f9sbsw c9lo5xm`}>
@@ -90,7 +92,7 @@ className={`w-navigation-menu c17zp3zn c2khdnq chpbxxb`}>
 className={`w-menu-list ckkp5ls c4173ql c1qzrls7 c162ajja c1qyhotx c1dquu02 cylgtyl c7fgudx cz2wnom c18ku4ud c1hlgics`}>
 <NavigationMenuItem
 data-ws-index="0"
-className={`w-menu-item`}>
+className={`w-menu-item c17zp3zn`}>
 <NavigationMenuTrigger>
 <Button
 className={`w-button cgxqre5 c1dquu02 cylgtyl c14q381d ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1izxvn3 c1869d3f c1k8h763 c16ynwcy c1dqd85b c83qgap c126skso c1xtxrvq c1g8pixr cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk cfx2y77 cn9obc7 c1xz4syt c43qx5x c1yw8mba cj4ljrw c1n6lqyh c1q9mnqa clkirae c1mk5zu6 c1wgnin9 c1butb2t czw6kfp c8epfsu cop6iru c1xeyc00`}>
@@ -107,7 +109,7 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c16ryuaq c1vtttf6 cjpdtnc c1904aiq`}>
+className={`w-menu-content c1kw6xnm c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
@@ -174,7 +176,7 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4
 </NavigationMenuItem>
 <NavigationMenuItem
 data-ws-index="1"
-className={`w-menu-item`}>
+className={`w-menu-item c17zp3zn`}>
 <NavigationMenuTrigger>
 <Button
 className={`w-button cgxqre5 c1dquu02 cylgtyl c14q381d ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1izxvn3 c1869d3f c1k8h763 c16ynwcy c1dqd85b c83qgap c126skso c1xtxrvq c1g8pixr cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk cfx2y77 cn9obc7 c1xz4syt c43qx5x c1yw8mba cj4ljrw c1n6lqyh c1q9mnqa clkirae c1mk5zu6 c1wgnin9 c1butb2t czw6kfp c8epfsu cop6iru c1xeyc00`}>
@@ -191,7 +193,7 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c16ryuaq c1vtttf6 cjpdtnc c1904aiq`}>
+className={`w-menu-content c1kw6xnm c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
@@ -253,7 +255,7 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4
 </NavigationMenuItem>
 <NavigationMenuItem
 data-ws-index="2"
-className={`w-menu-item`}>
+className={`w-menu-item c17zp3zn`}>
 <NavigationMenuTrigger>
 <Button
 className={`w-button cgxqre5 c1dquu02 cylgtyl c83qgap c126skso c1g8pixr c1xtxrvq ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1izxvn3 c1869d3f c1k8h763 c16ynwcy c1dqd85b c14q381d cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk cfx2y77 cn9obc7 c1xz4syt c1q9mnqa clkirae c1mk5zu6 c1xeyc00 c1wgnin9`}>
@@ -270,7 +272,7 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c16ryuaq c1vtttf6 cjpdtnc c1904aiq`}>
+className={`w-menu-content c1kw6xnm c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
@@ -315,7 +317,7 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzo
 </NavigationMenuItem>
 <NavigationMenuItem
 data-ws-index="3"
-className={`w-menu-item`}>
+className={`w-menu-item c17zp3zn`}>
 <NavigationMenuTrigger>
 <Button
 className={`w-button cgxqre5 c1dquu02 cylgtyl c83qgap c126skso c1g8pixr c1xtxrvq ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1izxvn3 c1869d3f c1k8h763 c16ynwcy c1dqd85b c14q381d cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk cfx2y77 cn9obc7 c1xz4syt c1q9mnqa clkirae c1mk5zu6 c1xeyc00 c1wgnin9`}>
@@ -332,7 +334,7 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c16ryuaq c1vtttf6 cjpdtnc c1904aiq`}>
+className={`w-menu-content c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er c5fuhvg cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c10oyth4 c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
@@ -366,11 +368,6 @@ className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 </NavigationMenuContent>
 </NavigationMenuItem>
 </NavigationMenuList>
-<Box
-className={`w-box cd8u6er c1e3iuac ckkp5ls cylgtyl cqz0si8`}>
-<NavigationMenuViewport
-className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c1lxhulz c24jrif ccrliu8 cj1o619 c1k73zrk cu8z8f4 c14fnxmh coxjap7 clrfht8 c1jmx3ta c1qu72nz c11xaz58 c1bilfmk`} />
-</Box>
 </NavigationMenu>
 <NavigationMenu
 className={`w-navigation-menu c17zp3zn c2khdnq c1ga6br6 cefqn60`}>
@@ -434,7 +431,7 @@ className={`w-menu-item`}>
 <NavigationMenuTrigger>
 <Button
 aria-label={"ナビゲーションメニュー"}
-className={`w-button cgxqre5 c1dquu02 cylgtyl cfiygbw ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1gu5tx2 c83qgap c126skso c1xtxrvq c1g8pixr cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c18g3fo0 c92lprk c5z1ajc cfx2y77 cn9obc7 c1xz4syt c43qx5x c1yw8mba cj4ljrw c1n6lqyh c1sqgw9v clkirae c1mk5zu6 c1wgnin9 c1butb2t czw6kfp c8epfsu cop6iru ck9amq3`}>
+className={`w-button cgxqre5 c1dquu02 cylgtyl c14hetfs ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1gu5tx2 c83qgap c126skso c1xtxrvq c1g8pixr cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c18g3fo0 c92lprk c5z1ajc cfx2y77 cn9obc7 c1xz4syt c43qx5x c1yw8mba cj4ljrw c1n6lqyh c1sqgw9v clkirae c1mk5zu6 c1wgnin9 c1butb2t czw6kfp c8epfsu cop6iru c1r6phm9`}>
 <Box
 className={`w-box c13ddjkk c1vimmxz c11qj7kj`}>
 <HtmlEmbed
@@ -600,15 +597,18 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4
 <Box
 className={`w-box cd8u6er c1e3iuac ckkp5ls cylgtyl c10oyth4 coqlu7i`}>
 <NavigationMenuViewport
-className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c1lxhulz c24jrif ccrliu8 cj1o619 c1k73zrk cu8z8f4 c14fnxmh coxjap7 clrfht8 c1jmx3ta c1qu72nz c11xaz58 c1bilfmk`} />
+className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c1lxhulz c24jrif ccrliu8 cj1o619 c1k73zrk cu8z8f4 c11wy0y4 coxjap7 cfil19j c1w27fy0 c13td0jo c11xaz58 c1bilfmk c1m7ym1u c102zl4c c1qjuejg c1nkfbyx c1yvit81 c1vv4gqv`} />
 </Box>
 </NavigationMenu>
+<HtmlEmbed
+code={"<style>\n@keyframes navPopupFadeIn {\n  from {\n    opacity: 0;\n    transform: translateY(-8px) scale(0.96);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0) scale(1);\n  }\n}\n\n@keyframes navPopupFadeOut {\n  from {\n    opacity: 1;\n    transform: translateY(0) scale(1);\n  }\n  to {\n    opacity: 0;\n    transform: translateY(-8px) scale(0.96);\n  }\n}\n</style>"}
+className={`w-html-embed`} />
 </div>
 </div>
 </Fragment_1>
 </Slot>
 <div
-className={`w-element c13rvnfs ckkp5ls c1dquu02 cr5s4bi c1skuy9j c1wbj3x9 c16zmz85 c1boxhnt cq2ae4j c7b7hdu c51dlfk c1bwd5u3 ctnidj3 cj5ea4k c49br6x`}>
+className={`w-element c13rvnfs ckkp5ls c1dquu02 cr5s4bi c1skuy9j c1wbj3x9 c16zmz85 c1boxhnt cq2ae4j c7b7hdu c51dlfk ctnidj3 cj5ea4k c49br6x`}>
 <div
 className={`w-element c13rvnfs c1smcck4 ckkp5ls cq2ae4j c818ac9 c1fhacno c1dquu02 cr5s4bi clrwo5d cd6ip1x`}>
 <div
@@ -651,7 +651,7 @@ data-umami-event={"gh-repo"}
 data-umami-event-region={"us"}
 className={`w-element ck0qs61`}>
 <MarkdownEmbed
-code={"![GitHub Repo stars](https://img.shields.io/github/stars/taikun114/Mocolamma?style=for-the-badge&label=★&labelColor=6e8895&color=192023)"}
+code={"![GitHub Repo stars](https://img.shields.io/github/stars/taikun114/Mocolamma?style=for-the-badge&label=★&labelColor=42577D&color=212b42)"}
 className={`w-markdown-embed c1411o3y c1igc709 ctsxlvw cjdjvq6 c1wlos4g c1klrugo c1kb16ip c91o05s`}>
 </MarkdownEmbed>
 </Link>
@@ -662,7 +662,7 @@ data-umami-event={"gh-release"}
 data-umami-event-region={"us"}
 className={`w-element ck0qs61`}>
 <MarkdownEmbed
-code={"![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/taikun114/Mocolamma/total?style=for-the-badge&label=Free%20DL&labelColor=6e8895&color=192023)"}
+code={"![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/taikun114/Mocolamma/total?style=for-the-badge&label=Free%20DL&labelColor=42577D&color=212b42)"}
 className={`w-markdown-embed c1igc709 c1411o3y ctsxlvw cjdjvq6 c1wlos4g c1klrugo c1kb16ip c91o05s`}>
 </MarkdownEmbed>
 </Link>
@@ -778,7 +778,7 @@ className={`w-element ckkp5ls ctrrskr cv5n7tx cd7qpso cct7nc0`}>
 href={"#manage-ollama-servers"}
 className={`w-element ck0qs61 c13rvnfs c1xduqzz c6qj28r`}>
 <div
-className={`w-element c13rvnfs cwmr794 c1muqwoi c1l5fgsc c24jrif c1lxhulz ckkp5ls cq2ae4j cd7qpso cv5n7tx c1rtwn8k c18b1tda c1nox6s5 c1lz60sb c1ls5mky c1dnsadh c13nk3y6 c1904aiq cv6lq4t c1o0p65i`}>
+className={`w-element c13rvnfs cs80szy c1muqwoi c1l5fgsc c24jrif c1lxhulz ckkp5ls cq2ae4j cd7qpso cv5n7tx c1rtwn8k c18b1tda c1nox6s5 c1lz60sb c1ls5mky c1dnsadh c13nk3y6 c1904aiq cv6lq4t c1rguxkt`}>
 <div
 className={`w-element ckkp5ls c1dquu02 cr5s4bi cv5n7tx cd7qpso`}>
 <div
@@ -802,7 +802,7 @@ className={`w-element c11wsiwx c1su7aph`}>
 href={"#manage-llm"}
 className={`w-element ck0qs61 c13rvnfs c1xduqzz c6qj28r`}>
 <div
-className={`w-element c13rvnfs cwmr794 c1muqwoi c1l5fgsc c24jrif c1lxhulz ckkp5ls cq2ae4j cd7qpso cv5n7tx c1rtwn8k c18b1tda c1nox6s5 c1lz60sb c1ls5mky c1dnsadh c13nk3y6 c1904aiq cv6lq4t c1o0p65i`}>
+className={`w-element c13rvnfs cs80szy c1muqwoi c1l5fgsc c24jrif c1lxhulz ckkp5ls cq2ae4j cd7qpso cv5n7tx c1rtwn8k c18b1tda c1nox6s5 c1lz60sb c1ls5mky c1dnsadh c13nk3y6 c1904aiq cv6lq4t c1rguxkt`}>
 <div
 className={`w-element ckkp5ls c1dquu02 cr5s4bi cv5n7tx cd7qpso`}>
 <div
@@ -829,7 +829,7 @@ className={`w-element ckkp5ls ctrrskr cv5n7tx cd7qpso cct7nc0`}>
 href={"#simple-chat-feature"}
 className={`w-element ck0qs61 c13rvnfs c1xduqzz c1ak9s8m`}>
 <div
-className={`w-element c13rvnfs cwmr794 c1muqwoi c1l5fgsc c24jrif c1lxhulz ckkp5ls cq2ae4j cd7qpso cv5n7tx c1rtwn8k c18b1tda c1nox6s5 c1lz60sb c1ls5mky c1dnsadh c13nk3y6 c1904aiq cv6lq4t c1o0p65i`}>
+className={`w-element c13rvnfs cs80szy c1muqwoi c1l5fgsc c24jrif c1lxhulz ckkp5ls cq2ae4j cd7qpso cv5n7tx c1rtwn8k c18b1tda c1nox6s5 c1lz60sb c1ls5mky c1dnsadh c13nk3y6 c1904aiq cv6lq4t c1rguxkt`}>
 <div
 className={`w-element ckkp5ls c1dquu02 cr5s4bi cv5n7tx cd7qpso`}>
 <div
@@ -853,7 +853,7 @@ className={`w-element c11wsiwx c1su7aph`}>
 href={"#image-generation"}
 className={`w-element ck0qs61 c13rvnfs c1xduqzz c1ak9s8m`}>
 <div
-className={`w-element c13rvnfs cwmr794 c1muqwoi c1l5fgsc c24jrif c1lxhulz ckkp5ls cq2ae4j cd7qpso cv5n7tx c1rtwn8k c18b1tda c1nox6s5 c1lz60sb c1ls5mky c1dnsadh c13nk3y6 c1904aiq cv6lq4t c1o0p65i`}>
+className={`w-element c13rvnfs cs80szy c1muqwoi c1l5fgsc c24jrif c1lxhulz ckkp5ls cq2ae4j cd7qpso cv5n7tx c1rtwn8k c18b1tda c1nox6s5 c1lz60sb c1ls5mky c1dnsadh c13nk3y6 c1904aiq cv6lq4t c1rguxkt`}>
 <div
 className={`w-element ckkp5ls c1dquu02 cr5s4bi cv5n7tx cd7qpso`}>
 <div
@@ -880,14 +880,14 @@ className={`w-element c11wsiwx c1su7aph`}>
 <div
 className={`w-element c13rvnfs ckkp5ls cq2ae4j c1dquu02 cr5s4bi`}>
 <div
-className={`w-element c13rvnfs ckkp5ls c1dquu02 cr5s4bi cn1s8se c1wbj3x9 c1skuy9j c1u6urjk cq2ae4j c881vmo cj5ea4k c49br6x`}>
+className={`w-element c13rvnfs ckkp5ls c1dquu02 cr5s4bi cn1s8se c1wbj3x9 c1skuy9j c1u6urjk cq2ae4j c14hetfs cj5ea4k c49br6x`}>
 <h2
 className={`w-element co6eidb c11wsiwx c1su7aph c1mmg8q2 c13rvnfs cdhbme8 clrwo5d cd6ip1x`}>
 {"What is Mocolamma?"}
 </h2>
 </div>
 <div
-className={`w-element c13rvnfs ckkp5ls cq2ae4j c1dquu02 cr5s4bi c1u6urjk c1wbj3x9 cn1s8se c1skuy9j c1bwd5u3 cj5ea4k c49br6x`}>
+className={`w-element c13rvnfs ckkp5ls cq2ae4j c1dquu02 cr5s4bi c1u6urjk c1wbj3x9 cn1s8se c1skuy9j cj5ea4k c49br6x`}>
 <div
 className={`w-element c13rvnfs ckkp5ls cq2ae4j cdhbme8 clrwo5d cd6ip1x`}>
 <h3
@@ -925,7 +925,7 @@ className={`w-element`}>
 <div
 className={`w-element c13rvnfs ckkp5ls cq2ae4j c1dquu02 cr5s4bi`}>
 <div
-className={`w-element c13rvnfs ckkp5ls c1dquu02 cr5s4bi cn1s8se c1wbj3x9 c1skuy9j c1u6urjk cq2ae4j c881vmo cj5ea4k c49br6x`}>
+className={`w-element c13rvnfs ckkp5ls c1dquu02 cr5s4bi cn1s8se c1wbj3x9 c1skuy9j c1u6urjk cq2ae4j c14hetfs cj5ea4k c49br6x`}>
 <h2
 className={`w-element co6eidb c11wsiwx c1su7aph c1mmg8q2 c13rvnfs cdhbme8 clrwo5d cd6ip1x`}>
 {"Features"}
@@ -1023,14 +1023,14 @@ className={`w-element c11wsiwx c1su7aph c1y9f2xs c10ieuse`}>
 <div
 className={`w-element c13rvnfs ckkp5ls cq2ae4j c1dquu02 cr5s4bi`}>
 <div
-className={`w-element c13rvnfs ckkp5ls c1dquu02 cr5s4bi cn1s8se c1wbj3x9 c1skuy9j c1u6urjk cq2ae4j c881vmo c49br6x cj5ea4k`}>
+className={`w-element c13rvnfs ckkp5ls c1dquu02 cr5s4bi cn1s8se c1wbj3x9 c1skuy9j c1u6urjk cq2ae4j c14hetfs c49br6x cj5ea4k`}>
 <h2
 className={`w-element co6eidb c11wsiwx c1su7aph c1mmg8q2 c13rvnfs cdhbme8 clrwo5d cd6ip1x`}>
 {"Support Developer"}
 </h2>
 </div>
 <div
-className={`w-element c13rvnfs ckkp5ls cq2ae4j c1dquu02 cr5s4bi c1u6urjk c1wbj3x9 cn1s8se c1skuy9j c1bwd5u3 c1fhacno c818ac9 c49br6x cj5ea4k`}>
+className={`w-element c13rvnfs ckkp5ls cq2ae4j c1dquu02 cr5s4bi c1u6urjk c1wbj3x9 cn1s8se c1skuy9j c1fhacno c818ac9 c49br6x cj5ea4k`}>
 <div
 className={`w-element c13rvnfs ckkp5ls cq2ae4j cdhbme8 cd7qpso cv5n7tx clrwo5d cd6ip1x`}>
 <h3
@@ -1048,7 +1048,7 @@ href={"/support"}
 aria-label={"Support and Feedback button"}
 className={`w-element ck0qs61 c1xduqzz`}>
 <p
-className={`w-element c11wsiwx c1su7aph c1mmg8q2 c1jx90iq c13zugmy c1qk4yjc cjzt2qt c1bu6qb6 c17wll4e cbtn7xi c1nox6s5 c1lz60sb c1ls5mky c1dnsadh ck4iode c1904aiq c1veqtfu c1el576z`}>
+className={`w-element c11wsiwx c1su7aph c1ak9s8m c1jx90iq cs80szy cbtn7xi c1nox6s5 c1lz60sb c1ls5mky c1dnsadh c1qk4yjc cjzt2qt c1bu6qb6 c17wll4e cys8goc c1904aiq c1rguxkt`}>
 {"Support and Feedback"}
 </p>
 </Link>
@@ -1078,7 +1078,7 @@ data-umami-event-region={"us"}
 aria-label={"Buy Me a Coffee button"}
 className={`w-element ck0qs61 c1xduqzz`}>
 <p
-className={`w-element c11wsiwx c1su7aph c1mmg8q2 c1jx90iq c13zugmy c1qk4yjc cjzt2qt c1bu6qb6 c17wll4e cbtn7xi c1nox6s5 c1lz60sb c1ls5mky c1dnsadh ck4iode c1904aiq c1veqtfu c1el576z`}>
+className={`w-element c11wsiwx c1su7aph c1ak9s8m c1jx90iq cs80szy cbtn7xi c1nox6s5 c1lz60sb c1ls5mky c1dnsadh c1qk4yjc cjzt2qt c1bu6qb6 c17wll4e cys8goc c1904aiq c1rguxkt`}>
 {"Buy Me a Coffee"}
 </p>
 </Link>
@@ -1090,7 +1090,7 @@ data-umami-event-region={"us"}
 aria-label={"PayPal.Me button"}
 className={`w-element ck0qs61 c1xduqzz`}>
 <p
-className={`w-element c11wsiwx c1su7aph c1mmg8q2 c1jx90iq c13zugmy c1qk4yjc cjzt2qt c1bu6qb6 c17wll4e cbtn7xi c1nox6s5 c1lz60sb c1ls5mky c1dnsadh ck4iode c1904aiq c1veqtfu c1el576z`}>
+className={`w-element c11wsiwx c1su7aph c1ak9s8m c1jx90iq cs80szy cbtn7xi c1nox6s5 c1lz60sb c1ls5mky c1dnsadh c1qk4yjc cjzt2qt c1bu6qb6 c17wll4e cys8goc c1904aiq c1rguxkt`}>
 {"PayPal.Me"}
 </p>
 </Link>
@@ -1120,7 +1120,7 @@ data-umami-event-region={"us"}
 aria-label={"See All Apps Button"}
 className={`w-element ck0qs61 c1xduqzz`}>
 <p
-className={`w-element c11wsiwx c1su7aph c1mmg8q2 c1jx90iq c13zugmy c1qk4yjc cjzt2qt c1bu6qb6 c17wll4e cbtn7xi c1nox6s5 c1lz60sb c1ls5mky c1dnsadh ck4iode c1904aiq c1veqtfu c1el576z`}>
+className={`w-element c11wsiwx c1su7aph c1ak9s8m c1jx90iq cs80szy cbtn7xi c1nox6s5 c1lz60sb c1ls5mky c1dnsadh c1qk4yjc cjzt2qt c1bu6qb6 c17wll4e cys8goc c1904aiq c1rguxkt`}>
 {"See All Apps"}
 </p>
 </Link>
@@ -1131,7 +1131,7 @@ className={`w-element c11wsiwx c1su7aph c1mmg8q2 c1jx90iq c13zugmy c1qk4yjc cjzt
 <Slot>
 <Fragment_1>
 <div
-className={`w-element c13rvnfs csvappk c13zugmy ckkp5ls cq2ae4j c1dquu02 cr5s4bi c1skuy9j c1wbj3x9 c49br6x cj5ea4k cmiec8n`}>
+className={`w-element c13rvnfs csvappk c14hetfs ckkp5ls cq2ae4j c1dquu02 cr5s4bi c1skuy9j c1wbj3x9 c49br6x cj5ea4k cmiec8n`}>
 <div
 className={`w-element c13rvnfs c1smcck4 c13nk3y6 ckkp5ls c7rh9ds cd7qpso cv5n7tx c14ai22i clrwo5d cd6ip1x`}>
 <div

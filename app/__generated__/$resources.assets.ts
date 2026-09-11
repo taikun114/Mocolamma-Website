@@ -1,43 +1,5 @@
 
     export const assets = {
-  "0a50ff35860a6fd4ac135182d872f886e57a4a7a048a021fe0028919f84e8141": {
-    "id": "0a50ff35860a6fd4ac135182d872f886e57a4a7a048a021fe0028919f84e8141",
-    "projectId": "d3340149-462c-49a8-8b6a-95401a1f067e",
-    "size": 167184,
-    "name": "Mocolamma_Social.png",
-    "createdAt": "2026-03-30T13:28:08.558+00:00",
-    "updatedAt": "2026-03-30T13:28:08.558+00:00",
-    "format": "png",
-    "meta": {
-      "width": 1280,
-      "height": 640
-    },
-    "type": "image",
-    "url": "/assets/Mocolamma_Social_v4bPMu4TakXy-hXjX6vsW.png",
-    "width": 1280,
-    "height": 640,
-    "mimeType": "image/png",
-    "contentRef": "Mocolamma_Social_v4bPMu4TakXy-hXjX6vsW.png"
-  },
-  "0b56f079dd45b3ce47af61afe11548d8fb88093282d3ef3adbdd3fe2beccdb4f": {
-    "id": "0b56f079dd45b3ce47af61afe11548d8fb88093282d3ef3adbdd3fe2beccdb4f",
-    "projectId": "d3340149-462c-49a8-8b6a-95401a1f067e",
-    "size": 6000,
-    "name": "Mocolamma_Logo.webp",
-    "createdAt": "2025-10-16T08:50:14.739+00:00",
-    "updatedAt": "2025-10-16T08:50:14.739+00:00",
-    "format": "webp",
-    "meta": {
-      "width": 256,
-      "height": 256
-    },
-    "type": "image",
-    "url": "/assets/Mocolamma_Logo_1Hud1LO-7f_-fiBpR59VO.webp",
-    "width": 256,
-    "height": 256,
-    "mimeType": "image/webp",
-    "contentRef": "Mocolamma_Logo_1Hud1LO-7f_-fiBpR59VO.webp"
-  },
   "1f2e8364c406359f3a37693af1d0ff9a442e422b78cf1986d54992744f9d0f9a": {
     "id": "1f2e8364c406359f3a37693af1d0ff9a442e422b78cf1986d54992744f9d0f9a",
     "projectId": "d3340149-462c-49a8-8b6a-95401a1f067e",
@@ -157,44 +119,6 @@
     "mimeType": "image/webp",
     "contentRef": "GitHub_Badge_2x_ucvuf0EjTAXJAL9p3EI2b.webp"
   },
-  "6878a1fc87a1b33f7d8dfaeb522c14d9026fc134116c01599e80638060a652bc": {
-    "id": "6878a1fc87a1b33f7d8dfaeb522c14d9026fc134116c01599e80638060a652bc",
-    "projectId": "d3340149-462c-49a8-8b6a-95401a1f067e",
-    "size": 22169,
-    "name": "favicon.png",
-    "createdAt": "2025-10-16T08:55:08.266+00:00",
-    "updatedAt": "2025-10-16T08:55:08.266+00:00",
-    "format": "png",
-    "meta": {
-      "width": 192,
-      "height": 192
-    },
-    "type": "image",
-    "url": "/assets/favicon__3sUvP8Dn_n4uHorlwhyg.png",
-    "width": 192,
-    "height": 192,
-    "mimeType": "image/png",
-    "contentRef": "favicon__3sUvP8Dn_n4uHorlwhyg.png"
-  },
-  "99c5d209dc909111e16264245e487334826e75b88601ede6f1cb861279e68331": {
-    "id": "99c5d209dc909111e16264245e487334826e75b88601ede6f1cb861279e68331",
-    "projectId": "d3340149-462c-49a8-8b6a-95401a1f067e",
-    "size": 176472,
-    "name": "Mocolamma_Social-ja.png",
-    "createdAt": "2026-03-30T13:27:52.808+00:00",
-    "updatedAt": "2026-03-30T13:27:52.808+00:00",
-    "format": "png",
-    "meta": {
-      "width": 1280,
-      "height": 640
-    },
-    "type": "image",
-    "url": "/assets/Mocolamma_Social-ja_wQt7_oQuO0KpseiK9VDWM.png",
-    "width": 1280,
-    "height": 640,
-    "mimeType": "image/png",
-    "contentRef": "Mocolamma_Social-ja_wQt7_oQuO0KpseiK9VDWM.png"
-  },
   "a99cdc98334e3d21caa7276d622ea486d19abfde50ea54c984a16b7de4908ec8": {
     "id": "a99cdc98334e3d21caa7276d622ea486d19abfde50ea54c984a16b7de4908ec8",
     "projectId": "d3340149-462c-49a8-8b6a-95401a1f067e",
@@ -214,6 +138,86 @@
     "height": 160,
     "mimeType": "image/webp",
     "contentRef": "App-Store-DL-Badge-us_Bq-LFxfS98Q3mm-NEBHmb.webp"
+  },
+  "oIpcG4zu8wQj5El9D5QO9": {
+    "id": "oIpcG4zu8wQj5El9D5QO9",
+    "projectId": "d3340149-462c-49a8-8b6a-95401a1f067e",
+    "size": 21738,
+    "name": "favicon_1.png",
+    "filename": "favicon_1",
+    "createdAt": "2026-09-04T14:01:16.692+00:00",
+    "updatedAt": "2026-09-04T14:01:16.692+00:00",
+    "format": "png",
+    "meta": {
+      "width": 192,
+      "height": 192
+    },
+    "type": "image",
+    "url": "/assets/favicon_1_HDrdChpmMEMY-gduT00dZ.png",
+    "width": 192,
+    "height": 192,
+    "mimeType": "image/png",
+    "contentRef": "favicon_1_HDrdChpmMEMY-gduT00dZ.png"
+  },
+  "pRnKTJNhhpk_HlOxEUBuH": {
+    "id": "pRnKTJNhhpk_HlOxEUBuH",
+    "projectId": "d3340149-462c-49a8-8b6a-95401a1f067e",
+    "size": 231974,
+    "name": "Mocolamma Social.png",
+    "filename": "Mocolamma Social",
+    "createdAt": "2026-09-11T06:36:09.229+00:00",
+    "updatedAt": "2026-09-11T06:36:09.229+00:00",
+    "format": "png",
+    "meta": {
+      "width": 1280,
+      "height": 640
+    },
+    "type": "image",
+    "url": "/assets/Mocolamma_Social_9MV7MrFMKULethhL3PY8i.png",
+    "width": 1280,
+    "height": 640,
+    "mimeType": "image/png",
+    "contentRef": "Mocolamma_Social_9MV7MrFMKULethhL3PY8i.png"
+  },
+  "pgcu5g6CkHlpCHRmhmPYt": {
+    "id": "pgcu5g6CkHlpCHRmhmPYt",
+    "projectId": "d3340149-462c-49a8-8b6a-95401a1f067e",
+    "size": 18952,
+    "name": "Mocolamma_Logo_V2.webp",
+    "filename": "Mocolamma_Logo_V2",
+    "createdAt": "2026-09-04T14:00:33.067+00:00",
+    "updatedAt": "2026-09-04T14:00:33.067+00:00",
+    "format": "webp",
+    "meta": {
+      "width": 1024,
+      "height": 1024
+    },
+    "type": "image",
+    "url": "/assets/Mocolamma_Logo_V2_1OmQbNHgIcHMo1xiQE8XD.webp",
+    "width": 1024,
+    "height": 1024,
+    "mimeType": "image/webp",
+    "contentRef": "Mocolamma_Logo_V2_1OmQbNHgIcHMo1xiQE8XD.webp"
+  },
+  "yuKv8TqCEChpibdw-Fy3K": {
+    "id": "yuKv8TqCEChpibdw-Fy3K",
+    "projectId": "d3340149-462c-49a8-8b6a-95401a1f067e",
+    "size": 226685,
+    "name": "Mocolamma Social-ja.png",
+    "filename": "Mocolamma Social-ja",
+    "createdAt": "2026-09-11T06:36:43.094+00:00",
+    "updatedAt": "2026-09-11T06:36:43.094+00:00",
+    "format": "png",
+    "meta": {
+      "width": 1280,
+      "height": 640
+    },
+    "type": "image",
+    "url": "/assets/Mocolamma_Social-ja_QpI2fCrEEN2bz-s3I0z9l.png",
+    "width": 1280,
+    "height": 640,
+    "mimeType": "image/png",
+    "contentRef": "Mocolamma_Social-ja_QpI2fCrEEN2bz-s3I0z9l.png"
   }
 };
     

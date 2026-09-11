@@ -26,7 +26,7 @@ export const getResources = (_props: { system: System; resources?: Record<string
     description: "Here's how to use a model on an Ollama server to perform simple chat using Mocolamma.",
     excludePageFromSearch: false,
     language: "en-us",
-    socialImageAssetName: "Mocolamma_Social_v4bPMu4TakXy-hXjX6vsW.png",
+    socialImageAssetName: "Mocolamma_Social_9MV7MrFMKULethhL3PY8i.png",
     socialImageUrl: undefined,
     status: undefined,
     redirect: "",
@@ -43,5 +43,5 @@ export const getRemixParams = ({ ...params }: Params): Params => {
 }
 
 
-      export const contactEmail = "hello@webstudio.is";
+      export const contactEmail = undefined;
     

@@ -1,2 +1,2 @@
-export const assetQueryDeploymentId = "044efad2-cfd1-40b0-b1d9-7c404ac8d9de";
+export const assetQueryDeploymentId = "b85bc816-226f-44d8-a18a-206fa78b11b9";
 export const assetQueryDatabase = undefined;

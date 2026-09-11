@@ -15,14 +15,14 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectDomain = "mocolamma-5c81a";
 
-      export const lastPublished = "2026-09-03T10:47:34.268Z";
+      export const lastPublished = "2025-10-08T12:42:01.705Z";
 
       export const siteName = "Mocolamma";
 
       export const breakpoints = [{"id":"Nr5VaLoI8PXeozyOBhddI"},{"id":"q2_D0PRyg_Y559h1SO8Un","maxWidth":991},{"id":"qqfLvB64QR6AqlhzbJLnj","maxWidth":767},{"id":"RIM5D42dASjBT3eDlN2hj","maxWidth":479}];
 
       export const favIconAsset: string | undefined =
-        "favicon__3sUvP8Dn_n4uHorlwhyg.png";
+        "favicon_1_HDrdChpmMEMY-gduT00dZ.png";
 
       // Font assets on current page (can be preloaded)
       export const pageFontAssets: string[] =
@@ -35,28 +35,30 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       const Page = (_props: { system: any; }) => {
 const system = _props.system;
-let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/main/docs/images")
+let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/dev/docs/images")
 return <Body
-className={`w-element ckkp5ls cylgtyl c1dquu02 c13zugmy cq2ae4j`}>
+className={`w-element ckkp5ls cylgtyl c1dquu02 cq2ae4j`}>
 <Slot>
 <Fragment_1>
 <div
-className={`w-element c13rvnfs c9uad48 ckkp5ls cylgtyl cphp00e c1c7lq8j crnnxqm c115e144 c1nh9dbl c1rtwn8k c14i19nj c5d22mu`}>
+className={`w-element c13rvnfs c9uad48 ckkp5ls cylgtyl cphp00e c1c7lq8j crnnxqm c115e144 c5d22mu`}>
 <div
-className={`w-element c13rvnfs c13nk3y6 c1smcck4 ckkp5ls c7rh9ds c1dquu02`}>
+className={`w-element cd8u6er c1tywneo c1kw6xnm c13rvnfs c13nk3y6 cbst7u2 cr6j5lm c11wy0y4 c1rtwn8k c1m7ym1u c102zl4c`} />
+<div
+className={`w-element c13rvnfs c13nk3y6 c1smcck4 ckkp5ls c7rh9ds c1dquu02 c17zp3zn c1wcivba`}>
 <Link
 href={"/jp"}
-className={`w-element ckkp5ls c1dquu02 c1xduqzz c1hfgpcq ctn4k21`}>
+className={`w-element ckkp5ls c1dquu02 c1xduqzz cd7qpso cv5n7tx`}>
 <div
-className={`w-element ch9z7zy c9uad48 ckkp5ls cygwog6 cr5s4bi`}>
+className={`w-element c26ihkm c8jyyiu ckkp5ls c1dquu02 cylgtyl`}>
 <Image
-src={"/assets/Mocolamma_Logo_1Hud1LO-7f_-fiBpR59VO.webp"}
-width={256}
-height={256}
+src={"/assets/Mocolamma_Logo_V2_1OmQbNHgIcHMo1xiQE8XD.webp"}
+width={1024}
+height={1024}
 alt={"ロゴ"}
 loading={"eager"}
 fetchPriority={"high"}
-className={`w-image ch9z7zy cxw7e3h`} />
+className={`w-image c26ihkm c8jyyiu`} />
 </div>
 <h1
 className={`w-element c1ak9s8m c11wsiwx c1su7aph c1f9sbsw c9lo5xm`}>
@@ -69,7 +71,7 @@ className={`w-navigation-menu c17zp3zn c2khdnq chpbxxb`}>
 className={`w-menu-list ckkp5ls c4173ql c1qzrls7 c162ajja c1qyhotx c1dquu02 cylgtyl c7fgudx cz2wnom c18ku4ud c1hlgics`}>
 <NavigationMenuItem
 data-ws-index="0"
-className={`w-menu-item`}>
+className={`w-menu-item c17zp3zn`}>
 <NavigationMenuTrigger>
 <Button
 className={`w-button cgxqre5 c1dquu02 cylgtyl c14q381d ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1izxvn3 c1869d3f c1k8h763 c16ynwcy c1dqd85b c83qgap c126skso c1xtxrvq c1g8pixr cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk cfx2y77 cn9obc7 c1xz4syt c43qx5x c1yw8mba cj4ljrw c1n6lqyh c1q9mnqa clkirae c1mk5zu6 c1wgnin9 c1butb2t czw6kfp c8epfsu cop6iru c1xeyc00`}>
@@ -86,7 +88,7 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c16ryuaq c1vtttf6 cjpdtnc c1904aiq`}>
+className={`w-menu-content c1kw6xnm c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
@@ -153,7 +155,7 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4
 </NavigationMenuItem>
 <NavigationMenuItem
 data-ws-index="1"
-className={`w-menu-item`}>
+className={`w-menu-item c17zp3zn`}>
 <NavigationMenuTrigger>
 <Button
 className={`w-button cgxqre5 c1dquu02 cylgtyl c14q381d ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1izxvn3 c1869d3f c1k8h763 c16ynwcy c1dqd85b c83qgap c126skso c1xtxrvq c1g8pixr cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk cfx2y77 cn9obc7 c1xz4syt c43qx5x c1yw8mba cj4ljrw c1n6lqyh c1q9mnqa clkirae c1mk5zu6 c1wgnin9 c1butb2t czw6kfp c8epfsu cop6iru c1xeyc00`}>
@@ -170,7 +172,7 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c16ryuaq c1vtttf6 cjpdtnc c1904aiq`}>
+className={`w-menu-content c1kw6xnm c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
@@ -232,7 +234,7 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4
 </NavigationMenuItem>
 <NavigationMenuItem
 data-ws-index="2"
-className={`w-menu-item`}>
+className={`w-menu-item c17zp3zn`}>
 <NavigationMenuTrigger>
 <Button
 className={`w-button cgxqre5 c1dquu02 cylgtyl c83qgap c126skso c1g8pixr c1xtxrvq ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1izxvn3 c1869d3f c1k8h763 c16ynwcy c1dqd85b c14q381d cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk cfx2y77 cn9obc7 c1xz4syt c1q9mnqa clkirae c1mk5zu6 c1xeyc00 c1wgnin9`}>
@@ -249,7 +251,7 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c16ryuaq c1vtttf6 cjpdtnc c1904aiq`}>
+className={`w-menu-content c1kw6xnm c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
@@ -294,7 +296,7 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzo
 </NavigationMenuItem>
 <NavigationMenuItem
 data-ws-index="3"
-className={`w-menu-item`}>
+className={`w-menu-item c17zp3zn`}>
 <NavigationMenuTrigger>
 <Button
 className={`w-button cgxqre5 c1dquu02 cylgtyl c83qgap c126skso c1g8pixr c1xtxrvq ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1izxvn3 c1869d3f c1k8h763 c16ynwcy c1dqd85b c14q381d cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk cfx2y77 cn9obc7 c1xz4syt c1q9mnqa clkirae c1mk5zu6 c1xeyc00 c1wgnin9`}>
@@ -311,7 +313,7 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c16ryuaq c1vtttf6 cjpdtnc c1904aiq`}>
+className={`w-menu-content c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er c5fuhvg cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c10oyth4 c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
@@ -345,11 +347,6 @@ className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 </NavigationMenuContent>
 </NavigationMenuItem>
 </NavigationMenuList>
-<Box
-className={`w-box cd8u6er c1e3iuac ckkp5ls cylgtyl cqz0si8`}>
-<NavigationMenuViewport
-className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c1lxhulz c24jrif ccrliu8 cj1o619 c1k73zrk cu8z8f4 c14fnxmh coxjap7 clrfht8 c1jmx3ta c1qu72nz c11xaz58 c1bilfmk`} />
-</Box>
 </NavigationMenu>
 <NavigationMenu
 className={`w-navigation-menu c17zp3zn c2khdnq c1ga6br6 cefqn60`}>
@@ -413,7 +410,7 @@ className={`w-menu-item`}>
 <NavigationMenuTrigger>
 <Button
 aria-label={"ナビゲーションメニュー"}
-className={`w-button cgxqre5 c1dquu02 cylgtyl cfiygbw ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1gu5tx2 c83qgap c126skso c1xtxrvq c1g8pixr cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c18g3fo0 c92lprk c5z1ajc cfx2y77 cn9obc7 c1xz4syt c43qx5x c1yw8mba cj4ljrw c1n6lqyh c1sqgw9v clkirae c1mk5zu6 c1wgnin9 c1butb2t czw6kfp c8epfsu cop6iru ck9amq3`}>
+className={`w-button cgxqre5 c1dquu02 cylgtyl c14hetfs ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1gu5tx2 c83qgap c126skso c1xtxrvq c1g8pixr cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c18g3fo0 c92lprk c5z1ajc cfx2y77 cn9obc7 c1xz4syt c43qx5x c1yw8mba cj4ljrw c1n6lqyh c1sqgw9v clkirae c1mk5zu6 c1wgnin9 c1butb2t czw6kfp c8epfsu cop6iru c1r6phm9`}>
 <Box
 className={`w-box c13ddjkk c1vimmxz c11qj7kj`}>
 <HtmlEmbed
@@ -577,9 +574,12 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4
 <Box
 className={`w-box cd8u6er c1e3iuac ckkp5ls cylgtyl c10oyth4 coqlu7i`}>
 <NavigationMenuViewport
-className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c1lxhulz c24jrif ccrliu8 cj1o619 c1k73zrk cu8z8f4 c14fnxmh coxjap7 clrfht8 c1jmx3ta c1qu72nz c11xaz58 c1bilfmk`} />
+className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c1lxhulz c24jrif ccrliu8 cj1o619 c1k73zrk cu8z8f4 c11wy0y4 coxjap7 cfil19j c1w27fy0 c13td0jo c11xaz58 c1bilfmk c1m7ym1u c102zl4c c1qjuejg c1nkfbyx c1yvit81 c1vv4gqv`} />
 </Box>
 </NavigationMenu>
+<HtmlEmbed
+code={"<style>\n@keyframes navPopupFadeIn {\n  from {\n    opacity: 0;\n    transform: translateY(-8px) scale(0.96);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0) scale(1);\n  }\n}\n\n@keyframes navPopupFadeOut {\n  from {\n    opacity: 1;\n    transform: translateY(0) scale(1);\n  }\n  to {\n    opacity: 0;\n    transform: translateY(-8px) scale(0.96);\n  }\n}\n</style>"}
+className={`w-html-embed`} />
 </div>
 </div>
 </Fragment_1>
@@ -587,12 +587,12 @@ className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c
 <div
 className={`w-element c13rvnfs cq2ae4j c17eij6z ckkp5ls`}>
 <div
-className={`w-element c13rvnfs c14cyv8r ckkp5ls c1yr0oul cylgtyl c16zmz85 cn1s8se c1skuy9j c1wbj3x9 c13nk3y6 c49br6x cj5ea4k c1s34l75`}>
+className={`w-element c13rvnfs ckkp5ls c1yr0oul cylgtyl c16zmz85 cn1s8se c1skuy9j c1wbj3x9 c13nk3y6 c49br6x cj5ea4k c1s34l75`}>
 <div
-className={`w-element c13rvnfs cdhbme8 ckkp5ls cq2ae4j c6qj28r c1n75u37 c1muqwoi c1l5fgsc c24jrif c1lxhulz c1rtwn8k c1yn9fna clrwo5d cd6ip1x c17hxu8w`}>
+className={`w-element c13rvnfs cdhbme8 ckkp5ls cq2ae4j c6qj28r cs80szy c1muqwoi c1l5fgsc c24jrif c1lxhulz c1rtwn8k c1yn9fna clrwo5d cd6ip1x c17hxu8w`}>
 <MarkdownEmbed
 code={"[ドキュメントホーム](/jp/docs) / **サーバータブ**"}
-className={`w-markdown-embed c1jwyh4u c71q0nn cyu9atc c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+className={`w-markdown-embed c1jwyh4u c71q0nn cyu9atc c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k cwjk396 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 <h1
 className={`w-element c11wsiwx c1su7aph`}>
@@ -600,7 +600,7 @@ className={`w-element c11wsiwx c1su7aph`}>
 </h1>
 <MarkdownEmbed
 code={"## サーバーを追加する\n"}
-className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k cwjk396 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 <Image
 src={imagePath + "/Server-Tab-ja-1.webp?raw=true"}
@@ -609,7 +609,7 @@ alt={"サーバータブ"}
 className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
 <MarkdownEmbed
 code={"\nMocolammaを開くと、最初にこのような画面が表示されます。Mocolammaを使ってOllamaサーバーを管理するには、最初に管理したいOllamaサーバーを追加する必要があります。\n\n> **豆知識**\\\n> macOS版の場合、初期状態で`localhost`サーバーが自動で追加されます。Mocolammaを開いたMacで既にOllamaサーバーを実行している場合はこの手順をスキップできます。\n\nOllamaサーバーを追加するには、右上にある「**+**」ボタンをクリックするか、`⌥ (Option)` + `⌘ (Command)` + `S`キーを同時に押します。\n\n"}
-className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k cwjk396 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 <Image
 src={imagePath + "/Server-Tab-ja-2.webp?raw=true"}
@@ -618,7 +618,7 @@ alt={"サーバーを追加"}
 className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
 <MarkdownEmbed
 code={"\nサーバーの追加画面を開くとこのような画面が表示されるので、識別しやすいお好みの名前と、Ollamaサーバーのホスト名を入力します。\\\n入力できたら、保存ボタンをクリックまたはタップするか、`↩︎ (Return)`キーを押すとOllamaサーバーへの接続確認が行われ、問題なく接続できるとサーバーが追加されます。\n\n> **情報**\\\n> Ollamaサーバーに接続できない場合、ネットワークからOllamaにアクセスできるように設定されていることをご確認ください。\\\n> [**公式ドキュメント**](https://github.com/ollama/ollama/blob/main/docs/faq.md#how-do-i-configure-ollama-server)を参考に環境変数を使ってネットワークに公開するか、Ollamaアプリからネットワークに公開するように設定します。\n\n> **豆知識**\\\n> 「ホスト」に`demo-mode`と入力してサーバーを追加し、選択することでデモモードを有効にすることができます。\n\n"}
-className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k cwjk396 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 <Image
 src={imagePath + "/Server-Tab-ja-3.webp?raw=true"}
@@ -627,7 +627,7 @@ alt={"サーバー一覧"}
 className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
 <MarkdownEmbed
 code={"\nサーバーが追加されると、追加されたサーバーが自動的に選択状態になります。\n\n## サーバーを編集・削除する\n"}
-className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k cwjk396 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 <Image
 src={imagePath + "/Server-Tab-ja-5.webp?raw=true"}
@@ -635,8 +635,8 @@ loading={"lazy"}
 alt={"サーバー一覧"}
 className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
 <MarkdownEmbed
-code={"サーバーを編集するには、編集したいサーバー項目上でコンテキストメニューを開き「**編集...**」をクリックまたはタップするか、編集したいサーバーを左にスワイプして編集ボタンをクリックまたはタップすると編集画面を開くことができます。\n\n削除したいサーバー項目上でコンテキストメニューを開き「**削除...**」をクリックまたはタップするか、削除したサーバーを左端までスワイプすることで削除することができます。\n\n## サーバーの選択状態を切り替える\n"}
-className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+code={"サーバーを編集するには、編集したいサーバー項目上でコンテキストメニューを開き「**編集...**」をクリックまたはタップするか、編集したいサーバーを左にスワイプして編集ボタンをクリックまたはタップすると編集画面を開くことができます。\\\nなお、リスト項目を選択した状態でツールバーのアクションボタンをクリックまたはタップしてコンテキストメニューを開くこともできます。\n\n削除したいサーバー項目上でコンテキストメニューを開き「**削除...**」をクリックまたはタップするか、削除したいサーバーを左端までスワイプすることで削除することができます。\n\n## サーバーの選択状態を切り替える\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k cwjk396 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 <Image
 src={imagePath + "/Server-Tab-ja-6.webp?raw=true"}
@@ -645,7 +645,7 @@ alt={"サーバー一覧"}
 className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
 <MarkdownEmbed
 code={"この選択状態は、MocolammaがどのOllamaサーバーに接続して管理するかを決めるものです。選択状態になっているサーバーには、右側にチェックマークが付いています。\n\nサーバーの選択状態は、次の方法で切り替えることができます。\n- ダブルクリックする（macOS版のみ）\n- コンテキストメニューから「**選択**」をクリックまたはタップする\n- 選択したいサーバーを右端までスワイプする\n\n## サーバーの詳細情報を確認する\n"}
-className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k cwjk396 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 <Image
 src={imagePath + "/Server-Tab-ja-4.webp?raw=true"}
@@ -654,14 +654,14 @@ alt={"サーバーインスペクタ"}
 className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
 <MarkdownEmbed
 code={"\nインスペクタを開くことで、リストでハイライトされているサーバーの詳細情報を確認することができます。\\\nインスペクタを開くには、右上のサイドバー切り替えボタンをクリックまたはタップします。\n\nインスペクタからは、次の情報を確認することができます。\n- 設定したサーバー名\n- サーバーの接続状況と接続エラー情報（接続エラーが起きている場合）\n- 設定したサーバーのホスト\n- サーバー上で実行しているOllamaのバージョン\n- サーバー上で現在読み込まれているモデルの数\n  - 1つ以上のモデルが読み込まれている場合、実行中のモデル名、使用中のVRAM容量、メモリから解放される予定時刻が表示されます。\n\n> **豆知識**\\\n> 「**ホスト**」と「**Ollamaバージョン**」のテキスト上でコンテキストメニューを開くと、値をコピーすることができます。\\\n> 読み込まれているモデル名の右側に表示されるアイコンからモデルを即座にアンロード（メモリから解放）することもできます。"}
-className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k cwjk396 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 </div>
 </div>
 <Slot>
 <Fragment_1>
 <div
-className={`w-element c13rvnfs csvappk c13zugmy ckkp5ls cq2ae4j c1dquu02 cr5s4bi c1skuy9j c1wbj3x9 c49br6x cj5ea4k cmiec8n`}>
+className={`w-element c13rvnfs csvappk c14hetfs ckkp5ls cq2ae4j c1dquu02 cr5s4bi c1skuy9j c1wbj3x9 c49br6x cj5ea4k cmiec8n`}>
 <div
 className={`w-element c13rvnfs c1smcck4 c13nk3y6 ckkp5ls c7rh9ds cd7qpso cv5n7tx c14ai22i clrwo5d cd6ip1x`}>
 <div

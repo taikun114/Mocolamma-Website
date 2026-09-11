@@ -1,3 +1,5 @@
 /.react-router
 /node_modules
 .webstudio/project-session.json
+.env
+

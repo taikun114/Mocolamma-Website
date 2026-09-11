@@ -15,14 +15,14 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectDomain = "mocolamma-5c81a";
 
-      export const lastPublished = "2026-09-03T10:47:34.268Z";
+      export const lastPublished = "2025-10-08T12:42:01.705Z";
 
       export const siteName = "Mocolamma";
 
       export const breakpoints = [{"id":"Nr5VaLoI8PXeozyOBhddI"},{"id":"q2_D0PRyg_Y559h1SO8Un","maxWidth":991},{"id":"qqfLvB64QR6AqlhzbJLnj","maxWidth":767},{"id":"RIM5D42dASjBT3eDlN2hj","maxWidth":479}];
 
       export const favIconAsset: string | undefined =
-        "favicon__3sUvP8Dn_n4uHorlwhyg.png";
+        "favicon_1_HDrdChpmMEMY-gduT00dZ.png";
 
       // Font assets on current page (can be preloaded)
       export const pageFontAssets: string[] =
@@ -35,28 +35,30 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       const Page = (_props: { system: any; }) => {
 const system = _props.system;
-let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/main/docs/images")
+let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/dev/docs/images")
 return <Body
-className={`w-element ckkp5ls cq2ae4j c13zugmy`}>
+className={`w-element ckkp5ls cq2ae4j`}>
 <Slot>
 <Fragment_1>
 <div
-className={`w-element c13rvnfs c9uad48 ckkp5ls cylgtyl cphp00e c1c7lq8j crnnxqm c115e144 c1nh9dbl c1rtwn8k c14i19nj c5d22mu`}>
+className={`w-element c13rvnfs c9uad48 ckkp5ls cylgtyl cphp00e c1c7lq8j crnnxqm c115e144 c5d22mu`}>
 <div
-className={`w-element c13rvnfs c13nk3y6 c1smcck4 ckkp5ls c7rh9ds c1dquu02`}>
+className={`w-element cd8u6er c1tywneo c1kw6xnm c13rvnfs c13nk3y6 cbst7u2 cr6j5lm c11wy0y4 c1rtwn8k c1m7ym1u c102zl4c`} />
+<div
+className={`w-element c13rvnfs c13nk3y6 c1smcck4 ckkp5ls c7rh9ds c1dquu02 c17zp3zn c1wcivba`}>
 <Link
 href={"/"}
-className={`w-element ckkp5ls c1dquu02 c1xduqzz c1hfgpcq ctn4k21`}>
+className={`w-element ckkp5ls c1dquu02 c1xduqzz cd7qpso cv5n7tx`}>
 <div
-className={`w-element ch9z7zy c9uad48 ckkp5ls cygwog6 cr5s4bi`}>
+className={`w-element c26ihkm c8jyyiu ckkp5ls c1dquu02 cylgtyl`}>
 <Image
-src={"/assets/Mocolamma_Logo_1Hud1LO-7f_-fiBpR59VO.webp"}
-width={256}
-height={256}
+src={"/assets/Mocolamma_Logo_V2_1OmQbNHgIcHMo1xiQE8XD.webp"}
+width={1024}
+height={1024}
 alt={"Logo"}
 loading={"eager"}
 fetchPriority={"high"}
-className={`w-image ch9z7zy cxw7e3h`} />
+className={`w-image c26ihkm c8jyyiu`} />
 </div>
 <h1
 className={`w-element c1ak9s8m c11wsiwx c1su7aph c1f9sbsw c9lo5xm`}>
@@ -69,7 +71,7 @@ className={`w-navigation-menu c17zp3zn c2khdnq chpbxxb`}>
 className={`w-menu-list ckkp5ls c4173ql c1qzrls7 c162ajja c1qyhotx c1dquu02 cylgtyl c7fgudx cz2wnom c18ku4ud c1hlgics`}>
 <NavigationMenuItem
 data-ws-index="0"
-className={`w-menu-item`}>
+className={`w-menu-item c17zp3zn`}>
 <NavigationMenuTrigger>
 <Button
 className={`w-button cgxqre5 c1dquu02 cylgtyl c14q381d ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1izxvn3 c1869d3f c1k8h763 c16ynwcy c1dqd85b c83qgap c126skso c1xtxrvq c1g8pixr cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk cfx2y77 cn9obc7 c1xz4syt c43qx5x c1yw8mba cj4ljrw c1n6lqyh c1q9mnqa clkirae c1mk5zu6 c1wgnin9 c1butb2t czw6kfp c8epfsu cop6iru c1xeyc00`}>
@@ -86,7 +88,7 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c16ryuaq c1vtttf6 cjpdtnc c1904aiq`}>
+className={`w-menu-content c1kw6xnm c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
@@ -153,7 +155,7 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4
 </NavigationMenuItem>
 <NavigationMenuItem
 data-ws-index="1"
-className={`w-menu-item`}>
+className={`w-menu-item c17zp3zn`}>
 <NavigationMenuTrigger>
 <Button
 className={`w-button cgxqre5 c1dquu02 cylgtyl c14q381d ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1izxvn3 c1869d3f c1k8h763 c16ynwcy c1dqd85b c83qgap c126skso c1xtxrvq c1g8pixr cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk cfx2y77 cn9obc7 c1xz4syt c43qx5x c1yw8mba cj4ljrw c1n6lqyh c1q9mnqa clkirae c1mk5zu6 c1wgnin9 c1butb2t czw6kfp c8epfsu cop6iru c1xeyc00`}>
@@ -170,7 +172,7 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c16ryuaq c1vtttf6 cjpdtnc c1904aiq`}>
+className={`w-menu-content c1kw6xnm c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
@@ -232,7 +234,7 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4
 </NavigationMenuItem>
 <NavigationMenuItem
 data-ws-index="2"
-className={`w-menu-item`}>
+className={`w-menu-item c17zp3zn`}>
 <NavigationMenuTrigger>
 <Button
 className={`w-button cgxqre5 c1dquu02 cylgtyl c83qgap c126skso c1g8pixr c1xtxrvq ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1izxvn3 c1869d3f c1k8h763 c16ynwcy c1dqd85b c14q381d cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk cfx2y77 cn9obc7 c1xz4syt c1q9mnqa clkirae c1mk5zu6 c1xeyc00 c1wgnin9`}>
@@ -249,7 +251,7 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c16ryuaq c1vtttf6 cjpdtnc c1904aiq`}>
+className={`w-menu-content c1kw6xnm c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
@@ -294,7 +296,7 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzo
 </NavigationMenuItem>
 <NavigationMenuItem
 data-ws-index="3"
-className={`w-menu-item`}>
+className={`w-menu-item c17zp3zn`}>
 <NavigationMenuTrigger>
 <Button
 className={`w-button cgxqre5 c1dquu02 cylgtyl c83qgap c126skso c1g8pixr c1xtxrvq ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1izxvn3 c1869d3f c1k8h763 c16ynwcy c1dqd85b c14q381d cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk cfx2y77 cn9obc7 c1xz4syt c1q9mnqa clkirae c1mk5zu6 c1xeyc00 c1wgnin9`}>
@@ -311,7 +313,7 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c16ryuaq c1vtttf6 cjpdtnc c1904aiq`}>
+className={`w-menu-content c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er c5fuhvg cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c10oyth4 c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
@@ -345,11 +347,6 @@ className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 </NavigationMenuContent>
 </NavigationMenuItem>
 </NavigationMenuList>
-<Box
-className={`w-box cd8u6er c1e3iuac ckkp5ls cylgtyl cqz0si8`}>
-<NavigationMenuViewport
-className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c1lxhulz c24jrif ccrliu8 cj1o619 c1k73zrk cu8z8f4 c14fnxmh coxjap7 clrfht8 c1jmx3ta c1qu72nz c11xaz58 c1bilfmk`} />
-</Box>
 </NavigationMenu>
 <NavigationMenu
 className={`w-navigation-menu c17zp3zn c2khdnq c1ga6br6 cefqn60`}>
@@ -413,7 +410,7 @@ className={`w-menu-item`}>
 <NavigationMenuTrigger>
 <Button
 aria-label={"ナビゲーションメニュー"}
-className={`w-button cgxqre5 c1dquu02 cylgtyl cfiygbw ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1gu5tx2 c83qgap c126skso c1xtxrvq c1g8pixr cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c18g3fo0 c92lprk c5z1ajc cfx2y77 cn9obc7 c1xz4syt c43qx5x c1yw8mba cj4ljrw c1n6lqyh c1sqgw9v clkirae c1mk5zu6 c1wgnin9 c1butb2t czw6kfp c8epfsu cop6iru ck9amq3`}>
+className={`w-button cgxqre5 c1dquu02 cylgtyl c14hetfs ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1gu5tx2 c83qgap c126skso c1xtxrvq c1g8pixr cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c18g3fo0 c92lprk c5z1ajc cfx2y77 cn9obc7 c1xz4syt c43qx5x c1yw8mba cj4ljrw c1n6lqyh c1sqgw9v clkirae c1mk5zu6 c1wgnin9 c1butb2t czw6kfp c8epfsu cop6iru c1r6phm9`}>
 <Box
 className={`w-box c13ddjkk c1vimmxz c11qj7kj`}>
 <HtmlEmbed
@@ -579,9 +576,12 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4
 <Box
 className={`w-box cd8u6er c1e3iuac ckkp5ls cylgtyl c10oyth4 coqlu7i`}>
 <NavigationMenuViewport
-className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c1lxhulz c24jrif ccrliu8 cj1o619 c1k73zrk cu8z8f4 c14fnxmh coxjap7 clrfht8 c1jmx3ta c1qu72nz c11xaz58 c1bilfmk`} />
+className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c1lxhulz c24jrif ccrliu8 cj1o619 c1k73zrk cu8z8f4 c11wy0y4 coxjap7 cfil19j c1w27fy0 c13td0jo c11xaz58 c1bilfmk c1m7ym1u c102zl4c c1qjuejg c1nkfbyx c1yvit81 c1vv4gqv`} />
 </Box>
 </NavigationMenu>
+<HtmlEmbed
+code={"<style>\n@keyframes navPopupFadeIn {\n  from {\n    opacity: 0;\n    transform: translateY(-8px) scale(0.96);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0) scale(1);\n  }\n}\n\n@keyframes navPopupFadeOut {\n  from {\n    opacity: 1;\n    transform: translateY(0) scale(1);\n  }\n  to {\n    opacity: 0;\n    transform: translateY(-8px) scale(0.96);\n  }\n}\n</style>"}
+className={`w-html-embed`} />
 </div>
 </div>
 </Fragment_1>
@@ -589,12 +589,12 @@ className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c
 <div
 className={`w-element c13rvnfs cq2ae4j c17eij6z ckkp5ls`}>
 <div
-className={`w-element c13rvnfs c14cyv8r ckkp5ls c1yr0oul cylgtyl c16zmz85 cn1s8se c1skuy9j c1wbj3x9 c13nk3y6 c49br6x cj5ea4k c1s34l75`}>
+className={`w-element c13rvnfs ckkp5ls c1yr0oul cylgtyl c16zmz85 cn1s8se c1skuy9j c1wbj3x9 c13nk3y6 c49br6x cj5ea4k c1s34l75`}>
 <div
-className={`w-element c13rvnfs cdhbme8 ckkp5ls cq2ae4j c6qj28r c1n75u37 c1muqwoi c1l5fgsc c24jrif c1lxhulz c1rtwn8k c1yn9fna clrwo5d cd6ip1x c17hxu8w`}>
+className={`w-element c13rvnfs cdhbme8 ckkp5ls cq2ae4j c6qj28r cs80szy c1muqwoi c1l5fgsc c24jrif c1lxhulz c1rtwn8k c1yn9fna clrwo5d cd6ip1x c17hxu8w`}>
 <MarkdownEmbed
 code={"[Document Home](/docs) / **News**"}
-className={`w-markdown-embed c1jwyh4u c71q0nn cyu9atc c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+className={`w-markdown-embed c1jwyh4u c71q0nn cyu9atc c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k cwjk396 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 <h1
 className={`w-element c11wsiwx c1su7aph`}>
@@ -607,7 +607,7 @@ className={`w-element c1rb5kua`}>
 </h2>
 <MarkdownEmbed
 code={"**2026/1/16 Update:**\\\nBirthday Giveaway has ended.\n\nMy goal for this two-day giveaway was to have over 100 people download the app. I'm incredibly happy to say that over 800 people downloaded it, exceeding my initial goal! Thank you to everyone who downloaded the app!\\\nI sincerely hope everyone who downloaded it enjoys my app!\n\n---\n\nHappy New Year, everyone!\\\nJanuary 14, 2026, marks the **22nd birthday of myself, Taiga Imaura**, the developer of Mocolamma. To celebrate this occasion and to encourage more people to experience Mocolamma, I have decided to hold a **limited-time giveaway of Mocolamma on the App Store!**\n\nDuring the same period, I will also be running a **[parallel giveaway for Clip Hold](https://clip-hold.taikun.design/docs/news#birthday-giveaway-2026)**, the clipboard and standard phrases manager app I developed, so don't forget to check that out as well!\n\n### Giveaway Period\n\n- **Scheduled for 2 days: January 14, 2026, 0:00 local time to January 15, 2026, 23:59 local time.**\n\n\"Local time\" refers to the time in the region where you use the App Store.\n"}
-className={`w-markdown-embed ckr5l9b cfin9nv cnkmlxi c3ovf9w c15l2emi c1va7xwf c1opb4fk c1vc4f3l cfa8mih csbw7ja ci7c9m9 c7tc9mb c19es3fj c16d23tx c1arbw53 ct5tj6h c7b70zd c11w8fvb c1hti67v c1x9znti c16weql9 cfwn7fg c1n2ry01 c1t326u7 c1c00ac2 c7retf cbje6ix c14a81n5 cgwrgp8 c1r61068 c1rnewgl cwidp34 cpk6oyn ckdvx6o c19syrx6 c1pm9tau c1kz40te c19m5h3j c1nu8pcz c12b2x8j c1uvc7ok c2ruc5x cmtmwnf c10dnu08 chk0yvr c95g2ry cp1i2eu cwncg5a cq14hpt c1mg93cg csx1r28 c1l1134w c1wkwybg c1wuf2nj cp7us2p cn81q4p cda9odk cj9yoos cv3wdk0 c1b47sd8 c1jhqd1n c191arxj ch3bbdq c1lxnfl c11fw1l1 cj8tzf8 c1eo3xfg c1hbjly9 c1dc2ne8 cv02efc cw2fjqo cs8hh6g c14g4g c1k3kmme c11387ew ci8atmf cyyb5ge c8jhskq c9ho2tu c2zie8l caldph7 cqlnnnq c1av35pp`}>
+className={`w-markdown-embed ckr5l9b cfin9nv cnkmlxi c3ovf9w c15l2emi c1va7xwf c1opb4fk c1vc4f3l cfa8mih csbw7ja ci7c9m9 c7tc9mb c19es3fj c16d23tx c1arbw53 ct5tj6h c7b70zd c11w8fvb c1hti67v c1x9znti c16weql9 cfwn7fg c1n2ry01 c1t326u7 c1c00ac2 c7retf cbje6ix c14a81n5 cgwrgp8 c1r61068 c1rnewgl cwidp34 cpk6oyn ckdvx6o c19syrx6 c1pm9tau c1kz40te c19m5h3j c1nu8pcz c12b2x8j c1uvc7ok c2ruc5x c1q93ytj c1u36fj5 c18vs8gu c1ug53c4 cmtmwnf c10dnu08 chk0yvr c95g2ry cp1i2eu cwncg5a cq14hpt c1mg93cg csx1r28 c1l1134w c1wkwybg c1wuf2nj cp7us2p cn81q4p cda9odk cj9yoos cv3wdk0 c1b47sd8 c1jhqd1n c191arxj ch3bbdq c1lxnfl c11fw1l1 cj8tzf8 c1eo3xfg c1hbjly9 c1dc2ne8 cv02efc cw2fjqo cs8hh6g c14g4g c1k3kmme c11387ew ci8atmf cyyb5ge c8jhskq c9ho2tu c2zie8l caldph7 cqlnnnq c1av35pp`}>
 </MarkdownEmbed>
 <div
 className={`w-element ckkp5ls cv5n7tx cd7qpso c12e0v0g c1eswi8f`}>
@@ -620,21 +620,21 @@ data-umami-event-region={"us"}
 target={"_blank"}
 className={`w-element ck0qs61 c1xduqzz`}>
 <p
-className={`w-element c11wsiwx c1su7aph c1mmg8q2 c1jx90iq c13zugmy c1qk4yjc cjzt2qt c1bu6qb6 c17wll4e cbtn7xi c1nox6s5 c1lz60sb c1ls5mky c1dnsadh ck4iode c1904aiq c1veqtfu c1el576z`}>
+className={`w-element c11wsiwx c1su7aph c1ak9s8m c1jx90iq cs80szy cbtn7xi c1nox6s5 c1lz60sb c1ls5mky c1dnsadh c1qk4yjc cjzt2qt c1bu6qb6 c17wll4e cys8goc c1904aiq c1rguxkt`}>
 {"Add to Calendar"}
 </p>
 </Link>
 </div>
 <MarkdownEmbed
 code={"\nWhile I have been providing it for free on GitHub for Mac version, I am hosting this giveaway for the App Store version on all platforms to make it easier for more people to download.\\\nIf you download it from the App Store even once during the above period, the purchase history will remain tied to your Apple Account, allowing you to redownload it at any time even after the giveaway ends. **Even if you don't plan to use it immediately, I recommend downloading it once during this period!**\n\n### I Look Forward to Your Feedback and Reviews!\n\n**I would be very happy to receive your thoughts after using Mocolamma, as well as feedback such as \"I wish it could do this\" or \"I want this feature!\"**\\\nPlease check the \"[**Support and Feedback**](/support)\" page for instructions on how to send feedback.\n\nAlso, **I would be delighted if you could leave a review on the App Store!**\\\nFurthermore, I would truly appreciate it if you could share your experience with Mocolamma on social media like X using the hashtag \"**#Mocolamma**\"!\n\nI am very excited for many of you to use Mocolamma!\\\nThank you for your continued support of Mocolamma in 2026."}
-className={`w-markdown-embed ckr5l9b cfin9nv cnkmlxi c3ovf9w c15l2emi c1va7xwf c1opb4fk c1vc4f3l cfa8mih csbw7ja ci7c9m9 c7tc9mb c19es3fj c16d23tx c1arbw53 ct5tj6h c7b70zd c11w8fvb c1hti67v c1x9znti c16weql9 cfwn7fg c1n2ry01 c1t326u7 c1c00ac2 c7retf cbje6ix c14a81n5 cgwrgp8 c1r61068 c1rnewgl cwidp34 cpk6oyn ckdvx6o c19syrx6 c1pm9tau c1kz40te c19m5h3j c1nu8pcz c12b2x8j c1uvc7ok c2ruc5x cmtmwnf c10dnu08 chk0yvr c95g2ry cp1i2eu cwncg5a cq14hpt c1mg93cg csx1r28 c1l1134w c1wkwybg c1wuf2nj cp7us2p cn81q4p cda9odk cj9yoos cv3wdk0 c1b47sd8 c1jhqd1n c191arxj ch3bbdq c1lxnfl c11fw1l1 cj8tzf8 c1eo3xfg c1hbjly9 c1dc2ne8 cv02efc cw2fjqo cs8hh6g c14g4g c1k3kmme c11387ew ci8atmf cyyb5ge c8jhskq c9ho2tu c2zie8l caldph7 cqlnnnq c1av35pp`}>
+className={`w-markdown-embed ckr5l9b cfin9nv cnkmlxi c3ovf9w c15l2emi c1va7xwf c1opb4fk c1vc4f3l cfa8mih csbw7ja ci7c9m9 c7tc9mb c19es3fj c16d23tx c1arbw53 ct5tj6h c7b70zd c11w8fvb c1hti67v c1x9znti c16weql9 cfwn7fg c1n2ry01 c1t326u7 c1c00ac2 c7retf cbje6ix c14a81n5 cgwrgp8 c1r61068 c1rnewgl cwidp34 cpk6oyn ckdvx6o c19syrx6 c1pm9tau c1kz40te c19m5h3j c1nu8pcz c12b2x8j c1uvc7ok c2ruc5x c1q93ytj c1u36fj5 c18vs8gu c1ug53c4 cmtmwnf c10dnu08 chk0yvr c95g2ry cp1i2eu cwncg5a cq14hpt c1mg93cg csx1r28 c1l1134w c1wkwybg c1wuf2nj cp7us2p cn81q4p cda9odk cj9yoos cv3wdk0 c1b47sd8 c1jhqd1n c191arxj ch3bbdq c1lxnfl c11fw1l1 cj8tzf8 c1eo3xfg c1hbjly9 c1dc2ne8 cv02efc cw2fjqo cs8hh6g c14g4g c1k3kmme c11387ew ci8atmf cyyb5ge c8jhskq c9ho2tu c2zie8l caldph7 cqlnnnq c1av35pp`}>
 </MarkdownEmbed>
 </div>
 </div>
 <Slot>
 <Fragment_1>
 <div
-className={`w-element c13rvnfs csvappk c13zugmy ckkp5ls cq2ae4j c1dquu02 cr5s4bi c1skuy9j c1wbj3x9 c49br6x cj5ea4k cmiec8n`}>
+className={`w-element c13rvnfs csvappk c14hetfs ckkp5ls cq2ae4j c1dquu02 cr5s4bi c1skuy9j c1wbj3x9 c49br6x cj5ea4k cmiec8n`}>
 <div
 className={`w-element c13rvnfs c1smcck4 c13nk3y6 ckkp5ls c7rh9ds cd7qpso cv5n7tx c14ai22i clrwo5d cd6ip1x`}>
 <div

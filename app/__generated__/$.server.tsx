@@ -26,7 +26,7 @@ export const getResources = (_props: { system: System; resources?: Record<string
     description: "Sorry, the information you were looking for could not be found. Please make sure you are accessing the correct page.",
     excludePageFromSearch: true,
     language: "en-us",
-    socialImageAssetName: "Mocolamma_Social_v4bPMu4TakXy-hXjX6vsW.png",
+    socialImageAssetName: "Mocolamma_Social_9MV7MrFMKULethhL3PY8i.png",
     socialImageUrl: undefined,
     status: 404,
     redirect: undefined,
@@ -45,5 +45,5 @@ export const getRemixParams = ({ ...params }: Params): Params => {
 }
 
 
-      export const contactEmail = "hello@webstudio.is";
+      export const contactEmail = undefined;
     

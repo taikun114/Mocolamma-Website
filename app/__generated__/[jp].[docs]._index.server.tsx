@@ -26,7 +26,7 @@ export const getResources = (_props: { system: System; resources?: Record<string
     description: "Mocolammaのドキュメントへようこそ！\nMocolammaの使い方から細かい設定まで、Mocolammaに関する情報がまとめられています。",
     excludePageFromSearch: false,
     language: "ja-jp",
-    socialImageAssetName: "Mocolamma_Social-ja_wQt7_oQuO0KpseiK9VDWM.png",
+    socialImageAssetName: "Mocolamma_Social-ja_QpI2fCrEEN2bz-s3I0z9l.png",
     socialImageUrl: undefined,
     status: undefined,
     redirect: undefined,
@@ -43,5 +43,5 @@ export const getRemixParams = ({ ...params }: Params): Params => {
 }
 
 
-      export const contactEmail = "hello@webstudio.is";
+      export const contactEmail = undefined;
     

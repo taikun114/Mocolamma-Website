@@ -15,14 +15,14 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectDomain = "mocolamma-5c81a";
 
-      export const lastPublished = "2026-09-03T10:47:34.268Z";
+      export const lastPublished = "2025-10-08T12:42:01.705Z";
 
       export const siteName = "Mocolamma";
 
       export const breakpoints = [{"id":"Nr5VaLoI8PXeozyOBhddI"},{"id":"q2_D0PRyg_Y559h1SO8Un","maxWidth":991},{"id":"qqfLvB64QR6AqlhzbJLnj","maxWidth":767},{"id":"RIM5D42dASjBT3eDlN2hj","maxWidth":479}];
 
       export const favIconAsset: string | undefined =
-        "favicon__3sUvP8Dn_n4uHorlwhyg.png";
+        "favicon_1_HDrdChpmMEMY-gduT00dZ.png";
 
       // Font assets on current page (can be preloaded)
       export const pageFontAssets: string[] =
@@ -35,28 +35,30 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       const Page = (_props: { system: any; }) => {
 const system = _props.system;
-let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/main/docs/images")
+let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/dev/docs/images")
 return <Body
-className={`w-element ckkp5ls cylgtyl c1dquu02 c13zugmy cq2ae4j`}>
+className={`w-element ckkp5ls cylgtyl c1dquu02 cq2ae4j`}>
 <Slot>
 <Fragment_1>
 <div
-className={`w-element c13rvnfs c9uad48 ckkp5ls cylgtyl cphp00e c1c7lq8j crnnxqm c115e144 c1nh9dbl c1rtwn8k c14i19nj c5d22mu`}>
+className={`w-element c13rvnfs c9uad48 ckkp5ls cylgtyl cphp00e c1c7lq8j crnnxqm c115e144 c5d22mu`}>
 <div
-className={`w-element c13rvnfs c13nk3y6 c1smcck4 ckkp5ls c7rh9ds c1dquu02`}>
+className={`w-element cd8u6er c1tywneo c1kw6xnm c13rvnfs c13nk3y6 cbst7u2 cr6j5lm c11wy0y4 c1rtwn8k c1m7ym1u c102zl4c`} />
+<div
+className={`w-element c13rvnfs c13nk3y6 c1smcck4 ckkp5ls c7rh9ds c1dquu02 c17zp3zn c1wcivba`}>
 <Link
 href={"/jp"}
-className={`w-element ckkp5ls c1dquu02 c1xduqzz c1hfgpcq ctn4k21`}>
+className={`w-element ckkp5ls c1dquu02 c1xduqzz cd7qpso cv5n7tx`}>
 <div
-className={`w-element ch9z7zy c9uad48 ckkp5ls cygwog6 cr5s4bi`}>
+className={`w-element c26ihkm c8jyyiu ckkp5ls c1dquu02 cylgtyl`}>
 <Image
-src={"/assets/Mocolamma_Logo_1Hud1LO-7f_-fiBpR59VO.webp"}
-width={256}
-height={256}
+src={"/assets/Mocolamma_Logo_V2_1OmQbNHgIcHMo1xiQE8XD.webp"}
+width={1024}
+height={1024}
 alt={"ロゴ"}
 loading={"eager"}
 fetchPriority={"high"}
-className={`w-image ch9z7zy cxw7e3h`} />
+className={`w-image c26ihkm c8jyyiu`} />
 </div>
 <h1
 className={`w-element c1ak9s8m c11wsiwx c1su7aph c1f9sbsw c9lo5xm`}>
@@ -69,7 +71,7 @@ className={`w-navigation-menu c17zp3zn c2khdnq chpbxxb`}>
 className={`w-menu-list ckkp5ls c4173ql c1qzrls7 c162ajja c1qyhotx c1dquu02 cylgtyl c7fgudx cz2wnom c18ku4ud c1hlgics`}>
 <NavigationMenuItem
 data-ws-index="0"
-className={`w-menu-item`}>
+className={`w-menu-item c17zp3zn`}>
 <NavigationMenuTrigger>
 <Button
 className={`w-button cgxqre5 c1dquu02 cylgtyl c14q381d ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1izxvn3 c1869d3f c1k8h763 c16ynwcy c1dqd85b c83qgap c126skso c1xtxrvq c1g8pixr cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk cfx2y77 cn9obc7 c1xz4syt c43qx5x c1yw8mba cj4ljrw c1n6lqyh c1q9mnqa clkirae c1mk5zu6 c1wgnin9 c1butb2t czw6kfp c8epfsu cop6iru c1xeyc00`}>
@@ -86,7 +88,7 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c16ryuaq c1vtttf6 cjpdtnc c1904aiq`}>
+className={`w-menu-content c1kw6xnm c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
@@ -153,7 +155,7 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4
 </NavigationMenuItem>
 <NavigationMenuItem
 data-ws-index="1"
-className={`w-menu-item`}>
+className={`w-menu-item c17zp3zn`}>
 <NavigationMenuTrigger>
 <Button
 className={`w-button cgxqre5 c1dquu02 cylgtyl c14q381d ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1izxvn3 c1869d3f c1k8h763 c16ynwcy c1dqd85b c83qgap c126skso c1xtxrvq c1g8pixr cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk cfx2y77 cn9obc7 c1xz4syt c43qx5x c1yw8mba cj4ljrw c1n6lqyh c1q9mnqa clkirae c1mk5zu6 c1wgnin9 c1butb2t czw6kfp c8epfsu cop6iru c1xeyc00`}>
@@ -170,7 +172,7 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c16ryuaq c1vtttf6 cjpdtnc c1904aiq`}>
+className={`w-menu-content c1kw6xnm c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
@@ -232,7 +234,7 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4
 </NavigationMenuItem>
 <NavigationMenuItem
 data-ws-index="2"
-className={`w-menu-item`}>
+className={`w-menu-item c17zp3zn`}>
 <NavigationMenuTrigger>
 <Button
 className={`w-button cgxqre5 c1dquu02 cylgtyl c83qgap c126skso c1g8pixr c1xtxrvq ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1izxvn3 c1869d3f c1k8h763 c16ynwcy c1dqd85b c14q381d cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk cfx2y77 cn9obc7 c1xz4syt c1q9mnqa clkirae c1mk5zu6 c1xeyc00 c1wgnin9`}>
@@ -249,7 +251,7 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c16ryuaq c1vtttf6 cjpdtnc c1904aiq`}>
+className={`w-menu-content c1kw6xnm c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
@@ -294,7 +296,7 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 cx2re04 cuisi8m ccaqgm7 c11myzo
 </NavigationMenuItem>
 <NavigationMenuItem
 data-ws-index="3"
-className={`w-menu-item`}>
+className={`w-menu-item c17zp3zn`}>
 <NavigationMenuTrigger>
 <Button
 className={`w-button cgxqre5 c1dquu02 cylgtyl c83qgap c126skso c1g8pixr c1xtxrvq ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1izxvn3 c1869d3f c1k8h763 c16ynwcy c1dqd85b c14q381d cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk cfx2y77 cn9obc7 c1xz4syt c1q9mnqa clkirae c1mk5zu6 c1xeyc00 c1wgnin9`}>
@@ -311,7 +313,7 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c5fuhvg c1c7lq8j cx8aii2 cjt11so c16ryuaq c1vtttf6 cjpdtnc c1904aiq`}>
+className={`w-menu-content c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er c5fuhvg cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c10oyth4 c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
@@ -345,11 +347,6 @@ className={`w-text ccaqgm7 c1jx90iq c1uvptrl c15lxz1c`}>
 </NavigationMenuContent>
 </NavigationMenuItem>
 </NavigationMenuList>
-<Box
-className={`w-box cd8u6er c1e3iuac ckkp5ls cylgtyl cqz0si8`}>
-<NavigationMenuViewport
-className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c1lxhulz c24jrif ccrliu8 cj1o619 c1k73zrk cu8z8f4 c14fnxmh coxjap7 clrfht8 c1jmx3ta c1qu72nz c11xaz58 c1bilfmk`} />
-</Box>
 </NavigationMenu>
 <NavigationMenu
 className={`w-navigation-menu c17zp3zn c2khdnq c1ga6br6 cefqn60`}>
@@ -413,7 +410,7 @@ className={`w-menu-item`}>
 <NavigationMenuTrigger>
 <Button
 aria-label={"ナビゲーションメニュー"}
-className={`w-button cgxqre5 c1dquu02 cylgtyl cfiygbw ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1gu5tx2 c83qgap c126skso c1xtxrvq c1g8pixr cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c18g3fo0 c92lprk c5z1ajc cfx2y77 cn9obc7 c1xz4syt c43qx5x c1yw8mba cj4ljrw c1n6lqyh c1sqgw9v clkirae c1mk5zu6 c1wgnin9 c1butb2t czw6kfp c8epfsu cop6iru ck9amq3`}>
+className={`w-button cgxqre5 c1dquu02 cylgtyl c14hetfs ccaqgm7 c1p4zc35 cvd4ss2 c1aau1ah c1gu5tx2 c83qgap c126skso c1xtxrvq c1g8pixr cpxww99 cgbckdu c3bicgj c1xxwwdz c1bzwsag c1jmx3ta c1qu72nz c11xaz58 c1bilfmk c18g3fo0 c92lprk c5z1ajc cfx2y77 cn9obc7 c1xz4syt c43qx5x c1yw8mba cj4ljrw c1n6lqyh c1sqgw9v clkirae c1mk5zu6 c1wgnin9 c1butb2t czw6kfp c8epfsu cop6iru c1r6phm9`}>
 <Box
 className={`w-box c13ddjkk c1vimmxz c11qj7kj`}>
 <HtmlEmbed
@@ -577,9 +574,12 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4
 <Box
 className={`w-box cd8u6er c1e3iuac ckkp5ls cylgtyl c10oyth4 coqlu7i`}>
 <NavigationMenuViewport
-className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c1lxhulz c24jrif ccrliu8 cj1o619 c1k73zrk cu8z8f4 c14fnxmh coxjap7 clrfht8 c1jmx3ta c1qu72nz c11xaz58 c1bilfmk`} />
+className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c1lxhulz c24jrif ccrliu8 cj1o619 c1k73zrk cu8z8f4 c11wy0y4 coxjap7 cfil19j c1w27fy0 c13td0jo c11xaz58 c1bilfmk c1m7ym1u c102zl4c c1qjuejg c1nkfbyx c1yvit81 c1vv4gqv`} />
 </Box>
 </NavigationMenu>
+<HtmlEmbed
+code={"<style>\n@keyframes navPopupFadeIn {\n  from {\n    opacity: 0;\n    transform: translateY(-8px) scale(0.96);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0) scale(1);\n  }\n}\n\n@keyframes navPopupFadeOut {\n  from {\n    opacity: 1;\n    transform: translateY(0) scale(1);\n  }\n  to {\n    opacity: 0;\n    transform: translateY(-8px) scale(0.96);\n  }\n}\n</style>"}
+className={`w-html-embed`} />
 </div>
 </div>
 </Fragment_1>
@@ -587,12 +587,12 @@ className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c
 <div
 className={`w-element c13rvnfs cq2ae4j c17eij6z ckkp5ls`}>
 <div
-className={`w-element c13rvnfs c14cyv8r ckkp5ls c1yr0oul cylgtyl c16zmz85 cn1s8se c1skuy9j c1wbj3x9 c13nk3y6 c49br6x cj5ea4k c1s34l75`}>
+className={`w-element c13rvnfs ckkp5ls c1yr0oul cylgtyl c16zmz85 cn1s8se c1skuy9j c1wbj3x9 c13nk3y6 c49br6x cj5ea4k c1s34l75`}>
 <div
-className={`w-element c13rvnfs cdhbme8 ckkp5ls cq2ae4j c6qj28r c1n75u37 c1muqwoi c1l5fgsc c24jrif c1lxhulz c1rtwn8k c1yn9fna clrwo5d cd6ip1x c17hxu8w`}>
+className={`w-element c13rvnfs cdhbme8 ckkp5ls cq2ae4j c6qj28r cs80szy c1muqwoi c1l5fgsc c24jrif c1lxhulz c1rtwn8k c1yn9fna clrwo5d cd6ip1x c17hxu8w`}>
 <MarkdownEmbed
 code={"[ドキュメントホーム](/jp/docs) / **チャットタブ**"}
-className={`w-markdown-embed c1jwyh4u c71q0nn cyu9atc c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+className={`w-markdown-embed c1jwyh4u c71q0nn cyu9atc c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k cwjk396 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 <h1
 className={`w-element c11wsiwx c1su7aph`}>
@@ -600,7 +600,7 @@ className={`w-element c11wsiwx c1su7aph`}>
 </h1>
 <MarkdownEmbed
 code={"## チャットを行う\n"}
-className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k cwjk396 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 <Image
 src={imagePath + "/Chat-Tab-ja-1.webp?raw=true"}
@@ -609,7 +609,7 @@ alt={"チャットタブ"}
 className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
 <MarkdownEmbed
 code={"\nチャットタブを開くと、このような画面が表示されます。チャットを行うには、まずはチャットに使用したいモデルを選択する必要があります。\n\n"}
-className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k cwjk396 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 <Image
 src={imagePath + "/Chat-Tab-ja-2.webp?raw=true"}
@@ -618,7 +618,7 @@ alt={"モデルを選択"}
 className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
 <MarkdownEmbed
 code={"\nモデルを選択するには、右上のモデル切り替えボタンをクリックまたはタップすると、選択状態になっているOllamaサーバー上にあるモデルが一覧で表示されるので、使用したいモデルを選択します（サーバーの選択状態を切り替えるには、[**サーバータブのドキュメント**](/jp/docs/server-tab)をご覧ください）。\n\n"}
-className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k cwjk396 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 <Image
 src={imagePath + "/Chat-Tab-ja-3.webp?raw=true"}
@@ -626,8 +626,8 @@ loading={"lazy"}
 alt={"メッセージを入力"}
 className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
 <MarkdownEmbed
-code={"\nモデルが選択されるとメッセージが入力できるようになりますので、AIモデルに送信したいテキストを入力し、送信ボタンをクリックまたはタップします。\\\nmacOSでメッセージを改行したい場合は、`⇧ (Shift)` + `↩︎ (Return)`キーを同時に押します。\n\n"}
-className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+code={"\nモデルが選択されるとメッセージが入力できるようになりますので、AIモデルに送信したいテキストを入力し、送信ボタンをクリックまたはタップします。\\\nmacOSでメッセージを改行したい場合は、`⇧ (Shift)` + `↩︎ (Return)`キーを同時に押します。\n\nまた、メッセージ入力欄の添付ボタンをクリックまたはタップするか、ファイルをドラッグ＆ドロップすることで、以下のファイルをメッセージに添付して送信することができます。\n- **画像ファイル**\n  - 画像認識に対応したモデルで画像を認識させることができます。\n- **テキストファイル**\n  - `.txt` や `.md` などのテキストファイルを、チャット対応の全モデルに添付できます。\n- **PDFファイル**\n  - PDFファイルをチャット対応の全モデルに添付できます。さらに、画像認識に対応したモデルでは各ページが画像としても送信され、テキストだけでなく図表やレイアウトも認識させることができます。\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k cwjk396 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 <Image
 src={imagePath + "/Chat-Tab-ja-4.webp?raw=true"}
@@ -635,8 +635,8 @@ loading={"lazy"}
 alt={"モデルの読み込み"}
 className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
 <MarkdownEmbed
-code={"\nメッセージを送信すると、Ollamaサーバー上にチャット要求が送信され、必要に応じてモデルの読み込み作業が始まります。\\\nモデルの種類や、Ollamaサーバー上のモデルが保存されているストレージの種類によっては読み込みに時間がかかる場合があります。\n\n> **豆知識**\\\n> デフォルトでAPIタイムアウトは30秒に設定されているため、モデルの読み込みに時間がかかる場合はタイムアウトエラーが発生する場合があります。\\\n> モデルの読み込みに時間がかかることがわかっている場合は、設定からAPIタイムアウトまでの時間を長くするか、無制限に設定することをおすすめします。\\\n> APIタイムアウトまでの時間を設定する方法については、[**設定のドキュメント**](/jp/docs/settings)をご覧ください。\n\n"}
-className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+code={"\nメッセージを送信すると、Ollamaサーバー上にチャット要求が送信され、必要に応じてモデルの読み込み作業が始まります。\\\nモデルの種類や、Ollamaサーバー上のモデルが保存されているストレージの種類によっては読み込みに時間がかかる場合があります。\n\n> **豆知識**\\\n> デフォルトでAPIタイムアウトは5分に設定されているため、モデルの読み込みに時間がかかる場合はタイムアウトエラーが発生する場合があります。\\\n> モデルの読み込みに時間がかかることがわかっている場合は、設定からAPIタイムアウトまでの時間を長くするか、無制限に設定することをおすすめします。\\\n> APIタイムアウトまでの時間を設定する方法については、[**設定のドキュメント**](/jp/docs/settings)をご覧ください。\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k cwjk396 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 <Image
 src={imagePath + "/Chat-Tab-ja-5.webp?raw=true"}
@@ -645,7 +645,7 @@ alt={"メッセージの操作"}
 className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
 <MarkdownEmbed
 code={"\nしばらくすると、AIから回答が返ってきます。\\\n応答が最後まで終了すると、メッセージに対して操作を行うことができます。可能な操作は以下の通りです。\n- **自分のメッセージ**\n  - **コピー**\n    - メッセージをMarkdown形式のテキストとしてコピーすることができます。\n  - **編集**\n    - 送信したメッセージを編集して送信し直すことができます。最後に送信したメッセージのみ編集可能です。\n- **AIからのメッセージ**\n  - **前のリビジョンに切り替える**\n    - やり直す前のリビジョンに切り替えることができます。リビジョンが2つ以上ある場合に表示されます。\n  - **次のリビジョンに切り替える**\n    - 前のリビジョンから次のリビジョンに切り替えることができます。リビジョンが2つ以上ある場合に表示されます。\n  - **やり直す**\n    - AIからの回答をやり直すことができます。最後のメッセージのみやり直し可能です。\n  - **コピー**\n    - メッセージをMarkdown形式のテキストとしてコピーすることができます。\n  - **共有**\n    - 生成されたテキストを共有することができます。\n\n## 新規チャットを始める\nチャットの履歴を消去して新規チャットを始めるには、右上にある新規チャットボタンをクリックするか、`⌥ (Option)` + `⌘ (Command)` + `N`キーを同時に押します。\n\n## チャットの設定を変更する\n"}
-className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k cwjk396 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 <Image
 src={imagePath + "/Chat-Tab-ja-6.webp?raw=true"}
@@ -653,15 +653,15 @@ loading={"lazy"}
 alt={"チャットインスペクタ"}
 className={`w-image c13rvnfs c12e0v0g c1eswi8f`} />
 <MarkdownEmbed
-code={"\nインスペクタを開くことで、チャットの設定をカスタマイズすることができます。\\\nインスペクタを開くには、右上のサイドバー切り替えボタンをクリックまたはタップします。\n\nインスペクタからは、次の設定をカスタマイズすることができます。\n- **チャット設定**\n  - **ストリームレスポンス**\n    - AIからのメッセージを連続的に受信するかどうかを切り替えます。オフにする場合、最終回答が返ってくるまで応答が来なくなるため、APIタイムアウトを無制限にすることをおすすめします。APIタイムアウトまでの時間を設定する方法については、[**設定のドキュメント**](/jp/docs/settings)をご覧ください。\n  - **キープアライブ**\n    - モデルをサーバーのメモリ上に保持する時間を選択します。\n  - **思考**\n    - 思考に対応したモデルを使う場合に、推論を行うかどうかを切り替えます。「モデルの機能」で「思考」に対応したモデルのみ設定可能です。モデルの機能を確認するには、[**モデルタブのドキュメント**](/jp/docs/model-tab)をご覧ください。\n  - **システムプロンプト**\n    - AIモデルに対してシステムプロンプトを設定することができます。\n- **カスタム設定**\n  - **カスタム設定を有効にする**\n    - 以下の設定を使うためにカスタム設定を有効化するかどうかを切り替えます。\n  - **シード値**\n    - 再現性のある生成を行うためにシード値を指定することができます。\n  - **温度**\n    - モデルの温度を指定します。`0.0`〜`2.0`の間で設定することができ、温度を下げるとより正確に、温度を上げるとより創造的になります（すべてのモデルがこの設定に従うとは限りませんし、設定によって正しく出力されなくなる場合もあります）。\n  - **コンテキストウィンドウ**\n    - モデルが一度に読み込めるトークン数を指定します。`512`〜モデルのコンテキスト長の間で設定することができます。モデルのコンテキスト長を確認するには、[**モデルタブのドキュメント**](/jp/docs/model-tab)をご覧ください。\n  - **繰り返し参照範囲**\n     - モデルの繰り返し出力を防止するために遡るトークン数を指定します。\n   - **繰り返しペナルティ**\n     - 繰り返しペナルティの強さを指定します。\n   - **Top-k**\n     - 無意味な文章を生成する確率を低減します。100のような大きな値では多様な回答が得られ、10のような低い値では安定的な回答を得ることができます。\n   - **Top-p**\n     - Top-kと連動し、0.95のような高い値では多様な文章が生成され、0.5のように低い値では焦点を絞った安定的な文章が生成されます。\n   - **Min-p**\n     - Top-pの代替手段であり、品質と多様性のバランスを確保することを目的としています。最も可能性の高いトークンと比較して、相対的な確率が閾値（P）を下回るトークンを除外することで、低品質な回答を抑制します。\n\nここで設定した内容は、次回送信したメッセージ以降に反映されます。\n"}
-className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k c1wbup66 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
+code={"\nインスペクタを開くことで、チャットの設定をカスタマイズすることができます。\\\nインスペクタを開くには、右上のサイドバー切り替えボタンをクリックまたはタップします。\n\nインスペクタからは、次の設定をカスタマイズすることができます。\n- **チャット設定**\n  - **ストリームレスポンス**\n    - AIからのメッセージを連続的に受信するかどうかを切り替えます。オフにする場合、最終回答が返ってくるまで応答が来なくなるため、APIタイムアウトを無制限にすることをおすすめします。APIタイムアウトまでの時間を設定する方法については、[**設定のドキュメント**](/jp/docs/settings)をご覧ください。\n  - **キープアライブ**\n    - モデルをサーバーのメモリ上に保持する時間を選択します。\n  - **思考**\n    - 思考に対応したモデルを使う場合に、思考レベル（「デフォルト」、「オフ」、「低」、「中」、「高」、「最高」）を指定します。「モデルの機能」で「思考」に対応したモデルのみ設定可能です。モデルの機能を確認するには、[**モデルタブのドキュメント**](/jp/docs/model-tab)をご覧ください。\n  - **システムプロンプト**\n    - AIモデルに対してシステムプロンプトを設定することができます。\n- **カスタム設定**\n  - **カスタム設定を有効にする**\n    - 以下の設定を使うためにカスタム設定を有効化するかどうかを切り替えます。\n  - **シード値**\n    - 再現性のある生成を行うためにシード値を指定することができます。\n  - **温度**\n    - モデルの温度を指定します。`0.0`〜`2.0`の間で設定することができ、温度を下げるとより正確に、温度を上げるとより創造的になります（すべてのモデルがこの設定に従うとは限りませんし、設定によって正しく出力されなくなる場合もあります）。\n  - **コンテキストウィンドウ**\n    - モデルが一度に読み込めるトークン数を指定します。`512`〜モデルのコンテキスト長の間で設定することができます。モデルのコンテキスト長を確認するには、[**モデルタブのドキュメント**](/jp/docs/model-tab)をご覧ください。\n  - **繰り返し参照範囲**\n     - モデルの繰り返し出力を防止するために遡るトークン数を指定します。\n   - **繰り返しペナルティ**\n     - 繰り返しペナルティの強さを指定します。\n   - **Top-k**\n     - 無意味な文章を生成する確率を低減します。100のような大きな値では多様な回答が得られ、10のような低い値では安定的な回答を得ることができます。\n   - **Top-p**\n     - Top-kと連動し、0.95のような高い値では多様な文章が生成され、0.5のように低い値では焦点を絞った安定的な文章が生成されます。\n   - **Min-p**\n     - Top-pの代替手段であり、品質と多様性のバランスを確保することを目的としています。最も可能性の高いトークンと比較して、相対的な確率が閾値（P）を下回るトークンを除外することで、低品質な回答を抑制します。\n\nここで設定した内容は、次回送信したメッセージ以降に反映されます。\n"}
+className={`w-markdown-embed c1jwyh4u c71q0nn cznj3ay c1suh244 c1ggxnc2 c1wu3i9x cnx8vu2 cewqdn7 cid3iks c1sggce9 csbw7ja ci7c9m9 c1g2fr61 cxt8a1l cwnj7qc clqnjme c1etwcna cbnpkwc c1nlknvl cfdvko0 c90px2c c1ka6s8k cwjk396 cbje6ix c7retf c1wqf82o cuuxbau c14a81n5 cgwrgp8 c1r61068 c1rnewgl cvrkuwl ckdvx6o c1754bfq c1exg9jr c1tzwmwe`}>
 </MarkdownEmbed>
 </div>
 </div>
 <Slot>
 <Fragment_1>
 <div
-className={`w-element c13rvnfs csvappk c13zugmy ckkp5ls cq2ae4j c1dquu02 cr5s4bi c1skuy9j c1wbj3x9 c49br6x cj5ea4k cmiec8n`}>
+className={`w-element c13rvnfs csvappk c14hetfs ckkp5ls cq2ae4j c1dquu02 cr5s4bi c1skuy9j c1wbj3x9 c49br6x cj5ea4k cmiec8n`}>
 <div
 className={`w-element c13rvnfs c1smcck4 c13nk3y6 ckkp5ls c7rh9ds cd7qpso cv5n7tx c14ai22i clrwo5d cd6ip1x`}>
 <div
