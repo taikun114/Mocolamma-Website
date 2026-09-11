@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const projectVersion = 5771;
+      export const projectVersion = 5777;
 
       export const projectDomain = "mocolamma-5c81a";
 
@@ -56,7 +56,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       const Page = (_props: { system: any; }) => {
 const system = _props.system;
-let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/dev/docs/images")
+let [imagePath, set$imagePath] = useVariableState<any>("https://github.com/taikun114/Mocolamma/blob/main/docs/images")
 return <Body
 className={`w-element ckkp5ls c1dquu02 cr5s4bi cq2ae4j`}>
 <Slot>

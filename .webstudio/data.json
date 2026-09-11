@@ -3,9 +3,9 @@
   "build": {
     "id": "b85bc816-226f-44d8-a18a-206fa78b11b9",
     "projectId": "d3340149-462c-49a8-8b6a-95401a1f067e",
-    "version": 5771,
+    "version": 5777,
     "createdAt": "2025-10-08T12:42:01.705+00:00",
-    "updatedAt": "2026-09-11T06:39:01.009+00:00",
+    "updatedAt": "2026-09-11T07:11:14.208+00:00",
     "pages": {
       "homePageId": "hgrvtiNFaAsjLj_pePPka",
       "rootFolderId": "root",
@@ -190959,7 +190959,7 @@
           "name": "imagePath",
           "value": {
             "type": "string",
-            "value": "https://github.com/taikun114/Mocolamma/blob/dev/docs/images"
+            "value": "https://github.com/taikun114/Mocolamma/blob/main/docs/images"
           }
         }
       ]
@@ -190971,7 +190971,7 @@
         "contactEmail": "",
         "faviconAssetId": "oIpcG4zu8wQj5El9D5QO9",
         "code": "<meta name='viewport' content='initial-scale=1, viewport-fit=cover'>\n\n<!-- Style Settings -->\n<style>\n  html {\n    scroll-padding-top: 6rem;\n    scroll-behavior: smooth;\n  }\n</style>\n\n<!-- Web Fonts -->\n<style>\n@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Manrope:wght@200..800&display=swap');\n</style>\n\n<!-- Umami -->\n<script defer src=\"https://umami.taikun.blog/script.js\" data-website-id=\"e071652d-3ebb-4b63-82bc-3ceaeb8cf0bf\" data-performance=\"true\"></script>\n\n<!-- NProgress -->\n<link rel=\"stylesheet\" href=\"https://unpkg.com/nprogress@0.2.0/nprogress.css\" />\n<script src=\"https://unpkg.com/nprogress@0.2.0/nprogress.js\"></script>\n\n<style>\n  #nprogress .bar {\n    background-color: #42577D !important;\n  }\n</style>\n\n<script>\n  (function () {\n    // NProgress 設定\n    NProgress.configure({ showSpinner: false, trickleSpeed: 100 });\n\n    let startTime = 0;\n    const MIN_DURATION = 300; // 最低表示時間 0.3秒\n\n    // --- 🧱 NProgressのコンテナを <html> に移動してDOMリセット対策 ---\n    function ensureNProgressContainer() {\n      if (!document.getElementById(\"nprogress\")) return;\n      const np = document.getElementById(\"nprogress\");\n      if (np.parentNode !== document.documentElement) {\n        document.documentElement.appendChild(np);\n      }\n    }\n\n    // --- 進行開始 ---\n    function startProgress() {\n      ensureNProgressContainer();\n      if (NProgress.isStarted()) return;\n      startTime = Date.now();\n      NProgress.start();\n    }\n\n    // --- 完了 ---\n    function endProgress() {\n      const elapsed = Date.now() - startTime;\n      const remaining = Math.max(MIN_DURATION - elapsed, 0);\n      setTimeout(() => {\n        ensureNProgressContainer();\n        NProgress.done();\n      }, remaining);\n    }\n\n    // --- history APIフック ---\n    const originalPush = history.pushState;\n    const originalReplace = history.replaceState;\n\n    history.pushState = function (...args) {\n      startProgress();\n      const result = originalPush.apply(this, args);\n      endProgress();\n      return result;\n    };\n\n    history.replaceState = function (...args) {\n      startProgress();\n      const result = originalReplace.apply(this, args);\n      endProgress();\n      return result;\n    };\n\n    // --- 戻る／進む操作 ---\n    window.addEventListener(\"popstate\", () => {\n      startProgress();\n      setTimeout(endProgress, MIN_DURATION);\n    });\n\n    // --- 内部リンククリックで即スタート ---\n    document.addEventListener(\"click\", (e) => {\n      const link = e.target.closest(\"a\");\n      if (!link) return;\n      const isInternal =\n        link.host === window.location.host &&\n        !link.target &&\n        !link.hasAttribute(\"download\") &&\n        !link.href.startsWith(\"mailto:\");\n      if (isInternal) startProgress();\n    });\n\n    // --- 初回ロード時 ---\n    window.addEventListener(\"load\", () => {\n      ensureNProgressContainer();\n      NProgress.done();\n    });\n\n    // --- SPAの再描画タイミング対策 ---\n    const observer = new MutationObserver(() => ensureNProgressContainer());\n    observer.observe(document.documentElement, { childList: true, subtree: true });\n  })();\n</script> \n\n\n<!-- Navigation Menu Animations -->\n<style>\n@keyframes navPopupFadeIn {\n  from {\n    opacity: 0;\n    transform: translateY(-8px) scale(0.96);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0) scale(1);\n  }\n}\n\n@keyframes navPopupFadeOut {\n  from {\n    opacity: 1;\n    transform: translateY(0) scale(1);\n  }\n  to {\n    opacity: 0;\n    transform: translateY(-8px) scale(0.96);\n  }\n}\n</style>\n",
-        "agentInstructions": "# Mocolamma\n\nアプリのプロジェクトは`~/Xcode/`にあります。\n\nこのウェブサイトは英語と日本語（/jp）の2言語構成です。ユーザから変更を加えるように指示された場合はファイルを直接編集するのではなく、MCPツールなどを使ってWebstudioビルダーに変更加えてください。"
+        "agentInstructions": "# Mocolamma\n\nアプリのプロジェクトは`~/Xcode/`にあります。\n\nこのウェブサイトは英語と日本語（/jp）の2言語構成です。ユーザから変更を加えるように指示された場合はファイルを直接編集するのではなく、MCPツールなどを使ってWebstudioビルダーに変更加えてください。\n\n## ウェブサイト更新時に確認すること\n\nまだ開発中で一般公開する前のテスト用ビルド場合、画像はアプリの`dev`ブランチにある画像を使用します。正式リリース用にビルドする場合は、先にグローバルにある`imagePath`変数を`main`ブランチに変更してからパブリッシュ・ビルドを行うようにしてください。"
       },
       "compiler": {}
     }
