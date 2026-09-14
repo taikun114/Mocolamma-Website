@@ -807,14 +807,8 @@
   .coxjap7 {
     z-index: 10
   }
-  .cfil19j {
-    transition-property: height, opacity, transform
-  }
-  .c1w27fy0 {
-    transition-duration: 200ms, 200ms, 200ms
-  }
-  .c13td0jo {
-    transition-timing-function: ease, ease, ease
+  .c1fv6hlp {
+    transition-property: height, width
   }
   .c1m7ym1u {
     -webkit-backdrop-filter: blur(4px);
@@ -823,11 +817,20 @@
   .c102zl4c {
     filter: opacity(90%)
   }
+  .c1no387y {
+    animation-duration: 200ms
+  }
+  .c5prxyo {
+    animation-timing-function: ease
+  }
   .c1qjuejg[data-state="open"] {
     opacity: 1
   }
   .c1nkfbyx[data-state="open"] {
     transform: translateY(0) scale(1)
+  }
+  .c1kax4xz[data-state="open"] {
+    animation-name: navPopupFadeIn
   }
   .c1yvit81[data-state="closed"] {
     opacity: 0
@@ -835,23 +838,14 @@
   .c1vv4gqv[data-state="closed"] {
     transform: translateY(-8px) scale(0.96)
   }
+  .c13d3x2o[data-state="closed"] {
+    animation-name: navPopupFadeOut
+  }
   .c7fgudx {
     row-gap: 0
   }
   .cz2wnom {
     column-gap: 0
-  }
-  .c1no387y {
-    animation-duration: 200ms
-  }
-  .c5prxyo {
-    animation-timing-function: ease
-  }
-  .c1kax4xz[data-state="open"] {
-    animation-name: navPopupFadeIn
-  }
-  .c13d3x2o[data-state="closed"] {
-    animation-name: navPopupFadeOut
   }
   .cyu9atc p {
     margin-bottom: 0.5rem

@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "d3340149-462c-49a8-8b6a-95401a1f067e";
 
-      export const projectVersion = 5777;
+      export const projectVersion = 5780;
 
       export const projectDomain = "mocolamma-5c81a";
 
@@ -109,7 +109,7 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c1kw6xnm c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
+className={`w-menu-content c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c10oyth4 c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
@@ -193,7 +193,7 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c1kw6xnm c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
+className={`w-menu-content c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c10oyth4 c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
@@ -272,7 +272,7 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c1kw6xnm c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
+className={`w-menu-content c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c10oyth4 c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
@@ -334,7 +334,7 @@ className={`w-html-embed c15lxz1c`} />
 </Button>
 </NavigationMenuTrigger>
 <NavigationMenuContent
-className={`w-menu-content c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er c5fuhvg cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c10oyth4 c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
+className={`w-menu-content c1e3iuac cx8aii2 cjt11so c16ryuaq cpa35a2 cjfshn4 cd8u6er cvjf16j c1muqwoi c1l5fgsc c1lxhulz c24jrif c11wy0y4 c1m7ym1u c102zl4c cu8z8f4 coxjap7 c1no387y c5prxyo c10oyth4 c1904aiq c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`}>
 <Box
 className={`w-box ckkp5ls cd7qpso cv5n7tx`}>
 <Box
@@ -597,7 +597,7 @@ className={`w-paragraph cpa35a2 cjfshn4 c1qjrh39 ccaqgm7 c11myzoj ca0f0wu c18ku4
 <Box
 className={`w-box cd8u6er c1e3iuac ckkp5ls cylgtyl c10oyth4 coqlu7i`}>
 <NavigationMenuViewport
-className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c1lxhulz c24jrif ccrliu8 cj1o619 c1k73zrk cu8z8f4 c11wy0y4 coxjap7 cfil19j c1w27fy0 c13td0jo c11xaz58 c1bilfmk c1m7ym1u c102zl4c c1qjuejg c1nkfbyx c1yvit81 c1vv4gqv`} />
+className={`w-menu-viewport c17zp3zn cvjf16j cpa35a2 cjfshn4 c1muqwoi c1l5fgsc c1lxhulz c24jrif ccrliu8 cj1o619 c1k73zrk cu8z8f4 c11wy0y4 coxjap7 c1fv6hlp c1nox6s5 c1lz60sb c11xaz58 c1bilfmk c1m7ym1u c102zl4c c1no387y c5prxyo c1qjuejg c1nkfbyx c1kax4xz c1yvit81 c1vv4gqv c13d3x2o`} />
 </Box>
 </NavigationMenu>
 <HtmlEmbed
